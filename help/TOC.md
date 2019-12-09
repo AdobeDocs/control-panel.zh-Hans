@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 43bd4b2a55bdfa55aeb66808113fcd55ff79b173
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
