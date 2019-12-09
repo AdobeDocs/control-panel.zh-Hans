@@ -1,7 +1,7 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
 * 通过根据需要控制访问设置来增强安全性。
 
 >[!NOTE]
->控制面板仅供管理员用户访问，并且适用于在AWS上托管的所有客户。 授予用户管理员访问权限的步骤将在本节中 [详细介绍](discover/using/managing-permissions.md)。 要检查您的实例是否托管在 AWS 上，请按照[此部分](faq.md)详述的步骤操作。
+>控制面板仅供管理员用户访问，并且适用于在AWS上托管的所有客户。 授予用户管理员访问权限的步骤将在本节中 [详细介绍](discover/using/managing-permissions.md)。 要检查您的实例是否托管在AWS上，请按照本节中详细介绍的 [步骤操作](faq.md)。
 >
 >请注意，访问控制面板不需要升级到最新的Campaign版本。
 
@@ -57,7 +57,7 @@ source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign standard的控制面板教程视频</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign standard产品文档</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard 产品文档</a></li>
         </ul>
         </td>
         <td><b>营销活动经典</b><br/>
