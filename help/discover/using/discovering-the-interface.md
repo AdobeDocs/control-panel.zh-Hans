@@ -2,7 +2,7 @@
 title: 发现控制面板界面
 description: 进一步了解控制面板界面
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -19,18 +19,18 @@ source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
 
 ## 作业日志 {#job-logs}
 
-The **[!UICONTROL Job Logs]** button in the upper-right corner lets you audit all the changes that have been made by users of your organization.
+The **[!UICONTROL Job Logs]**button in the upper-right corner lets you audit all the changes that have been made by users of your organization.
 
 ![](assets/control_panel_interface2.png)
 
 单击列表中的元素可获取更多详细信息。
 
-The **[!UICONTROL Open]** button allows you to access directly the Control Panel tab where the change has been made.
+The **[!UICONTROL Open]**button allows you to access directly the Control Panel tab where the change has been made.
 
-![](assets/control_panel_logdetails2.png)
+![](assets/control_panel_logdetails.png)
 
 ## 帮助资源 {#help-resources}
 
-该 **[!UICONTROL Help Resources]** 部分提供了帮助您使用控制面板和营销活动产品的实用文档。 随时探索。
+该 **[!UICONTROL Help Resources]**部分提供了帮助您使用控制面板和营销活动产品的实用文档。 随时探索。
 
-![](assets/helpresources2.png)
+![](assets/helpresources.png)
