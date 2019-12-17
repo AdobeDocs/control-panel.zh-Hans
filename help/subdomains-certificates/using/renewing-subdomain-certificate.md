@@ -2,14 +2,14 @@
 title: 续订子域的SSL证书
 description: 了解如何续订子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 5573fc7c098128b6672c2aaf0f6fc74b80849576
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # 续订子域的SSL证书 {#renewing-subdomains-ssl-certificates}
 
-## 关于证书续订过程 {#about-certificate-renewal-process}
+## 关于证书续订 {#about-certificate-renewal-process}
 
 SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执行：
 
@@ -17,7 +17,7 @@ SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执�
 1. **购买SSL证书**&#x200B;生成CSR后，您可以下载它并使用它从贵公司批准的认证中心购买SSL证书。
 1. **安装SSL证书购**&#x200B;买SSL证书后，可以将其安装到所需的子域上。
 
-### 生成证书签名请求(CSR) {#generating-csr}
+## 生成证书签名请求(CSR) {#generating-csr}
 
 要生成证书签名请求(CSR)，请执行以下步骤：
 
@@ -51,6 +51,10 @@ SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执�
    ![](assets/renewal6.png)
 
 1. 系统会自动生成并下载与您的选择相对应的。csr文件。 您现在可以使用它从您的公司批准的认证中心购买SSL证书。
+
+## 使用CSR购买证书 {#purchasing-certificate}
+
+从控制面板获取证书签名请求CSR后，从您的组织批准的认证中心购买SSL证书。
 
 ## 安装SSL证书 {#installing-ssl-certificate}
 
