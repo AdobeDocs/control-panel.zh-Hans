@@ -2,7 +2,7 @@
 title: 密钥管理
 description: 了解如何管理连接到SFTP服务器的密钥
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -41,7 +41,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >以下步骤仅是SSH密钥创建的示例，请遵循与SSH密钥相关的组织准则。 以下示例仅是如何做到这一点的一个示例，并作为向团队或内部网络组传达要求的有用参考点。
 
-1. 导览至选 **[!UICONTROL Key Management]** 项卡，然后单击按 **[!UICONTROL Add public key]** 钮。
+1. 导览至选 **[!UICONTROL Key Management]**项卡，然后单击按**[!UICONTROL Add public key]** 钮。
 
    ![](assets/key0.png)
 
@@ -76,11 +76,11 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
    ![](assets/publickey.png)
 
-1. 单击 **[!UICONTROL Save]** 按钮以创建键。 控制面板会保存公钥及其关联的指纹，并使用SHA256格式进行加密。
+1. 单击 **[!UICONTROL Save]**按钮以创建键。 控制面板会保存公钥及其关联的指纹，并使用SHA256格式进行加密。
 
 您可以使用指纹将保存在计算机上的私钥与保存在控制面板中的相应公钥相匹配。
 
-![](assets/fingerprintNEW2.png)
+![](assets/fingerprint_compare.png)
 
 “**...**” 按钮允许您删除现有密钥，或将其关联的指纹复制到剪贴板中。
 
