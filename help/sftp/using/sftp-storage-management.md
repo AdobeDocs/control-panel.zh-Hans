@@ -2,7 +2,7 @@
 title: SFTP存储管理
 description: 了解如何监视和管理SFTP服务器的存储
 translation-type: tm+mt
-source-git-commit: 111c8fd461f6f1c567288acd7a83aee5ef7fce97
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -15,18 +15,18 @@ source-git-commit: 111c8fd461f6f1c567288acd7a83aee5ef7fce97
 
 **相关主题：**
 
-* [Campaign standard教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/managing-sftp-servers.html)
+* [Campaign standard教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
 * [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 
-标题 **[!UICONTROL Top utilized SFTP disk capacity]** 中的部分包括连接到您有权访问的实例的前三个最常用服务器。 此信息在SFTP卡的每个选项卡中都可用。
+标题 **[!UICONTROL Top utilized SFTP disk capacity]**中的部分包括连接到您有权访问的实例的前三个最常用服务器。 此信息在SFTP卡的每个选项卡中都可用。
 
-![](assets/control_panel_topspaceNEW.png)
+![](assets/control_panel_topspace.png)
 
-有关您有权访问的所有实例所使用的空间的信息，请参阅SFTP **[!UICONTROL Storage]** 卡的选项卡。 每次刷新页面时都会更新它。
+有关您有权访问的所有实例所使用的空间的信息，请参阅SFTP **[!UICONTROL Storage]**卡的选项卡。 每次刷新页面时都会更新它。
 
-![](assets/control_panel_spaceNEW.png)
+![](assets/control_panel_space.png)
 
 对于每个实例，可视警报会告知您其存储超过其容量的时间：
 
