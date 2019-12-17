@@ -2,7 +2,7 @@
 title: IP白名单
 description: 进一步了解实例访问控制面板中的IP白名单
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 要将IP地址列入白名单，请执行以下步骤：
 
-1. 打开 **[!UICONTROL Instances Settings card]** 以访问IP白名单选项卡，然后单击 **[!UICONTROL Add new IP Range]**。
+1. 打开 **[!UICONTROL Instances Settings card]**以访问IP白名单选项卡，然后单击**[!UICONTROL Add new IP Range]**。
 
    >[!NOTE]
    >
@@ -55,7 +55,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
    >
    >您可以在Internet上搜索免费的在线工具，这些工具将帮助您将手头的IP范围转换为CIDR格式。
 
-   * **!UICONTROL Label]**:将显示在白名单IP地址列表中的标签。
+   * **[!UICONTROL Label]**:将显示在白名单IP地址列表中的标签。
    * **[!UICONTROL Name]**:该名称对于访问类型、实例（在外部API连接情况下）和IP地址必须是唯一的。
 
 
@@ -66,11 +66,11 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
    * **[!UICONTROL External API connection]**:将允许具有指定IP地址的外部API连接到营销和／或消息中心(RT)实例。 请注意，未启用与RT实例控制台的连接。
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Click the **[!UICONTROL Save]** button. IP范围将添加到列入白名单的IP地址列表中。
+1. Click the **[!UICONTROL Save]**button. IP范围将添加到列入白名单的IP地址列表中。
 
    ![](assets/ip_whitelist_added.png)
 
-要删除已列入白名单的IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
+要删除已列入白名单的IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]**按钮。
 
 **相关主题：**
 * [IP白名单（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
