@@ -2,7 +2,7 @@
 title: 管理控制面板的权限
 description: 了解如何管理控制面板的权限
 translation-type: tm+mt
-source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 导航到 [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)，然后选择选 **[!UICONTROL Administration]**项卡。
 
-   ![](assets/control_panel_add_user1.png)
+   ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
@@ -21,11 +21,11 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 单击可 **用链接** ，启动Admin Console。
 
-   ![](assets/control_panel_admin1.png)
+   ![](assets/do-not-localize/control_panel_admin1.png)
 
 1. 选择所需的营销活动产品。
 
-   ![](assets/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 此时会显示Campaign产品的实例列表。 选择要添加管理员用户的实例。
 
-   ![](assets/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 此时将显示选定实例的产品配置列表。 单击产 **[!UICONTROL Administrators]**品配置文件以访问管理员用户列表。
 
-   ![](assets/control_panel_add_user_5.png)
+   ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
@@ -49,4 +49,4 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 此时将显示管理员用户列表。 单击 **[!UICONTROL Add User]**按钮以添加所需用户。
 
-   ![](assets/control_panel_add_user_6.png)
+   ![](assets/do-not-localize/control_panel_add_user_6.png)
