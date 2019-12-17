@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -24,8 +24,13 @@ source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
    + [登录SFTP服务器](sftp/using/logging-into-sftp-server.md)
    + [常见问题](sftp/using/common-questions.md)
 + 子域和证书 {#subdomains-and-certificates}
-   + [关于SSL证书](subdomains-certificates/using/about-ssl-certificates.md)
-   + [管理子域的SSL证书](subdomains-certificates/using/managing-ssl-certificates.md)
+   + 管理子域 {#managing-subdomains}
+      + [子域品牌](subdomains-certificates/using/subdomains-branding.md)
+      + [监视子域](subdomains-certificates/using/monitoring-subdomains.md)
+      + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + 管理SSL证书{managing-certificates}
+      + [监视SSL证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [续订SSL证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 实例设置(Campaign Classic) {#instances-settings}
    + [实例访问的IP白名单](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL权限](instances-settings/using/url-permissions.md)
