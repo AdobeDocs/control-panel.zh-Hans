@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
       + [子域品牌](subdomains-certificates/using/subdomains-branding.md)
       + [监视子域](subdomains-certificates/using/monitoring-subdomains.md)
       + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + 管理SSL证书{managing-certificates}
+   + 管理SSL证书 {#managing-ceritficates}
       + [监视SSL证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [续订SSL证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 实例设置(Campaign Classic) {#instances-settings}
