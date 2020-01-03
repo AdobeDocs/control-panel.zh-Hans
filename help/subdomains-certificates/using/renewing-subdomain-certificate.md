@@ -2,20 +2,28 @@
 title: 续订子域的SSL证书
 description: 了解如何续订子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # 续订子域的SSL证书 {#renewing-subdomains-ssl-certificates}
 
+>[!NOTE]
+>
+>控制面板的子域委派当前处于测试阶段，并且可能会频繁更新和修改，恕不另行通知。
+
 ## 关于证书续订 {#about-certificate-renewal-process}
 
-SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执行：
+SSL证书续订过程包括3个步骤：
 
 1. **生成证书签名请求(CSR)** Adobe客户关怀将为您生成CSR。 您需要提供生成CSR所需的一些信息（如公用名称、组织名称和地址等）。
 1. **购买SSL证书**&#x200B;生成CSR后，您可以下载它并使用它从贵公司批准的认证中心购买SSL证书。
 1. **安装SSL证书购**&#x200B;买SSL证书后，可以将其安装到所需的子域上。
+
+>[!NOTE]
+>
+>通过控制面板续订SSL证书仅适用于 **完全授权的子域** 。
 
 ## 生成证书签名请求(CSR) {#generating-csr}
 
@@ -31,11 +39,11 @@ SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执�
 
 1. 此时会显示一个表单，其中包含生成CSR所需的所有详细信息。
 
-   确保完整、准确地填写所请求的信息（如有必要，请与您的内部团队、安全和IT团队联系），然后单击 **[!UICONTROL Next]**。
+   确保完整、准确地填写所请求的信息，否则可能无法续订证书（如有必要，请与您的内部团队、安全和IT团队联系），然后单击 **[!UICONTROL Next]**。
 
-   * **[!UICONTROL Organization]**:
-   * **[!UICONTROL Organization Unit]**:
-   * **[!UICONTROL Instance]**:与子域关联的系列活动实例的URL。
+   * **[!UICONTROL Organization]**:官方组织名称。
+   * **[!UICONTROL Organization Unit]**:链接到子域的单位(示例：营销、IT)。
+   * **[!UICONTROL Instance]**（预填）:与子域关联的系列活动实例的URL。
    ![](assets/renewal3.png)
 
 1. 选择要包含在CSR中的子域，然后单击 **[!UICONTROL OK]**。
@@ -58,7 +66,13 @@ SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执�
 
 ## 安装SSL证书 {#installing-ssl-certificate}
 
-购买SSL证书后，请按照以下步骤将其安装到实例中。
+购买SSL证书后，您可以在实例中安装它。 在继续操作之前，请确保您了解以下先决条件：
+
+* 证书签名请求(CSR)必须已从控制面板中生成。 否则，您将无法从控制面板安装证书。
+* 确保证书签名请求(CSR)与已委托给Adobe的子域相匹配。 例如，它不能包含已委托的子域。
+* 证书必须具有当前日期。 将来无法安装日期为的证书。
+
+要安装证书，请执行以下步骤：
 
 1. 在卡 **[!UICONTROL Subdomains & Certificates]**中，选择所需的实例，然后单击按**[!UICONTROL Manage Certificate]** 钮。
 
@@ -71,3 +85,7 @@ SSL证书续订过程包括3个步骤，所有步骤都直接从控制面板执�
 1. 选择包含要安装的证书的。zip文件，然后单击 **[!UICONTROL Submit]**。
 
    ![](assets/install2.png)
+
+安装SSL证书后，证书的过期日期和状态图标会相应地更新。
+
+您的子域的URL地址将从 **http** 更改 **为https**。
