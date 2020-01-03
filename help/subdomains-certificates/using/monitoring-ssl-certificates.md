@@ -2,12 +2,14 @@
 title: 监视子域的SSL证书
 description: 了解如何监视子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # 监视子域的SSL证书 {#monitoring-ssl-certificates}
+
+## 关于SSL证书 {#about-ssl-certificates}
 
 Adobe Campaign建议您保护托管登录页面的子域，尤其是那些收集客户敏感信息的子域。
 
@@ -19,4 +21,28 @@ Adobe Campaign建议您保护托管登录页面的子域，尤其是那些收集
 
 ![](assets/no_certificate.png)
 
-如果您的子域的某个SSL证书即将过期，您可以直接从控制面板中续订该证书。 有关此内容的详细信息，请参阅此部分：续 [订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
+## 监视SSL证书 {#monitoring-certificates}
+
+在选择卡时，子域的SSL证书状态可直接从子域列表中获 **[!UICONTROL Subdomains & Certificates]**得。
+
+子域按SSL证书的最近过期日期进行排列，其中包含过期的可视信息（以天为单位）:
+
+* **绿色**:子域未在未来60天内过期的证书。
+* **橙色**:一个或多个子域有一个证书，该证书将在接下来的60天内过期。
+* **红色**:一个或多个子域有一个证书，该证书将在30天内过期。
+* **灰色**:尚未为子域安装证书。
+
+![](assets/subdomains_list.png)
+
+要获取有关子域的更多详细信息，请单击 **[!UICONTROL Subdomain Details]**按钮。
+此时将显示所有相关子域的列表。 它通常包括登陆页面、资源页面等的子域。
+
+该选 **[!UICONTROL Sender info]**项卡提供有关所配置收件箱的信息（发送者、回复、错误电子邮件）。
+
+![](assets/subdomain_details.png)
+
+如果您的子域的某个SSL证书即将过期，您可以直接从控制面板续订它。 有关此内容的详细信息，请参阅此部分：续 [订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
+
+>[!NOTE]
+>
+>Beta版中将很快提供控制面板中的证书续订。 同时，请参阅本页 [以了解有关如何在控制面板中监视证书的更多信息](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) 。
