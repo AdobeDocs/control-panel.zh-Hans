@@ -2,7 +2,7 @@
 title: 监视子域的SSL证书
 description: 了解如何监视子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
@@ -45,4 +45,4 @@ Adobe Campaign建议您保护托管登录页面的子域，尤其是那些收集
 
 >[!NOTE]
 >
->Beta版中将很快提供控制面板中的证书续订。 同时，请参阅本页 [以了解有关如何在控制面板中监视证书的更多信息](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) 。
+>从控制面板续订的证书将在1月底以测试版形式提供。
