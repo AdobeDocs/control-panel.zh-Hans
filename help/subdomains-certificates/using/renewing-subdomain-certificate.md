@@ -2,7 +2,7 @@
 title: 续订子域的SSL证书
 description: 了解如何续订子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 >[!NOTE]
 >
->控制面板的子域委派当前处于测试阶段，并且可能会频繁更新和修改，恕不另行通知。
+>从控制面板续订的证书将在1月底以测试版形式提供。
 
 ## 关于证书续订 {#about-certificate-renewal-process}
 
@@ -41,7 +41,7 @@ SSL证书续订过程包括3个步骤：
 
    确保完整、准确地填写所请求的信息，否则可能无法续订证书（如有必要，请与您的内部团队、安全和IT团队联系），然后单击 **[!UICONTROL Next]**。
 
-   * **[!UICONTROL Organization]**:官方组织名称。
+   * **[!UICONTROL Organization]**:正式组织名称。
    * **[!UICONTROL Organization Unit]**:链接到子域的单位(示例：营销、IT)。
    * **[!UICONTROL Instance]**（预填）:与子域关联的系列活动实例的URL。
    ![](assets/renewal3.png)
