@@ -2,7 +2,7 @@
 title: 设置新子域
 description: 了解如何为营销活动实例设置新的子域
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 ---
 
@@ -15,7 +15,12 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ## 完全子域委托 {#full-subdomain-delegation}
 
-控制面板允许您将子域完全委派到Adobe Campaign。 为此，请执行以下步骤：
+控制面板允许您将子域完全委派到Adobe Campaign。 为此，请按照以下步骤操作。
+
+>[!NOTE]
+>
+>如果您没有为Adobe配置任何子域，您将设置的第一个子域将被视为主 **子域**。
+>将 **创建反向DNS记录** ，并将其设置为收件箱的默认发送子域（发送者、回复、错误电子邮件地址）。
 
 1. 在卡中， **[!UICONTROL Subdomains & Certificates]**选择所需的生产实例，然后单击**[!UICONTROL Setup new subdomain]**。
 
@@ -23,7 +28,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
    >[!NOTE]
    >
-   >子域委派仅适用于 **生产** 实例。
+   >子域委托仅可用于 **生产** 实例。
 
 1. 单击 **[!UICONTROL Next]**以确认完整的委派方法。
 
@@ -40,8 +45,6 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
    >配置命名空间时，请确保 **您永远不要将根子域委派到Adobe**。 否则，域将仅能与Adobe一起使用。 任何其他用途都不可能实现，例如向贵组织的员工发送内部电子邮件。
 
    ![](assets/subdomain4.png)
-
-   请注意，如果未配置任何子域，您正在设置的子域将被视为主子 **域**。 收件箱（发送者、错误、回复地址）对于稍后在此子域上配置的所有子域将保持不变。
 
    创建子域时，请单击相应的Adobe名称服务器信息 **[!UICONTROL Next]**。
 
@@ -65,7 +68,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
    ![](assets/subdomain6.png)
 
-1. 提交子域后，控制面板将检查它当前指向Adobe NS记录，以及此子域不存在授权开始(SOA)记录。
+1. 提交子域后，控制面板将检查它是否正确指向Adobe NS记录，以及此子域不存在授权开始(SOA)记录。
 
 1. 如果检查成功，控制面板将开始设置包含DNS记录、其他URL、收件箱等的子域。 单击该按钮可获取有关配置进度的更多详细 **[!UICONTROL Process details]**信息。
 
@@ -73,15 +76,20 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
    >[!NOTE]
    >
-   >在某些情况下，委托会完成，但子域可能无法成功验证。 子域将直接进入列表，其状 **[!UICONTROL Verified subdomains]**态和作业日**[!UICONTROL Unverified]** 志将提供有关错误的信息。 如果您在解决问题时遇到问题，请与客户服务部门联系。
+   >在某些情况下，委托会完成，但子域可能无法成功验证。 子域将直接进入列表，其 **[!UICONTROL Verified subdomains]**状态和作**[!UICONTROL Unverified]** 业日志提供有关错误的信息。 如果您在解决问题时遇到问题，请与客户服务部门联系。
    >
    >请注意，当子域委派运行时，通过控制面板的其他请求将输入队列并仅在子域委派完成后执行，以防止出现任何性能问题。
 
 在流程结束时，子域将配置为与您的Adobe Campaign实例一起使用，并将创建以下元素：
 
 * **具有以下** DNS记录的 **子域**:SOA、MX、CNAME、DKIM、SPF、TXT、
-* **用于托管镜像** 、资源、跟踪页面和域密钥的其他子域、
+* **用于托管镜像** 、资源、跟踪页面和域密钥的其他子域，
 * **收件箱**:发送者、错误、回复。
+
+>[!NOTE]
+>
+>默认情况下，控制面板中的“回复”收件箱配置为清除电子邮件且不可再查看。 如果要监视营销活动的“回复”收件箱，请勿使用此地址。
+
 
 单击该按钮可获取有关子域的更多详细 **[!UICONTROL Subdomain Details]**信息。
 
@@ -93,7 +101,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 >
 >除了处理阶段，Adobe还将通知可交付性团队有关新子域的信息，以便审核已创建的子域。 在子域被委派后，审核过程最长可能需要3天。
 >
->执行的检查包括反馈循环和垃圾邮件投诉循环测试。 因此，我们建议在审计完成之前不要使用子域，因为这可能导致不良的子域声誉。
+>执行的检查包括反馈循环和垃圾邮件投诉循环测试。 因此，我们建议在审计完成之前不要使用子域，因为这可能导致不良的子域信誉。
 
 ## CNAME的使用 {#use-cnames}
 
