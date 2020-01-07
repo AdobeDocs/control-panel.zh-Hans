@@ -2,7 +2,7 @@
 title: 监视子域的SSL证书
 description: 了解如何监视子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
@@ -43,6 +43,6 @@ Adobe Campaign建议您保护托管登录页面的子域，尤其是那些收集
 
 如果您的子域的某个SSL证书即将过期，您可以直接从控制面板续订它。 有关此内容的详细信息，请参阅此部分：续 [订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->从控制面板续订的证书将在1月底以测试版形式提供。
+>在1月底之前，控制面板提供的证书续订将在测试版中提供，并且如有频繁更新和修改，恕不另行通知。
