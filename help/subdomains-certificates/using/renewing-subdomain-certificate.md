@@ -2,16 +2,16 @@
 title: 续订子域的SSL证书
 description: 了解如何续订子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # 续订子域的SSL证书 {#renewing-subdomains-ssl-certificates}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->从控制面板续订的证书将在1月底以测试版形式提供。
+>控制面板的子域委派将在1月底之前在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
 
 ## 关于证书续订 {#about-certificate-renewal-process}
 
