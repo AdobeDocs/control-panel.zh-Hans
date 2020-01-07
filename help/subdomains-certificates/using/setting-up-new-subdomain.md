@@ -2,16 +2,18 @@
 title: 设置新子域
 description: 了解如何为营销活动实例设置新的子域
 translation-type: tm+mt
-source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # 设置新子域 {#setting-up-subdomain}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->控制面板的子域委派当前处于测试阶段，并且可能会频繁更新和修改，恕不另行通知。
+>控制面板的子域委派将在1月底之前在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
+
+如果您对子域委托方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀以请求可交付性咨询。
 
 ## 完全子域委托 {#full-subdomain-delegation}
 
@@ -19,8 +21,9 @@ source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 >[!NOTE]
 >
->如果您没有为Adobe配置任何子域，您将设置的第一个子域将被视为主 **子域**。
->将 **创建反向DNS记录** ，并将其设置为收件箱的默认发送子域（发送者、回复、错误电子邮件地址）。
+>如果选定实例之前没有配置的子域，则委托给Adobe的第一个子域将成为该实例的主子域 **** ，您将无法在将来更改它。
+>
+>将使用主子域为其他子域创建反向DNS记录。 其他子域的回复和弹回地址将从主子域生成。
 
 1. 在卡中， **[!UICONTROL Subdomains & Certificates]**选择所需的生产实例，然后单击**[!UICONTROL Setup new subdomain]**。
 
@@ -105,4 +108,4 @@ source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 ## CNAME的使用 {#use-cnames}
 
-Adobe不建议使用CNAME进行子域委派，也不支持通过控制面板进行子域委派。 要使用此方法，请与Adobe客户关怀联系。
+控制面板不支持使用CNAME进行子域委派。 要使用此方法，请与Adobe客户关怀联系。
