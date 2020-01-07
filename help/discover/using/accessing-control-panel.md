@@ -2,7 +2,7 @@
 title: 访问控制面板
 description: 了解如何访问控制面板
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 >[!NOTE]
 >
->对于 **Campaign Classic** 实例，从Campaign Classic 19.1版本开始，可以访问产品中的内容。
+>从产品中访问仅可用于Campaign Standard。
 
 1. 打开Campaign standard产品，然后从窗格 **[!UICONTROL Administration]**中选择菜**[!UICONTROL Navigation]** 单。
 
