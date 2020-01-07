@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
+source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
 
 ---
 
@@ -12,7 +12,9 @@ source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 # 控制面板帮助 {#using}
 
 + [产品文档](control-panel-home.md)
++ [发行说明](release-notes.md)
 + Discover控制面板 {#discover-control-panel}
+   + [主要功能](discover/using/key-features.md)
    + [访问控制面板](discover/using/accessing-control-panel.md)
    + [管理控制面板的权限](discover/using/managing-permissions.md)
    + [发现控制面板界面](discover/using/discovering-the-interface.md)
