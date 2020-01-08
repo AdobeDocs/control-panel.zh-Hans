@@ -1,7 +1,7 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 *2020年1月22日*
 
-定义
+我们为管理员用户添加了从控制面板委派子域和续订SSL证书的新功能。
+
+有关详细信息，请参阅以下页面：
+* [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [续订子域的SSL证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>这些功能将在测试版中提供，并且可能会频繁进行更新和修改，恕不另行通知。
 
 ## 2019年9月 {#september-2019}
 
