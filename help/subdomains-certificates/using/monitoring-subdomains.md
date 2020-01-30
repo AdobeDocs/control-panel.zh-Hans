@@ -2,7 +2,7 @@
 title: 监视子域的SSL证书
 description: 了解如何监视子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -28,5 +28,5 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 **相关主题：**
 
 * [添加SSL证书（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [续订子域的SSL证书](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [续订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [子域品牌](../../subdomains-certificates/using/subdomains-branding.md)
