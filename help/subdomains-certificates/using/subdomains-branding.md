@@ -2,7 +2,7 @@
 title: 子域品牌
 description: 进一步了解子域品牌
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -42,3 +42,9 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 有关域委派的其他信息，请参 [阅本文档](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
 
 如果您对子域委托方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀以请求可交付性咨询。
+
+**相关主题：**
+
+* [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [委派子域（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [监视子域](../../subdomains-certificates/using/monitoring-subdomains.md)
