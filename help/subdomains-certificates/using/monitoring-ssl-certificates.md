@@ -2,7 +2,7 @@
 title: 监视子域的SSL证书
 description: 了解如何监视子域的SSL证书
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -46,3 +46,9 @@ Adobe Campaign建议您保护托管登录页面的子域，尤其是那些收集
 >[!IMPORTANT]
 >
 >在1月底之前，控制面板提供的证书续订将在测试版中提供，并且如有频繁更新和修改，恕不另行通知。
+
+**相关主题：**
+
+* [添加SSL证书（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [续订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [子域品牌](../../subdomains-certificates/using/subdomains-branding.md)
