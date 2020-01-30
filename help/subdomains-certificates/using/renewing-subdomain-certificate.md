@@ -2,7 +2,7 @@
 title: 续订子域的SSL证书
 description: 了解如何续订子域的SSL证书
 translation-type: tm+mt
-source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -101,3 +101,9 @@ SSL证书续订过程包括3个步骤：
    ![](assets/install2.png)
 
 安装SSL证书后，证书的过期日期和状态图标会相应地更新。
+
+**相关主题：**
+
+* [添加SSL证书（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [子域品牌](../../subdomains-certificates/using/subdomains-branding.md)
+* [监视子域](../../subdomains-certificates/using/monitoring-subdomains.md)
