@@ -2,7 +2,7 @@
 title: 控制面板常见问题解答
 description: 与控制面板相关的常见问题
 translation-type: tm+mt
-source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 **在哪里可以找到我的IMS组织ID?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. 您可以在 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多详细信息。
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. 您可以在 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多详细信息。
 
 另一种方法是启动 **Admin Console**。 您的IMS组织ID将显示在您的URL中，它应类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
@@ -35,7 +35,7 @@ One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experi
 >
 >如果您拥有与Adobe Campaign和Adobe Analytics相同的IMS组织ID，那么这就太好了。 如果您计划集成解决方案以利用诸如购物车放弃（对于AA + AC）等复杂的使用案例，则在Analytics和Campaign之间拥有一个IMS组织ID是一项要求。
 >
->如果您的Adobe Campaign和Adobe Analytics有不同的IMS组织ID，请联系客户关怀，使其保持一致。
+>如果您的Adobe Campaign和Adobe Analytics有不同的IMS组织ID，请联系客户关怀以使其保持一致。
 
 **我如何知道我的Adobe Campaign实例是否托管在AWS上？**
 
