@@ -2,7 +2,7 @@
 title: 管理控制面板的权限
 description: 了解如何管理控制面板的权限
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 控制面板对Campaign实例的所有管理员用户可用。 按照以下步骤将用户分配给管理员组并授予他们对控制面板的访问权限。
 
-1. 导航到 [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)，然后选择选 **[!UICONTROL Administration]**项卡。
+1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择选 **[!UICONTROL Administration]**项卡。
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
