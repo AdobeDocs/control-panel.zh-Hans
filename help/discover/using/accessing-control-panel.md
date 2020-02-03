@@ -2,7 +2,7 @@
 title: 访问控制面板
 description: 了解如何访问控制面板
 translation-type: tm+mt
-source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ## 从Experience Cloud Platform访问 {#access-experience-cloud-platform}
 
-要从 Experience Cloud Platform 访问“控制面板”，请导航到 [Experience Cloud Platform 主页](https://amc.experiencecloud.adobe.com/)，然后单击&#x200B;**快速访问**&#x200B;部分中的专用链接。
+要从 Experience Cloud Platform 访问“控制面板”，请导航到 [Experience Cloud Platform 主页](https://experiencecloud.adobe.com/)，然后单击&#x200B;**快速访问**&#x200B;部分中的专用链接。
 
 ![](assets/do-not-localize/quickaccess.png)
 
 控制面板也可从Experience Cloud Platform解决方案选取器 **访问**:
 
-1. 导航到 [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/)，然后从解决方案选 **择器中选** 择Campaign。
+1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后从解决方案选 **择器中选** 择Campaign。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
