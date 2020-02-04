@@ -2,7 +2,7 @@
 title: 设置新子域
 description: 了解如何为营销活动实例设置新的子域
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->控制面板的子域委派将在1月底之前在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
+>控制面板的子域委派功能在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
 
 如果您对子域委托方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀以请求可交付性咨询。
 
