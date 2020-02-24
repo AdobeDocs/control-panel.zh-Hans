@@ -2,7 +2,7 @@
 title: 设置新子域
 description: 了解如何为营销活动实例设置新的子域
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -12,8 +12,6 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >[!IMPORTANT]
 >
 >控制面板的子域委派功能在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
-
-如果您对子域委托方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀以请求可交付性咨询。
 
 ## 完全子域委托 {#full-subdomain-delegation}
 
@@ -25,7 +23,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >
 >将使用主子域为其他子域创建反向DNS记录。 其他子域的回复和弹回地址将从主子域生成。
 
-1. 在卡中， **[!UICONTROL Subdomains & Certificates]**选择所需的生产实例，然后单击**[!UICONTROL Setup new subdomain]**。
+1. 在卡中， **[!UICONTROL Subdomains & Certificates]** 选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +31,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
    >
    >子域委托仅可用于 **生产** 实例。
 
-1. 单击 **[!UICONTROL Next]**以确认完整的委派方法。
+1. 单击 **[!UICONTROL Next]** 以确认完整的委派方法。
 
    ![](assets/subdomain3.png)
 
@@ -73,13 +71,13 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 1. 提交子域后，控制面板将检查它是否正确指向Adobe NS记录，以及此子域不存在授权开始(SOA)记录。
 
-1. 如果检查成功，控制面板将开始设置包含DNS记录、其他URL、收件箱等的子域。 单击该按钮可获取有关配置进度的更多详细 **[!UICONTROL Process details]**信息。
+1. 如果检查成功，控制面板将开始设置包含DNS记录、其他URL、收件箱等的子域。 单击该按钮可获取有关配置进度的更多详细 **[!UICONTROL Process details]** 信息。
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >在某些情况下，委托会完成，但子域可能无法成功验证。 子域将直接进入列表，其 **[!UICONTROL Verified subdomains]**状态和作**[!UICONTROL Unverified]** 业日志提供有关错误的信息。 如果您在解决问题时遇到问题，请与客户服务部门联系。
+   >在某些情况下，委托会完成，但子域可能无法成功验证。 子域将直接进入列表，其 **[!UICONTROL Verified subdomains]** 状态和作 **[!UICONTROL Unverified]** 业日志提供有关错误的信息。 如果您在解决问题时遇到问题，请与客户服务部门联系。
    >
    >请注意，当子域委派运行时，通过控制面板的其他请求将输入队列并仅在子域委派完成后执行，以防止出现任何性能问题。
 
@@ -94,15 +92,15 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >默认情况下，控制面板中的“回复”收件箱配置为清除电子邮件且不可再查看。 如果要监视营销活动的“回复”收件箱，请勿使用此地址。
 
 
-单击该按钮可获取有关子域的更多详细 **[!UICONTROL Subdomain Details]**信息。
+单击该按钮可获取有关子域的更多详细 **[!UICONTROL Subdomain Details]** 信息。
 
 ![](assets/subdomain_details_general.png)
 
 ![](assets/subdomains_details_senderinfo.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->除了处理阶段，Adobe还将通知可交付性团队有关新子域的信息，以便审核已创建的子域。 在子域被委派后，审核过程最长可能需要3天。
+>在处理阶段后，您应当向Adobe客户关怀部门确认已向可交付性团队提交了审核请求以审核已创建的新子域。 在子域被委派后，审核过程最长可能需要3个10个工作日。
 >
 >执行的检查包括反馈循环和垃圾邮件投诉循环测试。 因此，我们建议在审计完成之前不要使用子域，因为这可能导致不良的子域信誉。
 
