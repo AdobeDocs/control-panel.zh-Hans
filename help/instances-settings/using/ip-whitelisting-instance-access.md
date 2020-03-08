@@ -2,12 +2,18 @@
 title: IP白名单
 description: 进一步了解实例访问控制面板中的IP白名单
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # IP白名单 {#ip-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange&quot;
+>title=&quot;关于IP白名单&quot;
+>abstract=&quot;管理IP白名单以访问您的实例。&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
 >[!CAUTION]
 >
@@ -33,9 +39,14 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ## 实例访问的白名单IP地址 {#whistelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange_add&quot;
+>title=&quot;添加新Ip范围&quot;
+>abstract=&quot;定义要将其列入白名单以连接到实例的IP范围。&quot;
+
 要将IP地址列入白名单，请执行以下步骤：
 
-1. 打开 **[!UICONTROL Instances Settings card]**以访问IP白名单选项卡，然后单击**[!UICONTROL Add new IP Range]**。
+1. 打开 **[!UICONTROL Instances Settings card]** 以访问IP白名单选项卡，然后单击 **[!UICONTROL Add new IP Range]**。
 
    >[!NOTE]
    >
@@ -66,11 +77,11 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
    * **[!UICONTROL External API connection]**:将允许具有指定IP地址的外部API连接到营销和／或消息中心(RT)实例。 请注意，未启用与RT实例控制台的连接。
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Click the **[!UICONTROL Save]**button. IP范围将添加到列入白名单的IP地址列表中。
+1. Click the **[!UICONTROL Save]** button. IP范围将添加到列入白名单的IP地址列表中。
 
    ![](assets/ip_whitelist_added.png)
 
-要删除已列入白名单的IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]**按钮。
+要删除已列入白名单的IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
 
 **相关主题：**
 * [IP白名单（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
