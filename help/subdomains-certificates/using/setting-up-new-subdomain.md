@@ -2,12 +2,18 @@
 title: 设置新子域
 description: 了解如何为营销活动实例设置新的子域
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 设置新子域 {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;设置新子域并管理证书&quot;
+>abstract=&quot;您需要设置一个新的子域并管理子域的SSL证书，以开始使用Adobe Campaign发送电子邮件或发布登录页面。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;如何监视子域的SSL证书&quot;
 
 >[!IMPORTANT]
 >
