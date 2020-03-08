@@ -2,12 +2,18 @@
 title: URL权限
 description: 了解如何在控制面板中管理URL权限
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # URL权限 {#url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_urlpermissions&quot;
+>title=&quot;关于URL权限&quot;
+>abstract=&quot;管理Adobe Campaign实例可以连接的URL。&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
 >[!CAUTION]
 >
@@ -34,6 +40,11 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 * 控制面板支持 **http**、 **https**&#x200B;和 **sftp** 协议。 输入无效的URL或协议将导致错误。
 
 ## 管理URL权限 {#managing-url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_url_add&quot;
+>title=&quot;添加新URL&quot;
+>abstract=&quot;添加URL以允许与您的Campaign实例连接。&quot;
 
 要添加实例可以连接到的URL，请执行以下步骤：
 
@@ -79,4 +90,4 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 **我添加了一个新URL，但我的实例仍无法连接到该URL。 为什么？**
 
-在某些情况下，您尝试连接的URL需要白名单、密码输入或其他形式的身份验证。 控制面板不管理其他身份验证。
+在某些情况下，您尝试连接的URL需要白名单、密码输入或其他身份验证形式。 控制面板不管理其他身份验证。
