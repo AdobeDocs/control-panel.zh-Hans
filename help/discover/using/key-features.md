@@ -2,12 +2,18 @@
 title: 访问控制面板
 description: 了解如何访问控制面板
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 主要功能 {#key-features}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_overview&quot;
+>title=&quot;关于控制面板&quot;
+>abstract=&quot;控制面板主页允许您访问可对营销活动实例执行的所有操作。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;发现界面&quot;
 
 通过控制面板，您可以管理每个实例的设置和跟踪使用情况，从而以Adobe Campaign Standard和／或Classic的产品管理员的身份帮助您提高工作效率。 其直观的界面可让您轻松监控关键资产的使用情况，并执行诸如IP地址白名单、SFTP存储监控、密钥管理等管理任务。
 
