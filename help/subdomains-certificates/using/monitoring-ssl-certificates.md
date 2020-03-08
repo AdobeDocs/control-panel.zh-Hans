@@ -2,7 +2,7 @@
 title: 监视子域的SSL证书
 description: 了解如何监视子域的SSL证书
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
@@ -22,6 +22,11 @@ Adobe Campaign建议您保护托管登录页面的子域，尤其是那些收集
 ![](assets/no_certificate.png)
 
 ## 监视SSL证书 {#monitoring-certificates}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_details&quot;
+>title=&quot;子域详细信息&quot;
+>abstract=&quot;Retrieve information on your subdomains.&quot;
 
 在选择卡时，子域的SSL证书状态可直接从子域列表中获 **[!UICONTROL Subdomains & Certificates]** 得。
 
