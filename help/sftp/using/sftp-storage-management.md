@@ -2,12 +2,18 @@
 title: SFTP存储管理
 description: 了解如何监视和管理SFTP服务器的存储
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # SFTP存储管理 {#sftp-storage-management}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_storage&quot;
+>title=&quot;关于存储容量&quot;
+>abstract=&quot;在此选项卡中，您可以查看SFTP服务器的存储容量和利用率信息。 此处仅显示您有权访问的SFTP服务器。 请联系您的管理员以请求访问其他SFTP服务器。”
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
 根据您的合同条款，您的SFTP服务器上可能提供了不同的存储容量。
 
@@ -15,16 +21,16 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 **相关主题：**
 
-* [Campaign standard教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
+* [Campaign Standard教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
 * [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 
-标题 **[!UICONTROL Top utilized SFTP disk capacity]**中的部分包括连接到您有权访问的实例的前三个最常用服务器。 此信息在SFTP卡的每个选项卡中都可用。
+标题 **[!UICONTROL Top utilized SFTP disk capacity]** 中的部分包括连接到您有权访问的实例的前三个最常用服务器。 此信息在SFTP卡的每个选项卡中都可用。
 
 ![](assets/control_panel_topspace.png)
 
-有关您有权访问的所有实例所使用的空间的信息，请参阅SFTP **[!UICONTROL Storage]**卡的选项卡。 每次刷新页面时都会更新它。
+有关您有权访问的所有实例所使用的空间的信息，请参阅SFTP **[!UICONTROL Storage]** 卡的选项卡。 每次刷新页面时都会更新它。
 
 ![](assets/control_panel_space.png)
 
