@@ -2,12 +2,18 @@
 title: 子域品牌
 description: 进一步了解子域品牌
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 子域品牌 {#subdomains-branding}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_certificate_management&quot;
+>title=&quot;关于子域和SSL证书&quot;
+>abstract=&quot;监视子域和关联的SSL证书。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;如何监视子域的SSL证书&quot;
 
 >[!IMPORTANT]
 >
