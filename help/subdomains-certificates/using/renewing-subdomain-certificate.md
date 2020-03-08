@@ -2,12 +2,19 @@
 title: 续订子域的SSL证书
 description: 了解如何续订子域的SSL证书
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 续订子域的SSL证书 {#renewing-subdomains-ssl-certificates}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_add_ssl_certificate&quot;
+>title=&quot;添加SSL证书&quot;
+>abstract=&quot;要添加SSL证书，您需要生成CSR，为子域购买SSL证书并安装证书包。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generating a Certificate Signing Request(CSR)&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate&quot; text=&quot;如何安装SSL证书&quot;
 
 >[!IMPORTANT]
 >
@@ -27,13 +34,25 @@ SSL证书续订过程包括3个步骤：
 
 ## 生成证书签名请求(CSR) {#generating-csr}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_generate_csr&quot;
+>title=&quot;Generate CSR&quot;
+>abstract=&quot;必须为您计划在购买证书之前保护的实例和子域生成证书签名请求。&quot;
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_select_subdomains&quot;
+>title=&quot;为CSR选择子域&quot;
+>abstract=&quot;您可以选择将所有或仅特定的子域包含到您的证书签名请求中。 只有选定的子域才会通过购买的SSL证书进行认证。”
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generating a Certificate Signing Request(CSR)&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;关于子域品牌&quot;
+
 要生成证书签名请求(CSR)，请执行以下步骤：
 
-1. 在卡 **[!UICONTROL Subdomains & Certificates]**中，选择所需的实例，然后单击按**[!UICONTROL Manage Certificate]** 钮。
+1. 在卡 **[!UICONTROL Subdomains & Certificates]** 中，选择所需的实例，然后单击按 **[!UICONTROL Manage Certificate]** 钮。
 
    ![](assets/renewal1.png)
 
-1. 选 **[!UICONTROL Generate a CSR]**择，然**[!UICONTROL Next]** 后单击以启动向导，该向导将引导您完成CSR生成过程。
+1. 选 **[!UICONTROL Generate a CSR]**&#x200B;择，然后单 **[!UICONTROL Next]** 击以启动向导，该向导将引导您完成CSR生成过程。
 
    ![](assets/renewal2.png)
 
@@ -43,7 +62,7 @@ SSL证书续订过程包括3个步骤：
 
    * **[!UICONTROL Organization]**:正式组织名称。
    * **[!UICONTROL Organization Unit]**:链接到子域的单位(示例：营销、IT)。
-   * **[!UICONTROL Instance]**（预填）:与子域关联的系列活动实例的URL。
+   * **[!UICONTROL Instance]** （预填）:与子域关联的系列活动实例的URL。
    ![](assets/renewal3.png)
 
 1. 选择要包含在CSR中的子域，然后单击 **[!UICONTROL OK]**。
@@ -54,7 +73,7 @@ SSL证书续订过程包括3个步骤：
 
    ![](assets/renewal5.png)
 
-1. 此时将显示要包含在CSR中的子域的摘要。 单击 **[!UICONTROL Submit]**以确认您的请求。
+1. 此时将显示要包含在CSR中的子域的摘要。 单击 **[!UICONTROL Submit]** 以确认您的请求。
 
    ![](assets/renewal6.png)
 
@@ -69,6 +88,12 @@ SSL证书续订过程包括3个步骤：
 从控制面板获取证书签名请求CSR后，从您的组织批准的认证中心购买SSL证书。
 
 ## 安装SSL证书 {#installing-ssl-certificate}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_install_ssl_certificate&quot;
+>title=&quot;安装SSL证书&quot;
+>abstract=&quot;安装您从您所在组织批准的认证中心购买的SSL证书。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;关于子域品牌&quot;
 
 购买SSL证书后，您可以在实例中安装它。 在继续操作之前，请确保您了解以下先决条件：
 
@@ -88,11 +113,11 @@ SSL证书续订过程包括3个步骤：
 
 要安装证书，请执行以下步骤：
 
-1. 在卡 **[!UICONTROL Subdomains & Certificates]**中，选择所需的实例，然后单击按**[!UICONTROL Manage Certificate]** 钮。
+1. 在卡 **[!UICONTROL Subdomains & Certificates]** 中，选择所需的实例，然后单击按 **[!UICONTROL Manage Certificate]** 钮。
 
    ![](assets/renewal1.png)
 
-1. 单击 **[!UICONTROL Install SSL Certificate]**，然**[!UICONTROL Next]** 后启动向导，该向导将指导您完成证书安装过程。
+1. 单击 **[!UICONTROL Install SSL Certificate]**，然 **[!UICONTROL Next]** 后启动向导，该向导将指导您完成证书安装过程。
 
    ![](assets/install1.png)
 
