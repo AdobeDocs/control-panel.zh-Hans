@@ -2,12 +2,19 @@
 title: 实例详细信息
 description: 了解如何在控制面板中监视实例详细信息
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 实例详细信息 {#instance-details}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_instancedetails&quot;
+>title=&quot;关于实例详细信息&quot;
+>abstract=&quot;查看Adobe Campaign实例的详细信息：类型、名称、构建信息和可能的升级建议。”
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic发行说明&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard发行说明&quot;
 
 >[!CAUTION]
 >
