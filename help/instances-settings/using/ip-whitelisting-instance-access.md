@@ -2,7 +2,7 @@
 title: IP白名单
 description: 进一步了解实例访问控制面板中的IP白名单
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,21 +15,21 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;管理IP白名单以访问您的实例。&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >此功能仅对Campaign Classic实例可用。
 
 ## 关于IP白名单 {#about-ip-whitelisting}
 
-默认情况下，您的Adobe Campaign Classic实例无法从各种IP地址访问。
+默认情况下，您的Adobe Campaign经典实例无法从各种IP地址访问。
 
 如果您的IP地址未列入白名单，您将无法从此地址登录到实例。 同样，如果IP地址未与实例明确列入白名单，则您可能无法将API连接到消息中心或营销实例。
 
 控制面板允许您通过将IP地址范围列入白名单来设置到实例的新连接。 为此，请按照以下步骤操作。
 
-将IP地址列入白名单后，您可以创建Campaign操作符并将其关联到它们，以便用户能够访问该实例。
+将IP地址列入白名单后，您可以创建活动操作符并将其关联到它们，以便用户能够访问该实例。
 
-## 最佳实践 {#best-practices}
+## 最佳做法 {#best-practices}
 
 确保在控制面板中将IP地址列入白名单时遵循以下建议和限制。
 
@@ -50,7 +50,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS ORG ID未与任何Adobe Campaign Classic实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表明您的IMS ORG ID未与任何Adobe Campaign经典实例关联
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -62,17 +62,17 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
    * **[!UICONTROL IP Range]**:要以CIDR格式列入白名单的IP范围。 请注意，IP范围不能与现有的白名单范围重叠。 在这种情况下，首先删除包含重叠IP的范围。
    >[!NOTE]
    >
-   >CIDR（无类域间路由）是在控制面板界面中添加IP范围时支持的格式。 语法由IP地址、字符“/”和小数组成。 本文对格式及其语法进行了详 [细介绍](https://whatismyipaddress.com/cidr)。
+   >CIDR(无类域间路由)是在控制面板界面中添加IP范围时支持的格式。 语法由IP地址、字符“/”和小数组成。 本文对格式及其语法进行了详 [细介绍](https://whatismyipaddress.com/cidr)。
    >
    >您可以在Internet上搜索免费的在线工具，这些工具将帮助您将手头的IP范围转换为CIDR格式。
 
-   * **[!UICONTROL Label]**:将显示在白名单IP地址列表中的标签。
+   * **[!UICONTROL Label]**:将在列入白名单的IP地址列表中显示的标签。
    * **[!UICONTROL Name]**:该名称对于访问类型、实例（在外部API连接情况下）和IP地址必须是唯一的。
 
 
 1. 指定要授予IP地址的访问类型：
 
-   * **[!UICONTROL Campaign Console Access]**:IP地址将被允许连接到营销活动经典控制台。 请注意，仅对Marketing实例启用了控制台访问权限。 不允许访问MID和RT实例，因此不启用。
+   * **[!UICONTROL Campaign Console Access]**:IP地址将允许连接到Campaign Classic控制台。 请注意，仅对Marketing实例启用了控制台访问权限。 不允许访问MID和RT实例，因此不启用。
    * **[!UICONTROL AEM connection]**:将允许指定的AEM IP地址连接到Marketing实例。
    * **[!UICONTROL External API connection]**:将允许具有指定IP地址的外部API连接到营销和／或消息中心(RT)实例。 请注意，未启用与RT实例控制台的连接。
    ![](assets/ip_whitelist_acesstype.png)
