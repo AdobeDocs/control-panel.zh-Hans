@@ -2,7 +2,7 @@
 title: 实例详细信息
 description: 了解如何在控制面板中监视实例详细信息
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -12,23 +12,23 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_instancedetails&quot;
 >title=&quot;关于实例详细信息&quot;
->abstract=&quot;查看Adobe Campaign实例的详细信息：类型、名称、构建信息和可能的升级建议。”
+>abstract=&quot;视图Adobe Campaign实例的详细信息：类型、名称、构建信息和可能的升级建议。”
 >additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic发行说明&quot;
 >additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard发行说明&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >此功能仅对Campaign Classic实例可用。
 
 ## 关于实例详细信息 {#about-instance-details}
 
-您的Adobe Campaign Classic实例架构可包含多台服务器，以实现营销活动的灵活性。 例如，您可以拥有营销、实时（或消息中心）和中间采购服务器来支持您的实例。
+您的Adobe Campaign经典实例架构可以包含多台服务器，以实现营销活动的灵活性。 例如，您可以拥有营销、实时（或消息中心）和中间采购服务器来支持您的实例。
 
-“实例详细信息”功能允许您查看实例的平面架构。 除了服务器信息外，它还会告知您实例构建是否是最新版本，并建议您在需要时进行升级。
+“实例详细信息”功能允许您视图实例的平面架构。 除了服务器信息外，它还会告知您实例构建是否是最新版本，并建议您在需要时进行升级。
 
 >[!NOTE]
 >
->我们建议您的实例每年至少升级一次，以避免性能下降，并能够利用Adobe Campaign Classic提供的最新功能和修复。
+>我们建议您的实例每年至少升级一次，以避免性能下降，并能够利用Adobe Campaign经典必须优惠的最新功能和修复。
 
 **相关主题：**
 
@@ -43,13 +43,13 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS ORG ID未与任何Adobe Campaign Classic实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表明您的IMS ORG ID未与任何Adobe Campaign经典实例关联
 
-1. 在左侧窗格中选择所需的营销活动经典实例。
+1. 在左窗格中选择所需的Campaign Classic实例。
 
    >[!NOTE]
    >
-   >您的所有营销活动实例都显示在左侧窗格列表中。 由于“实例详细信息”功能仅专用于“系列活动经典”实例，因此，如果您选择了“系列活动标准”实例，则会显示“非适用实例”消息。
+   >您的所有活动实例都显示在左窗格列表中。 由于“实例详细信息”功能仅专用于Campaign Classic实例，因此，如果您选择了Campaign Standard实例，则会显示“非适用实例”消息。
 
 1. 将显示连接到实例的服务器。
 
@@ -71,6 +71,6 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 **我在实例架构上看不到MID服务器，是否表示我的实例无法正常运行？ 我是否需要RT实例才能做到今天做不到的事？**
 
-您自己的实例看起来可能会非常不同，它可能并不具有所有类型的服务器，也可能具有多个相同的服务器。 没有一种或另一种类型的服务器并不意味着您不能发送实时消息或执行其他类型的活动。 您可以请求额外的服务器容量，并收取额外费用。
+您自己的实例看起来可能会非常不同，它可能并不具有所有类型的服务器，也可能具有多个相同的服务器。 没有一种或另一种类型的服务器并不意味着您无法发送实时消息或执行其他类型的活动。 您可以请求额外的服务器容量，并收取额外费用。
 
 如果您认为某些服务器未显示在“实例详细信息”页面，请联系客户关怀。 确保在消息中记下特定实例URL。
