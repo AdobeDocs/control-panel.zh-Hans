@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
+source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
 
@@ -31,6 +31,11 @@ source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
    + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [监视SSL证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [续订SSL证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [管理TXT记录](subdomains-certificates/using/managing-txt-records.md)
++ 性能监控 {#performance-monitoring}
+   + [关于性能监视](performance-monitoring/using/about-performance-monitoring.md)
+   + [数据库监控](performance-monitoring/using/database-monitoring.md)
+   + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + 实例设置(Campaign Classic) {#instances-settings}
    + [实例访问的IP白名单](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL权限](instances-settings/using/url-permissions.md)
