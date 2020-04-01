@@ -2,7 +2,7 @@
 title: 密钥管理
 description: 了解如何管理连接到SFTP服务器的密钥
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -25,7 +25,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >当前无法删除SSH公钥。
 
-## 最佳实践 {#best-practices}
+## 最佳做法 {#best-practices}
 
 **关于公共SSH密钥**
 
@@ -35,7 +35,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 在某些SFTP服务器上启用基于口令的身份验证非常罕见。 Adobe建议您使用基于密钥的身份验证，因为此方法更加有效和安全。 您可以联系客户服务部门请求切换到基于密钥的身份验证。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果密码过期，即使系统中安装了密钥，您也无法登录SFTP帐户。
 
@@ -48,7 +48,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >title=&quot;添加新公钥&quot;
 >abstract=&quot;为实例添加新的公钥。&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >以下步骤仅是SSH密钥创建的示例，请遵循与SSH密钥相关的组织准则。 以下示例仅是如何做到这一点的一个示例，并作为向团队或内部网络组传达要求的有用参考点。
 
