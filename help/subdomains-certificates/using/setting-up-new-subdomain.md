@@ -2,7 +2,7 @@
 title: 设置新子域
 description: 了解如何为活动实例设置新的子域
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -101,12 +101,13 @@ source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 >
 >默认情况下，控制面板中的“回复”收件箱配置为清除电子邮件且不可再查看。 如果要监视营销活动的“回复”收件箱，请勿使用此地址。
 
+单击和按钮可以获取有关子域的更 **[!UICONTROL Subdomain details]** 多详细 **[!UICONTROL Sender info]** 信息。
 
-单击该按钮可获取有关子域的更多详细 **[!UICONTROL Subdomain Details]** 信息。
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
