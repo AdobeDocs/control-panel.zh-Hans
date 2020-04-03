@@ -2,7 +2,7 @@
 title: 数据库监控
 description: 了解如何在控制面板中监视活动数据库
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
 
 >[!NOTE]
 >
->请注意，当前数据库空间容量与合同中指定的不同时间段的数量之间可能存在一些差异，以确保更高的性能。
+>控制面板中显示的数据库空间量可能不反映合同中指定的数据库空间量。 大多数情况下，会临时为您提供较大的数据库空间，以确保系统的性能。
 
 ## 监视数据库使用情况 {#monitoring-instances-database}
 
-1. 打开卡 **[!UICONTROL Health Monitoring]** ，然后选择选 **[!UICONTROL Databases]** 项卡。
+控制面板允许您监视每个活动实例的数据库使用情况。 为此，请按照以下步骤操作。
+
+1. 打开卡 **[!UICONTROL Performance Monitoring]** ，然后选择选 **[!UICONTROL Databases]** 项卡。
 
 1. 从中选择所需的实例 **[!UICONTROL Instance List]**。
 
@@ -38,6 +40,10 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
    将指针悬停在图形上可获取有关所选时间段的详细信息。
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>您还可以在其中一个数据库达到容量时接收通知。 为此，请订阅电子邮 [件警报](../../performance-monitoring/using/email-alerting.md)
 
 ## 防止数据库过载 {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ Campaign Standard和经典优惠防止数据库磁盘空间过度消耗的各种
 
 **数据库维护**
 
-* 数据库清理技术工作流([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* 数据库清理技术工作流([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [数据库维护指南](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [数据库性能疑难解答](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [数据库相关选项](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
