@@ -2,7 +2,7 @@
 title: 数据库监控
 description: 了解如何在控制面板中监视活动数据库
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
@@ -35,7 +35,11 @@ source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
    ![](assets/databases_dashboard.png)
 
-   下方区域以图形形式显示了过去7天内数据库的使用情况。 您可以使用右上角的可用过滤器更改显示的时间段。
+   下部区域以图形形式表示过去7天内最小、平均和最大数据库利用率，以及90%数据库利用率阈值，由红色虚曲线表示。
+
+   您可以使用右上角的可用过滤器更改显示的时间段。
+
+   为了提高可读性，您还可以高亮显示图形中的一条或多条曲线。 为此，请从图例中选择 **[!UICONTROL Aggregation Type]** 它们。
 
    将指针悬停在图形上可获取有关所选时间段的详细信息。
 
@@ -43,7 +47,7 @@ source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 >[!NOTE]
 >
->您还可以在其中一个数据库达到容量时接收通知。 为此，请订阅电子邮 [件警报](../../performance-monitoring/using/email-alerting.md)
+>除此仪表板外，您还可以在其中一个数据库达到其容量时接收通知。 为此，请订阅电子邮 [件警报](../../performance-monitoring/using/email-alerting.md)
 
 ## 防止数据库过载 {#preventing-database-overload}
 
