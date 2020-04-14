@@ -1,7 +1,7 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -10,15 +10,19 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ![](assets/do-not-localize/banner.png)
 
-## 新增功能
+## 新增内容
 
-* [SSL证书监视](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Google TXT记录管理](subdomains-certificates/using/managing-txt-records.md)
 
-   了解如何监视子域的SSL证书过期日期
+   将Google TXT站点验证记录添加到您的所有子域，这些子域用于通过活动控制面板向Gmail地址发送电子邮件。
 
-* [子域委派](subdomains-certificates/using/subdomains-branding.md)
+* [数据库空间监视](performance-monitoring/using/database-monitoring.md)
 
-   进一步了解子域品牌以及使用控制面板将子域委派给Adobe的关键步骤
+   视图数据库空间利用率（按需）和随时间推移。
+
+* [电子邮件警报](performance-monitoring/using/email-alerting.md)
+
+   登录控制面板，注册以在系统有性能恶化风险时接收警报，或需要采取措施确保将来的高性能。
 
 ## 其他资源 {#additional-resources}
 
@@ -26,13 +30,13 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign standard的控制面板教程视频</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">控制面板教程视频，用于Campaign Standard</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard 产品文档</a></li>
         </ul>
         </td>
-        <td><b>营销活动经典</b><br/>
+        <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">适用于Campaign Classic的控制面板教程视频</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">控制面板教程视频，用于Campaign Classic</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign Classic产品文档</a></li>
         </ul>
         </td>
