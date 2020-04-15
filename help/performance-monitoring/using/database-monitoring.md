@@ -2,12 +2,16 @@
 title: 数据库监控
 description: 了解如何在控制面板中监视活动数据库
 translation-type: tm+mt
-source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # 数据库监控 {#database-monitoring}
+
+>[!IMPORTANT]
+>
+>4月底之前，可以从控制面板进行数据库监视。
 
 ## 关于实例数据库 {#about-instances-databases}
 
