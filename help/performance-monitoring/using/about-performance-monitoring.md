@@ -2,16 +2,12 @@
 title: 关于性能监视
 description: 了解如何在控制面板中监视实例性能
 translation-type: tm+mt
-source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # 关于性能监视 {#about-performance-monitoring}
-
->[!IMPORTANT]
->
->4月底之前，可以通过控制面板进行性能监控。
 
 控制面板提供多种功能，帮助您监控实例并确保最佳性能。
 
