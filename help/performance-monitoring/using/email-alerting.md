@@ -2,16 +2,12 @@
 title: 电子邮件警报
 description: 了解如何在活动实例出现问题时接收电子邮件通知
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # 电子邮件警报 {#email-alerting}
-
->[!IMPORTANT]
->
->4月底之前，将提供来自控制面板的电子邮件警报。
 
 ## 关于电子邮件警报 {#about-email-alerts}
 
