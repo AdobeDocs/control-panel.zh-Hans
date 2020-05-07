@@ -2,9 +2,9 @@
 title: GPG密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # GPG密钥管理 {#gpg-keys-management}
 
-## 关于GPG加密{about-gpg-encryption}
+## 关于GPG加密 {#about-gpg-encryption}
 
 GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](https://www.openpgp.org/about/standard/) 。
 
