@@ -1,10 +1,13 @@
 ---
 product: adobe campaign
-sub-product: control panel
+sub-product: 控制面板
 audience: end-user
-user-guide-title: Control Panel Help
+user-guide-title: 控制面板帮助
 translation-type: tm+mt
-source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
+source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 6%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 + [产品文档](control-panel-home.md)
 + [发行说明](release-notes.md)
-+ Discover控制面板 {#discover-control-panel}
++ 发现控制面板 {#discover-control-panel}
    + [主要功能](discover/using/key-features.md)
    + [访问控制面板](discover/using/accessing-control-panel.md)
    + [管理控制面板的权限](discover/using/managing-permissions.md)
@@ -32,7 +35,7 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [监视SSL证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [续订SSL证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [管理TXT记录](subdomains-certificates/using/managing-txt-records.md)
-+ 性能监控 {#performance-monitoring}
++ 性能监视 {#performance-monitoring}
    + [关于性能监视](performance-monitoring/using/about-performance-monitoring.md)
    + [数据库监控](performance-monitoring/using/database-monitoring.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
@@ -40,4 +43,5 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [实例访问的IP白名单](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL权限](instances-settings/using/url-permissions.md)
    + [实例详细信息](instances-settings/using/instance-details.md)
+   + [GPG密钥管理](instances-settings/using/gpg-keys-management.md)
 + [常见问题解答](faq.md)
