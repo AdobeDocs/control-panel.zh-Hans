@@ -2,7 +2,7 @@
 title: GPG密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -69,9 +69,9 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    >[!NOTE]
    >
-   >提供用于生成密钥的开源免费软件。 但是，请确保遵循组织的准则，并使用IT/安全组织推荐的PGP实用程序。
+   >提供用于生成密钥的开放源码免费软件。 但是，请确保遵循组织的准则，并使用IT/安全组织推荐的GPG实用程序。
 
-1. 安装该实用程序后，在Mac Terminal或Windows计算机中运行以下命令。
+1. 安装该实用程序后，在Mac Terminal或Windows命令中运行以下命令。
 
    `gpg --full-generate-key`
 
