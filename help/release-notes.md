@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,31 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->请注意，控制面板仅适用于在AWS上托管的客户，但混合环境尚未受支持除外。 . 访问控制面板无需升级。 请确保您是管理员用户，可以访问它。
+>请注意，控制面板仅适用于在AWS上托管的客户，但混合环境尚未受支持除外。 访问控制面板无需升级。 请确保您是管理员用户，可以访问它。
+
+## 2020年5月（#2020年5月）
+
+**GPG密钥管理**
+
+在营销实例上安装和／或生成GPG密钥，以加密从活动发送的数据并解密传入数据。 [阅读更多](../..//instances-settings/using/gpg-keys-management.md)
+
+**CNAME子域的证书管理**
+
+控制面板现在允许您续订已使用CNAME方法委派的子域的SSL证书。 [阅读更多](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020年4月 {#april-2020}
 
-**Google TXT记录管**&#x200B;理将Google TXT站点验证记录添加到所有子域，这些子域用于通过活动控制面板向Gmail地址发送电子邮件。
+**Google TXT记录管理**
 
-**活动库空间**&#x200B;监视控制面板配备了视图库监视功能，使您能够按需或随时间数据库空间利用率。
+将Google TXT站点验证记录添加到所有子域，这些子域用于通过活动控制面板向Gmail地址发送电子邮件。 [阅读更多](../../subdomains-certificates/using/managing-txt-records.md)
 
-**电子邮件**&#x200B;警报活动控制面板具备实时电子邮件警报功能，使您能够登录控制面板并在系统面临性能恶化风险或需要采取措施以确保将来的高性能时注册接收警报。
+**数据库空间监视**
+
+活动控制面板配备了数据库监视功能，允许您按需或随时间视图数据库空间利用率。 [阅读更多](../../performance-monitoring/using/database-monitoring.md)
+
+**电子邮件警报**
+
+活动控制面板具备实时电子邮件警报功能，允许您登录控制面板并在系统面临性能恶化风险或需要采取措施确保未来的高性能时注册接收警报。 [阅读更多](../../performance-monitoring/using/email-alerting.md)
 
 ## 2020年1月 {#january-2020}
 
