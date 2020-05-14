@@ -2,7 +2,7 @@
 title: GPG密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
+source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -103,7 +103,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    ![](assets/gpg_install_paste.png)
 
-1. Click the **!UICONTROL Install Key]** button.
+1. Click the **[!UICONTROL Install Key]** button.
 
 安装公钥后，该公钥将显示在列表中。 您可以使用。 **..按钮** ，下载它或复制其指纹。
 
@@ -113,10 +113,15 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 有关此内容的详细信息，请参阅Adobe Campaign文档：
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file) | [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [提取（文件）活动](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html) | [提取文件活动](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html) |
+**Campaign Classic:**
+
+* [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [提取（文件）活动](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
+
+**Campaign Standard:**
+
+* [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [提取文件活动](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
 
 ## 解密数据 {#decrypting-data}
 
@@ -135,7 +140,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于活动工作流解密的密钥
+1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
 
    ![](assets/gpg_generate_name.png)
 
@@ -149,7 +154,12 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 有关此内容的详细信息，请参阅Adobe Campaign文档：
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [在处理文件之前解压缩或解密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing) | [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [数据加载（文件）活动](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html) | [加载文件活动](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html) |
+**Campaign Classic:**
+
+* [在处理文件之前解压缩或解密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [数据加载（文件）活动](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
+
+**Campaign Standard:**
+
+* [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [加载文件活动](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
