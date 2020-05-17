@@ -2,7 +2,7 @@
 title: GPG密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -83,7 +83,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
    * **注释**: 在注释字段中添加标签可让您在控制面板键列表中轻松识别键。
    * **过期**: 日期或“0”表示无过期日期。
    * **密码**
-   ![](assets/gpg_command.png)
+   ![](assets/do-not-localize/gpg_command.png)
 
 1. 确认后，脚本将生成一个键，您可以将其导出到文件中，或直接粘贴到控制面板中。 要导出文件，请运行此命令，后跟生成的密钥的指纹。
 
