@@ -2,7 +2,7 @@
 title: GPG密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: f0e9c7df9b6213f7a6fe81e3cf2e3f9d3355817c
+source-git-commit: f1cb8e26188cd7f3849fe26322943263f76af7e2
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 0%
@@ -32,7 +32,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 为此，您需要从PGP加密工具生成GPG密钥对，然后将公钥安装到控制面板中。 然后，您将能够在从实例发送数据之前对其进行加密。 为此，请执行以下步骤：
 
-1. 在OpenPGP扩展之后，使用GPG加密工具生成公共／私 [钥对](https://www.openpgp.org/about/standard/)。 为此，请安装GPG实用程序或GNuGP软件。
+1. 使用遵循OpenPGP规范的GPG加密工具生成公共／私 [钥对](https://www.openpgp.org/about/standard/)。 为此，请安装GPG实用程序或GNuGP软件。
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
+1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于活动工作流解密的密钥
 
    ![](assets/gpg_generate_name.png)
 
