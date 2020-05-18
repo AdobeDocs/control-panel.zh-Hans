@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **GPG密钥管理**
 
-在营销实例上安装和／或生成GPG密钥，以加密从活动发送的数据并解密传入数据。 [阅读更多](instances-settings/using/gpg-keys-management.md)
+控制面板现在允许您生成一对GPG密钥，因此您可以轻松解密来自外部的活动数据。 此外，我们还添加了一项功能，因此您可以安装公共GPG密钥来加密离开活动的数据。 [阅读更多](instances-settings/using/gpg-keys-management.md)
 
 **CNAME子域的证书管理**
 
