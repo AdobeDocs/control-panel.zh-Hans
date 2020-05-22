@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >请注意，控制面板仅适用于在AWS上托管的客户，但混合环境尚未受支持除外。 访问控制面板无需升级。 请确保您是管理员用户，可以访问它。
 
-## 2020年5月（#2020年5月）
+## 2020年5月 {#may-2020}
 
 **CNAME子域的证书管理**
 
