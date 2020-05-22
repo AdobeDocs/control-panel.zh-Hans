@@ -1,10 +1,10 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 14%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 11%
 ![](assets/do-not-localize/banner.png)
 
 ## 新增内容
-
-* [GPG密钥管理](instances-settings/using/gpg-keys-management.md)
-
-   在营销实例上安装和／或生成GPG密钥，以加密从活动发送的数据并解密传入数据。
 
 * [CNAME子域的证书管理](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
