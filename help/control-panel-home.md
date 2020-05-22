@@ -1,7 +1,7 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 14%
@@ -15,9 +15,9 @@ ht-degree: 14%
 
 ## 新增内容
 
-* [CNAME子域的证书管理](subdomains-certificates/using/renewing-subdomain-certificate.md))
+[CNAME子域的证书管理](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-   控制面板现在允许您续订已使用CNAME方法委派的子域的SSL证书。
+    控制面板现在允许您续订已使用CNAME方法委派的子域的SSL证书。
 
 ## 其他资源 {#additional-resources}
 
