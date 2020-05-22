@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 >请注意，控制面板仅适用于在AWS上托管的客户，但混合环境尚未受支持除外。 访问控制面板无需升级。 请确保您是管理员用户，可以访问它。
 
 ## 2020年5月（#2020年5月）
-
-**GPG密钥管理**
-
-控制面板现在允许您生成一对GPG密钥，因此您可以轻松解密来自外部的活动数据。 此外，我们还添加了一项功能，因此您可以安装公共GPG密钥来加密离开活动的数据。 [阅读更多](instances-settings/using/gpg-keys-management.md)
 
 **CNAME子域的证书管理**
 
