@@ -1,93 +1,96 @@
 ---
-title: URL权限
-description: 了解如何在控制面板中管理URL权限
-translation-type: tm+mt
+title: URL 权限
+description: 了解如何在控制面板中管理 URL 权限
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+workflow-type: ht
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
-# URL权限 {#url-permissions}
+# URL 权限 {#url-permissions}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_instancesettings_urlpermissions&quot;
->title=&quot;关于URL权限&quot;
->abstract=&quot;管理Adobe Campaign实例可以连接的URL。&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
+>id="cp_instancesettings_urlpermissions"
+>title="关于 URL 权限"
+>abstract="管理 Adobe Campaign 实例可以连接的 URL。"
+>additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="观看演示视频"
 
 >[!IMPORTANT]
 >
->此功能仅对Campaign Classic实例可用。
+>此功能仅适用于 Campaign Classic 实例。
 
-## 关于URL权限 {#about-url-permissions}
+## 关于 URL 权限 {#about-url-permissions}
 
-可由JavaScript代码调用的URL的默认列表(工作流等)Campaign Classic实例有限。 这些URL允许实例正常工作。
+Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默认列表是有限的。这些 URL 允许实例正常运行。
 
-默认情况下，实例不允许连接到外部URL。 控制面板允许您向授权URL的列表添加一些外部URL，这样您的实例便可以连接到它们。 这允许您将活动实例连接到外部系统（例如，SFTP服务器或网站），以便启用文件和／或数据传输。
+默认情况下，实例不允许连接到外部 URL。控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
-添加URL后，该URL将在实例的配置文件(serverConf.xml)中引用。
+添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
 **相关主题：**
 
-* [配置活动服务器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [输出连接保护](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [添加URL权限（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
+* [配置 Campaign 服务器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
+* [外连接保护](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [添加 URL 权限（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## 最佳做法 {#best-practices}
 
-* 请勿将您的活动实例连接到您不想连接到的网站／服务器。
-* 删除您不再使用的URL。 但是，请注意，如果您的公司的其他部分仍连接到您删除的URL，则没有人会再次使用它。
-* 控制面板支持 **http**、 **https**&#x200B;和 **sftp** 协议。 输入无效的URL或协议将导致错误。
+* 请勿将您的 Campaign 实例连接到您不打算连接的网站/服务器。
+* 删除您不再使用的 URL。但是，请注意，如果您公司的其他部分仍连接到您删除的 URL，则任何人都无法再次使用该 URL。
+* 控制面板支持 **http**、**https** 和 **sftp** 协议。输入无效的 URL 或协议将导致错误。
 
-## 管理URL权限 {#managing-url-permissions}
+## 管理 URL 权限 {#managing-url-permissions}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_instancesettings_url_add&quot;
->title=&quot;添加新URL&quot;
->abstract=&quot;添加URL以允许与活动实例连接。&quot;
+>id="cp_instancesettings_url_add"
+>title="添加新 URL"
+>abstract="添加 URL 以允许与 Campaign 实例建立连接。"
 
-要添加实例可以连接到的URL，请执行以下步骤：
+要添加实例可以连接到的 URL，请执行以下步骤：
 
-1. 打开卡 **[!UICONTROL Instances Settings]** 以访问选 **[!UICONTROL URL Permissions]** 项卡。
+1. 打开卡 **[!UICONTROL Instances Settings]**&#x200B;以访问 **[!UICONTROL URL Permissions]** 选项卡。
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表明您的IMS ORG ID未与任何Adobe Campaign经典实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的 IMS ORG ID 未与任何 Adobe Campaign Classic 实例关联
    >
-   >“ <b><span class="uicontrol">URL权限</span></b> ”选项卡列表实例可连接到的所有外部URL。 此列表不包括活动工作所需的URL（例如，基础结构部分之间的连接）。
+   ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
-1. 在左窗格中选择所需的实例，然后单击按 **[!UICONTROL Add new URL]** 钮。
+1. 从左窗格中选择所需的实例，然后单击 **[!UICONTROL Add new URL]**&#x200B;按钮。
 
    ![](assets/add_url1.png)
 
    >[!NOTE]
    >
-   >您的所有活动实例都显示在左窗格列表中。
+   >您的所有 Campaign 实例都将显示在左窗格列表中。
    >
-   >由于URL权限管理仅专用于Campaign Classic实例，因此，如果您选择了Campaign Standard实例，则会显示“非适用实例”消息。
+   >由于 URL 权限管理仅专用于 Campaign Classic 实例，因此，如果您选择了 Campaign Standard 实例，则会显示“非适用的实例”消息。
 
-1. 键入要授权的URL及其关联协议（http、https或sftp）。
+1. 键入要授权的 URL 及其关联协议（http、https 或 sftp）。
 
    >[!NOTE]
    >
-   >可以授权多个实例连接到URL。 为此，请直接从“实例”字段中键入其第一个字母来添加它们。
+   >可以授权多个实例以连接到 URL。要执行此操作，请直接在实例字段中键入实例的首字母以添加。
 
    ![](assets/add_url2.png)
 
-1. 该URL已添加到列表，您现在可以连接到它。
+1. 该 URL 已添加到列表，您现在可以连接到 URL。
 
    >[!NOTE]
    >
-   >“/.*”字符会自动添加到您在验证后输入的URL的末尾，以覆盖输入页面的所有子页面。
+   >“/”。验证后，您输入的 URL 的末尾会自动添加“*”字符，以涵盖输入页面的所有子页面。
 
    ![](assets/add_url_listnew.png)
 
-您可以随时删除URL，方法是选择该URL并单击该按 **[!UICONTROL Delete URL]** 钮。
+您可以随时删除 URL，方法是选择该 URL 并单击 **[!UICONTROL Delete URL]**&#x200B;按钮。
 
-请记住，如果删除URL，您的实例将无法再次调用它。
+请记住，如果删除 URL，您的实例将无法再次调用它。
 
 ## 常见问题 {#common-questions}
 
-**我添加了一个新URL，但我的实例仍无法连接到该URL。 为什么？**
+**我添加了一个新 URL，但我的实例仍无法连接到该 URL。这是为什么？**
 
-在某些情况下，您尝试连接的URL需要白名单、密码输入或其他形式的身份验证。 控制面板不管理其他身份验证。
+在某些情况下，您尝试连接的 URL 需要列入白名单、输入密码或其他身份验证形式。控制面板不管理其他身份验证。
