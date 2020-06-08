@@ -1,57 +1,57 @@
 ---
-title: 管理TXT记录
-description: 了解如何管理TXT记录以进行域所有权验证。
-translation-type: tm+mt
+title: 管理 TXT 记录
+description: 了解如何管理 TXT 记录以进行域所有权验证。
+translation-type: ht
 source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 管理TXT记录 {#managing-txt-records}
+# 管理 TXT 记录 {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
->title="管理TXT记录"
->abstract="某些服务（如Google）要求您向域设置添加TXT记录，以验证您拥有该域。"
+>title="管理 TXT 记录"
+>abstract="一些诸如 Google 之类的服务要求您将 TXT 记录添加到域设置，以验证您是否拥有该域。"
 
-## 关于TXT记录 {#about-txt-records}
+## 关于 TXT 记录 {#about-txt-records}
 
-TXT记录是一种DNS记录类型，用于提供域的文本信息，外部源可以读取该信息。
+TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。
 
-为了确保高收件箱率和低垃圾邮件率，Google等一些服务要求您在域设置中添加TXT记录以验证您拥有域。
+为了确保高收件箱率和低垃圾邮件率，一些诸如 Google 之类的服务要求您将 TXT 记录添加到域设置，以验证您是否拥有该域。
 
-目前，Gmail是最受欢迎的电子邮件地址提供商之一。 为了确保电子邮件的良好传送性和成功投放到Gmail地址，Adobe Campaign允许您向子域添加特殊的Google站点验证TXT记录，以确保对其进行验证。
+目前，Gmail 是最受欢迎的电子邮件地址提供商之一。为了确保电子邮件的良好传递性并成功投放到 Gmail 地址，Adobe Campaign 允许您向子域添加特殊的 Google 网站验证 TXT 记录，以确保对其进行验证。
 
 其他资源：
 
-* [Campaign Standard教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
-* [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
+* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
-## 为子域添加Google TXT记录 {#adding-a-google-txt-record}
+## 为子域添加 Google TXT 记录 {#adding-a-google-txt-record}
 
-要将Google TXT记录添加到用于通过电子邮件发送Gmail地址的子域，请执行以下步骤：
+要将 Google TXT 记录添加到用于通过电子邮件发送 Gmail 地址的子域，请执行以下步骤：
 
-1. 导航到 **[!UICONTROL Subdomain and Certificates]** 卡。
+1. 导航到 **[!UICONTROL Subdomain and Certificates]**&#x200B;卡。
 
-1. 选择您的实例，然后打开要添加DNS记录的子域的详细信息。
+1. 选择您的实例，然后打开要向其添加 DNS 记录的子域的详细信息。
 
    ![](assets/txt_subdomaindetails.png)
 
-1. 单击按 **[!UICONTROL Add TXT record]** 钮，然后输入在G套件管理工具中生成的值。 有关详细信息，请参阅 [G Suite管理帮助](https://support.google.com/a/answer/183895)。
+1. 单击&#x200B;**[!UICONTROL Add TXT record]**&#x200B;按钮，然后输入在 G Suite 管理员工具中生成的值。有关详细信息，请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)。
 
    ![](assets/txt_addtxt.png)
 
-1. 单击按 **[!UICONTROL Add]** 钮进行确认。
+1. 单击 **[!UICONTROL Add]**&#x200B;按钮以确认。
 
    ![](assets/txt_txtadded.png)
 
-添加TXT记录后，您需要由Google验证它。 为此，请导航到G Suite管理工具，然后启动验证步骤(请参 [阅G Suite管理帮助](https://support.google.com/a/answer/183895))。
+添加 TXT 记录后，需要通过 Google 验证该记录。为此，请导航到 G Suite 管理员工具，然后启动验证步骤（请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)）。
 
-要删除记录，请从记录列表中选择该记录，然后单击删除按钮。
+要删除记录，请从记录列表中选中该记录，然后单击删除按钮。
 
 >[!NOTE]
 >
->可以从DNS记录列表中删除的唯一记录是您之前添加的记录（在我们的例子中为Google TXT记录）。
+>可以从 DNS 记录列表中删除的唯一记录是您之前添加的记录（在我们的示例中为 Google TXT 记录）。
