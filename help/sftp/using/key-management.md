@@ -1,9 +1,9 @@
 ---
 title: 密钥管理
 description: 了解如何管理密钥以连接到 SFTP 服务器
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
    **Linux 和 Mac：**
 
    使用终端生成公钥和私钥对：
-   1. 输入以下命令：`ssh-keygen -t rsa -C <your_email@example.com>`。
+   1. 输入以下命令：`ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`。
    1. 在出现提示时，为您的密钥提供名称。如果 .ssh 目录不存在，系统将为您创建一个目录。
    1. 在出现提示时输入密码，然后重新输入一次。也可保留为空。
    1. 密钥对“name”和“name.pub”由系统创建。搜索“name.pub”文件，然后将其打开。该文件应具有以您指定的电子邮件地址结尾的字母数字字符串。
