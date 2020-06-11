@@ -4,10 +4,10 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 控制面板帮助
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '97'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 + 性能监控 {#performance-monitoring}
    + [关于性能监控](performance-monitoring/using/about-performance-monitoring.md)
    + [数据库监控](performance-monitoring/using/database-monitoring.md)
+   + [活动用户档案监视](performance-monitoring/using/active-profiles-monitoring.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + 实例设置 (Campaign Classic) {#instances-settings}
    + [将 IP 列入白名单以获取实例访问权限](instances-settings/using/ip-whitelisting-instance-access.md)
