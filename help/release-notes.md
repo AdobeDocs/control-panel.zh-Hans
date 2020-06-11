@@ -1,10 +1,10 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 99%
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 99%
 >[!NOTE]
 >
 >请注意，控制面板仅供托管在 AWS 上的客户使用，但尚不受支持的混合环境除外。访问控制面板无需升级。请确保您是管理员用户，才可以访问它。
+
+## 2020年6月 {#june-2020}
+
+**活动用户档案监视**
+
+控制面板现在允许您监视实例使用的活动用户档案数，并计数用于计费目的。 [阅读更多](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>控制面板中的活动用户档案监视功能在测试版中可用，如有频繁更新和修改，恕不另行通知。
+>
+>该功能适用于在AWS上托管的从Campaign Standard10368构建和Campaign Classic8931构建开始的客户。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
 ## 2020年5月 {#may-2020}
 
