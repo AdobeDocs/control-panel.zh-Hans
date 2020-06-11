@@ -1,10 +1,10 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ## 新增内容
 
-[CNAME 子域的证书管理](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[活动用户档案监视](performance-monitoring/using/active-profiles-monitoring.md)
 
-控制面板现在允许您续订已使用 CNAME 方法委派的子域的 SSL 证书。
+控制面板现在允许您监视实例使用的活动用户档案数，并计数用于计费目的。
 
 ## 其他资源 {#additional-resources}
 
