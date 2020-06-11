@@ -1,11 +1,11 @@
 ---
 title: 访问控制面板
 description: 了解如何访问控制面板
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,12 @@ ht-degree: 100%
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>管理实例设置</strong></a></div>
-        <br/><em>了解如何管理实例设置（仅限 Campaign Classic）</em>
+        <br/><em>了解如何管理实例设置(仅限Campaign Classic)。</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>监视性能</strong></a></div>
+        <br/><em>了解如何监视实例中关键资源的使用情况。</em>
     </td>
 </tr>
 </table>
