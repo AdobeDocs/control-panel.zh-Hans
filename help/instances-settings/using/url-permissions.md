@@ -1,11 +1,11 @@
 ---
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '590'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->此功能仅适用于 Campaign Classic 实例。
+>此功能仅适用于内部版本8850中的Campaign Classic实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
 ## 关于 URL 权限 {#about-url-permissions}
 
