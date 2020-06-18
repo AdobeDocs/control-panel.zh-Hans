@@ -1,10 +1,10 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,7 @@ Campaign 控制面板具备实时电子邮件警报功能，您可以登录控�
 
 *2019 年 9 月 16 日*
 
-我们为管理员用户添加了新功能，将 IP 地址添加到白名单以连接到 Campaign Classic 实例。
+我们为管理员用户添加了新功能，以向允许列表添加IP地址，以便连接到Campaign Classic实例。
 此外，管理员用户现在可以查看 Campaign Classic 实例的列表和具有版本升级资格。
 
 有关详细信息，请参阅[专用文档](instances-settings/using/ip-whitelisting-instance-access.md)。
