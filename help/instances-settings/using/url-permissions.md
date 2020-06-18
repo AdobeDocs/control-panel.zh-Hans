@@ -2,10 +2,10 @@
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的
 
 **我添加了一个新 URL，但我的实例仍无法连接到该 URL。这是为什么？**
 
-在某些情况下，您尝试连接的 URL 需要列入白名单、输入密码或其他身份验证形式。控制面板不管理其他身份验证。
+在某些情况下，您尝试连接的URL需要允许列表、输入密码或其他身份验证形式。 控制面板不管理其他身份验证。
