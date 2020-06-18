@@ -1,11 +1,11 @@
 ---
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
-translation-type: ht
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
-workflow-type: ht
-source-wordcount: '932'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
    * **交易和运营通信**：表示交易通信包含旨在完成收件人已开始的流程的信息。示例：购买确认、密码重置电子邮件。组织通信涉及在组织内外交流信息、想法和观点，不带商业目的。
    ![](assets/subdomain5.png)
 
-   **根据用例划分子域是实现交付性的最佳实践**。这样，每个子域的信誉将被隔离和受保护。例如，如果营销通信的子域最终被互联网服务提供商列入黑名单，您的交易通信子域将不受影响，并且将能够继续发送通信。
+   **根据用例划分子域是实现交付性的最佳实践**。这样，每个子域的信誉将被隔离和受保护。例如，如果营销通信的子域最终被Internet服务提供商添加到块列表，则您的事务通信子域将不会受到影响，并且将能够继续发送通信。
 
    **您可以为营销和交易用例委派子域**：
 
