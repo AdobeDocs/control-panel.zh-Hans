@@ -1,11 +1,11 @@
 ---
 title: 子域品牌化
 description: 详细了解子域品牌化
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * “info.mybrand.com”子域，用于交易通信（购买确认、密码重置等），
 * “marketing.mybrand.com”子域，用于您的潜在电子邮件。
 
-这样，您将能够维护您的域和其他子域的声誉。例如，如果“marketing.mybrand.com”子域由于交付能力不佳而最终被互联网服务提供商列入黑名单，这将阻止整个“mybrand.com”域和“info.mybrand.com”子域被列入黑名单。
+这样，您将能够维护您的域和其他子域的声誉。例如，如果“marketing.mybrand.com”子域由于交付性不佳而被Internet服务提供商添加到块列表，这将阻止将整个“mybrand.com”域和“info.mybrand.com”子域添加到块列表。
 
 ## 子域委派方法 {#subdomain-delegation-methods}
 
