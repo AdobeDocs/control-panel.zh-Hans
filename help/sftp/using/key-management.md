@@ -2,10 +2,10 @@
 title: 密钥管理
 description: 了解如何管理密钥以连接到 SFTP 服务器
 translation-type: tm+mt
-source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 下面介绍了生成公共 SSH 密钥并添加此密钥以访问 SFTP 服务器的步骤，以及有关身份验证的建议。
 
-服务器的访问权限设置完毕后，请记住&#x200B;**将 IP 地址列入白名单**，您需要这些地址才能访问服务器，以便连接到该服务器。如需详细信息，请参阅[此部分](../../instances-settings/using/ip-whitelisting-instance-access.md)。
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需详细信息，请参阅[此部分](../../instances-settings/using/ip-whitelisting-instance-access.md)。
 
 >[!NOTE]
 >
