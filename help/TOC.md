@@ -4,10 +4,10 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 控制面板帮助
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 96%
+source-wordcount: '99'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 + SFTP 管理 {#sftp-management}
    + [关于 SFTP 管理](sftp/using/about-sftp-management.md)
    + [SFTP 存储管理](sftp/using/sftp-storage-management.md)
-   + [将 IP 范围列入白名单](sftp/using/ip-range-whitelisting.md)
+   + [IP范围允许列表](sftp/using/ip-range-whitelisting.md)
    + [密钥管理](sftp/using/key-management.md)
    + [登录 SFTP 服务器](sftp/using/logging-into-sftp-server.md)
    + [常见问题](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 96%
    + [活动用户档案监视](performance-monitoring/using/active-profiles-monitoring.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + 实例设置 (Campaign Classic) {#instances-settings}
-   + [将 IP 列入白名单以获取实例访问权限](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP允许列出实例访问](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 权限](instances-settings/using/url-permissions.md)
    + [实例详细信息](instances-settings/using/instance-details.md)
 + [常见问题解答](faq.md)
