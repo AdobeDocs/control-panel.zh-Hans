@@ -1,10 +1,10 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 51%
+source-wordcount: '112'
+ht-degree: 66%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 51%
 
 ## 新增内容
 
-* “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些产品UI、选项名称和内部代码中可能仍然存在这些术语的某些出现，但在即将发布的活动版本中，这些术语将替换为“blocklist”和“allowlist”。
+* “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 [阅读更多](release-notes.md)
 
-* [活动用户档案监视](performance-monitoring/using/active-profiles-monitoring.md): 控制面板现在允许您监视实例使用的活动用户档案数，并计数用于计费目的。
+* **活动用户档案监视**: 控制面板现在允许您监视实例使用的活动用户档案数，并计数用于计费目的。 [阅读更多](performance-monitoring/using/active-profiles-monitoring.md)
 
 ## 其他资源 {#additional-resources}
 
