@@ -1,10 +1,10 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 77%
+source-wordcount: '503'
+ht-degree: 70%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 77%
 >请注意，控制面板仅供托管在 AWS 上的客户使用，但尚不受支持的混合环境除外。访问控制面板无需升级。请确保您是管理员用户，才可以访问它。
 
 ## 2020年6月 {#june-2020}
+
+**删除“白名单”/“黑名单”**
+
+“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些产品UI、选项名称和内部代码中可能仍然存在这些术语的某些出现，但在即将发布的活动版本中，这些术语将替换为“blocklist”和“allowlist”。
 
 **活动用户档案监视**
 
