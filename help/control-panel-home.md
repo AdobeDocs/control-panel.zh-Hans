@@ -1,10 +1,10 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## 新增内容
 
-* “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 [阅读更多](release-notes.md)
+* **子域交付性审核**
 
-* **活动用户档案监视**: 控制面板现在允许您监视实例使用的活动用户档案数，并计数用于计费目的。 [阅读更多](performance-monitoring/using/active-profiles-monitoring.md)
+   委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **GPG 密钥管理**
+
+   在营销实例上安装和/或生成 GPG 密钥，以加密从 Campaign 发送的数据和解密传入数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
+
+* “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 [阅读更多](release-notes.md)
 
 ## 其他资源 {#additional-resources}
 
