@@ -2,7 +2,7 @@
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 9be8d018421d1384ef1731b0425dead43072d2bf
+source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 2%
@@ -82,13 +82,13 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 **Campaign Classic:**
 
-* [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#zipping-or-encrypting-a-file)
+* [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
 * [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md)
-* [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [用例： 使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## 解密数据 {#decrypting-data}
 
@@ -128,8 +128,8 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 **Campaign Standard:**
 
-* [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
-* [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## 监视GPG密钥
 
