@@ -4,10 +4,10 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 控制面板帮助
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 86%
+source-wordcount: '100'
+ht-degree: 85%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 86%
    + [数据库监控](performance-monitoring/using/database-monitoring.md)
    + [活动用户档案监视](performance-monitoring/using/active-profiles-monitoring.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
-+ 实例设置 (Campaign Classic) {#instances-settings}
++ Instances settings {#instances-settings}
    + [IP允许列出实例访问](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 权限](instances-settings/using/url-permissions.md)
    + [实例详细信息](instances-settings/using/instance-details.md)
+   + [GPG 密钥管理](instances-settings/using/gpg-keys-management.md)
 + [常见问题解答](faq.md)
