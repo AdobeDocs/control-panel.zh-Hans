@@ -2,10 +2,10 @@
 title: 子域品牌化
 description: 详细了解子域品牌化
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 | 委派方法 | 工作原理 | 工作量 |
 |---|---|---|
-| **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
+| **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe完全负责管理子域和所有DNS记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
 有关域委派的其他信息，请参阅[本文档](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
