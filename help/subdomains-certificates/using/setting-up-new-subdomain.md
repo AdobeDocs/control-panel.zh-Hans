@@ -2,10 +2,10 @@
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 96%
+source-wordcount: '995'
+ht-degree: 81%
 
 ---
 
@@ -26,12 +26,6 @@ ht-degree: 96%
 
 控制面板允许您将子域完全委派给 Adobe Campaign。为此，请执行以下步骤：
 
->[!NOTE]
->
->如果所选实例没有以前配置的子域，则委派给 Adobe 的第一个子域将成为该实例的&#x200B;**主子域**，之后您将无法进行更改。
->
->将使用主子域为其他子域创建反转 DNS 记录。其他子域的回复地址和退回地址将从主子域生成。
-
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
    ![](assets/subdomain1.png)
@@ -39,14 +33,14 @@ ht-degree: 96%
    >[!NOTE]
    >
    >子域委派仅可用于&#x200B;**生产**&#x200B;实例。
+   >
+   >如果所选实例没有以前配置的子域，则委派给 Adobe 的第一个子域将成为该实例的&#x200B;**主子域**，之后您将无法进行更改。将使用主子域为其他子域创建反转 DNS 记录。其他子域的回复地址和退回地址将从主子域生成。
 
 1. 单击 **[!UICONTROL Next]**&#x200B;以确认完整委派方法。
 
-   ![](assets/subdomain3.png)
+   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
 
-   >[!NOTE]
-   >
-   >控制面板当前不支持 [CNAME](#use-cnames) 和自定义方法。
+   ![](assets/subdomain3.png)
 
 1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/30175?captions=chi_hans)。
 
@@ -58,7 +52,7 @@ ht-degree: 96%
 
    ![](assets/subdomain4.png)
 
-   在使用相应的 Adobe 名称服务器信息创建子域后，单击 **[!UICONTROL Next]**。
+1. 在使用相应的 Adobe 名称服务器信息创建子域后，单击 **[!UICONTROL Next]**。
 
 1. 为子域选择所需的用例：
 
@@ -74,7 +68,7 @@ ht-degree: 96%
    * 对于交易用例，子域将配置在所有 **RT**（消息中心/实时消息递送）实例上，以确保连接性。因此，子域将与您的所有 RT 实例一起运行。
    >[!NOTE]
    >
-   >如果您使用 Campaign Classic，控制面板将允许您查看哪些 RT/MID 实例已连接到您正在使用的营销实例。如需详细信息，请参阅[此部分](../../instances-settings/using/instance-details.md)。
+   >如果您使用 Campaign Classic，控制面板将允许您查看哪些 RT/MID 实例已连接到您正在使用的营销实例。有关此的详细信息，请参阅“实例 [详细信息](../../instances-settings/using/instance-details.md) ”部分。
 
 1. 输入您在托管解决方案中创建的子域，然后单击 **[!UICONTROL Submit]**。
 
@@ -84,25 +78,33 @@ ht-degree: 96%
 
 1. 提交子域后，控制面板将检查它是否正确指向 Adobe NS 记录，以及此子域不存在“授权开始”(SOA) 记录。
 
-1. 如果检查成功，控制面板将开始设置包含 DNS 记录、其他 URL、收件箱等的子域。您可以通过单击 **[!UICONTROL Process details]**&#x200B;按钮获取有关配置进度的更多详细信息。
-
-   ![](assets/subdomain7.png)
-
    >[!NOTE]
-   >
-   >在某些情况下，委派会完成，但子域可能无法成功验证。子域将直接进入 **[!UICONTROL Verified subdomains]**&#x200B;列表，其中包含&#x200B;**[!UICONTROL Unverified]** 状态和提供错误信息的作业日志。如果您在解决此问题时遇到麻烦，请联系客户关怀团队。
    >
    >请注意，当子域委派运行时，通过控制面板的其他请求将输入队列并仅在子域委派完成后执行，以防止出现任何性能问题。
 
+1. 如果检查成功，控制面板将开始设置包含 DNS 记录、其他 URL、收件箱等的子域。
+
+   ![](assets/subdomain7.png)
+
+   最终，Deliverability **团队将** 收到有关新子域的通知，以便对其进行审核。 在子域被委派后，审核过程最长可能需要10个工作日。 执行的检查包括反馈循环和垃圾邮件投诉循环测试。因此，我们不建议在审核完成之前使用子域，因为它可能导致子域声誉受损。
+
+   您可以通过单击 **[!UICONTROL Process details]**&#x200B;按钮获取有关配置进度的更多详细信息。
+
+   ![](assets/subdomain_audit.png)
+
+   **故障排除:**
+
+   * 在某些情况下，委派会完成，但子域可能无法成功验证。子域将保留在列表中， **[!UICONTROL Configured]** 作业日志提供有关该错误的信息。 如果您在解决此问题时遇到麻烦，请联系客户关怀团队。
+   * 如果子域在配置后显示为“未验证”，则启动新的子域验证(**...** / **[!UICONTROL Verify subdomain]**)。 如果它仍显示相同的状态，原因可能是对收件人模式进行了一些自定义操作，无法使用标准流程进行验证。 请尝试使用该子域发送活动。
+   * 如果子域配置在交付性审核步骤中耗时过长（超过10个工作日），请联系客户服务。
+
 在流程结束时，子域将配置为与 Adobe Campaign 实例配合使用，并将创建以下元素：
 
-* **具有以下** DNS 记录的&#x200B;**子域**：SOA、MX、CNAME、DKIM、SPF、TXT；
+* **具有以下 DNS 记录的子域**：SOA、MX、CNAME、DKIM、SPF、TXT；
 * 用于托管镜像、资源、跟踪页面和域密钥的&#x200B;**其他子域**；
 * **收件箱**：发件人、错误、回复。
 
->[!NOTE]
->
->默认情况下，控制面板中的“回复”收件箱配置为清除电子邮件且不可查看。如果要监控营销活动的“回复”收件箱，请勿使用此地址。
+   默认情况下，控制面板中的“回复”收件箱配置为清除电子邮件且不可查看。如果要监控营销活动的“回复”收件箱，请勿使用此地址。
 
 您可以通过单击 **[!UICONTROL Subdomain details]**&#x200B;和 **[!UICONTROL Sender info]** 按钮获取有关子域的更多详细信息。
 
@@ -111,12 +113,6 @@ ht-degree: 96%
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->在处理阶段后，您应与 Adobe 客户关怀团队确认已向可交付性团队提出审核请求，以审核已创建的新子域。委派子域后，审核过程最长可能需要 3 至 10 个工作日。
->
->执行的检查包括反馈循环和垃圾邮件投诉循环测试。因此，我们不建议在审核完成之前使用子域，因为它可能导致子域声誉受损。
 
 ## 使用 CNAME {#use-cnames}
 
