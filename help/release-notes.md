@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 70%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 70%
 >请注意，控制面板仅供托管在 AWS 上的客户使用，但尚不受支持的混合环境除外。访问控制面板无需升级。请确保您是管理员用户，才可以访问它。
 
 ## 2020年6月 {#june-2020}
+
+**子域交付性审核**
+
+委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**GPG 密钥管理**
+
+现在，控制面板允许您生成一对 GPG 密钥，以便您可以从外部轻松解密进入 Campaign 的数据。此外，我们还添加了一项功能，以便您可以安装公共 GPG 密钥来加密离开 Campaign 的数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
 
 **删除“白名单”/“黑名单”**
 
