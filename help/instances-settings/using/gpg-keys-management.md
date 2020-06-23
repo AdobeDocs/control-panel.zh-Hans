@@ -2,9 +2,9 @@
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
+source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 **Campaign Classic:**
 
 * [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
+* [用例： 使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
