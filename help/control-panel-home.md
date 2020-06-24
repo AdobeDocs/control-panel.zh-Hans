@@ -1,10 +1,10 @@
 ---
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **GPG 密钥管理**
 
    在营销实例上安装和/或生成 GPG 密钥，以加密从 Campaign 发送的数据和解密传入数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
-
-* “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 [阅读更多](release-notes.md)
 
 ## 其他资源 {#additional-resources}
 
