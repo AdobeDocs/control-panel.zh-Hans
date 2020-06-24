@@ -2,9 +2,9 @@
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1110'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,12 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 * **加密发送的数据**: Adobe Campaign在使用已安装的公钥对数据进行加密后将其发送出去。
 
 * **解密传入数据**: Adobe Campaign使用从控制面板下载的公钥从外部系统接收已加密的数据。 Adobe Campaign使用从控制面板生成的私钥对数据进行解密。
+
+**相关主题：**
+
+* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## 加密数据 {#encrypting-data}
 
@@ -107,7 +113,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于活动工作流解密的密钥
+1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
 
    ![](assets/gpg_generate_name.png)
 
