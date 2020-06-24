@@ -1,11 +1,11 @@
 ---
 title: SFTP 存储管理
 description: 了解如何监控和管理 SFTP 服务器的存储
-translation-type: ht
-source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 **相关主题：**
 
-* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 
