@@ -1,7 +1,7 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 68%
@@ -31,7 +31,7 @@ ht-degree: 68%
 
 **删除“白名单”/“黑名单”**
 
-“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些产品UI、选项名称和内部代码中可能仍然存在这些术语的某些出现，但在即将发布的活动版本中，这些术语将替换为“blocklist”和“allowlist”。
+“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些术语的某些出现可能仍存在于产品UI、选项名称和内部代码中，但将在即将发布的活动版本中替换为“阻止列表”和“允许列表”。
 
 **活动用户档案监视**
 
@@ -84,7 +84,7 @@ Campaign 控制面板具备实时电子邮件警报功能，您可以登录控�
 我们为管理员用户添加了新功能，以向允许列表添加IP地址，以便连接到Campaign Classic实例。
 此外，管理员用户现在可以查看 Campaign Classic 实例的列表和具有版本升级资格。
 
-有关详细信息，请参阅[专用文档](instances-settings/using/ip-whitelisting-instance-access.md)。
+有关详细信息，请参阅[专用文档](instances-settings/using/ip-allow-listing-instance-access.md)。
 
 ## 2019 年 8 月 {#august-2019}
 
