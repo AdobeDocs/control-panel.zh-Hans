@@ -2,7 +2,7 @@
 title: 登录 SFTP 服务器
 description: 了解如何登录SFTP服务器
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 * 您的SFTP服务器 **由Adobe托管**。
 * 您的&#x200B;**用户名**&#x200B;已为服务器设置。You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * 您有一 **对私钥和公钥** ，用于登录SFTP服务器。 有关如 [何添加](../../sftp/using/key-management.md) SSH密钥的详细信息，请参阅本节。
-* 您 **的公用IP地址已添加到SFTP服务器上的** “允许”列表。 否则，请参 [阅本部](../../sftp/using/ip-range-whitelisting.md) ，进一步了解如何将IP范围添加到允许列表。
+* 您 **的公有IP地址已添加到SFTP服务器** 上的允许列表。 否则，请参 [阅本节](../../sftp/using/ip-range-allow-listing.md) ，了解如何将IP范围添加到允许列表。
 * 您有权访问SFTP客 **户端软件**。 您可以咨询IT部门，了解他们推荐使用的SFTP客户端应用程序，或在Internet上搜索(如果公司策略允许)。
 
 要连接到SFTP服务器，请执行以下步骤：
