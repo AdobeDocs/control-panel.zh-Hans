@@ -2,7 +2,7 @@
 title: 密钥管理
 description: 了解如何管理密钥以连接到 SFTP 服务器
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 94%
@@ -22,7 +22,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 下面介绍了生成公共 SSH 密钥并添加此密钥以访问 SFTP 服务器的步骤，以及有关身份验证的建议。
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需详细信息，请参阅[此部分](../../instances-settings/using/ip-whitelisting-instance-access.md)。
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需详细信息，请参阅[此部分](../../instances-settings/using/ip-allow-listing-instance-access.md)。
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ Once access to the server is set up, remember to **add the IP addresses that wil
 >[!IMPORTANT]
 >
 >如果您的密码过期，即使系统中已安装密钥，您也将无法登录 SFTP 帐户。
-
-![](assets/control_panel_passwordexpires.png)
 
 ## 安装 SSH 密钥 {#installing-ssh-key}
 
