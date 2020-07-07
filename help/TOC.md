@@ -4,7 +4,7 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 控制面板帮助
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 85%
@@ -24,7 +24,7 @@ ht-degree: 85%
 + SFTP 管理 {#sftp-management}
    + [关于 SFTP 管理](sftp/using/about-sftp-management.md)
    + [SFTP 存储管理](sftp/using/sftp-storage-management.md)
-   + [IP范围允许列表](sftp/using/ip-range-whitelisting.md)
+   + [IP范围允许列表](sftp/using/ip-range-allow-listing.md)
    + [密钥管理](sftp/using/key-management.md)
    + [登录 SFTP 服务器](sftp/using/logging-into-sftp-server.md)
    + [常见问题](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
    + [活动用户档案监视](performance-monitoring/using/active-profiles-monitoring.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + Instances settings {#instances-settings}
-   + [IP允许列出实例访问](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP允许列出实例访问](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 权限](instances-settings/using/url-permissions.md)
    + [实例详细信息](instances-settings/using/instance-details.md)
    + [GPG 密钥管理](instances-settings/using/gpg-keys-management.md)
