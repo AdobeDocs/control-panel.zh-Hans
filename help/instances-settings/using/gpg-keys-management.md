@@ -2,9 +2,9 @@
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,8 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 **相关主题：**
 
-* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Campaign Standard教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## 加密数据 {#encrypting-data}
 
@@ -56,6 +55,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
    * **注释**: 向注释字段添加标签将帮助您轻松识别用于加密数据的密钥。
    * **过期**: 日期或“0”表示无过期日期。
    * **密码**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. 确认后，脚本将生成一个具有其关联指纹的密钥，您可以将其导出到文件中，或直接粘贴到控制面板中。 要导出文件，请运行此命令，后跟生成的密钥的指纹。
@@ -102,7 +102,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 为此，您需要直接从控制面板生成GPG密钥对。
 
-* 公 **钥将** 与外部系统共享，外部系统将使用公钥加密要发送给活动的数据。
+* 公 **钥将** 与外部系统共享，外部系统将使用它加密要发送给活动的数据。
 * 活动 **将使用** 私钥对传入的加密数据进行解密。
 
 要在控制面板中生成键对，请执行以下步骤：
@@ -158,6 +158,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
    * 紧急（红色）在30天前显示。
    * 警告（黄色）在60天前显示。
    * 密钥过期后，将显示“已过期”红色横幅。
+
    >[!NOTE]
    >
    >请注意，控制面板不会发送任何电子邮件通知。
