@@ -2,10 +2,10 @@
 title: IP允许列表
 description: 了解如何在控制面板中向允许列表添加IP地址以进行实例访问
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -53,7 +53,7 @@ IP地址在允许列表上后，您可以创建活动运算符并将其链接到
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的 IMS ORG ID 未与任何 Adobe Campaign Classic 实例关联
+   >如果“Control Panel（控制面板）”主页上未显示“Instance Settings（实例设置）”卡，则表示您的IMS组织ID未与任何Adobe Campaign经典实例关联
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,6 +63,7 @@ IP地址在允许列表上后，您可以创建活动运算符并将其链接到
 
    * **[!UICONTROL Instance(s)]**：IP 地址能够连接的实例。可以同时处理多个实例。例如，可以通过同一步骤对生产实例和舞台实例执行IP允许列表。
    * **[!UICONTROL IP Range]**: 要添加到允许列表的IP范围，CIDR格式。 请注意，IP范围不能与允许列表上的现有范围重叠。 在这种情况下，首先删除包含重叠 IP 的范围。
+
    >[!NOTE]
    >
    >CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支持的格式。语法依次由 IP 地址、“/”字符和十进制数字组成。[本文](https://whatismyipaddress.com/cidr)详细介绍了格式及其语法。
@@ -78,6 +79,7 @@ IP地址在允许列表上后，您可以创建活动运算符并将其链接到
    * **[!UICONTROL Campaign Console Access]**：允许 IP 地址连接到 Campaign Classic 控制台。请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
    * **[!UICONTROL AEM connection]**：允许指定的 AEM IP 地址连接到营销实例。
    * **[!UICONTROL External API connection]**：允许具有指定 IP 地址的外部 API 连接到营销和/或消息中心 (RT) 实例。请注意，未启用与 RT 实例控制台的连接。
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;按钮。IP范围将添加到允许列表。
