@@ -2,43 +2,43 @@
 title: 控制面板常见问题解答
 description: 与控制面板相关的常见问题
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 95%
+ht-degree: 66%
 
 ---
 
 
 # 常见问题解答 {#faq}
 
-## IMS 组织 ID {#ims-org-id}
+## IMS组织ID {#ims-org-id}
 
-**什么是 IMS 组织 ID？**
+**什么是IMS组织ID?**
 
 它是在您首次登录 Adobe Experience Cloud 时为您的实例提供的唯一 ID。其格式应为：xxx@AdobeOrg。
 
 有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
 
-**在哪里可以找到我的 IMS 组织 ID？**
+**在哪里可以找到我的IMS组织ID?**
 
-一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您将在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)中找到更多详细信息。
+一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. 您可以在 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)中找到更多详细信息。
 
-另一种方法是启动 **Admin Console**。您的 IMS 组织 ID 将显示在您的 URL 中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
+另一种方法是启动 **Admin Console**。您的IMS组织ID将显示在您的URL中，它应类似于： https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-**为什么我需要知道我的 IMS 组织 ID？**
+**为什么我需要了解我的IMS组织ID?**
 
 为了管理实例的设置，我们希望确保您获得正确实例的正确信息，在您的公司使用多个实例的情况下非常适用。
 
-**如果我有多个 IMS 组织 ID，该怎么办？**
+**如果我有多个IMS组织ID怎么办？**
 
-如果您有权访问多个 Adobe 解决方案，则可能拥有多个 IMS 组织 ID。在这种情况下，您应使用的正确 IMS 组织 ID 是您在 Adobe Campaign 实例下看到的 IMS 组织 ID。
+如果您有权访问多个Adobe解决方案，则您可能拥有多个IMS组织ID。 在这种情况下，您应使用的正确IMS组织ID是您在Adobe Campaign实例下看到的IMS组织ID。
 
 >[!NOTE]
 >
->如果您的 Adobe Campaign 和 Adobe Analytics 使用相同的 IMS 组织 ID，这是非常好的。如果您计划集成解决方案以利用诸如放弃购物车（对于 AA + AC）等复杂的用例，则需要在 Analytics 和 Campaign 之间有一个 IMS 组织 ID。
+>如果您的IMS组织ID与Adobe Campaign和AdobeAnalytics相同，这就太棒了。 如果您计划集成解决方案以利用诸如放弃购物车(AA + AC)等复杂的使用案例，在Analytics和活动之间拥有一个IMS组织ID是一项要求。
 >
->如果您有不同的 IMS 组织 ID 用于 Adobe Campaign 和 Adobe Analytics，请联系客户关怀团队，以使其保持一致。
+>如果您有不同的IMS组织ID用于Adobe Campaign和AdobeAnalytics，请联系客户服务部，确保它们保持一致。
 
 **如何确认我的 Adobe Campaign 实例是否托管在 AWS 上？**
 
@@ -92,7 +92,7 @@ ht-degree: 95%
 
 **控制面板当前有哪些功能？**
 
-控制面板允许您根据自己的需要和其他操作跟踪存储、将IP添加到允许列表、管理SFTP服务器的SSH密钥。
+控制面板允许您根据自己的需要和其他操作跟踪存储、向允许列表添加IP以及管理SFTP服务器的SSH密钥。
 
 有关详细信息，请参阅控制面板支持的操作文档。
 
