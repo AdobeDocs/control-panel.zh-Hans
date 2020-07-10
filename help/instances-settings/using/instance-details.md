@@ -1,11 +1,11 @@
 ---
 title: 实例详细信息
 description: 了解如何在控制面板中监控实例详细信息
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的 IMS ORG ID 未与任何 Adobe Campaign Classic 实例关联
+   >如果“Control Panel（控制面板）”主页上未显示“Instance Settings（实例设置）”卡，则表示您的IMS组织ID未与任何Adobe Campaign经典实例关联
 
 1. 在左窗格中选择所需的 Campaign Classic 实例。
 
