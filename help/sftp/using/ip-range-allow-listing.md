@@ -2,7 +2,7 @@
 title: IP范围允许列表
 description: 了解如何将IP范围添加到SFTP服务器访问允许列表
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 40%
@@ -46,7 +46,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 要向允许列表添加IP范围，请执行以下步骤：
 
-1. 打开 **[!UICONTROL SFTP]**&#x200B;卡，然后选择 **[!UICONTROL IP Whistelisting]** 选项卡。
+1. 打开 **[!UICONTROL SFTP]**&#x200B;卡，然后选择 **[!UICONTROL IP Allow Listing]** 选项卡。
 1. 每个实例将显示允许列表上IP地址的列表。 从左侧列表中选择所需的实例，然后单击 **[!UICONTROL Add new IP range]**&#x200B;按钮。
 
    ![](assets/control_panel_add_range.png)
