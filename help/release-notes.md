@@ -1,10 +1,10 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
+source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 68%
+source-wordcount: '561'
+ht-degree: 74%
 
 ---
 
@@ -28,10 +28,6 @@ ht-degree: 68%
 现在，控制面板允许您生成一对 GPG 密钥，以便您可以从外部轻松解密进入 Campaign 的数据。此外，我们还添加了一项功能，以便您可以安装公共 GPG 密钥来加密离开 Campaign 的数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
 * [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
-**删除“白名单”/“黑名单”**
-
-“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些术语的某些出现可能仍存在于产品UI、选项名称和内部代码中，但将在即将发布的活动版本中替换为“阻止列表”和“允许列表”。
 
 **活动用户档案监视**
 
