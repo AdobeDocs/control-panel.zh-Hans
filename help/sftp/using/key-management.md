@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 下面介绍了生成公共 SSH 密钥并添加此密钥以访问 SFTP 服务器的步骤，以及有关身份验证的建议。
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需详细信息，请参阅[此部分](../../instances-settings/using/ip-allow-listing-instance-access.md)。
+服务器的访问权限设置完毕后，请记得&#x200B;**添加 IP 地址，您需要这些地址才能访问允许列表**&#x200B;的服务器，以便连接到该服务器。如需详细信息，请参阅[此部分](../../instances-settings/using/ip-allow-listing-instance-access.md)。
 
 >[!NOTE]
 >
@@ -80,6 +80,7 @@ Once access to the server is set up, remember to **add the IP addresses that wil
    1. 在出现提示时，为您的密钥提供名称。如果 .ssh 目录不存在，系统将为您创建一个目录。
    1. 在出现提示时输入密码，然后重新输入一次。也可保留为空。
    1. 密钥对“name”和“name.pub”由系统创建。搜索“name.pub”文件，然后将其打开。该文件应具有以您指定的电子邮件地址结尾的字母数字字符串。
+
    **Windows：**
 
    您可能需要安装第三方工具，该工具将帮助您以相同格式“name.pub”生成私钥/公钥对。
