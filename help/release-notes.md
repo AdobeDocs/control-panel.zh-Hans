@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 72%
+ht-degree: 94%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 72%
 >
 >请注意，控制面板仅供托管在 AWS 上的客户使用，但尚不受支持的混合环境除外。访问控制面板无需升级。请确保您是管理员用户，才可以访问它。
 
-## 2020年6月 {#june-2020}
+## 2020 年 6 月 {#june-2020}
 
-**子域交付性审核**
+**子域可交付性审核**
 
-委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。[阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **GPG 密钥管理**
 
@@ -29,17 +29,17 @@ ht-degree: 72%
 * [Campaign Standard教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
 * [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
-**活动用户档案监视**
+**活动用户档案监控**
 
-控制面板现在允许您监视实例使用的活动用户档案数，并计数用于计费目的。 [阅读更多](performance-monitoring/using/active-profiles-monitoring.md)
+控制面板现在允许您监控实例使用的活动用户档案数，并计数用于计费目的。[阅读更多](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->控制面板中的活动用户档案监视功能在测试版中可用，如有频繁更新和修改，恕不另行通知。
+>测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。
 >
->该功能适用于在AWS上托管的从Campaign Standard10368构建和Campaign Classic8931构建开始的客户。 如果您使用的是以前的版本，则需要升级才能使用此功能。
+>该功能适用于在 AWS 上托管的 Campaign Standard 10368 版本和 Campaign Classic 8931 版本的客户。如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-## 2020年5月 {#may-2020}
+## 2020 年 5 月 {#may-2020}
 
 **CNAME 子域的证书管理**
 
@@ -77,7 +77,7 @@ Campaign 控制面板具备实时电子邮件警报功能，您可以登录控�
 
 *2019 年 9 月 16 日*
 
-我们为管理员用户添加了新功能，以向允许列表添加IP地址，以便连接到Campaign Classic实例。
+我们为管理员用户添加了新功能，以向允许列表添加 IP 地址，以便连接到 Campaign Classic 实例。
 此外，管理员用户现在可以查看 Campaign Classic 实例的列表和具有版本升级资格。
 
 有关详细信息，请参阅[专用文档](instances-settings/using/ip-allow-listing-instance-access.md)。
