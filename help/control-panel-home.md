@@ -1,10 +1,10 @@
 ---
 title: 产品文档
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## 新增内容
 
-* **子域交付性审核**
+* **子域可交付性审核**
 
-   委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+   委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。[阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **GPG 密钥管理**
 
