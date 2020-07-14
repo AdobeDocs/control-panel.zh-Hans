@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 >abstract="通过控制面板主页，您可以访问可在 Campaign 实例上执行的所有操作。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/discover-control-panel/discovering-the-interface.html" text="了解界面"
 
-控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Adobe Campaign Standard 和/或 Adobe Campaign Classic 的产品管理员提高工作效率。其直观的界面可让您轻松监视关键资产的使用情况，并执行管理任务，如IP地址允许列表添加、SFTP存储监视、密钥管理等。
+控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Adobe Campaign Standard 和/或 Adobe Campaign Classic 的产品管理员提高工作效率。其直观的界面可让您轻松监控关键资产的使用情况，并执行管理任务，如将 IP 地址添加到允许列表、SFTP 存储监控、密钥管理等。
 
 主要优点：
 
@@ -51,12 +51,12 @@ ht-degree: 81%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理实例设置</strong></a></div>
-        <br/><em>了解如何管理实例设置(仅限Campaign Classic)。</em>
+        <br/><em>了解如何管理实例设置（仅限 Campaign Classic）。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>监视性能</strong></a></div>
-        <br/><em>了解如何监视实例中关键资源的使用情况。</em>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>监控性能</strong></a></div>
+        <br/><em>了解如何监控实例中关键资源的使用情况。</em>
     </td>
 </tr>
 </table>
