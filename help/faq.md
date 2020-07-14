@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 66%
 
 **控制面板当前有哪些功能？**
 
-控制面板允许您根据自己的需要和其他操作跟踪存储、向允许列表添加IP以及管理SFTP服务器的SSH密钥。
+通过控制面板，您可以根据自己的需求，跟踪存储、将 IP 添加到允许列表并管理 SFTP 服务器的 SSH 密钥和执行其他操作。
 
 有关详细信息，请参阅控制面板支持的操作文档。
 
