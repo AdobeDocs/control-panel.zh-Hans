@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->此功能仅适用于内部版本8850中的Campaign Classic实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
+>此功能仅适用于 8850 及以上版本的 Campaign Classic 实例。如果您使用的是以前的版本，则需要升级才能使用此功能。
 
 ## 关于 URL 权限 {#about-url-permissions}
 
@@ -93,4 +93,4 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的
 
 **我添加了一个新 URL，但我的实例仍无法连接到该 URL。这是为什么？**
 
-在某些情况下，您尝试连接的URL需要允许列表、输入密码或其他身份验证形式。 控制面板不管理其他身份验证。
+在某些情况下，您尝试连接的 URL 需要添加到允许列表、输入密码或其他身份验证形式。控制面板不管理其他身份验证。
