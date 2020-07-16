@@ -46,7 +46,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果“Control Panel（控制面板）”主页上未显示“Instance Settings（实例设置）”卡，则表示您的IMS组织ID未与任何Adobe Campaign经典实例关联
+   >如果控制面板的主页上未显示“实例设置”卡，则表示您的IMS组织ID未与任何Adobe Campaign经典实例关联
 
 1. 在左窗格中选择所需的 Campaign Classic 实例。
 
