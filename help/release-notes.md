@@ -1,17 +1,17 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 94%
+source-wordcount: '564'
+ht-degree: 92%
 
 ---
 
 
 # 控制面板版本 {#control-panel-releases}
 
-您将在此处找到有关控制面板版本的最新信息。
+您将在此处找到有关最新控制面板版本的信息。
 
 >[!NOTE]
 >
