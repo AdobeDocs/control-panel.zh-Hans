@@ -2,10 +2,10 @@
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -18,13 +18,13 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 实施后，您可以在传输发生之前对传入数据进行解密和加密，以确保没有有效匹配密钥对的任何人都无法访问它们。
 
-要利用活动实现GPG加密，管理员用户必须直接从控制面板在营销实例上安装和／或生成GPG密钥。
+要利用 Campaign 实现 GPG 加密，管理员用户必须直接从控制面板在营销实例上安装和/或生成 GPG 密钥。
 
 然后，您将能够：
 
-* **加密发送的数据**: Adobe Campaign在使用已安装的公钥对数据进行加密后将其发送出去。
+* **加密发送的数据**:Adobe Campaign在使用已安装的公钥对数据进行加密后将其发送出去。
 
-* **解密传入数据**: Adobe Campaign使用从控制面板下载的公钥从外部系统接收已加密的数据。 Adobe Campaign使用从控制面板生成的私钥对数据进行解密。
+* **解密传入数据**:Adobe Campaign使用从控制面板下载的公钥从外部系统接收已加密的数据。 Adobe Campaign使用从控制面板生成的私钥解密数据。
 
 **相关主题：**
 
@@ -33,7 +33,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 ## 加密数据 {#encrypting-data}
 
-控制面板允许您加密从Adobe Campaign实例中传出的数据。
+控制面板允许您加密从 Adobe Campaign 实例中传出的数据。
 
 为此，您需要从PGP加密工具生成GPG密钥对，然后将公钥安装到控制面板中。 然后，您将能够在从实例发送数据之前对其进行加密。 为此，请执行以下步骤：
 
@@ -49,11 +49,11 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 1. 出现提示时，为您的键指定所需的参数。 所需参数包括：
 
-   * **键类型**: RSA
-   * **密钥长度**: 1024 - 4096比特
-   * **真实姓名** 和电 **子邮件地址**: 允许跟踪创建密钥对的人。 输入链接到您的组织或部门的名称和电子邮件地址。
-   * **注释**: 向注释字段添加标签将帮助您轻松识别用于加密数据的密钥。
-   * **过期**: 日期或“0”表示无过期日期。
+   * **键类型**:RSA
+   * **密钥长度**:1024 - 4096比特
+   * **真实姓名** 和电 **子邮件地址**:允许跟踪创建密钥对的人。 输入链接到您的组织或部门的名称和电子邮件地址。
+   * **注释**:向注释字段添加标签将帮助您轻松识别用于加密数据的密钥。
+   * **过期**:日期或“0”表示无过期日期。
    * **密码**
 
    ![](assets/do-not-localize/gpg_command.png)
@@ -64,7 +64,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 1. 要将公钥安装到控制面板中，请打 **[!UICONTROL Instance settings]** 开卡，然后选择 **[!UICONTROL GPG keys]** 选项卡和所需的实例。
 
-1. 单击&#x200B;**[!UICONTROL Install Key]**&#x200B;按钮。
+1. 单击 **[!UICONTROL Install Key]** 按钮。
 
    ![](assets/gpg_install_button.png)
 
@@ -76,7 +76,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    ![](assets/gpg_install_paste.png)
 
-1. 单击&#x200B;**[!UICONTROL Install Key]**&#x200B;按钮。
+1. 单击 **[!UICONTROL Install Key]** 按钮。
 
 安装公钥后，该公钥将显示在列表中。 您可以使用。 **..按钮** ，下载它或复制其指纹。
 
@@ -89,12 +89,12 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 **Campaign Classic:**
 
 * [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [用例： 使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [用例：使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [用例： 使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [用例：使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## 解密数据 {#decrypting-data}
 
@@ -102,18 +102,18 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 为此，您需要直接从控制面板生成GPG密钥对。
 
-* 公 **钥将** 与外部系统共享，外部系统将使用它加密要发送给活动的数据。
+* 公 **钥将** 与外部系统共享，外部系统将使用公钥加密要发送给活动的数据。
 * 活动 **将使用** 私钥对传入的加密数据进行解密。
 
-要在控制面板中生成键对，请执行以下步骤：
+要在控制面板中生成密钥对，请执行以下步骤：
 
 1. 打开卡 **[!UICONTROL Instance settings]** ，然后选择选 **[!UICONTROL GPG keys]** 项卡和所需的Adobe Campaign实例。
 
-1. 单击&#x200B;**[!UICONTROL Generate Key]**&#x200B;按钮。
+1. 单击 **[!UICONTROL Generate Key]** 按钮。
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
+1. 指定键的名称，然后单击 **[!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
 
    ![](assets/gpg_generate_name.png)
 
@@ -130,12 +130,12 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 **Campaign Classic:**
 
 * [在处理文件之前解压缩或解密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [用例：导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [用例： 导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [用例：导入使用控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## 监视GPG密钥
 
@@ -145,15 +145,15 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 该列表显示已为实例安装和生成的所有加密和解密GPG密钥，其中包含有关每个密钥的详细信息：
 
-* **[!UICONTROL Name]**: 安装或生成密钥时定义的名称。
-* **[!UICONTROL Use case]**: 此列指定键的用例：
+* **[!UICONTROL Name]**:安装或生成密钥时定义的名称。
+* **[!UICONTROL Use case]**:此列指定键的用例：
 
-   ![](assets/gpg_icon_encrypt.png): 该密钥已安装用于数据加密。
+   ![](assets/gpg_icon_encrypt.png):该密钥已安装用于数据加密。
 
-   ![](assets/gpg_icon_decrypt.png): 已生成密钥以允许数据解密。
+   ![](assets/gpg_icon_decrypt.png):已生成密钥以允许数据解密。
 
-* **[!UICONTROL Fingerprint]**: 钥匙的指纹。
-* **[!UICONTROL Expires]**: 密钥的过期日期。 请注意，当主要指标接近其到期日时，控制面板将提供可视指示：
+* **[!UICONTROL Fingerprint]**:钥匙的指纹。
+* **[!UICONTROL Expires]**:密钥的过期日期。 请注意，控制面板将在主要指标接近到期日时提供可视指示：
 
    * 紧急（红色）在30天前显示。
    * 警告（黄色）在60天前显示。
@@ -161,7 +161,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    >[!NOTE]
    >
-   >请注意，控制面板不会发送任何电子邮件通知。
+   >请注意，控制面板不会发送电子邮件通知。
 
 作为最佳实践，我们建议您删除不再需要的任何密钥。 要执行此操作，请单 **击。.** .按钮，然后选 **[!UICONTROL Delete Key]择。**.
 
