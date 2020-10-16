@@ -1,11 +1,11 @@
 ---
 title: 子域品牌化
 description: 详细了解子域品牌化
-translation-type: ht
-source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的子域委派，如有频繁更新和修改，恕不另行通知。
+>控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
 
 ## 为什么要设置子域？{#why-setting-up-subdomains}
 
@@ -33,27 +33,48 @@ ht-degree: 100%
 
 这样，您将能够维护您的域和其他子域的声誉。例如，如果“marketing.mybrand.com”子域由于交付能力不佳而最终被互联网服务提供商加入阻止列表，这将阻止整个“mybrand.com”域和“info.mybrand.com”子域被加入阻止列表。
 
-## 子域委派方法 {#subdomain-delegation-methods}
+## 子域配置方法 {#subdomain-delegation-methods}
 
-子域委派允许您委派域的子部分（技术上称为“DNS 区域”）以与 Adobe Campaign 配合使用。可用的设置方法包括：
+子域配置允许您配置域的子区域（技术上称为“DNS区域”），以便与Adobe Campaign一起使用。 可用的设置方法包括：
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
-* **使用 CNAME**（不建议也不支持通过控制面板）：创建子域，并使用 CNAME 指向 Adobe 特定的记录。使用此设置，Adobe 和客户共同负责维护 DNS。
+* **使用CNAME**:创建子域并使用CNAME指向特定于Adobe的记录。 使用此设置，Adobe 和客户共同负责维护 DNS。
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
-| 委派方法 | 工作原理 | 工作量 |
+| 配置方法 | 工作原理 | 工作量 |
 |---|---|---|
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-有关域委派的其他信息，请参阅[本文档](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
+Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
-如果您对子域委派方法有任何疑问，请联系 Adobe 可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
+如果您对子域配置方法有任何疑问，请联系Adobe交付能力团队，或最终联系客户服务部以请求交付能力咨询。
+
+## 子域的用例(Campaign Classic)(#subdomains-use-cases)
+
+为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参 [](../../subdomains-certificates/using/setting-up-new-subdomain.md)阅)。
+
+可能的用例包括：
+
+* **营销通信**：表示用于商业目的的通信。示例：销售电子邮件营销活动。
+
+* **交易和运营通信**：表示交易通信包含旨在完成收件人已开始的流程的信息。示例：购买确认、密码重置电子邮件。组织通信涉及在组织内外交流信息、想法和观点，不带商业目的。
+
+**根据用例划分子域是实现交付性的最佳实践**。这样，每个子域的信誉将被隔离和受保护。例如，如果营销通信的子域最终被互联网服务提供商添加到阻止列表，您的交易通信子域将不受影响，并且将能够继续发送通信。
+
+**您可以为Marketing和Transactional用例配置子域**:
+
+* 对于营销用例，子域将配置在 **MID**（中间采购）实例上。
+* 对于交易用例，子域将配置在所有 **RT**（消息中心/实时消息递送）实例上，以确保连接性。因此，子域将与您的所有 RT 实例一起运行。
+
+>[!NOTE]
+>
+>如果您使用 Campaign Classic，控制面板将允许您查看哪些 RT/MID 实例已连接到您正在使用的营销实例。有关此的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
 
 **相关主题：**
 
 * [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [委派子域（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
