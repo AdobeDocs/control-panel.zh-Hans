@@ -1,10 +1,10 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 92%
+source-wordcount: '619'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 92%
 >[!NOTE]
 >
 >请注意，控制面板仅供托管在 AWS 上的客户使用，但尚不受支持的混合环境除外。访问控制面板无需升级。请确保您是管理员用户，才可以访问它。
+
+## 2020 年 10 月 {#october-2020}
+
+**使用CNAME的子域配置**
+
+控制面板现在允许您配置子域以直接从接口使用CNAME处理Adobe。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**数据库监视增强功能**
+
+该选 **[!UICONTROL Database monitoring]** 项卡已通过其他指标得到增强，使您能够获得有关占用数据库空间的资源的详细信息。 [阅读更多](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
@@ -43,7 +53,7 @@ ht-degree: 92%
 
 **CNAME 子域的证书管理**
 
-控制面板现在允许您续订已使用 CNAME 方法委派的子域的 SSL 证书。[阅读更多](subdomains-certificates/using/renewing-subdomain-certificate.md)
+控制面板现在允许您续订已使用CNAME方法配置的子域的SSL证书。 [阅读更多](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -63,7 +73,7 @@ Campaign 控制面板具备实时电子邮件警报功能，您可以登录控�
 
 *2020 年 1 月 22 日*
 
-我们为管理员用户添加了新功能，以便从控制面板委派子域和续订 SSL 证书。
+我们为管理员用户添加了新功能，以配置子域和从控制面板续订SSL证书。
 
 有关详细信息，请参阅以下页面：
 * [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
