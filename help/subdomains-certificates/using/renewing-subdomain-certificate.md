@@ -1,11 +1,11 @@
 ---
 title: 续订子域的 SSL 证书
 description: 了解如何续订子域的 SSL 证书
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的子域委派，如有频繁更新和修改，恕不另行通知。
+>控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
 
 ## 关于证书续订 {#about-certificate-renewal-process}
 
@@ -65,6 +65,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
    * **[!UICONTROL Organization]**：官方组织名称。
    * **[!UICONTROL Organization Unit]**：链接到子域的单位（示例：营销、IT）。
    * **[!UICONTROL Instance]**（预填充）：与子域关联的 Campaign 实例的 URL。
+
    ![](assets/renewal3.png)
 
 1. 选择要包含在 CSR 中的子域，然后单击 **[!UICONTROL OK]**。
@@ -100,7 +101,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 购买 SSL 证书后，您可以在实例上安装该证书。继续之前，请确保您了解以下先决条件：
 
 * 证书签名请求 (CSR) 必须是从控制面板中生成的。否则，您将无法从控制面板安装证书。
-* 证书签名请求 (CSR) 应与已委派给 Adobe 的子域相匹配。例如，它不能包含已委派的子域。
+* 证书签名请求(CSR)应与已配置为与Adobe一起使用的子域相匹配。 例如，它不能包含已配置的子域。
 * 证书应具有当前日期。无法安装将来日期的证书，也不能是过期日期（即必须是有效的开始和结束日期）。
 * 证书应由受信任的认证中心 (CA) 颁发，如 Comodo、DigiCert、GoDaddy 等。
 * 证书的大小应为 2048 位，算法应为 RSA。
