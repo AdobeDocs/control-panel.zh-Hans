@@ -1,11 +1,11 @@
 ---
 title: 数据库监控
-description: 了解如何在控制面板中监视活动库
+description: 了解如何在控制面板中监视活动数据库
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3dca1a261c4c92104170f70e6dbd12ba72e61e7d
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 4%
+source-wordcount: '905'
+ht-degree: 0%
 
 ---
 
@@ -24,33 +24,89 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->控制面板中显示的数据库空间量可能不反映合同中指定的数据库空间量。 通常，系统会临时为您提供更大的数据库空间，以确保系统性能。
+>如果控制面板中提供的数据库空间数量不反映合同中指定的数量，请联系客户服务。
 
 ## 监视数据库使用情况 {#monitoring-instances-database}
 
-控制面板允许您监视每个活动实例的数据库使用情况。 为此，请执行以下步骤：
+控制面板允许您监视每个活动实例的数据库使用情况。 为此，请打开 **[!UICONTROL Performance Monitoring]** 卡，然后选择选 **[!UICONTROL Databases]** 项卡。
 
-1. 打开 **[!UICONTROL Performance Monitoring]**&#x200B;卡，然后选择 **[!UICONTROL Databases]** 选项卡。
+从中选择所需的实 **[!UICONTROL Instance List]** 例，以显示有关该实例的数据库容量和已用空间的信息。
 
-1. 从中选择所需的实例 **[!UICONTROL Instance List]**。
-
-   上部区域提供有关实例的数据库容量和已用空间的信息。
-
-   ![](assets/databases_dashboard.png)
-
-   下面的区域以图形形式表示过去7天内最低、平均和最高数据库利用率，以及90%数据库利用率阈值，用红色虚线曲线表示。
-
-   您可以使用右上角的可用过滤器更改显示的时间段。
-
-   为了更好的可读性，您还可以突出显示图形中的一条或多条曲线。 为此，请从图例中选择 **[!UICONTROL Aggregation Type]** 它们。
-
-   将指针悬停在图形上可获取有关所选时间段的详细信息。
-
-   ![](assets/databases_dashboard_detail.png)
+![](assets/databases_dashboard.png)
 
 >[!NOTE]
 >
->此仪表板之外，您还可以在其中一个数据库达到容量时接收通知。 为此，请订阅电子邮 [件警报](../../performance-monitoring/using/email-alerting.md)
+>请注意，此仪表板中的数据将根据在您的活动 **[!UICONTROL Database cleanup technical workflow]** 实例上运行的进行更新(请参 [阅Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) 和 [Campaign Classic文](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) 档)。
+>
+>您可以检查工作流在和度量下面上次运行 **[!UICONTROL Used Space]** 的 **[!UICONTROL Provided Space]** 时间。 请注意，如果工作流自3天以来未运行，我们建议联系Adobe客户关怀团队，以便他们调查工作流为何未运行。
+
+本仪表板中提供了下述其他度量，帮助您分析实例数据库的使用情况：
+
+* [数据库利用率](../../performance-monitoring/using/database-monitoring.md#database-utilization)
+* [存储概述](../../performance-monitoring/using/database-monitoring.md#storage-overview)
+* [十大临时资源](../../performance-monitoring/using/database-monitoring.md#top-10)
+
+### 数据库利用 {#database-utilization}
+
+该 **[!UICONTROL Database utilization]** 区域以图形形式表示过去7天内最低、平均和最高数据库利用率，以及由红色虚线曲线表示的90%数据库利用率阈值。
+
+要更改时间段，请使用图形右上角的可用过滤器。
+
+为了更好的可读性，您还可以突出显示图形中的一条或多条曲线。 为此，请从图例中选择 **[!UICONTROL Aggregation Type]** 它们。
+
+有关特定时间段的更多详细信息，请将指针悬停在图形上以显示有关此时数据库使用情况的信息。
+
+![](assets/databases_dashboard_detail.png)
+
+### 存储概述 {#storage-overview}
+
+该 **[!UICONTROL Storage overview]** 区域以图形形式表示以下用户所占用的空间：
+
+* **[!UICONTROL System resources]**
+
+   请注意，如果系统资源占用了大部分数据库空间，我们建议联系客户关怀。
+
+* **[!UICONTROL Out-of-the-box tables]** 默认情况下，
+* **[!UICONTROL Temporary tables]** 由工作流和投放创造，
+* **[!UICONTROL Non-out of the box tables]** 创建自定义资源后生成。
+
+![](assets/database-storage-overview.png)
+
+单击该 **[!UICONTROL View details]** 按钮可获取有关占用数据库空间的不同资源的更多详细信息。
+
+![](assets/database-storage-details.png)
+
+使用过滤器仅从特定资产类型调整搜索和显示表。
+
+![](assets/database-storage-overview-filter.png)
+
+### 十大临时资源 {#top-10}
+
+该 **[!UICONTROL Top 10 temporary resources]** 地区列表了工作流和投放产生的10大临时资源。
+
+监视正在创建大型临时资源的工作流和投放是监视数据库的关键步骤。 如果任何临时资源占用的投放库空间过多，请确保需要具有此工作流或数据，并最终导航到您的实例以停止它。
+
+>[!IMPORTANT]
+>
+>一般建议是避免 **非开箱即用的** 40列以上的列。
+
+![](assets/database-top10.png)
+
+>[!NOTE]
+>
+>如果发现工作流具有大量表计数或数据库大小，我们建议查看该工作流，以调查它为何生成如此多的数据。
+>
+>Campaign Standard和经典资源也在本页末尾提供，以帮助您防止数据库过载。
+
+该按 **[!UICONTROL View all]** 钮允许您访问这些临时资源的详细信息。
+
+![](assets/database-top10-view.png)
+
+>[!NOTE]
+>
+>列中的值 **[!UICONTROL Keep interim results]** 指示活动中是启用(“1”)还是禁用(“0”)选项。 该选 **[!UICONTROL Keep interim results]** 项可在工作流的属性中访问。 它允许您保存工作流各个过渡之间活动的结果(请参阅 [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html)[和Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) 文档)。
+>
+>如果为某个工作流启用了此选项，则数据库清理工作流将无法回收临时结果占用的空间。 因此，我们建议查看工作流以检查选项是否可以关闭。
 
 ## 防止数据库过载 {#preventing-database-overload}
 
@@ -69,3 +125,8 @@ Campaign Standard和经典优惠防止数据库磁盘空间过度消耗的各种
 * [数据库维护指南](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [数据库性能疑难解答](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [数据库相关选项](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* 数据保留([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
+
+>[!NOTE]
+>
+>此外，当您的某个数据库达到其容量时，您可以接收通知。 为此，请订阅电子邮 [件警报](../../performance-monitoring/using/email-alerting.md)。
