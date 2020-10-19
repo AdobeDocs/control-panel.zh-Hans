@@ -2,9 +2,9 @@
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
 translation-type: tm+mt
-source-git-commit: c215836129487530e50398ca1454895a2f319867
+source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 50%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 50%
 **相关主题：**
 
 * [委派子域（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [使用CNAME配置子域](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+* [使用CNAME配置子域（教程视频）](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## 必读 {#must-read}
