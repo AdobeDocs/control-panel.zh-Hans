@@ -1,10 +1,10 @@
 ---
 title: 产品文档
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## 新增内容
 
-* **子域可交付性审核**
 
-   委派新子域后，控制面板现在允许您跟踪可交付性团队执行的审核。[阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+**使用CNAME的子域配置**
 
-* **GPG 密钥管理**
+控制面板现在允许您配置子域以直接从接口使用CNAME处理Adobe。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   在营销实例上安装和/或生成 GPG 密钥，以加密从 Campaign 发送的数据和解密传入数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
+**数据库监视增强功能**
+
+该选 **[!UICONTROL Database monitoring]** 项卡已通过其他指标得到增强，使您能够获得有关占用数据库空间的资源的详细信息。 [阅读更多](performance-monitoring/using/database-monitoring.md)
 
 ## 其他资源 {#additional-resources}
 
