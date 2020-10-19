@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 79%
 
 **数据库监视增强功能**
 
-该选 **[!UICONTROL Database monitoring]** 项卡已通过其他指标得到增强，使您能够获得有关占用数据库空间的资源的详细信息。 [阅读更多](performance-monitoring/using/database-monitoring.md)
+数据库监视已通过其他指标得到增强，这些指标允许您获取有关占用数据库空间的资源的详细信息。 [阅读更多](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
