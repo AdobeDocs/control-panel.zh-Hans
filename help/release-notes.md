@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 79%
 
 ## 2020 年 10 月 {#october-2020}
 
-**使用CNAME的子域配置**
+**使用 CNAME 的子域配置**
 
-控制面板现在允许您配置子域以直接从接口使用CNAME处理Adobe。 [阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+控制面板现在可让您配置子域以直接从界面使用 CNAME 处理 Adobe。[阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **数据库监视增强功能**
 
@@ -36,8 +36,8 @@ ht-degree: 79%
 **GPG 密钥管理**
 
 现在，控制面板允许您生成一对 GPG 密钥，以便您可以从外部轻松解密进入 Campaign 的数据。此外，我们还添加了一项功能，以便您可以安装公共 GPG 密钥来加密离开 Campaign 的数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **活动用户档案监控**
 
@@ -53,7 +53,7 @@ ht-degree: 79%
 
 **CNAME 子域的证书管理**
 
-控制面板现在允许您续订已使用CNAME方法配置的子域的SSL证书。 [阅读更多](subdomains-certificates/using/renewing-subdomain-certificate.md)
+控制面板现在可让您续订已使用 CNAME 方式配置的子域的 SSL 证书。[阅读更多](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -73,7 +73,7 @@ Campaign 控制面板具备实时电子邮件警报功能，您可以登录控�
 
 *2020 年 1 月 22 日*
 
-我们为管理员用户添加了新功能，以配置子域和从控制面板续订SSL证书。
+我们为管理员用户添加了新功能，以便从控制面板配置子域和续订 SSL 证书。
 
 有关详细信息，请参阅以下页面：
 * [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
