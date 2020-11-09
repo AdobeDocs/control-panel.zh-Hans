@@ -2,10 +2,10 @@
 title: 子域品牌化
 description: 详细了解子域品牌化
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Additional information on domain configuration is available in [this documentati
 
 ## 子域的用例(Campaign Classic)(#subdomains-use-cases)
 
-为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参 [](../../subdomains-certificates/using/setting-up-new-subdomain.md)阅)。
+为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参 [阅设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
 可能的用例包括：
 
