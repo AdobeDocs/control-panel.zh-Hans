@@ -2,10 +2,10 @@
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
 
-本页提供了如何使用完全子域委派或CNAME设置新子域的信息。 本节介绍了这两种方法的全局概念： [](../../subdomains-certificates/using/subdomains-branding.md).
+本页提供了如何使用完全子域委派或CNAME设置新子域的信息。 本节介绍了这两种方法的全局概念： [子域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
 
 **相关主题：**
 
@@ -74,9 +74,9 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain6.png)
 
-提交子域后，控制面板将执行各种检查和配置步骤。 有关此方面的详 []细信息，请参阅(../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration)。
+提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参 [阅子域检查和配置](#subdomain-checks-and-configuration)。
 
-## 使用CNAME的子域配置 {#use-cnames}
+## 使用 CNAME 的子域配置 {#use-cnames}
 
 要使用CNAME配置子域，请执行以下步骤：
 
@@ -112,7 +112,7 @@ Subdomain configuration is available for **production** instances only.
    >
    >请注意，要放置到服务器上的DNS记录将由控制面板保存30天。 在此期间之后，您必须从头开始配置子域。
 
-提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参阅 [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration)。
+提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参 [阅子域检查和配置](#subdomain-checks-and-configuration)。
 
 ## 子域检查和配置 {#subdomain-checks-and-configuration}
 
