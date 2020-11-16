@@ -2,9 +2,9 @@
 title: 子域品牌化
 description: 详细了解子域品牌化
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 如果您对子域配置方法有任何疑问，请联系Adobe交付能力团队，或最终联系客户服务部以请求交付能力咨询。
 
-## 子域的用例(Campaign Classic)(#subdomains-use-cases)
+## 子域的用例(Campaign Classic){#subdomains-use-cases}
 
 为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参 [阅设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
