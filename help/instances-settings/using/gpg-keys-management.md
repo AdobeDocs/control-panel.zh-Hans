@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +30,8 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 **相关主题：**
 
-* [Campaign Standard教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic教程视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 ## 加密数据 {#encrypting-data}
 
@@ -102,7 +104,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 为此，您需要直接从控制面板生成GPG密钥对。
 
-* 公 **钥将** 与外部系统共享，外部系统将使用公钥加密要发送给活动的数据。
+* 公 **钥将** 与外部系统共享，外部系统将使用它加密要发送给活动的数据。
 * 活动 **将使用** 私钥对传入的加密数据进行解密。
 
 要在控制面板中生成密钥对，请执行以下步骤：
