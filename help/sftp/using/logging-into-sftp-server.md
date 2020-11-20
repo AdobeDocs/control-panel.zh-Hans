@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 登录 SFTP 服务器
 description: 了解如何登录SFTP服务器
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +18,7 @@ ht-degree: 5%
 
 登录到服务器之前，请确保：
 
-* 您的SFTP服务器 **由Adobe托管**。
+* 您的SFTP服务器由 **Adobe托管**。
 * 您的&#x200B;**用户名**&#x200B;已为服务器设置。You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * 您有一 **对私钥和公钥** ，用于登录SFTP服务器。 有关如 [何添加](../../sftp/using/key-management.md) SSH密钥的详细信息，请参阅本节。
 * 您 **的公有IP地址已添加到SFTP服务器** 上的允许列表。 否则，请参 [阅本节](../../sftp/using/ip-range-allow-listing.md) ，了解如何将IP范围添加到允许列表。
@@ -28,7 +30,7 @@ ht-degree: 5%
 
    ![](assets/sftp_card.png)
 
-1. 启动SFTP客户端应用程序，从控制面板复制粘贴服务器地址，然后添加“活动.adobe.com”，然后填写您的用户名。
+1. 启动SFTP客户端应用程序，从控制面板复制粘贴服务器地址，然后添加“活动.adobe.com”，然后填写用户名。
 
    ![](assets/do-not-localize/connect1.png)
 
@@ -40,7 +42,7 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/connect3.png)
 
-   您可以通过将私钥或公钥的指纹与SFTP卡的“密钥管理”选项卡中显示的密钥的指纹进行比较，检查您尝试使用的密钥是否保存在控制面板中。
+   您可以通过比较私钥或公钥的指纹与SFTP卡的“密钥管理”选项卡中显示的密钥的指纹，检查您尝试使用的密钥是否已保存在控制面板中。
 
    ![](assets/fingerprint_compare.png)
 
