@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 常见问题
 description: 进一步了解与 SFTP 管理相关的常见问题
-translation-type: ht
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
