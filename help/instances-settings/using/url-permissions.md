@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +57,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的
 
    >[!NOTE]
    >
-   >如果控制面板的主页上未显示“实例设置”卡，则表示您的IMS组织ID未与任何Adobe Campaign经典实例关联
+   >如果控制面板主页上未显示“实例设置”卡，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
    >
    ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
