@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: SFTP 存储管理
 description: 了解如何监控和管理 SFTP 服务器的存储
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
