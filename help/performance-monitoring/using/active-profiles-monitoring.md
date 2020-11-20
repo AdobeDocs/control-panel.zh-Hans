@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 活动用户档案监控
 description: 了解如何获得有关每个 Campaign 实例最新和历史活动用户档案使用情况和演变的实时信息。
-translation-type: ht
-source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
