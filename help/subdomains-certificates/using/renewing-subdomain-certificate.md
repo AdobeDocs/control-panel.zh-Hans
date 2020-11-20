@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 续订子域的 SSL 证书
 description: 了解如何续订子域的 SSL 证书
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
