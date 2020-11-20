@@ -1,10 +1,12 @@
 ---
+product: campaign
+solution: Campaign
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
