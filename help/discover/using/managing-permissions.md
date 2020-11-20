@@ -1,20 +1,22 @@
 ---
-title: 管理控制面板的权限
-description: 了解如何管理控制面板的权限
+product: campaign
+solution: Campaign
+title: 管理控制面板权限
+description: 了解如何管理控制面板权限
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 管理控制面板的权限 {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
-控制面板对活动实例的所有管理员用户可用。 请按照以下步骤将用户分配给管理员组，并授予他们对控制面板的访问权限。
+控制面板对活动实例的所有管理员用户可用。 请按照以下步骤将用户分配给管理员组并授予他们对控制面板的访问权限。
 
-1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择选 **[!UICONTROL Administration]** 项卡。
+1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择 **[!UICONTROL Administration]** 选项卡。
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -40,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您可以为每个活动实例添加不同的管理员用户。 在这种情况下，管理员用户将仅访问其所属的实例的控制面板。
+   >您可以为每个活动实例添加不同的管理员用户。 在这种情况下，管理员用户将仅访问其所属实例的控制面板。
 
 1. 此时会显示选定实例的产品用户档案列表。 单击产 **[!UICONTROL Administrators]** 品用户档案以访问管理员用户的列表。
 
@@ -56,4 +58,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->配置访问权限后，用户必须注销Adobe Experience Cloud，然后重新登录，才能使用访问控制面板。
+>配置访问权限后，用户必须从Adobe Experience Cloud注销，然后重新登录，以便访问控制面板。
