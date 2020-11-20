@@ -1,19 +1,24 @@
 ---
-title: 监视子域的SSL证书
-description: 了解如何监视子域的SSL证书
+product: campaign
+solution: Campaign
+title: 监控子域的 SSL 证书
+description: 了解如何监控子域的 SSL 证书
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 监视子域 {#monitoring-subdomains}
+# 监控子域 {#monitoring-subdomains}
 
-必须监控子域，以确保所有子域都正确配置以与Adobe Campaign配合使用。
+必须监视子域，以确保所有子域都正确配置以使用Adobe Campaign。
 
-在选择卡时，可以直接访问每个生产实例的子域列表 **[!UICONTROL Subdomains & Certificates]** 功能。
+选择卡时，可以直接访问每个生产实例的子域 **[!UICONTROL Subdomains & Certificates]** 列表。
 
-列 **[!UICONTROL Last verification]** 指示上次验证子域的时间。 您可以随时通过单击…… **.** /按 **[!UICONTROL Verify subdomain]** 钮。
+列 **[!UICONTROL Last verification]** 指示上次验证子域的时间。 您可以随时单击……/按 **钮来启** 动验 **[!UICONTROL Verify subdomain]** 证。
 
 ![](assets/subdomain_verification.png)
 
@@ -27,6 +32,6 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 **相关主题：**
 
-* [添加SSL证书（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [续订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [子域品牌](../../subdomains-certificates/using/subdomains-branding.md)
+* [添加 SSL 证书（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [续订子域的 SSL 证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
