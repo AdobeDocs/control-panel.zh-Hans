@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 95%
 
 ---
 
@@ -38,8 +38,6 @@ ht-degree: 0%
 **GPG 密钥管理**
 
 现在，控制面板允许您生成一对 GPG 密钥，以便您可以从外部轻松解密进入 Campaign 的数据。此外，我们还添加了一项功能，以便您可以安装公共 GPG 密钥来加密离开 Campaign 的数据。[阅读更多](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **活动用户档案监控**
 
