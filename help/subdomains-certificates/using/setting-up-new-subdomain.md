@@ -4,7 +4,7 @@ solution: Campaign
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 47%
@@ -20,6 +20,8 @@ ht-degree: 47%
 >abstract="您需要设置一个新子域并管理子域的 SSL 证书，以开始使用 Adobe Campaign 发送电子邮件或发布登陆页面。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
 
+## 必读 {#must-read}
+
 >[!IMPORTANT]
 >
 >控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
@@ -29,8 +31,6 @@ ht-degree: 47%
 **相关主题：**
 
 * [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## 必读 {#must-read}
 
 ### 实例选择
 
