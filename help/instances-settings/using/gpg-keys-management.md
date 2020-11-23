@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1221'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,8 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 实施后，您可以在传输发生之前对传入数据进行解密和加密，以确保没有有效匹配密钥对的任何人都无法访问它们。
 
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html) 此功 [能](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+
 要利用 Campaign 实现 GPG 加密，管理员用户必须直接从控制面板在营销实例上安装和/或生成 GPG 密钥。
 
 然后，您将能够：
@@ -28,16 +30,13 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 * **解密传入数据**:Adobe Campaign使用从控制面板下载的公钥从外部系统接收已加密的数据。 Adobe Campaign使用从控制面板生成的私钥解密数据。
 
-**相关主题：**
-
-* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-
 ## 加密数据 {#encrypting-data}
 
 控制面板允许您加密从 Adobe Campaign 实例中传出的数据。
 
 为此，您需要从PGP加密工具生成GPG密钥对，然后将公钥安装到控制面板中。 然后，您将能够在从实例发送数据之前对其进行加密。 为此，请执行以下步骤：
+
+![](assets/do-not-localize/how-to-video.png) 了解如何使用Campaign Classic或Campaign Standard在视频中生成和安 [装GPG](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) 密 [钥](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
 
 1. 使用遵循OpenPGP规范的PGP加密工具生成公共／私 [钥对](https://www.openpgp.org/about/standard/)。 为此，请安装GPG实用程序或GNuGP软件。
 
@@ -86,7 +85,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 然后该密钥可用于Adobe Campaign工作流。 在使用数据提取活动时，可以使用它加密数据。
 
-有关此内容的详细信息，请参阅Adobe Campaign文档：
+有关本主题的详细信息，请参阅Adobe Campaign文档：
 
 **Campaign Classic:**
 
@@ -98,6 +97,8 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 * [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [用例：使用控制面板上安装的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
+![](assets/do-not-localize/how-to-video.png) 了解如何使用Campaign Classic或Campaign Standard加 [密视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) 中的 [数据](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 ## 解密数据 {#decrypting-data}
 
 控制面板允许您解密传入Adobe Campaign实例的外部数据。
@@ -106,6 +107,8 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 * 公 **钥将** 与外部系统共享，外部系统将使用它加密要发送给活动的数据。
 * 活动 **将使用** 私钥对传入的加密数据进行解密。
+
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
 
 要在控制面板中生成密钥对，请执行以下步骤：
 
