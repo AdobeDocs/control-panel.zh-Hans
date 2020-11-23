@@ -4,10 +4,10 @@ solution: Campaign
 title: 子域品牌化
 description: 详细了解子域品牌化
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '694'
+ht-degree: 79%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html).
 
 如果您对子域配置方法有任何疑问，请联系Adobe交付能力团队，或最终联系客户服务部以请求交付能力咨询。
 
@@ -78,5 +78,4 @@ Additional information on domain configuration is available in [this documentati
 **相关主题：**
 
 * [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
