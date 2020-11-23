@@ -4,10 +4,10 @@ solution: Campaign
 title: IP 允许列表
 description: 了解如何在控制面板中向允许列表添加 IP 地址以进行实例访问
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 0%
 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。为此，请执行以下所述步骤：
 
 将 IP 地址添加到允许列表后，您可以创建 Campaign 运算符并将其链接到它们，以便用户能够访问该实例。
+
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## 最佳做法 {#best-practices}
 
@@ -91,5 +93,5 @@ ht-degree: 0%
 要从允许列表中删除 IP 范围，请选中要删除的 IP 范围，然后单击 **[!UICONTROL Delete IP range]** 按钮。
 
 **相关主题：**
-* [将 IP 添加到允许列表（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+
 * [将安全区域链接到运算符](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
