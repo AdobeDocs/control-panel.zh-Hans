@@ -4,9 +4,9 @@ solution: Campaign
 title: 数据库监控
 description: 了解如何在控制面板中监视活动数据库
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 >如果控制面板中提供的数据库空间数量不反映合同中指定的数量，请联系客户服务。
 
 ## 监视数据库使用情况 {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 控制面板允许您监视每个活动实例的数据库使用情况。 为此，请打开 **[!UICONTROL Performance Monitoring]** 卡，然后选择选 **[!UICONTROL Databases]** 项卡。
 
