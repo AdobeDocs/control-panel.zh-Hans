@@ -4,10 +4,10 @@ solution: Campaign
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1140'
+ht-degree: 47%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **相关主题：**
 
-* [委派子域（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [使用CNAME配置子域（教程视频）](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## 必读 {#must-read}
@@ -50,7 +48,9 @@ Subdomain configuration is available for **production** instances only.
 
 ## 完全子域委派 {#full-subdomain-delegation}
 
-要将子域完全委派给Adobe Campaign，请执行以下步骤：
+要将子域完全委派给Adobe Campaign，请按照以下步骤操作。
+
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
@@ -80,7 +80,9 @@ Subdomain configuration is available for **production** instances only.
 
 ## 使用 CNAME 的子域配置 {#use-cnames}
 
-要使用CNAME配置子域，请执行以下步骤：
+要使用CNAME配置子域，请按照以下步骤操作。
+
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
