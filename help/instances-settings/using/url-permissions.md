@@ -4,10 +4,10 @@ solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,12 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的
 
 添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **相关主题：**
 
 * [配置 Campaign 服务器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [外连接保护](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [添加 URL 权限（教程视频）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## 最佳做法 {#best-practices}
 
