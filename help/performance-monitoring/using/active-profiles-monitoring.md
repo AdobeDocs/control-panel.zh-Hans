@@ -4,23 +4,23 @@ solution: Campaign
 title: 活动用户档案监控
 description: 了解如何获得有关每个 Campaign 实例最新和历史活动用户档案使用情况和演变的实时信息。
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
 
 # 活动用户档案监控{#active-profiles-monitoring}
 
+## 关于活动用户档案 {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。
 >
 >该功能适用于在 AWS 上托管的 Campaign Standard 10368 版本和 Campaign Classic 8931 版本的客户。如果您使用的是以前的版本，则需要升级才能使用此功能。
-
-## 关于活动用户档案 {#about-active-profiles}
 
 根据您的合同，您的每个 Campaign 实例都会配置特定数量的活动用户档案，并对这些活动用户档案进行计数以计费。请参阅您的最新合同，了解已购买的活动用户档案数量。
 
