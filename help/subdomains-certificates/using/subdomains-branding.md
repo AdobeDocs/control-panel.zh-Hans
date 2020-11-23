@@ -4,7 +4,7 @@ solution: Campaign
 title: 子域品牌化
 description: 详细了解子域品牌化
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="监控子域和关联的 SSL 证书。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
 
+## 为什么要设置子域？{#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
-
-## 为什么要设置子域？{#why-setting-up-subdomains}
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（交易消息、营销信息等）。
 
