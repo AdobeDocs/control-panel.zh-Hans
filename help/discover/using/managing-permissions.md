@@ -4,9 +4,9 @@ solution: Campaign
 title: 管理控制面板权限
 description: 了解如何管理控制面板权限
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
 控制面板对活动实例的所有管理员用户可用。 请按照以下步骤将用户分配给管理员组并授予他们对控制面板的访问权限。
+
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en)
 
 1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择 **[!UICONTROL Administration]** 选项卡。
 
