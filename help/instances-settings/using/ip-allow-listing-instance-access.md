@@ -4,7 +4,7 @@ solution: Campaign
 title: IP 允许列表
 description: 了解如何在控制面板中向允许列表添加 IP 地址以进行实例访问
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="向允许列表添加 IP 地址以进行访问实例。"
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="观看演示视频"
 
+## 关于 IP 允许列表 {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >此功能仅适用于 Campaign Classic 实例。
-
-## 关于 IP 允许列表 {#about-ip-allow-listing}
 
 默认情况下，您的 Adobe Campaign Classic 实例无法从各种 IP 地址访问。
 
