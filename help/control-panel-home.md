@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: 产品文档
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 89%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 0%
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/control-panel-overview.html">Campaign Standard 控制面板教程视频</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Campaign Standard 控制面板教程视频</a></li>
             <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html">Campaign Standard 产品文档</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/control-panel-overview.html">Campaign Classic 控制面板教程视频</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Campaign Classic 控制面板教程视频</a></li>
             <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/campaign-classic-home.html">Campaign Classic 产品文档</a></li>
         </ul>
         </td>
