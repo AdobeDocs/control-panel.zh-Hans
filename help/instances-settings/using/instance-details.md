@@ -4,10 +4,10 @@ solution: Campaign
 title: 实例详细信息
 description: 了解如何在控制面板中监控实例详细信息
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 94%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 发行说明"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 发行说明"
 
+## 关于实例详细信息 {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >此功能仅适用于 Campaign Classic 实例。
-
-## 关于实例详细信息 {#about-instance-details}
 
 您的 Adobe Campaign Classic 实例架构可以包含多个服务器，以实现营销活动的灵活性。例如，您可以拥有支持您的实例的营销、实时（或消息中心）和中间采购服务器。
 
