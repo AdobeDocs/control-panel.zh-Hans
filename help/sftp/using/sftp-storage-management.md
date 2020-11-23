@@ -4,10 +4,10 @@ solution: Campaign
 title: SFTP 存储管理
 description: 了解如何监控和管理 SFTP 服务器的存储
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 91%
 
 ---
 
@@ -24,10 +24,7 @@ ht-degree: 0%
 
 您必须定期监控每个 SFTP 服务器的可用空间。否则，您可能无法再在服务器上保存任何其他文件，也无法成功执行依赖此服务器更新的工作流。
 
-**相关主题：**
-
-* [Campaign Standard 教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
-* [Campaign Classic 教程视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 
