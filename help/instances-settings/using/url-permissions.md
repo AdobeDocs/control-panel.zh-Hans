@@ -4,7 +4,7 @@ solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 93%
@@ -20,11 +20,11 @@ ht-degree: 93%
 >abstract="管理 Adobe Campaign 实例可以连接的 URL。"
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="观看演示视频"
 
+## 关于 URL 权限 {#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >此功能仅适用于 8850 及以上版本的 Campaign Classic 实例。如果您使用的是以前的版本，则需要升级才能使用此功能。
-
-## 关于 URL 权限 {#about-url-permissions}
 
 Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默认列表是有限的。这些 URL 允许实例正常运行。
 
