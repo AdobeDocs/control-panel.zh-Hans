@@ -4,10 +4,10 @@ solution: Campaign
 title: 登录 SFTP 服务器
 description: 了解如何登录SFTP服务器
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '348'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 以下步骤详细说明了如何通过SFTP客户端应用程序连接SFTP服务器。
 
-![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](https://video.tv.adobe.com/v/27263?quality=12&captions=chi_hans)
 
 登录到服务器之前，请确保：
 
