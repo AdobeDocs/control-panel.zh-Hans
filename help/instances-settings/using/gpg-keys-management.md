@@ -4,19 +4,19 @@ solution: Campaign
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥以在Adobe Campaign内加密和解密数据。
 translation-type: tm+mt
-source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
+source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 10%
+source-wordcount: '1153'
+ht-degree: 8%
 
 ---
 
 
 # GPG 密钥管理 {#gpg-keys-management}
 
-## 关于GPG加密 {#about-gpg-encryption}
+## 关于GPG加密{#about-gpg-encryption}
 
-GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](https://www.openpgp.org/about/standard/) 。
+GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)规范的公私钥对系统保护数据。
 
 实施后，您可以在传输发生之前对传入数据进行解密和加密，以确保没有有效匹配密钥对的任何人都无法访问它们。
 
@@ -26,17 +26,17 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 * **加密发送的数据**:Adobe Campaign在使用已安装的公钥对数据进行加密后将其发送出去。
 
-* **解密传入数据**:Adobe Campaign使用从控制面板下载的公钥从外部系统接收已加密的数据。 Adobe Campaign使用从控制面板生成的私钥解密数据。
+* **解密传入数据**:Adobe Campaign使用从控制面板下载的公钥从外部系统接收已加密的数据。Adobe Campaign使用从控制面板生成的私钥解密数据。
 
-## 加密数据 {#encrypting-data}
+## 加密数据{#encrypting-data}
 
 控制面板允许您加密从 Adobe Campaign 实例中传出的数据。
 
 为此，您需要从PGP加密工具生成GPG密钥对，然后将公钥安装到控制面板中。 然后，您将能够在从实例发送数据之前对其进行加密。 为此，请执行以下步骤：
 
-![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video-generate-key)
+![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
-1. 使用遵循OpenPGP规范的PGP加密工具生成公共／私 [钥对](https://www.openpgp.org/about/standard/)。 为此，请安装GPG实用程序或GNuGP软件。
+1. 使用遵循[OpenPGP规范](https://www.openpgp.org/about/standard/)的PGP加密工具生成公钥／私钥对。 为此，请安装GPG实用程序或GNuGP软件。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    * **键类型**:RSA
    * **密钥长度**:1024 - 4096比特
-   * **真实姓名** 和电 **子邮件地址**:允许跟踪创建密钥对的人。 输入链接到您的组织或部门的名称和电子邮件地址。
+   * **实** 名和 **电子邮件地址**:允许跟踪创建密钥对的人。输入链接到您的组织或部门的名称和电子邮件地址。
    * **注释**:向注释字段添加标签将帮助您轻松识别用于加密数据的密钥。
    * **过期**:日期或“0”表示无过期日期。
    * **密码**
@@ -61,7 +61,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
    `gpg -a --export <fingerprint>`
 
-1. 要将公钥安装到控制面板中，请打 **[!UICONTROL Instance settings]** 开卡，然后选择 **[!UICONTROL GPG keys]** 选项卡和所需的实例。
+1. 要将公钥安装到控制面板中，请打开&#x200B;**[!UICONTROL Instance settings]**&#x200B;卡，然后选择&#x200B;**[!UICONTROL GPG keys]**&#x200B;选项卡和所需的实例。
 
 1. 单击 **[!UICONTROL Install Key]** 按钮。
 
@@ -77,13 +77,13 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 1. 单击 **[!UICONTROL Install Key]** 按钮。
 
-安装公钥后，该公钥将显示在列表中。 您可以使用。 **..按钮** ，下载它或复制其指纹。
+安装公钥后，该公钥将显示在列表中。 您可以使用&#x200B;**...**&#x200B;按钮下载或复制其指纹。
 
 ![](assets/gpg_install_download.png)
 
 然后该密钥可用于Adobe Campaign工作流。 在使用数据提取活动时，可以使用它加密数据。
 
-![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video-use-key)
+![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
 有关本主题的详细信息，请参阅Adobe Campaign文档：
 
@@ -103,26 +103,26 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 为此，您需要直接从控制面板生成GPG密钥对。
 
-* 公 **钥将** 与外部系统共享，外部系统将使用它加密要发送给活动的数据。
-* 活动 **将使用** 私钥对传入的加密数据进行解密。
+* **公钥**&#x200B;将与外部系统共享，外部系统将使用它加密要发送给活动的数据。
+* 活动将使用&#x200B;**私钥**&#x200B;解密传入的加密数据。
 
-![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video-decrypt)
+![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
 要在控制面板中生成密钥对，请执行以下步骤：
 
-1. 打开卡 **[!UICONTROL Instance settings]** ，然后选择选 **[!UICONTROL GPG keys]** 项卡和所需的Adobe Campaign实例。
+1. 打开&#x200B;**[!UICONTROL Instance settings]**&#x200B;卡，然后选择&#x200B;**[!UICONTROL GPG keys]**&#x200B;选项卡和所需的Adobe Campaign实例。
 
 1. 单击 **[!UICONTROL Generate Key]** 按钮。
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **[!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
+1. 指定键的名称，然后单击&#x200B;**[!UICONTROL Generate Key]**。 此名称将帮助您确定用于解密的活动工作流
 
    ![](assets/gpg_generate_name.png)
 
 生成密钥对后，公共密钥将显示在列表中。 请注意，解密密钥对是在没有过期日期的情况下生成的。
 
-您可以使用。 **..按钮** ，下载公钥或复制其指纹。
+您可以使用&#x200B;**...**&#x200B;按钮，下载公钥或复制其指纹。
 
 ![](assets/gpg_generate_list.png)
 
@@ -142,7 +142,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 
 ## 监视GPG密钥
 
-要访问为实例安装和生成的GPG密钥，请打 **[!UICONTROL Instance settings]** 开卡，然后选择选 **[!UICONTROL GPG keys]** 项卡。
+要访问为实例安装和生成的GPG密钥，请打开&#x200B;**[!UICONTROL Instance settings]**&#x200B;卡，然后选择&#x200B;**[!UICONTROL GPG keys]**&#x200B;选项卡。
 
 ![](assets/gpg_list.png)
 
@@ -156,7 +156,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
    ![](assets/gpg_icon_decrypt.png):已生成密钥以允许数据解密。
 
 * **[!UICONTROL Fingerprint]**:钥匙的指纹。
-* **[!UICONTROL Expires]**:密钥的过期日期。 请注意，控制面板将在主要指标接近到期日时提供可视指示：
+* **[!UICONTROL Expires]**:密钥的过期日期。请注意，控制面板将在主要指标接近到期日时提供可视指示：
 
    * 紧急（红色）在30天前显示。
    * 警告（黄色）在60天前显示。
@@ -166,7 +166,7 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
    >
    >请注意，控制面板不会发送电子邮件通知。
 
-作为最佳实践，我们建议您删除不再需要的任何密钥。 要执行此操作，请单 **击。.** .按钮，然后选 **[!UICONTROL Delete Key]择。**.
+作为最佳实践，我们建议您删除不再需要的任何密钥。 为此，请单击&#x200B;**...**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL Delete Key]。**。
 
 ![](assets/gpg_delete.png)
 
@@ -174,16 +174,11 @@ GPG加密允许您使用遵循OpenPGP规范的公私钥对系统保护 [数据](
 >
 >在删除密钥之前，请确保未在任何Adobe Campaign工作流中使用该密钥以防止其失败。
 
-## 教程视频 {#video}
+## 教程视频{#video}
 
-### 生成和安装用于数据加密的 GPG 密钥 {#video-generate-key}
+以下视频演示如何生成和安装用于数据加密的GPG密钥。
+
+在[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)教程页面中提供了与GPG密钥管理相关的其他操作方法视频。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
-### 使用 GPG 密钥加密数据 {#video-use-key}
-
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
-
-### 解密数据 {#video-decrypt}
-
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
