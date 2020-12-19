@@ -18,15 +18,15 @@ ht-degree: 4%
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
-1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择 **[!UICONTROL Administration]** 选项卡。
+1. 导航到[Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择&#x200B;**[!UICONTROL Administration]**&#x200B;选项卡。
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
-   >如果“ <b>管理</b> ”选项卡不可见，则表示您没有组织的“管理员”权限。 请与组织管理员联系以执行相关步骤。
+   >如果<b>管理</b>选项卡不可见，则表示您没有组织的管理权限。 请与组织管理员联系以执行相关步骤。
 
-1. 单击可 **用链接** ，启动Admin Console。
+1. 通过单击可用链接启动&#x200B;**Admin Console**。
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
@@ -46,7 +46,7 @@ ht-degree: 4%
    >
    >您可以为每个活动实例添加不同的管理员用户。 在这种情况下，管理员用户将仅访问其所属实例的控制面板。
 
-1. 此时会显示选定实例的产品用户档案列表。 单击产 **[!UICONTROL Administrators]** 品用户档案以访问管理员用户的列表。
+1. 此时会显示选定实例的产品用户档案列表。 单击&#x200B;**[!UICONTROL Administrators]**&#x200B;产品用户档案以访问管理员用户的列表。
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ ht-degree: 4%
    >
    >默认情况下，管理员用户属于“管理员”产品用户档案。 根据您的组织配置，可以以不同的方式命名产品用户档案（“admin”、“admins”等）。
 
-1. 此时将显示管理员用户的列表。 单击按 **[!UICONTROL Add User]** 钮以添加所需的用户。
+1. 此时将显示管理员用户的列表。 单击&#x200B;**[!UICONTROL Add User]**&#x200B;按钮以添加所需的用户。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
@@ -62,6 +62,6 @@ ht-degree: 4%
 >
 >配置访问权限后，用户必须从Adobe Experience Cloud注销，然后重新登录，以便访问控制面板。
 
-## 教程视频 {#video}
+## 教程视频{#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
