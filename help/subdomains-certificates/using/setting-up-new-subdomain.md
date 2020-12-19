@@ -6,8 +6,8 @@ description: 了解如何为活动实例设置新子域
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 47%
 >
 >控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
 
-本页提供了如何使用完全子域委派或CNAME设置新子域的信息。 本节介绍了这两种方法的全局概念： [子域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
+本页提供了如何使用完全子域委派或CNAME设置新子域的信息。 本节介绍了这两种方法的全局概念：[子域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
 
 **相关主题：**
 
@@ -34,11 +34,11 @@ ht-degree: 47%
 
 ### 实例选择
 
-Subdomain configuration is available for **production** instances only.
+子域配置仅可用于&#x200B;**production**&#x200B;实例。
 
-如果您在向导中选择的实例之前没有设置子域，则第一个配置的子域将成为该 **实例的主子域** ，而您将来将无法更改它。
+如果您在向导中选择的实例之前没有设置子域，则第一个配置的子域将成为该实例的&#x200B;**主子域**，并且您将来将无法更改它。
 
-因此，将使用 **此主子域** ，为其他子域创建反向DNS记录。 **其他子域的回复地址和退回地址将从主子域生成。**
+因此，将使用此主子域为其他子域创建&#x200B;**反向DNS记录**。 **其他子域的回复地址和退回地址将从主子域生成。**
 
 ### 命名空间配置
 
@@ -50,7 +50,7 @@ Subdomain configuration is available for **production** instances only.
 
 要将子域完全委派给Adobe Campaign，请按照以下步骤操作。
 
-![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 现此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
@@ -66,7 +66,7 @@ Subdomain configuration is available for **production** instances only.
 
 1. 在使用相应的 Adobe 名称服务器信息创建子域后，单击 **[!UICONTROL Next]**。
 
-1. 如果选择了Campaign Classic实例，请为子域选择所需的用例： **营销通信** 或交 **易和运营通信**。 本节介绍子域用例的全 [局概念](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)。
+1. 如果选择了Campaign Classic实例，请为子域选择所需的用例：**营销通信**&#x200B;或&#x200B;**交易和运营通信**。 在[此部分](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了子域用例的全局概念。
 
    ![](assets/subdomain5.png)
 
@@ -76,29 +76,29 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain6.png)
 
-提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参 [阅子域检查和配置](#subdomain-checks-and-configuration)。
+提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参阅[子域检查和配置](#subdomain-checks-and-configuration)。
 
 ## 使用 CNAME 的子域配置 {#use-cnames}
 
 要使用CNAME配置子域，请按照以下步骤操作。
 
-![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 现此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
    ![](assets/subdomain1.png)
 
-1. Select the **[!UICONTROL CNAME]** method, then click **[!UICONTROL Next]**.
+1. 选择&#x200B;**[!UICONTROL CNAME]**&#x200B;方法，然后单击&#x200B;**[!UICONTROL Next]**。
 
    ![](assets/cname-method-selection.png)
 
-1. 如果选择了Campaign Classic实例，请为子域选择所需的用例： **营销通信** 或交 **易和运营通信**。 本节介绍子域用例的全 [局概念](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)。
+1. 如果选择了Campaign Classic实例，请为子域选择所需的用例：**营销通信**&#x200B;或&#x200B;**交易和运营通信**。 在[此部分](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了子域用例的全局概念。
 
    ![](assets/cname-use-case.png)
 
 1. 输入您在托管解决方案中创建的子域，然后单击 **[!UICONTROL Next]**。
 
-   Make sure you fill in the **full name** of the subdomain to setup. 例如，要配置“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
+   确保填写要设置的子域的&#x200B;**全名**。 例如，要配置“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
 
    ![](assets/cname-submit.png)
 
@@ -106,19 +106,19 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/cname-generate-record.png)
 
-1. 确保之前步骤中的所有DNS记录均已生成到域托管解决方案中。 如果所有内容都配置正确，请选择第一个语句，然后单 **[!UICONTROL Submit]** 击进行确认。
+1. 确保之前步骤中的所有DNS记录均已生成到域托管解决方案中。 如果所有内容都配置正确，请选择第一个语句，然后单击&#x200B;**[!UICONTROL Submit]**&#x200B;进行确认。
 
    ![](assets/cname-confirmation.png)
 
    >[!NOTE]
    >
-   >如果要创建记录并稍后提交子域配置，请选择第二个语句，然后单击 **[!UICONTROL Submit later]**。 然后，您将能够直接从子域管理屏幕区域恢复子域 **[!UICONTROL Processing]** 配置。
+   >如果要创建记录并稍后提交子域配置，请选择第二个语句，然后单击&#x200B;**[!UICONTROL Submit later]**。 然后，您将能够直接从子域管理屏幕&#x200B;**[!UICONTROL Processing]**&#x200B;区域恢复子域配置。
    >
    >请注意，要放置到服务器上的DNS记录将由控制面板保存30天。 在此期间之后，您必须从头开始配置子域。
 
-提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参 [阅子域检查和配置](#subdomain-checks-and-configuration)。
+提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参阅[子域检查和配置](#subdomain-checks-and-configuration)。
 
-## 子域检查和配置 {#subdomain-checks-and-configuration}
+## 子域检查和配置{#subdomain-checks-and-configuration}
 
 1. 提交子域后，控制面板将检查它是否正确指向AdobeNS记录，以及此子域不存在权限开始(SOA)记录。
 
@@ -130,7 +130,7 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain7.png)
 
-   You can get more details on the configuration progress by clicking the subdomain configuration **[!UICONTROL Details]** button.
+   单击子域配置&#x200B;**[!UICONTROL Details]**&#x200B;按钮可以获取有关配置进度的更多详细信息。
 
    ![](assets/subdomain_audit.png)
 
