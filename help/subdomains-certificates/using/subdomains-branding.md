@@ -6,8 +6,8 @@ description: 详细了解子域品牌化
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 79%
 
 这样，您将能够维护您的域和其他子域的声誉。例如，如果“marketing.mybrand.com”子域由于交付能力不佳而最终被互联网服务提供商加入阻止列表，这将阻止整个“mybrand.com”域和“info.mybrand.com”子域被加入阻止列表。
 
-## 子域配置方法 {#subdomain-delegation-methods}
+## 子域配置方法{#subdomain-delegation-methods}
 
 子域配置允许您配置域的子区域（技术上称为“DNS区域”），以便与Adobe Campaign一起使用。 可用的设置方法包括：
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
-* **使用CNAME**:创建子域并使用CNAME指向特定于Adobe的记录。 使用此设置，Adobe 和客户共同负责维护 DNS。
+* **使用CNAME**:创建子域并使用CNAME指向特定于Adobe的记录。使用此设置，Adobe 和客户共同负责维护 DNS。
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
@@ -50,13 +50,13 @@ ht-degree: 79%
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html).
+有关域配置的其他信息，请参阅本文档](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)。[
 
 如果您对子域配置方法有任何疑问，请联系Adobe交付能力团队，或最终联系客户服务部以请求交付能力咨询。
 
 ## 子域的用例(Campaign Classic){#subdomains-use-cases}
 
-为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参 [阅设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
+在为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 
 可能的用例包括：
 
