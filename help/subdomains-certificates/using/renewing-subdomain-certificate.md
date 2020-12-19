@@ -6,8 +6,8 @@ description: 了解如何续订子域的 SSL 证书
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 1. **安装 SSL 证书**
 购买 SSL 证书后，可将其安装到所需子域。
 
-![](assets/do-not-localize/how-to-video.png) 使用Campaign Classic或Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 现此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## 生成证书签名请求 (CSR) {#generating-csr}
 
@@ -49,7 +49,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 >id="cp_select_subdomains"
 >title="选择 CSR的子域"
 >abstract="您可以选择在证书签名请求中包含所有子域或仅包含特定子域。只有选定的子域将通过购买的 SSL 证书进行认证。"
->additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="生成证书签名请求 (CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="生成证书签名请求 (CSR)"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
 
 要生成证书签名请求 (CSR)，请执行以下步骤：
@@ -100,7 +100,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 >id="cp_install_ssl_certificate"
 >title="安装 SSL 证书"
 >abstract="安装从您的组织批准的认证中心购买的 SSL 证书。"
->additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
 
 购买 SSL 证书后，您可以在实例上安装该证书。继续之前，请确保您了解以下先决条件：
 
