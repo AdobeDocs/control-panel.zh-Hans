@@ -12,11 +12,11 @@ ht-degree: 14%
 ---
 
 
-# 关于性能监视 {#about-performance-monitoring}
+# 关于性能监视{#about-performance-monitoring}
 
 控制面板提供多种功能，帮助您监控实例并确保最佳性能。
 
-控制面板 **[!UICONTROL Performance monitoring]** 主页中的卡允许您监视活动实例的使用情况，例如，其数据库容量。 如需详细信息，请参阅[此部分](../../performance-monitoring/using/database-monitoring.md)。
+控制面板主页中的&#x200B;**[!UICONTROL Performance monitoring]**&#x200B;卡允许您监视活动实例的使用情况，例如，其数据库容量。 如需详细信息，请参阅[此部分](../../performance-monitoring/using/database-monitoring.md)。
 
 ![](assets/performance_card.png)
 
