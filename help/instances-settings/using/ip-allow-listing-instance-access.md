@@ -6,8 +6,8 @@ description: 了解如何在控制面板中向允许列表添加 IP 地址以进
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
