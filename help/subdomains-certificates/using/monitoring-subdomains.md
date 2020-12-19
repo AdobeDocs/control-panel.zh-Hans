@@ -16,9 +16,9 @@ ht-degree: 16%
 
 必须监视子域，以确保所有子域都正确配置以使用Adobe Campaign。
 
-选择卡时，可以直接访问每个生产实例的子域 **[!UICONTROL Subdomains & Certificates]** 列表。
+选择&#x200B;**[!UICONTROL Subdomains & Certificates]**&#x200B;卡时，可以直接访问每个生产实例的子域列表。
 
-列 **[!UICONTROL Last verification]** 指示上次验证子域的时间。 您可以随时单击……/按 **钮来启** 动验 **[!UICONTROL Verify subdomain]** 证。
+**[!UICONTROL Last verification]**&#x200B;列指示上次验证子域的时间。 您可以随时单击&#x200B;**启动验证……** / **[!UICONTROL Verify subdomain]**&#x200B;按钮。
 
 ![](assets/subdomain_verification.png)
 
