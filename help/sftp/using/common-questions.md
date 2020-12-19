@@ -6,8 +6,8 @@ description: 进一步了解与 SFTP 管理相关的常见问题
 translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 
