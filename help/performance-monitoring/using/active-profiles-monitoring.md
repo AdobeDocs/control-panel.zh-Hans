@@ -4,10 +4,10 @@ solution: Campaign
 title: 活动用户档案监控
 description: 了解如何获得有关每个 Campaign 实例最新和历史活动用户档案使用情况和演变的实时信息。
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 >活动用户档案基于每天在您的实例上运行的专用技术工作流进行计数：
 >
 >* Campaign Standard 的[“计费](https://docs.adobe.com/help/zh-Hans/campaign-standard/using/administrating/application-settings/technical-workflows.html)”工作流，
->* Campaign Classic [的“活动计费用户档案的数量”](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html)工作流。
+>* Campaign Classic [的“活动计费用户档案的数量”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)工作流。
 
 
 下面的区域以图形形式显示了过去 30 天内活动用户档案的使用情况。您可以使用右上角的可用过滤器将显示的时间段更改为 1 年。
