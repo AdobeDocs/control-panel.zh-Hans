@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: IP 允许列表
 description: 了解如何在控制面板中向允许列表添加 IP 地址以进行实例访问
+feature: 控制面板
+role: 架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '769'
+ht-degree: 94%
 
 ---
 
