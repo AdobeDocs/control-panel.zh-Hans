@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 监控子域的 SSL 证书
 description: 了解如何监控子域的 SSL 证书
+feature: 控制面板
+role: 架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '393'
+ht-degree: 92%
 
 ---
 
@@ -18,9 +21,9 @@ ht-degree: 0%
 
 Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收集客户敏感信息的子域。
 
-**SSL（安全套接字层）** 加密确保配置用于Adobe的子域是安全的。当客户填写 Web 表单或访问由 Adobe Campaign 托管的登陆页面时，默认情况下，信息会通过非安全协议 (HTTP) 发送。为确保获得额外的安全性，请使用 HTTPS 协议保护已发送的信息。例如，您的“http://info.mywebsite.com/”子域地址现在将为“https://info.mywebsite.com/”。
+**SSL（安全套接字层）** 加密可确保您配置为使用Adobe的子域是安全的。当客户填写 Web 表单或访问由 Adobe Campaign 托管的登陆页面时，默认情况下，信息会通过非安全协议 (HTTP) 发送。为确保获得额外的安全性，请使用 HTTPS 协议保护已发送的信息。例如，您的“http://info.mywebsite.com/”子域地址现在将为“https://info.mywebsite.com/”。
 
-**配置的子域本身未安装SSL证书**。它们安装在关联的子域上，主要是托管登陆页面、资源页面等页面的子域。
+**配置的子域本身上未安装SSL证书**。它们安装在关联的子域上，主要是托管登陆页面、资源页面等页面的子域。
 
 **SSL 证书在特定时间段内提供**（1 年、60 天等）。一旦证书过期，您在访问登陆页面或使用子域的资源时可能会遇到问题。为防止出现这种情况，控制面板允许您监视子域的 SSL 证书，并启动其续订过程。
 
