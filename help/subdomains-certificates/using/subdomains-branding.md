@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 子域品牌化
 description: 详细了解子域品牌化
+feature: 控制面板
+role: 架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
+>该控制面板的子域配置在测试版中可用，并且可能会频繁更新和修改，恕不另行通知。
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（交易消息、营销信息等）。
 
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 ## 子域配置方法{#subdomain-delegation-methods}
 
-子域配置允许您配置域的子区域（技术上称为“DNS区域”），以便与Adobe Campaign一起使用。 可用的设置方法包括：
+子域配置允许您配置域的子区域（技术上是“DNS区域”），以便与Adobe Campaign一起使用。 可用的设置方法包括：
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
@@ -52,11 +55,11 @@ ht-degree: 0%
 
 有关域配置的其他信息，请参阅本文档](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)。[
 
-如果您对子域配置方法有任何疑问，请联系Adobe交付能力团队，或最终联系客户服务部以请求交付能力咨询。
+如果您对子域配置方法有任何疑问，请联系Adobe Deliverability团队，或最终联系客户服务部门请求可交付性咨询。
 
 ## 子域的用例(Campaign Classic){#subdomains-use-cases}
 
-在为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
+为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 
 可能的用例包括：
 
