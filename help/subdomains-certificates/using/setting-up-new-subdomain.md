@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
+feature: 控制面板
+role: 架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1144'
+ht-degree: 47%
 
 ---
 
@@ -24,9 +27,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->控制面板的子域配置在测试版中可用，并且如有频繁更新和修改，恕不另行通知。
+>该控制面板的子域配置在测试版中可用，并且可能会频繁更新和修改，恕不另行通知。
 
-本页提供了如何使用完全子域委派或CNAME设置新子域的信息。 本节介绍了这两种方法的全局概念：[子域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
+本页提供了有关如何使用完整子域委派或CNAME设置新子域的信息。 本节介绍了有关这两种方法的全局概念：[子域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
 
 **相关主题：**
 
@@ -36,9 +39,9 @@ ht-degree: 0%
 
 子域配置仅可用于&#x200B;**production**&#x200B;实例。
 
-如果您在向导中选择的实例之前没有设置子域，则第一个配置的子域将成为该实例的&#x200B;**主子域**，并且您将来将无法更改它。
+如果您在向导中选择的实例之前没有设置子域，则第一个配置的子域将成为该实例的&#x200B;**主子域**，而您将来将无法更改它。
 
-因此，将使用此主子域为其他子域创建&#x200B;**反向DNS记录**。 **其他子域的回复地址和退回地址将从主子域生成。**
+因此，将为使用此主子域的其他子域创建&#x200B;**反向DNS记录**。 **其他子域的回复地址和退回地址将从主子域生成。**
 
 ### 命名空间配置
 
@@ -48,9 +51,9 @@ ht-degree: 0%
 
 ## 完全子域委派 {#full-subdomain-delegation}
 
-要将子域完全委派给Adobe Campaign，请按照以下步骤操作。
+要将子域完全委派到Adobe Campaign，请执行以下步骤。
 
-![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 现此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
@@ -60,13 +63,13 @@ ht-degree: 0%
 
    ![](assets/subdomain3.png)
 
-1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/30175?captions=chi_hans)。
+1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/30175)。
 
    ![](assets/subdomain4.png)
 
 1. 在使用相应的 Adobe 名称服务器信息创建子域后，单击 **[!UICONTROL Next]**。
 
-1. 如果选择了Campaign Classic实例，请为子域选择所需的用例：**营销通信**&#x200B;或&#x200B;**交易和运营通信**。 在[此部分](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了子域用例的全局概念。
+1. 如果选择了Campaign Classic实例，请为子域选择所需的用例：**营销通信**&#x200B;或&#x200B;**交易和运营通信**。 有关子域用例的全局概念在[本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍。
 
    ![](assets/subdomain5.png)
 
@@ -80,9 +83,9 @@ ht-degree: 0%
 
 ## 使用 CNAME 的子域配置 {#use-cnames}
 
-要使用CNAME配置子域，请按照以下步骤操作。
+要使用CNAME配置子域，请执行以下步骤。
 
-![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 现此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
@@ -92,7 +95,7 @@ ht-degree: 0%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果选择了Campaign Classic实例，请为子域选择所需的用例：**营销通信**&#x200B;或&#x200B;**交易和运营通信**。 在[此部分](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了子域用例的全局概念。
+1. 如果选择了Campaign Classic实例，请为子域选择所需的用例：**营销通信**&#x200B;或&#x200B;**交易和运营通信**。 有关子域用例的全局概念在[本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍。
 
    ![](assets/cname-use-case.png)
 
@@ -102,11 +105,11 @@ ht-degree: 0%
 
    ![](assets/cname-submit.png)
 
-1. 将显示要放入DNS服务器的记录列表。 逐个复制这些记录，或通过下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
+1. 此时将显示要置入DNS服务器的记录列表。 逐个复制这些记录，或通过下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
 
    ![](assets/cname-generate-record.png)
 
-1. 确保之前步骤中的所有DNS记录均已生成到域托管解决方案中。 如果所有内容都配置正确，请选择第一个语句，然后单击&#x200B;**[!UICONTROL Submit]**&#x200B;进行确认。
+1. 确保之前步骤中的所有DNS记录均已生成到域托管解决方案中。 如果所有内容都配置正确，请选择第一条语句，然后单击&#x200B;**[!UICONTROL Submit]**&#x200B;进行确认。
 
    ![](assets/cname-confirmation.png)
 
@@ -114,27 +117,27 @@ ht-degree: 0%
    >
    >如果要创建记录并稍后提交子域配置，请选择第二个语句，然后单击&#x200B;**[!UICONTROL Submit later]**。 然后，您将能够直接从子域管理屏幕&#x200B;**[!UICONTROL Processing]**&#x200B;区域恢复子域配置。
    >
-   >请注意，要放置到服务器上的DNS记录将由控制面板保存30天。 在此期间之后，您必须从头开始配置子域。
+   >请注意，要放置在服务器上的DNS记录将由控制面板保存30天。 在此期间之后，您必须从头开始配置子域。
 
 提交子域后，控制面板将执行各种检查和配置步骤。 有关详细信息，请参阅[子域检查和配置](#subdomain-checks-and-configuration)。
 
 ## 子域检查和配置{#subdomain-checks-and-configuration}
 
-1. 提交子域后，控制面板将检查它是否正确指向AdobeNS记录，以及此子域不存在权限开始(SOA)记录。
+1. 提交子域后，控制面板将检查它是否正确指向AdobeNS记录，以及此子域不存在授权开始(SOA)记录。
 
    >[!NOTE]
    >
-   >请注意，当子域配置运行时，通过控制面板的其他请求将输入队列并仅在子域配置完成后执行，以防止出现任何性能问题。
+   >请注意，当子域配置运行时，通过该控制面板的其他请求将输入队列并仅在子域配置完成后执行，以防止出现任何性能问题。
 
 1. 如果检查成功，控制面板将开始设置包含 DNS 记录、其他 URL、收件箱等的子域。
 
    ![](assets/subdomain7.png)
 
-   单击子域配置&#x200B;**[!UICONTROL Details]**&#x200B;按钮可以获取有关配置进度的更多详细信息。
+   单击子域配置&#x200B;**[!UICONTROL Details]**&#x200B;按钮可以获取有关配置进度的详细信息。
 
    ![](assets/subdomain_audit.png)
 
-1. 最终，**可交付性团队**&#x200B;将收到有关新子域的通知，以便对其进行审核。在子域配置完成后，审核过程最长可能需要10个工作日。
+1. 最终，**可交付性团队**&#x200B;将收到有关新子域的通知，以便对其进行审核。在子域配置后，审核过程最长可能需要10个工作日。
 
    >[!IMPORTANT]
    >
