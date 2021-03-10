@@ -3,22 +3,25 @@ product: campaign
 solution: Campaign
 title: 监控子域的 SSL 证书
 description: 了解如何监控子域的 SSL 证书
+feature: 控制面板
+role: 架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '146'
+ht-degree: 17%
 
 ---
 
 
 # 监控子域 {#monitoring-subdomains}
 
-必须监视子域，以确保所有子域都正确配置以使用Adobe Campaign。
+必须监控子域，以确保所有子域都正确配置以与Adobe Campaign一起使用。
 
-选择&#x200B;**[!UICONTROL Subdomains & Certificates]**&#x200B;卡时，可以直接访问每个生产实例的子域列表。
+在选择&#x200B;**[!UICONTROL Subdomains & Certificates]**&#x200B;卡时，可以直接访问每个生产实例的子域列表。
 
-**[!UICONTROL Last verification]**&#x200B;列指示上次验证子域的时间。 您可以随时单击&#x200B;**启动验证……** / **[!UICONTROL Verify subdomain]**&#x200B;按钮。
+**[!UICONTROL Last verification]**&#x200B;列指示上次验证子域的时间。 您可以随时单击&#x200B;**...** / **[!UICONTROL Verify subdomain]**&#x200B;按钮。
 
 ![](assets/subdomain_verification.png)
 
