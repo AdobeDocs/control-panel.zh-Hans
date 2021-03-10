@@ -2,10 +2,13 @@
 product: campaign
 solution: Campaign
 title: 控制面板版本
+feature: 控制面板
+role: 架构师
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 95%
 
 ---
@@ -27,7 +30,7 @@ ht-degree: 95%
 
 **数据库监视增强功能**
 
-数据库监视已通过其他指标得到增强，这些指标允许您获取有关占用数据库空间的资源的详细信息。 [阅读更多](performance-monitoring/using/database-monitoring.md)
+数据库监视功能已得到增强，增加了一些指标，使您能够获得有关占用数据库空间的资源的详细信息。 [阅读更多](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
