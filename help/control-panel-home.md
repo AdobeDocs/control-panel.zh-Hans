@@ -2,11 +2,14 @@
 product: campaign
 solution: Campaign
 title: 产品文档
-translation-type: ht
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+feature: 控制面板
+role: 架构师
+level: 初学者
+translation-type: tm+mt
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 98%
 
 ---
 
