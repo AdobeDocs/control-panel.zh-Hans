@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 登录 SFTP 服务器
 description: 了解如何登录SFTP服务器
+feature: 控制面板
+role: 架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 7%
 
 ---
 
@@ -16,15 +19,15 @@ ht-degree: 0%
 
 以下步骤详细说明了如何通过SFTP客户端应用程序连接SFTP服务器。
 
-![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](https://video.tv.adobe.com/v/27263?quality=12&captions=chi_hans)
+![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](https://video.tv.adobe.com/v/27263?quality=12)
 
-登录到服务器之前，请确保：
+在登录到服务器之前，请确保：
 
 * 您的SFTP服务器由Adobe **托管。**
 * 您的&#x200B;**用户名**&#x200B;已为服务器设置。您可以直接在控制面板中，在SFTP卡的&#x200B;**密钥管理**&#x200B;选项卡中检查此信息。
 * 您有一个&#x200B;**私钥对和公钥对** ，用于登录SFTP服务器。 有关如何添加SSH密钥的详细信息，请参阅[本节](../../sftp/using/key-management.md)。
-* 您的&#x200B;**公共IP地址已添加到SFTP服务器上的允许列表**。 否则，请参阅[本节](../../sftp/using/ip-range-allow-listing.md)以了解有关如何将IP范围添加到允许列表的详细信息。
-* 您有权访问&#x200B;**SFTP客户端软件**。 您可以咨询IT部门，了解他们推荐使用的SFTP客户端应用程序，或在Internet上搜索(如果公司策略允许)。
+* 您的&#x200B;**公用IP地址已添加到SFTP服务器上的允许列表**。 如果没有，请参阅[本节](../../sftp/using/ip-range-allow-listing.md)，了解有关如何将IP范围添加到允许列表的详细信息。
+* 您可以访问&#x200B;**SFTP客户端软件**。 您可以咨询IT部门，了解他们建议使用的SFTP客户端应用程序，或在Internet上搜索(如果公司策略允许)。
 
 要连接到SFTP服务器，请执行以下步骤：
 
@@ -32,19 +35,19 @@ ht-degree: 0%
 
    ![](assets/sftp_card.png)
 
-1. 启动SFTP客户端应用程序，从控制面板复制粘贴服务器地址，然后添加“活动.adobe.com”，然后填写用户名。
+1. 启动您的SFTP客户端应用程序，然后从控制面板复制粘贴服务器地址，然后添加“活动.adobe.com”，然后填写您的用户名。
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 在&#x200B;**[!UICONTROL SSH Private Key]**&#x200B;字段中，选择存储在计算机中的私钥文件。 它对应一个与公钥同名的文本文件，不带“.pub”扩展名（如“enable”）。
+1. 在&#x200B;**[!UICONTROL SSH Private Key]**&#x200B;字段中，选择存储在计算机中的私钥文件。 它对应于一个与公钥同名的文本文件，不带“.pub”扩展名（例如“enable”）。
 
    ![](assets/do-not-localize/connect2.png)
 
-   **[!UICONTROL Password]**&#x200B;字段会自动填写文件中的私钥。
+   **[!UICONTROL Password]**&#x200B;字段将自动填充文件中的私钥。
 
    ![](assets/do-not-localize/connect3.png)
 
-   您可以通过比较私钥或公钥的指纹与SFTP卡的“密钥管理”选项卡中显示的密钥的指纹，检查您尝试使用的密钥是否已保存在控制面板中。
+   您可以通过将私钥或公钥的指纹与SFTP卡的“密钥管理”选项卡中显示的密钥的指纹进行比较，来检查您尝试使用的密钥是否保存在控制面板中。
 
    ![](assets/fingerprint_compare.png)
 
@@ -54,6 +57,6 @@ ht-degree: 0%
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 填写所有信息后，单击&#x200B;**[!UICONTROL Connect]**&#x200B;登录SFTP服务器。
+1. 所有信息填写完毕后，单击&#x200B;**[!UICONTROL Connect]**&#x200B;登录SFTP服务器。
 
    ![](assets/do-not-localize/sftpconnected.png)
