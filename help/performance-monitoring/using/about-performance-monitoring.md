@@ -2,12 +2,15 @@
 product: campaign
 solution: Campaign
 title: 关于性能监视
-description: 了解如何在控制面板中监视实例性能
+description: 了解如何在控制面板中监控实例性能
+feature: 控制面板
+role: 架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 14%
+source-wordcount: '116'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->在即将发布的控制面板版本中，此卡将提供其他监控功能。
+>随着即将发布的控制面板版本，此卡中将提供其他监视功能。
 
 此外，控制面板允许您注册以在每次检测到某个活动实例出现问题时接收电子邮件通知。 如需详细信息，请参阅[此部分](../../performance-monitoring/using/email-alerting.md)。
 
