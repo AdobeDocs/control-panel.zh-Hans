@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 常见问题
 description: 进一步了解与 SFTP 管理相关的常见问题
+feature: 控制面板
+role: 架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '113'
+ht-degree: 98%
 
 ---
 
