@@ -7,7 +7,7 @@ feature: 控制面板
 role: 架构师
 level: 初学者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ ht-degree: 99%
 >
 >请注意，访问控制面板不需要升级到最新的 Campaign 版本。
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="条件" src="assets/do-not-localize/discover.png"/></a>
