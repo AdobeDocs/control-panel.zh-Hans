@@ -7,10 +7,10 @@ feature: 控制面板
 role: 架构师
 level: 初学者
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 71%
 
 ---
 
@@ -32,9 +32,10 @@ ht-degree: 99%
 * 根据需要控制访问设置，从而增强安全性。
 
 >[!NOTE]
->控制面板仅可供管理员用户访问，并可供托管在 AWS 上的所有客户使用，但尚不受支持的混合环境除外。[此部分](../../discover/using/managing-permissions.md)将详细介绍授予用户管理员访问权限的步骤。要检查您的实例是否托管在 AWS 上，请按照[此部分](../../faq.md)详述的步骤操作。
 >
->请注意，访问控制面板不需要升级到最新的 Campaign 版本。
+>控制面板可供所有管理员用户访问。 [此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
+>
+>对于Campaign Classic，请注意，您的实例必须托管在AWS上，并使用最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)版本或最新的[ GA版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)进行升级。 了解如何在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)中检查您的版本。 要检查您的实例是否托管在AWS上，请按照[本页](../../faq.md)中详细介绍的步骤操作。
 
 <table style="table-layout:fixed">
 <tr>
