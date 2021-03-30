@@ -7,10 +7,10 @@ feature: 控制面板
 role: 架构师
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '366'
+ht-degree: 95%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。
->
->该功能适用于在 AWS 上托管的 Campaign Standard 10368 版本和 Campaign Classic 8931 版本的客户。如果您使用的是以前的版本，则需要升级才能使用此功能。
+>测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。可从Campaign Standard 10368内部版本获得。
 
 根据您的合同，您的每个 Campaign 实例都会配置特定数量的活动用户档案，并对这些活动用户档案进行计数以计费。请参阅您的最新合同，了解已购买的活动用户档案数量。
 
