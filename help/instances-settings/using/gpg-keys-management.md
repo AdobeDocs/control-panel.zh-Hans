@@ -7,9 +7,9 @@ feature: 控制面板
 role: 架构师
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1151'
 ht-degree: 8%
 
 ---
@@ -92,13 +92,13 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 **Campaign Classic:**
 
-* [压缩或加密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [压缩或加密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [用例：使用安装在控制面板上的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [管理加密数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [用例：使用安装在控制面板上的密钥加密和导出数据](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [用例：使用安装在控制面板上的密钥加密和导出数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## 解密数据 {#decrypting-data}
 
@@ -135,8 +135,8 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 **Campaign Classic:**
 
-* [在处理之前解压缩或解密文件](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [用例：导入使用由控制面板生成的密钥加密的数据](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [在处理之前解压缩或解密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
+* [用例：导入使用由控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
@@ -169,19 +169,19 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
    >
    >请注意，控制面板不会发送任何电子邮件通知。
 
-作为最佳实践，我们建议您删除不再需要的任何密钥。 要执行此操作，请单击&#x200B;**...**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL Delete Key]。**。
+作为最佳做法，我们建议您删除您不再需要的任何密钥。 为此，请单击&#x200B;**...**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL Delete Key]。**。
 
 ![](assets/gpg_delete.png)
 
 >[!IMPORTANT]
 >
->在删除密钥之前，请确保未在任何Adobe Campaign工作流中使用该密钥以防止其失败。
+>在删除密钥之前，请确保在任何Adobe Campaign工作流中未使用该密钥，以防止其失败。
 
 ## 教程视频{#video}
 
-以下视频演示如何生成和安装用于数据加密的GPG密钥。
+以下视频演示了如何生成和安装用于数据加密的GPG密钥。
 
-[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)教程页中提供了与GPG密钥管理相关的其他操作方法视频。
+在[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)教程页面中提供了与GPG键管理相关的其他操作说明视频。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
