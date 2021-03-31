@@ -7,9 +7,9 @@ feature: 控制面板
 role: 架构师
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,9 @@ ht-degree: 0%
 >
 >请注意，此仪表板中的数据将根据运行在活动实例上的&#x200B;**[!UICONTROL Database cleanup technical workflow]**&#x200B;更新(请参阅[Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)和[Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)文档)。
 >
->您可以检查工作流上次在&#x200B;**[!UICONTROL Used Space]**&#x200B;和&#x200B;**[!UICONTROL Provided Space]**&#x200B;量度下运行的时间。 请注意，如果工作流自3天以来未运行，我们建议联系Adobe客户关怀团队，以便他们调查工作流为何未运行。
+>您可以选择检查，当您的某个数据库到达其上次运行&#x200B;**[!UICONTROL Used Space]**&#x200B;和&#x200B;**[!UICONTROL Provided Space]**&#x200B;量度下的工作流时，您会收到通知。 请注意，如果工作流自3天以来未运行，我们建议联系Adobe客户关怀团队，以便他们调查工作流为何未运行。
 
-本仪表板中提供了下面所述的其他量度，帮助您分析实例数据库的使用情况：
-
-* [数据库利用率](../../performance-monitoring/using/database-monitoring.md#database-utilization)
-* [存储概述](../../performance-monitoring/using/database-monitoring.md#storage-overview)
-* [前10名临时资源](../../performance-monitoring/using/database-monitoring.md#top-10)
+本仪表板中提供了下面所述的其他量度，帮助您分析实例数据库的使用情况。
 
 ### 数据库利用率{#database-utilization}
 
@@ -130,7 +126,7 @@ Campaign Standard和经典优惠防止数据库磁盘空间过度消耗的各种
 
 * 数据库清理技术工作流([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [数据库维护指南](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
-* [数据库性能疑难解答](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
+* [数据库性能疑难解答](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html) (Campaign Classic)
 * [数据库相关选项](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
 * 数据保留([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
