@@ -7,7 +7,7 @@ feature: 控制面板
 role: 架构师
 level: 中间
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 该控制面板对活动实例的所有管理员用户可用。 请按照以下步骤将用户分配给管理员组并授予他们对控制面板的访问权限。
 
-![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](../../discover/using/managing-permissions.md#video)
 
 1. 导航到[Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后选择&#x200B;**[!UICONTROL Administration]**&#x200B;选项卡。
 
