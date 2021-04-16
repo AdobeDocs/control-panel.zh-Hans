@@ -4,13 +4,13 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: Control Panel 指南
 feature: 控制面板
-role: 架构师
-level: 初学者
-translation-type: tm+mt
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
