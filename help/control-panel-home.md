@@ -3,16 +3,16 @@ product: campaign
 solution: Campaign
 title: 产品文档
 feature: 控制面板
-role: 架构师
-level: 初学者
-translation-type: tm+mt
-source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
-workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 58%
+role: Architect
+level: Beginner
+exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '225'
+ht-degree: 100%
 
 ---
-
 
 # 帮助中心 {#control-panel-documentation}
 
@@ -31,9 +31,9 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->控制面板可供所有管理员用户访问。 [此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
+>所有管理员用户都可访问控制面板。[此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
 >
->对于Campaign Classic，请注意，您的实例必须托管在AWS上，并使用最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)版本或最新的[ GA版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)进行升级。 了解如何在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)中检查您的版本。 要检查您的实例是否托管在AWS上，请按照[本页](faq.md)中详细介绍的步骤操作。
+>对于 Campaign Classic，请注意，您的实例必须托管在 AWS 上，并使用最新的 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hans) 版本或最新的[ GA 版本 (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans#release-notes) 进行升级。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
 
 ## 其他资源 {#additional-resources}
 
