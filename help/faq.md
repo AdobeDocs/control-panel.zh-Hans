@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 控制面板常见问题解答
 description: 与控制面板相关的常见问题
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d

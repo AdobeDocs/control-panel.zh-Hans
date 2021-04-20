@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 密钥管理
 description: 了解如何管理密钥以连接到 SFTP 服务器
-feature: 控制面板
-role: 架构师
-level: 富有经验
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

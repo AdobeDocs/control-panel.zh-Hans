@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 访问控制面板
 description: 了解如何访问控制面板
-feature: 控制面板
-role: 架构师
-level: 初学者
+feature: Control Panel
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt

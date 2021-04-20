@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: 控制面板
 audience: end-user
 user-guide-title: Control Panel 指南
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: ht

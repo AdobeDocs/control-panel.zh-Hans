@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 控制面板版本
 description: 最新控制面板发行说明。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa

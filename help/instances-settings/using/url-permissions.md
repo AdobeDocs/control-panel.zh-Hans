@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
-feature: 控制面板
-role: 架构师
-level: 中间
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

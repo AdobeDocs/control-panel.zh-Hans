@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 子域品牌化
 description: 详细了解子域品牌化
-feature: 控制面板
-role: 架构师
-level: 中间
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

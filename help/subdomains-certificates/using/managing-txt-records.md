@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 管理 TXT 记录
 description: 了解如何管理 TXT 记录以进行域所有权验证。
-feature: 控制面板
-role: 架构师
-level: 富有经验
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

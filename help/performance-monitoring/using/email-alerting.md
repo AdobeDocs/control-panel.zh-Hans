@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 电子邮件警报
 description: 了解如何在活动实例出现问题时接收电子邮件通知
-feature: 控制面板
-role: 架构师
-level: 富有经验
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

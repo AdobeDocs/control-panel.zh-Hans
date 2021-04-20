@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e

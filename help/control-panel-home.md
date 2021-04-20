@@ -1,7 +1,7 @@
 ---
 title: 产品文档
 description: 控制面板文档。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
