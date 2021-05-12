@@ -7,11 +7,11 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->如果控制面板中所示的可用数据库空间量不反映合同中指定的数量，请联系客户关怀。
+>如果控制面板中显示可用的数据库空间大小与合同中规定的大小不一致，请联系客户关怀团队。
 
 ## 监测数据库使用{#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ ht-degree: 85%
 >
 >请注意，此仪表板中的数据会根据运行在 Campaign 实例上的&#x200B;**[!UICONTROL Database cleanup technical workflow]**&#x200B;更新（请参阅 [Campaign Standard](https://docs.adobe.com/help/zh-Hans/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) 和 [Campaign Classic](https://docs.adobe.com/help/zh-Hans/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) 文档）。
 >
->此外，当您的某个数据库到达其上次运行工作流时，您还可以接收通知，该工作流运行于&#x200B;**[!UICONTROL Used Space]**&#x200B;和&#x200B;**[!UICONTROL Provided Space]**&#x200B;量度之下。 请注意，如果工作流已超过 3 天未运行，我们建议您联系 Adobe 客户关怀团队，以便让他们调查工作流未运行的原因。
+>此外，当某个数据库在最近一次达到其容量上限、工作流在低于 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 指标下运行时，您会收到通知。请注意，如果工作流已超过 3 天未运行，我们建议您联系 Adobe 客户关怀团队，以便让他们调查工作流未运行的原因。
 
 本仪表板中还提供如下所述的其他指标，可帮助您分析实例数据库的使用情况。
 
@@ -105,13 +105,13 @@ ht-degree: 85%
 
 ![](assets/database-top10-view.png)
 
-**[!UICONTROL Keep interim results]** 列中的值表示该选项在 Campaign 中是启用（“1”）还是禁用（“0”）。此选项允许您保存工作流各个活动之间过渡的结果(请参阅[Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html)和[Campaign Classic](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)文档)。
+**[!UICONTROL Keep interim results]** 列中的值表示该选项在 Campaign 中是启用（“1”）还是禁用（“0”）。这个选项允许您保存工作流的各个活动之间的过渡结果（请参阅 [Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) 和 [Campaign Classic](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) 文档）。
 
 >[!IMPORTANT]
 >
->不得在生产工作流中选中此选项。 它用于分析结果，并仅用于测试目的，因此只能用于开发或分阶环境。
+>不得在生产工作流中勾选此选项。它用于分析结果，并且是仅为测试目的而设计，因此只能用于开发或暂存环境。
 >
->如果控制面板中的值指示某个工作流已启用该选项，则强烈建议在活动中关闭该选项。
+>如果控制面板中的值表明，已为某个工作流启用此选项，我们强烈建议在 Campaign 中关闭此选项。
 
 ## 防止数据库过载{#preventing-database-overload}
 
@@ -126,7 +126,7 @@ Campaign Standard 和 Classic 提供各种防止数据库磁盘空间过度消�
 
 **数据库维护**
 
-* 数据库清理技术工作流 ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* 数据库清理技术工作流 ([Campaign Standard](https://docs.adobe.com/help/zh-Hans/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/zh-Hans/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [数据库维护指南](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [数据库性能故障排除](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hans) (Campaign Classic)
 * [数据库相关选项](https://docs.adobe.com/help/zh-Hans/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
