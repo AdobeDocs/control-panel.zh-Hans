@@ -29,9 +29,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)。
-   >
-   >
-* 对于 Campaign Classic，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 内部版本。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的 Campaign Classic 版本。要检查您的 Campaign Classic 实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
+>
+>* 对于 Campaign Classic，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 内部版本。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的 Campaign Classic 版本。要检查您的 Campaign Classic 实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
 
 
 ## 其他资源 {#additional-resources}
