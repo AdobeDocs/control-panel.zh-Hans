@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 68%
 
 ![](assets/do-not-localize/banner.png)
 
-## 新增内容
+## 新增功能
 
 **使用 CNAME 的子域配置**
 
@@ -28,10 +28,10 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->* 控制面板仅限管理员用户。 [了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)。
+>* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)。
    >
    >
-* 要Campaign Classic，请注意，您的实例必须托管在Amazon Web Services(AWS)上，并升级到最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)内部版本。 了解如何在[此部分](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中检查您的Campaign Classic版本。 要检查您的Campaign Classic实例是否托管在AWS上，请按照[此页面](faq.md)中详细描述的步骤操作。
+* 对于 Campaign Classic，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 内部版本。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的 Campaign Classic 版本。要检查您的 Campaign Classic 实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
 
 
 ## 其他资源 {#additional-resources}
