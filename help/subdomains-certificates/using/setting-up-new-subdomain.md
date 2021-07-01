@@ -7,7 +7,7 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 98%
@@ -66,7 +66,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   > 例如，子域将允许您发送营销和交易通信。
+   > 对于Adobe Campaign Standard，委派的子域将允许您同时发送&#x200B;**Marketing**&#x200B;和&#x200B;**Transactional**&#x200B;通信。
 
    ![](assets/subdomain4.png)
 
