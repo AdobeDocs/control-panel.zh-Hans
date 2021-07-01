@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +63,10 @@ ht-degree: 100%
    ![](assets/subdomain3.png)
 
 1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/30175)。
+
+   >[!NOTE]
+   >
+   > 例如，子域将允许您发送营销和交易通信。
 
    ![](assets/subdomain4.png)
 
@@ -121,7 +124,7 @@ ht-degree: 100%
 
 提交子域后，控制面板将执行各种检查和配置步骤。有关详细信息，请参阅[子域检查和配置](#subdomain-checks-and-configuration)。
 
-## 子域检查和配置{#subdomain-checks-and-configuration}
+## 子域检查和配置 {#subdomain-checks-and-configuration}
 
 1. 提交子域后，控制面板将检查它是否正确指向 Adobe NS 记录，并确认此子域不存在“授权开始”(SOA) 记录。
 
