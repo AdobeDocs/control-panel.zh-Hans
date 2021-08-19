@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 实例详细信息
 description: 了解如何在控制面板中监控实例详细信息
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
-
 
 # 实例详细信息 {#instance-details}
 
@@ -28,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->此功能仅适用于 Campaign Classic 实例。
+>此功能仅适用于Campaign Classicv7和Campaign v8实例。
 
-您的 Adobe Campaign Classic 实例架构可以包含多个服务器，以实现营销活动的灵活性。例如，您可以拥有支持您的实例的营销、实时（或消息中心）和中间采购服务器。
+您的 Adobe Campaign 实例架构可以包含多个服务器，以实现营销活动的灵活性。例如，您可以拥有支持您的实例的营销、实时（或消息中心）和中间采购服务器。
 
 “实例详细信息”功能允许您查看实例的平面架构。除了服务器信息外，您还可以获悉实例是否为最新的内部版本，并获得建议以在需要时进行升级。
 
@@ -51,9 +50,9 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果控制面板主页上未显示“实例设置”卡，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
 
-1. 在左窗格中选择所需的 Campaign Classic 实例。
+1. 在左窗格中选择所需的 Campaign 实例。
 
    >[!NOTE]
    >
