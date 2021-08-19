@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 子域品牌化
 description: 详细了解子域品牌化
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 80%
 
 ---
-
 
 # 子域品牌化 {#subdomains-branding}
 
@@ -23,11 +22,14 @@ ht-degree: 79%
 >abstract="监控子域和关联的 SSL 证书。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
 
-## 为什么要设置子域？{#why-setting-up-subdomains}
+
+## 为什么要设置子域？ {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->该控制面板的子域配置在测试版中可用，并且可能会频繁更新和修改，恕不另行通知。
+>测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
+>
+>此功能不适用于Campaign v8。
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（交易消息、营销信息等）。
 
@@ -38,13 +40,13 @@ ht-degree: 79%
 
 这样，您将能够维护您的域和其他子域的声誉。例如，如果“marketing.mybrand.com”子域由于交付能力不佳而最终被互联网服务提供商加入阻止列表，这将阻止整个“mybrand.com”域和“info.mybrand.com”子域被加入阻止列表。
 
-## 子域配置方法{#subdomain-delegation-methods}
+## 子域配置方法 {#subdomain-delegation-methods}
 
-子域配置允许您配置域的子区域（技术上是“DNS区域”），以便与Adobe Campaign一起使用。 可用的设置方法包括：
+子域配置允许您配置域的子区域（技术上称为“DNS区域”）以与Adobe Campaign一起使用。 可用的设置方法包括：
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
-* **使用CNAME**:创建子域并使用CNAME指向特定于Adobe的记录。使用此设置，Adobe 和客户共同负责维护 DNS。
+* **使用CNAME**:创建子域，并使用CNAME指向特定于Adobe的记录。使用此设置，Adobe 和客户共同负责维护 DNS。
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
@@ -53,13 +55,13 @@ ht-degree: 79%
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-有关域配置的其他信息，请参阅本文档](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)。[
+有关域配置的其他信息，请参阅本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)。[
 
-如果您对子域配置方法有任何疑问，请联系Adobe Deliverability团队，或最终联系客户服务部门请求可交付性咨询。
+如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
 
 ## 子域的用例(Campaign Classic){#subdomains-use-cases}
 
-为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
+在为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 
 可能的用例包括：
 
@@ -69,7 +71,7 @@ ht-degree: 79%
 
 **根据用例划分子域是实现交付性的最佳实践**。这样，每个子域的信誉将被隔离和受保护。例如，如果营销通信的子域最终被互联网服务提供商添加到阻止列表，您的交易通信子域将不受影响，并且将能够继续发送通信。
 
-**您可以为Marketing和Transactional用例配置子域**:
+**您可以为营销和交易用例配置子域**:
 
 * 对于营销用例，子域将配置在 **MID**（中间采购）实例上。
 * 对于交易用例，子域将配置在所有 **RT**（消息中心/实时消息递送）实例上，以确保连接性。因此，子域将与您的所有 RT 实例一起运行。
@@ -81,4 +83,4 @@ ht-degree: 79%
 **相关主题：**
 
 * [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [监测子域](../../subdomains-certificates/using/monitoring-subdomains.md)
