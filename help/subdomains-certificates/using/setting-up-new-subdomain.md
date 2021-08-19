@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 98%
+source-wordcount: '1166'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,14 @@ ht-degree: 98%
 >abstract="您需要设置一个新子域并管理子域的 SSL 证书，以开始使用 Adobe Campaign 发送电子邮件或发布登陆页面。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
 
+
 ## 必读 {#must-read}
 
 >[!IMPORTANT]
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
+>
+>此功能不适用于Campaign v8。
 
 本页面提供有关如何使用完全子域委派或 CNAME 设置新子域的信息。[子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)一节介绍了有关这两种方法的全局概念。
 
