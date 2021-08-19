@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: IP 允许列表
 description: 了解如何在控制面板中向允许列表添加 IP 地址以进行实例访问
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
-
 
 # IP 允许列表 {#ip-allow-listing}
 
@@ -27,9 +26,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->此功能仅适用于 Campaign Classic 实例。
+>此功能仅适用于Campaign Classicv7和Campaign v8实例。
 
-默认情况下，您的 Adobe Campaign Classic 实例无法从各种 IP 地址访问。
+默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
 如果您的 IP 地址未添加到允许列表，您将无法从此地址登录到实例。同样，如果 IP 地址未明确与实例一起添加到允许列表，则您可能无法将 API 连接到消息中心或营销实例。
 
@@ -39,7 +38,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 在控制面板中将 IP 地址添加到允许列表时，请确保遵循以下建议和限制条件。
 
@@ -47,7 +46,7 @@ ht-degree: 94%
 * **如果您临时启用了对 IP 地址实例的访问**，请确保在不再需要连接到实例时从允许列表中删除 IP 地址。
 * **我们不建议将公共场所的 IP 地址添加到允许列表**（机场、酒店等）。请始终使用公司 VPN 地址来保护实例的安全。
 
-## 将 IP 地址添加到允许列表以进行实例访问{#adding-ip-addresses-allow-list}
+## 将 IP 地址添加到允许列表以进行实例访问 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
@@ -60,7 +59,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果控制面板主页上未显示“实例设置”卡，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -83,7 +82,7 @@ ht-degree: 94%
 
 1. 指定要授予 IP 地址的访问类型：
 
-   * **[!UICONTROL Campaign Console Access]**：允许 IP 地址连接到 Campaign Classic 控制台。请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
+   * **[!UICONTROL Campaign Console Access]**:允许IP地址连接到Campaign客户端控制台。请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
    * **[!UICONTROL AEM connection]**：允许指定的 AEM IP 地址连接到营销实例。
    * **[!UICONTROL External API connection]**：允许具有指定 IP 地址的外部 API 连接到营销和/或消息中心 (RT) 实例。请注意，未启用与 RT 实例控制台的连接。
 
