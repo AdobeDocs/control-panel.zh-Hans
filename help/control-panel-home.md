@@ -5,10 +5,10 @@ feature: 控制面板
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 88%
+source-wordcount: '225'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ ht-degree: 88%
    >
    >
 * 对于Campaign Classicv7，请注意，您的实例必须托管在Amazon Web Services(AWS)上，并升级到最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)内部版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的 Campaign Classic 版本。要检查您的 Campaign Classic 实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
+   >
+   >
+* Campaign v8不提供以下功能：子域管理和证书管理。
 
 
 ## 其他资源 {#additional-resources}
