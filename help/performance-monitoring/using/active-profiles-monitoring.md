@@ -3,25 +3,24 @@ product: campaign
 solution: Campaign
 title: 活动用户档案监控
 description: 了解如何获得有关每个 Campaign 实例最新和历史活动用户档案使用情况和演变的实时信息。
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 95%
+source-wordcount: '365'
+ht-degree: 92%
 
 ---
 
-
-# 活动用户档案监控{#active-profiles-monitoring}
+# 活动用户档案监控 {#active-profiles-monitoring}
 
 ## 关于活动用户档案 {#about-active-profiles}
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。可从Campaign Standard 10368内部版本获得。
+>测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。它可从Campaign Standard10368内部版本中获取。
 
 根据您的合同，您的每个 Campaign 实例都会配置特定数量的活动用户档案，并对这些活动用户档案进行计数以计费。请参阅您的最新合同，了解已购买的活动用户档案数量。
 
@@ -33,7 +32,7 @@ ht-degree: 95%
 >
 >Facebook 和 Twitter 渠道不包含在內。
 
-有关活动用户档案的详细信息，请参阅 [Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign Classic](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 文档。
+有关活动配置文件的更多信息，请参阅[Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文档。
 
 ## 监控活动用户档案 {#monitoring-active-profiles}
 
