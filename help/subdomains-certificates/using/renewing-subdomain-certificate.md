@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 续订子域的 SSL 证书
 description: 了解如何续订子域的 SSL 证书
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 90%
+source-wordcount: '868'
+ht-degree: 93%
 
 ---
-
 
 # 续订子域的 SSL 证书 {#renewing-subdomains-ssl-certificates}
 
@@ -28,7 +27,9 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->该控制面板的子域配置在测试版中可用，并且可能会频繁更新和修改，恕不另行通知。
+>测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
+>
+>此功能不适用于Campaign v8。
 
 SSL 证书续订过程包括以下 3 个步骤：
 
@@ -39,7 +40,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 1. **安装 SSL 证书**
 购买 SSL 证书后，可将其安装到所需子域。
 
-![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates) 的视频中了解这一功能
 
 ## 生成证书签名请求 (CSR) {#generating-csr}
 
@@ -144,4 +145,4 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 **相关主题：**
 
 * [子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
-* [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [监测子域](../../subdomains-certificates/using/monitoring-subdomains.md)
