@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
-
 
 # URL 权限 {#url-permissions}
 
@@ -27,9 +26,9 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->此功能仅适用于 8850 及以上版本的 Campaign Classic 实例。如果您使用的是以前的版本，则需要升级才能使用此功能。
+>此功能仅适用于版本8850中的Campaign v8和Campaign Classicv7实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默认列表是有限的。这些 URL 允许实例正常运行。
+Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数量有限。 这些 URL 允许实例正常运行。
 
 默认情况下，实例不允许连接到外部 URL。控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
@@ -42,7 +41,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的
 * [配置 Campaign 服务器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [外连接保护](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 * 请勿将您的 Campaign 实例连接到您不打算连接的网站/服务器。
 * 删除您不再使用的 URL。但是，请注意，如果您公司的其他部分仍连接到您删除的 URL，则任何人都无法再次使用该 URL。
@@ -61,7 +60,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的
 
    >[!NOTE]
    >
-   >如果控制面板主页上未显示“实例设置”卡，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS组织ID未与任何Adobe Campaign实例关联
    >
    ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
