@@ -3,25 +3,28 @@ product: campaign
 solution: Campaign
 title: 监控子域的 SSL 证书
 description: 了解如何监控子域的 SSL 证书
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 90%
 
 ---
 
-
 # 监控子域的 SSL 证书 {#monitoring-ssl-certificates}
+
+>[!AVAILABILITY]
+>
+>此功能不适用于Campaign v8。
 
 ## 关于 SSL 证书 {#about-ssl-certificates}
 
 Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收集客户敏感信息的子域。
 
-**SSL（安全套接字层）** 加密可确保您配置为使用Adobe的子域是安全的。当客户填写 Web 表单或访问由 Adobe Campaign 托管的登陆页面时，默认情况下，信息会通过非安全协议 (HTTP) 发送。为确保获得额外的安全性，请使用 HTTPS 协议保护已发送的信息。例如，您的“http://info.mywebsite.com/”子域地址现在将为“https://info.mywebsite.com/”。
+**SSL（安全套接字层）** 加密确保您配置用于处理Adobe的子域是安全的。当客户填写 Web 表单或访问由 Adobe Campaign 托管的登陆页面时，默认情况下，信息会通过非安全协议 (HTTP) 发送。为确保获得额外的安全性，请使用 HTTPS 协议保护已发送的信息。例如，您的“http://info.mywebsite.com/”子域地址现在将为“https://info.mywebsite.com/”。
 
 **配置的子域本身上未安装SSL证书**。它们安装在关联的子域上，主要是托管登陆页面、资源页面等页面的子域。
 
