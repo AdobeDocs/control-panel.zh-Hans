@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '776'
+ht-degree: 85%
 
 ---
 
@@ -62,11 +62,11 @@ ht-degree: 87%
 
 它是在您首次登录 Adobe Experience Cloud 时为您的实例提供的唯一 ID。其格式应为：xxx@AdobeOrg。
 
-有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
+有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
 
 ### 在哪里可以找到我的 IMS 组织 ID？
 
-一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多详细信息。
+一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)中找到更多详细信息。
 
 另一种方法是启动 **Admin Console**。您的 IMS 组织 ID 将显示在您的 URL 中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
