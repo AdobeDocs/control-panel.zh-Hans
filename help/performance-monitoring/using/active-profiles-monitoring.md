@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 86%
+source-wordcount: '364'
+ht-degree: 84%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 86%
 >
 >活动用户档案基于每天在您的实例上运行的专用技术工作流进行计数：
 >
->* Campaign Standard 的[“计费](https://docs.adobe.com/help/zh-Hans/campaign-standard/using/administrating/application-settings/technical-workflows.html)”工作流，
+>* Campaign Standard 的[“计费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en)”工作流，
 >* Campaign Classic [的“活动计费用户档案的数量”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)工作流。
 
 
