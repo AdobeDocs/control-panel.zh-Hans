@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 >
 >Facebook 和 Twitter 渠道不包含在內。
 
-有关活动配置文件的更多信息，请参阅[Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文档。
+有关活动配置文件的更多信息，请参阅[Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文档。
 
 ## 监控活动用户档案 {#monitoring-active-profiles}
 
