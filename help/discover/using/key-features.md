@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 87%
+source-wordcount: '315'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >id="cp_overview"
 >title="关于控制面板"
 >abstract="通过控制面板主页，您可以访问可在 Campaign 实例上执行的所有操作。"
->additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/discover-control-panel/discovering-the-interface.html" text="了解界面"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="了解界面"
 
 控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Adobe Campaign Standard 和/或 Adobe Campaign Classic 的产品管理员提高工作效率。其直观的界面可让您轻松监控关键资产的使用情况，并执行管理任务，如将 IP 地址添加到允许列表、SFTP 存储监控、密钥管理等。
 
@@ -32,9 +32,9 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->控制面板仅限管理员用户。 [此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
+>控制面板仅限管理员用户使用。[此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
 >
->要Campaign Classic，请注意，您的实例必须托管在Amazon Web Services(AWS)上，并升级到最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)内部版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md)中详述的步骤操作。
+>对于 Campaign Classic，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 内部版本。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md)中详述的步骤操作。
 
 <table style="table-layout:fixed">
 <tr>
