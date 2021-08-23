@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 92%
+source-wordcount: '556'
+ht-degree: 89%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 92%
 >id="cp_instancesettings_instancedetails"
 >title="关于实例详细信息"
 >abstract="查看 Adobe Campaign 实例的详细信息：类型、名称、内部版本信息和可能的升级建议。"
->additional-url="https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 发行说明"
->additional-url="https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 发行说明"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 发行说明"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 发行说明"
 
 ## 关于实例详细信息 {#about-instance-details}
 
