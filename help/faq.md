@@ -7,34 +7,74 @@ feature: 控制面板
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 224bad296e416288ea717c904ce679653495c046
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 94%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
 # 常见问题解答 {#faq}
 
+## 控制面板 {#control-panel}
+
+### 什么是控制面板？
+
+控制面板使产品管理员能够直接管理各种设置并监控连接到 Adobe Campaign 的 SFTP 服务器的容量。
+
+### 控制面板当前有哪些功能？
+
+通过控制面板，您可以根据自己的需求，跟踪存储、将 IP 添加到允许列表并管理 SFTP 服务器的 SSH 密钥和执行其他操作。
+
+有关详细信息，请参阅控制面板支持的操作文档。
+
+### Campaign v8不支持哪些功能，但在Campaign Classicv7上可用{#v8-restrictions}
+
+尚不支持通过控制面板Campaign v8来实现子域和证书管理相关功能。 请联系Campaign客户关怀团队以获取任何相关支持。
+
+### 控制面板是否仅用于 Adobe Campaign？
+
+是，您只能在控制面板中管理 Adobe Campaign 设置。
+
+### 我可以使用控制面板吗？
+
+控制面板仅对在 AWS 上托管 Adobe Campaign 的当前客户的产品管理员开放。请注意，尚不支持混合环境。
+
+如果您不是管理员，但想要访问，请联系您的产品管理员将您添加为管理员。
+
+### 作为Campaign Classicv7用户，访问控制面板的条件是什么？ {#v7-restrictions}
+
+控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)。
+
+对于Campaign Classicv7，请注意，您的实例必须托管在Amazon Web Services(AWS)上，并升级到最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)内部版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的 Campaign Classic 版本。要检查您的Campaign Classic实例是否托管在AWS上，请按照[此部分](#hosted-aws)中详细描述的步骤操作。
+
+### 如何访问控制面板？
+
+请按照“访问控制面板”文档中的详细说明操作。
+
+### 使用控制面板是否需要额外付费？
+
+不需要，如果您当前是 Adobe Campaign 的客户，则不会产生额外费用。
+
 ## IMS 组织 ID {#ims-org-id}
 
-**什么是 IMS 组织 ID？**
+### 什么是 IMS 组织 ID？
 
 它是在您首次登录 Adobe Experience Cloud 时为您的实例提供的唯一 ID。其格式应为：xxx@AdobeOrg。
 
 有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
 
-**在哪里可以找到我的 IMS 组织 ID？**
+### 在哪里可以找到我的 IMS 组织 ID？
 
 一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多详细信息。
 
 另一种方法是启动 **Admin Console**。您的 IMS 组织 ID 将显示在您的 URL 中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-**为什么我需要知道我的 IMS 组织 ID？**
+### 为什么我需要知道我的 IMS 组织 ID？
 
 为了管理实例的设置，我们希望确保您获得正确实例的正确信息，在您的公司使用多个实例的情况下非常适用。
 
-**如果我有多个 IMS 组织 ID，该怎么办？**
+### 如果我有多个 IMS 组织 ID，该怎么办？
 
 如果您有权访问多个 Adobe 解决方案，则您可拥有多个 IMS 组织 ID。在这种情况下，您应使用的正确 IMS 组织 ID 是您在 Adobe Campaign 实例下看到的 IMS 组织 ID。
 
@@ -44,7 +84,7 @@ ht-degree: 94%
 >
 >如果您的 Adobe Campaign 和 Adobe Analytics 有着不同的 IMS 组织 ID，请联系客服团队，以调整一致。
 
-**如何确认我的 Adobe Campaign 实例是否托管在 AWS 上？**
+### 如何确认我的 Adobe Campaign 实例是否托管在 AWS 上？{#hosted-aws}
 
 要检查您的实例是否托管在 AWS 上，请执行以下步骤：
 
@@ -87,37 +127,3 @@ ht-degree: 94%
 >[!NOTE]
 >
 >如果您希望迁移到 AWS，请联系您的客户成功经理开始该过程。
-
-## 控制面板 {#control-panel}
-
-**什么是控制面板？**
-
-控制面板使产品管理员能够直接管理各种设置并监控连接到 Adobe Campaign 的 SFTP 服务器的容量。
-
-**控制面板当前有哪些功能？**
-
-通过控制面板，您可以根据自己的需求，跟踪存储、将 IP 添加到允许列表并管理 SFTP 服务器的 SSH 密钥和执行其他操作。
-
-有关详细信息，请参阅控制面板支持的操作文档。
-
-**Campaign v8不支持哪些功能，但在Campaign Classicv7上可用**
-
-尚不支持通过控制面板Campaign v8来实现子域和证书管理相关功能。 请联系Campaign客户关怀团队以获取任何相关支持。
-
-**控制面板是否仅用于 Adobe Campaign？**
-
-是，您只能在控制面板中管理 Adobe Campaign 设置。
-
-**我可以使用控制面板吗？**
-
-控制面板仅对在 AWS 上托管 Adobe Campaign 的当前客户的产品管理员开放。请注意，尚不支持混合环境。
-
-如果您不是管理员，但想要访问，请联系您的产品管理员将您添加为管理员。
-
-**如何访问控制面板？**
-
-请按照“访问控制面板”文档中的详细说明操作。
-
-**使用控制面板是否需要额外付费？**
-
-不需要，如果您当前是 Adobe Campaign 的客户，则不会产生额外费用。
