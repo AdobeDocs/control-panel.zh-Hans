@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 >id="cp_certificate_management"
 >title="关于子域和 SSL 证书"
 >abstract="监控子域和关联的 SSL 证书。"
->additional-url="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
 
 
 ## 为什么要设置子域？ {#why-setting-up-subdomains}
