@@ -1,14 +1,14 @@
 ---
 title: 产品文档
 description: 控制面板文档。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
-workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 76%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,10 @@ ht-degree: 76%
 >[!CAUTION]
 >
 >* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)
-   >
-   >
-* 对于Campaign Classicv7，应用部署限制。 [了解详情](faq.md#v7-restrictions)
-   >
-   >
-* 对于Campaign v8，某些功能不可用。 [了解详情](faq.md#v8-restrictions)
+>
+>* 对于 Campaign Classic v7，应用部署限制。 [了解详情](faq.md#v7-restrictions)
+>
+>* 对于 Campaign v8，某些功能不可用。[了解详情](faq.md#v8-restrictions)
 
 
 ## 其他资源 {#additional-resources}
@@ -43,20 +41,20 @@ ht-degree: 76%
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans">Campaign Standard 控制面板教程视频</a></li>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html">Campaign Standard 产品文档</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans">控制面板教程视频</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans">Campaign Standard 产品文档</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classicv7</b><br/>
+        <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans">控制面板Campaign Classicv7教程视频</a></li>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/campaign-classic-home.html">Campaign Classicv7产品文档</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans">控制面板教程视频</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans">Campaign Classic v7 产品文档</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">控制面板Campaign v8教程视频</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign v8 产品文档</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=zh-Hans">控制面板教程视频</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans">Campaign v8 产品文档</a></li>
         </ul>
         </td>
     </tr>
