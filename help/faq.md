@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 控制面板常见问题解答
 description: 与控制面板相关的常见问题
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 ### 什么是控制面板？
 
-控制面板使产品管理员能够直接管理各种设置并监控连接到 Adobe Campaign 的 SFTP 服务器的容量。
+通过控制面板，产品管理员能够直接管理各种设置并监测连接到 Adobe Campaign 的 SFTP 服务器的容量。
 
 ### 控制面板当前有哪些功能？
 
@@ -28,9 +28,9 @@ ht-degree: 85%
 
 有关详细信息，请参阅控制面板支持的操作文档。
 
-### Campaign v8不支持哪些功能，但在Campaign Classicv7上可用{#v8-restrictions}
+### 有哪些功能，Campaign v8 不支持，但在 Campaign Classic v7 上可用{#v8-restrictions}
 
-尚不支持通过控制面板Campaign v8来实现子域和证书管理相关功能。 请联系Campaign客户关怀团队以获取任何相关支持。
+ Campaign v8 尚不支持通过控制面板来实现子域和证书管理相关功能。请联系 Campaign 客户关怀团队，获取任何相关支持。
 
 ### 控制面板是否仅用于 Adobe Campaign？
 
@@ -42,11 +42,11 @@ ht-degree: 85%
 
 如果您不是管理员，但想要访问，请联系您的产品管理员将您添加为管理员。
 
-### 作为Campaign Classicv7用户，访问控制面板的条件是什么？ {#v7-restrictions}
+### 作为 Campaign Classic v7 用户，访问控制面板需要什么条件？ {#v7-restrictions}
 
 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)。
 
-对于Campaign Classicv7，请注意，您的实例必须托管在Amazon Web Services(AWS)上，并升级到最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)内部版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的 Campaign Classic 版本。要检查您的Campaign Classic实例是否托管在AWS上，请按照[此部分](#hosted-aws)中详细描述的步骤操作。
+对于 Campaign Classic v7，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 内部版本。请参阅[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)，了解如何确认您的 Campaign Classic 版本。要检查您的 Campaign Classic 实例是否托管在 AWS 上，请按照[本节](#hosted-aws)中详述的步骤操作。
 
 ### 如何访问控制面板？
 
@@ -62,17 +62,17 @@ ht-degree: 85%
 
 它是在您首次登录 Adobe Experience Cloud 时为您的实例提供的唯一 ID。其格式应为：xxx@AdobeOrg。
 
-有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
+有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。
 
 ### 在哪里可以找到我的 IMS 组织 ID？
 
-一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)中找到更多详细信息。
+一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)中找到更多详细信息。
 
 另一种方法是启动 **Admin Console**。您的 IMS 组织 ID 将显示在您的 URL 中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-### 为什么我需要知道我的 IMS 组织 ID？
+### 为什么需要知道我的 IMS 组织 ID？
 
-为了管理实例的设置，我们希望确保您获得正确实例的正确信息，在您的公司使用多个实例的情况下非常适用。
+为了管理实例的设置，我们希望确保您获得正确实例的正确信息，这在您的公司使用多个实例的情况下非常适用。
 
 ### 如果我有多个 IMS 组织 ID，该怎么办？
 
