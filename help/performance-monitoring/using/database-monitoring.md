@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 数据库监测
 description: 了解如何在控制面板中监测 Campaign 数据库
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '954'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->请注意，此仪表板中的数据会根据运行在 Campaign 实例上的&#x200B;**[!UICONTROL Database cleanup technical workflow]**&#x200B;更新（请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en) 文档）。
+>请注意，此仪表板中的数据会根据运行在 Campaign 实例上的&#x200B;**[!UICONTROL Database cleanup technical workflow]**&#x200B;更新（请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans#list-of-technical-workflows) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hans) 文档）。
 >
 >此外，当某个数据库在最近一次达到其容量上限、工作流在低于 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 指标下运行时，您会收到通知。请注意，如果工作流已超过 3 天未运行，我们建议您联系 Adobe 客户关怀团队，以便让他们调查工作流未运行的原因。
 
@@ -104,7 +104,7 @@ ht-degree: 85%
 
 ![](assets/database-top10-view.png)
 
-**[!UICONTROL Keep interim results]** 列中的值表示该选项在 Campaign 中是启用（“1”）还是禁用（“0”）。这个选项允许您保存工作流的各个活动之间的过渡结果（请参阅 [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) 和 [Campaign Classic](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) 文档）。
+**[!UICONTROL Keep interim results]** 列中的值表示该选项在 Campaign 中是启用（“1”）还是禁用（“0”）。这个选项允许您保存工作流的各个活动之间的过渡结果（请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=zh-Hans#logs) 文档）。
 
 >[!IMPORTANT]
 >
@@ -120,16 +120,16 @@ Campaign Standard 和 Classic 提供各种防止数据库磁盘空间过度消�
 
 **工作流监测**
 
-* [工作流最佳实践](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) (Campaign Standard)
-* [监测工作流执行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en) (Campaign Classic)
+* [工作流最佳实践](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=zh-Hans) (Campaign Standard)
+* [监测工作流执行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=zh-Hans) (Campaign Classic)
 
 **数据库维护**
 
-* 数据库清理技术工作流：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
-* [数据库维护指南](https://https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
+* 数据库清理技术工作流：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hans)
+* [数据库维护指南](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=zh-Hans) (Campaign Classic)
 * [数据库性能故障排除](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hans) (Campaign Classic)
-* [数据库相关选项](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=en#database) (Campaign Classic)
-* 数据保留：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=en) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=en#data-retention)
+* [数据库相关选项](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hans#database) (Campaign Classic)
+* 数据保留：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=zh-Hans) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=zh-Hans#data-retention)
 
 >[!NOTE]
 >
