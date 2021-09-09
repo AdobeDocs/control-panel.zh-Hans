@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 设置新子域
 description: 了解如何为活动实例设置新子域
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="设置新子域并管理证书"
 >abstract="您需要设置一个新子域并管理子域的 SSL 证书，以开始使用 Adobe Campaign 发送电子邮件或发布登陆页面。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hans" text="如何监测子域的 SSL 证书"
 
 
 ## 必读 {#must-read}
@@ -29,7 +29,7 @@ ht-degree: 97%
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
 >
->此功能不适用于Campaign v8。
+>此功能不适用于 Campaign v8。
 
 本页面提供有关如何使用完全子域委派或 CNAME 设置新子域的信息。[子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)一节介绍了有关这两种方法的全局概念。
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   > 对于Adobe Campaign Standard，委派的子域将允许您同时发送&#x200B;**Marketing**&#x200B;和&#x200B;**Transactional**&#x200B;通信。
+   > 对于 Adobe Campaign Standard，委派的子域将允许您同时发送&#x200B;**营销**&#x200B;和&#x200B;**事务性**&#x200B;通信。
 
    ![](assets/subdomain4.png)
 
