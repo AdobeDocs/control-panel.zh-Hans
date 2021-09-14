@@ -6,44 +6,49 @@ description: 了解如何访问控制面板
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 28%
+source-wordcount: '182'
+ht-degree: 13%
 
 ---
 
-
 # 访问控制面板 {#accessing-control-panel}
 
-控制面板可直接从Experience Cloud或产品本身获得。
+控制面板可直接从Experience Cloud或产品本身获取。
 
-只有&#x200B;**管理员用户**&#x200B;才可访问。 有关如何将用户分配到Administrators组的详细信息，请参阅[本节](../../discover/using/managing-permissions.md)。
+仅允许&#x200B;**管理员用户**&#x200B;访问。 有关如何将用户分配给管理员组的详细信息，请参阅[此部分](../../discover/using/managing-permissions.md)。
 
-## 从Experience Cloud平台{#access-experience-cloud-platform}访问
+## 从Experience Cloud平台访问 {#access-experience-cloud-platform}
 
-要从 Experience Cloud Platform 访问“控制面板”，请导航到 [Experience Cloud Platform 主页](https://experiencecloud.adobe.com/)，然后单击&#x200B;**快速访问**&#x200B;部分中的专用链接。
+要从Adobe Experience Cloud平台访问控制面板，请执行以下步骤。
 
-![](assets/do-not-localize/quickaccess.png)
+1. 导航到[Experience Cloud主页](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}。
 
-还可以从Experience Cloud平台&#x200B;**解决方案选取器**&#x200B;访问控制面板:
+1. 单击&#x200B;**快速访问**&#x200B;部分中的专用链接。
 
-1. 导航到[Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然后从解决方案选取器中选择&#x200B;**活动**。
+   ![](assets/do-not-localize/quickaccess.png)
+
+控制面板也可从Experience Cloud平台&#x200B;**解决方案选取器**&#x200B;访问：
+
+1. 从[Adobe Experience Cloud主页](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}中，从右侧的&#x200B;**快速访问**&#x200B;部分或顶部菜单中选择&#x200B;**Campaign**。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. 此时将显示活动实例的列表。 单击&#x200B;**控制面板**&#x200B;卡以启动它。
+1. 此时会显示Campaign实例列表。 单击&#x200B;**控制面板**&#x200B;卡以启动它。
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
-## 从产品{#access-product}访问
+## 从产品访问 {#access-product}
 
 >[!NOTE]
 >
->产品中的访问权限仅可供Campaign Standard。
+>从产品内部访问仅可用于[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-1. 打开您的Campaign Standard产品，然后从&#x200B;**[!UICONTROL Navigation]**&#x200B;窗格中选择&#x200B;**[!UICONTROL Administration]**&#x200B;菜单。
+1. 打开您的Campaign Standard产品。
+
+1. 从&#x200B;**导航**&#x200B;窗格中选择&#x200B;**[!UICONTROL Administration]**&#x200B;菜单。
 
    ![](assets/control_panel_access3.png)
 

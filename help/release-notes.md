@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 控制面板版本
 description: 最新控制面板发行说明。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '669'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 91%
 >所有管理员用户都可访问控制面板。[此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
 >
 >对于Campaign Classicv7，请注意，您的实例必须托管在AWS上，并升级为最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hans)内部版本或[最新的GA内部版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans#release-notes)。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
+
+## 2021 年 8 月 {#august-2021}
+
+控制面板现在可用于Adobe Campaign v8，但&#x200B;**子域**&#x200B;和&#x200B;**证书**&#x200B;管理功能除外，这些功能尚不受支持。 在[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}中了解更多信息
 
 ## 2020 年 10 月 {#october-2020}
 
