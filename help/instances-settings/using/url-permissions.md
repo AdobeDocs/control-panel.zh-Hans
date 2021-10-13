@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 88%
 
 ---
@@ -34,7 +34,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
 添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
 
 **相关主题：**
 

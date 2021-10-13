@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '850'
 ht-degree: 87%
 
 ---
@@ -40,7 +40,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 1. **安装 SSL 证书**
 购买 SSL 证书后，可将其安装到所需子域。
 
-![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates) 的视频中了解这一功能
 
 ## 生成证书签名请求 (CSR) {#generating-csr}
 

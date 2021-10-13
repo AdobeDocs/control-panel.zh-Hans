@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 89%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 89%
 
 将 IP 地址添加到允许列表后，您可以创建 Campaign 运算符并将其链接到它们，以便用户能够访问该实例。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
 
 ## 最佳实践 {#best-practices}
 

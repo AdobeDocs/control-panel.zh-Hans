@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 94%
+source-wordcount: '360'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，�
 
 目前，Gmail 是最受欢迎的电子邮件地址提供商之一。为了确保电子邮件的良好传递性并成功投放到 Gmail 地址，Adobe Campaign 允许您向子域添加特殊的 Google 网站验证 TXT 记录，以确保对其进行验证。
 
-![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) 的视频中了解这一功能
 
 ## 为子域添加 Google TXT 记录 {#adding-a-google-txt-record}
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 91%
 
 ---
@@ -32,7 +32,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >当前无法删除 SSH 公钥。
 
-![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 的视频中了解这一功能
 
 ## 最佳实践 {#best-practices}
 

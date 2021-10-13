@@ -6,14 +6,13 @@ description: 了解如何监控和管理 SFTP 服务器的存储
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 86%
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
-
 
 # SFTP 存储管理 {#sftp-storage-management}
 
@@ -27,7 +26,7 @@ ht-degree: 86%
 
 您必须定期监控每个 SFTP 服务器的可用空间。否则，您可能无法再在服务器上保存任何其他文件，也无法成功执行依赖此服务器更新的工作流。
 
-![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 的视频中了解这一功能
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 

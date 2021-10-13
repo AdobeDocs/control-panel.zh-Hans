@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1183'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 >id="cp_instancesettings_gpg_management"
 >title="关于GPG密钥"
 >abstract="在此选项卡中，您可以在营销实例上安装和/或生成GPG密钥，以加密从Campaign发送的数据并解密传入数据。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="关于性能监控"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="关于性能监控"
 
 ## 关于GPG加密 {#about-gpg-encryption}
 
@@ -102,7 +102,7 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 **Campaign Standard:**
 
-* [管理加密数据](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [管理加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [用例：使用安装在控制面板上的密钥加密和导出数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## 解密数据 {#decrypting-data}
@@ -145,8 +145,8 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 **Campaign Standard:**
 
-* [管理加密数据](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [用例：导入使用由控制面板生成的密钥加密的数据](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [管理加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [用例：导入使用由控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## 监控GPG密钥
 
@@ -186,6 +186,6 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 以下视频演示如何生成和安装用于数据加密的GPG密钥。
 
-[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)教程页面中提供了与GPG密钥管理相关的其他操作方法视频。
+[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings)教程页面中提供了与GPG密钥管理相关的其他操作方法视频。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

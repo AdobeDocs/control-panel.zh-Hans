@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 76696e236ee2416fd20cf325fea734c5aef924ae
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 91%
+source-wordcount: '1342'
+ht-degree: 89%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 91%
 
 要将子域完全委派给 Adobe Campaign，请遵循以下步骤。
 
-![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hans#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hans#subdomains-and-certificates) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) 的视频中了解这一功能
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 信息卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
@@ -128,7 +128,7 @@ ht-degree: 91%
 
 要使用 CNAME 配置子域，请遵循以下步骤。
 
-![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hans#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hans) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) 的视频中了解这一功能
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 信息卡中，选择所需的生产实例，然后单击 **[!UICONTROL Setup new subdomain]**。
 
