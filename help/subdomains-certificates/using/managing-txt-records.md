@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 管理 TXT 记录
 description: 了解如何管理 TXT 记录以进行域所有权验证。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 92%
+source-wordcount: '364'
+ht-degree: 94%
 
 ---
 
@@ -20,12 +20,13 @@ ht-degree: 92%
 >id="cp_siteverification_add"
 >title="管理 TXT 记录"
 >abstract="一些诸如 Google 之类的服务要求您将 TXT 记录添加到域设置，以验证您是否拥有该域。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 
 ## 关于 TXT 记录 {#about-txt-records}
 
 >[!AVAILABILITY]
 >
->此功能不适用于Campaign v8。
+>此功能不适用于 Campaign v8。
 
 TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。
 

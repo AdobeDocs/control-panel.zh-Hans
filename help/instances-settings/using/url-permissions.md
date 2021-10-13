@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 88%
 
 ---
@@ -51,7 +51,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="添加新 URL"
+>title="URL定义"
 >abstract="添加 URL 以允许与 Campaign 实例建立连接。"
 
 要添加实例可以连接到的 URL，请执行以下步骤：

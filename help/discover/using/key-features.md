@@ -3,24 +3,18 @@ product: campaign
 solution: Campaign
 title: 访问控制面板
 description: 了解如何访问控制面板
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
 # 主要功能 {#key-features}
-
->[!CONTEXTUALHELP]
->id="cp_overview"
->title="关于控制面板"
->abstract="通过控制面板主页，您可以访问可在 Campaign 实例上执行的所有操作。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="了解界面"
 
 控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Adobe Campaign Standard 和/或 Adobe Campaign Classic 的产品管理员提高工作效率。其直观的界面可让您轻松监控关键资产的使用情况，并执行管理任务，如将 IP 地址添加到允许列表、SFTP 存储监控、密钥管理等。
 

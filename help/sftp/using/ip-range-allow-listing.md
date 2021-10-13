@@ -6,16 +6,15 @@ description: 了解如何将 IP 范围添加到 SFTP 服务器访问允许列表
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
 
-
-# IP 范围允许列表{#ip-range-allow-listing}
+# 将 IP 范围添加到允许列表 {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
@@ -25,7 +24,7 @@ ht-degree: 94%
 
 SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或编写新文件，您需要将访问服务器的系统或客户端的公共 IP 地址添加到允许列表。
 
-![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) 的视频中了解这一功能
 
 ## 关于 CIDR 格式 {#about-cidr-format}
 
@@ -35,7 +34,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 您可以在互联网上搜索免费的在线工具，这些工具将帮助您将现有的 IP 范围转换为 CIDR 格式。
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 在控制面板中将 IP 地址添加到允许列表时，请确保遵循以下建议和限制条件。
 
@@ -44,11 +43,11 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 * 只能将&#x200B;**公共 IP 地址**&#x200B;添加到允许列表。
 * 请确保&#x200B;**定期从允许列表中**&#x200B;删除不再需要的 IP 地址。
 
-## 向允许列表添加 IP 地址{#adding-ip-addresses-allow-list}
+## 向允许列表添加 IP 地址 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="添加新 IP 范围"
+>title="IP范围配置"
 >abstract="定义要添加到允许列表以连接到 SFTP 服务器的 IP 范围。"
 
 要向允许列表添加 IP 范围，请执行以下步骤：

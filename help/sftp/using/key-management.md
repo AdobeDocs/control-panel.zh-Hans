@@ -6,21 +6,20 @@ description: 了解如何管理密钥以连接到 SFTP 服务器
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '646'
+ht-degree: 91%
 
 ---
-
 
 # 密钥管理 {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="关于密钥管理"
->abstract="在此选项卡中，您可以管理公钥。"
+>title="关于公共密钥管理"
+>abstract="在此选项卡中，您可以创建、管理和编辑公钥。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="观看演示视频"
 
 Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与 SFTP 服务器的连接。
@@ -33,9 +32,9 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >当前无法删除 SSH 公钥。
 
-![](assets/do-not-localize/how-to-video.png) 使用活动类Campaign Standard在视频中 [发现](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 的视频中了解这一功能
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 **关于公共 SSH 密钥**
 
@@ -53,8 +52,8 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="添加新的公钥"
->abstract="为实例添加新的公钥。"
+>title="公共密钥添加"
+>abstract="为实例生成公共SSH密钥，并将其添加到控制面板以访问SFTP服务器。"
 
 >[!IMPORTANT]
 >

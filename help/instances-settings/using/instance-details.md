@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 实例详细信息
 description: 了解如何在控制面板中监控实例详细信息
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 89%
+source-wordcount: '552'
+ht-degree: 86%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="关于实例详细信息"
->abstract="查看 Adobe Campaign 实例的详细信息：类型、名称、内部版本信息和可能的升级建议。"
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 发行说明"
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 发行说明"
+>abstract="查看Adobe Campaign实例的详细信息：类型、名称、内部版本信息以及可能的升级建议。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 发行说明"
 
 ## 关于实例详细信息 {#about-instance-details}
 

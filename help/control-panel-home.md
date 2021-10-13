@@ -5,14 +5,21 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 89%
 
 ---
 
 # 帮助中心 {#control-panel-documentation}
+
+>[!CONTEXTUALHELP]
+>id="cp_overview"
+>title="关于控制面板"
+>abstract="通过控制面板主页，您可以访问可在 Campaign 实例上执行的所有操作。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="了解界面"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="如何访问控制面板"
 
 ![](assets/do-not-localize/banner.png)
 

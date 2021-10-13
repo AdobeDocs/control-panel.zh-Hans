@@ -3,18 +3,24 @@ product: campaign
 solution: Campaign
 title: GPG 密钥管理
 description: 了解如何管理GPG密钥，以在Adobe Campaign中加密和解密数据。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1192'
 ht-degree: 8%
 
 ---
 
 # GPG 密钥管理 {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="关于GPG密钥"
+>abstract="在此选项卡中，您可以在营销实例上安装和/或生成GPG密钥，以加密从Campaign发送的数据并解密传入数据。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="关于性能监控"
 
 ## 关于GPG加密 {#about-gpg-encryption}
 
@@ -92,7 +98,7 @@ GPG加密允许您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 **Campaign Classicv7和Campaign v8:**
 
 * [压缩或加密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [用例：使用安装在控制面板上的密钥加密和导出数据](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [用例：使用安装在控制面板上的密钥加密和导出数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

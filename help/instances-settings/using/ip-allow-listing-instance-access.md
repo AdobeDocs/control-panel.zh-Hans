@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: IP 允许列表
 description: 了解如何在控制面板中向允许列表添加 IP 地址以进行实例访问
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 91%
+source-wordcount: '767'
+ht-degree: 89%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 91%
 * **如果您临时启用了对 IP 地址实例的访问**，请确保在不再需要连接到实例时从允许列表中删除 IP 地址。
 * **我们不建议将公共场所的 IP 地址添加到允许列表**（机场、酒店等）。请始终使用公司 VPN 地址来保护实例的安全。
 
-## 将 IP 地址添加到允许列表以进行实例访问 {#adding-ip-addresses-allow-list}
+## 向允许列表添加IP地址以进行实例访问 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="添加新 IP 范围"
+>title="IP范围配置"
 >abstract="定义要添加到允许列表以连接到实例的 IP 范围。"
 
 要向允许列表添加 IP 地址，请执行以下步骤：

@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: 子域品牌化
 description: 详细了解子域品牌化
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '753'
 ht-degree: 79%
 
 ---
@@ -20,8 +20,7 @@ ht-degree: 79%
 >id="cp_certificate_management"
 >title="关于子域和 SSL 证书"
 >abstract="监控子域和关联的 SSL 证书。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何监控子域的 SSL 证书"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hans" text="监控 SSL 证书"
 
 ## 为什么要设置子域？ {#why-setting-up-subdomains}
 
@@ -29,7 +28,7 @@ ht-degree: 79%
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
 >
->此功能不适用于Campaign v8。
+>此功能不适用于 Campaign v8。
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（交易消息、营销信息等）。
 
@@ -60,6 +59,13 @@ ht-degree: 79%
 如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
 
 ## 子域的用例(Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="选择子域的用例"
+>abstract="按用例划分子域是实现交付性的最佳实践。 这样，每个子域的信誉将被隔离和受保护。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="子域品牌化"
 
 在为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 监控子域的 SSL 证书
 description: 了解如何监控子域的 SSL 证书
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->此功能不适用于Campaign v8。
+>此功能不适用于 Campaign v8。
 
 ## 关于 SSL 证书 {#about-ssl-certificates}
 
@@ -37,7 +37,7 @@ Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收�
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="子域详细信息"
->abstract="检索子域上的信息。"
+>abstract="检索子域SSL证书的信息。"
 
 选择 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡时，子域的 SSL 证书状态可直接从子域的列表中获得。
 

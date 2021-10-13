@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 续订子域的 SSL 证书
 description: 了解如何续订子域的 SSL 证书
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 88%
+source-wordcount: '854'
+ht-degree: 87%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="添加 SSL 证书"
->abstract="要添加 SSL 证书，您需要生成 CSR，为子域购买 SSL 证书并安装证书捆绑包。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="生成证书签名请求 (CSR)"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="如何安装 SSL 证书"
+>title="SSL证书续订"
+>abstract="要续订SSL证书，您需要生成CSR，为子域购买SSL证书，并安装证书包。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="生成证书签名请求 (CSR)"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="安装SSL证书"
 
 ## 关于证书续订 {#about-certificate-renewal-process}
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
 >
->此功能不适用于Campaign v8。
+>此功能不适用于 Campaign v8。
 
 SSL 证书续订过程包括以下 3 个步骤：
 
@@ -46,15 +46,15 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="生成 CSR"
+>title="CSR生成"
 >abstract="在购买证书之前，必须为您计划保护的实例和子域生成证书签名请求。"
 
 >[!CONTEXTUALHELP]
 >id="cp_select_subdomains"
 >title="选择 CSR的子域"
 >abstract="您可以选择在证书签名请求中包含所有子域或仅包含特定子域。只有选定的子域将通过购买的 SSL 证书进行认证。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="生成证书签名请求 (CSR)"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="生成证书签名请求 (CSR)"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
 
 要生成证书签名请求 (CSR)，请执行以下步骤：
 
@@ -102,9 +102,9 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
->title="安装 SSL 证书"
+>title="SSL证书安装"
 >abstract="安装从您的组织批准的认证中心购买的 SSL 证书。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
 
 购买 SSL 证书后，您可以在实例上安装该证书。继续之前，请确保您了解以下先决条件：
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
-source-wordcount: '954'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 100%
 >如果控制面板中显示可用的数据库空间大小与合同中规定的大小不一致，请联系客户关怀团队。
 
 ## 监测数据库使用 {#monitoring-instances-database}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="关于数据库监控"
+>abstract="在此选项卡中，您可以获取有关每个Campaign实例最新和历史数据库使用情况及演变的实时信息。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="关于性能监控"
 
 ![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hans#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hans#performance-monitoring) 的视频中了解这一功能
 
@@ -61,6 +67,11 @@ ht-degree: 100%
 ![](assets/databases_dashboard_detail.png)
 
 ### 存储概述 {#storage-overview}
+
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="关于存储概述"
+>abstract="在此选项卡中，您可以获取有关占用数据库空间的不同Campaign资源的详细信息。"
 
 **[!UICONTROL Storage overview]** 区域以图表形式呈现以下资源所占空间：
 
@@ -125,7 +136,7 @@ Campaign Standard 和 Classic 提供各种防止数据库磁盘空间过度消�
 
 **数据库维护**
 
-* 数据库清理技术工作流：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hans)
+* 数据库清理技术工作流：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
 * [数据库维护指南](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=zh-Hans) (Campaign Classic)
 * [数据库性能故障排除](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hans) (Campaign Classic)
 * [数据库相关选项](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hans#database) (Campaign Classic)
