@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 84%
+source-wordcount: '792'
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,27 @@ ht-degree: 84%
 >
 >对于Campaign Classicv7，请注意，您的实例必须托管在AWS上，并升级为最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hans)内部版本或[最新的GA内部版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans#release-notes)。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
 
+## 2021 年 10 月 {#october-2021}
+
+**IP范围和公钥有效期**
+
+现在，可以设置IP范围和公共密钥可用性的持续时间。 在[IP范围允许列表](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list)和[密钥管理](sftp/using/key-management.md#installing-ssh-key)部分中阅读更多内容。
+
+**IP范围和公钥版本**
+
+您现在可以编辑您创建的[IP范围](sftp/using/ip-range-allow-listing.md#editing-ip-ranges)和[公钥](sftp/using/key-management.md#editing-public-keys)。 请注意，此功能不适用于在当前控制面板版本之前创建的项目。
+
+**SFTP IP范围和公钥到期警报**
+
+电子邮件警报功能现在包含有关SFTP IP允许列表过期和SFTP公钥过期的警报。 [阅读更多](performance-monitoring/using/email-alerting.md)
+
+**Campaign v8完全支持**
+
+现在，Adobe Campaign v8上的控制面板支持&#x200B;**子域**&#x200B;和&#x200B;**证书**&#x200B;管理功能。
+
 ## 2021 年 8 月 {#august-2021}
+
+**支持Campaign v8**
 
 控制面板现在可用于Adobe Campaign v8，但&#x200B;**子域**&#x200B;和&#x200B;**证书**&#x200B;管理功能除外，这些功能尚不受支持。 在[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}中了解更多信息
 
