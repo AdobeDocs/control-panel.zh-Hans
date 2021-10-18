@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 96%
+source-wordcount: '1049'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >abstract="在此选项卡中，您可以向允许列表添加 IP 范围，以建立与 SFTP 服务器的连接。此处仅显示您有权访问的 SFTP 服务器。请联系您的管理员以请求访问其他 SFTP 服务器。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="观看演示视频"
 
-SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或编写新文件，您需要将访问服务器的系统或客户端的公共 IP 地址添加到允许列表。
+SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或编写新文件，您需要将访问服务器的系统或客户端的公共IP地址添加到允许列表。
 
 ![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 的视频中了解这一功能
 
@@ -30,9 +30,9 @@ SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或
 
 CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支持的格式。
 
-语法依次由 IP 地址、“/”字符和十进制数字组成。[本文](https://whatismyipaddress.com/cidr)详细介绍了格式及其语法。
+语法依次由 IP 地址、“/”字符和十进制数字组成。[本文](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}中详细介绍了格式及其语法。
 
-您可以在互联网上搜索免费的在线工具，这些工具将帮助您将现有的 IP 范围转换为 CIDR 格式。
+您可以在Internet上搜索免费的在线工具，这些工具将帮助您将现有的IP范围转换为CIDR格式。
 
 ## 最佳实践 {#best-practices}
 
@@ -41,7 +41,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 * **将 IP 范围添加到允许列表**，而不是单个 IP 地址。要将单个 IP 地址添加到允许列表，请在其中附加“/32”，以标识该范围仅包含单个 IP 地址。
 * **请勿向允许列表添加非常宽的范围**，例如，包括 > 265 个 IP 地址。控制面板将拒绝任何介于 /0 和 /23 之间的 CIDR 格式范围。
 * 只能将&#x200B;**公共 IP 地址**&#x200B;添加到允许列表。
-* 请确保&#x200B;**定期从允许列表中**&#x200B;删除不再需要的 IP 地址。
+* 确保从允许列表中定期删除不再需要的IP地址&#x200B;**。**
 
 ## 向允许列表添加 IP 地址 {#adding-ip-addresses-allow-list}
 
@@ -57,36 +57,111 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
    ![](assets/control_panel_add_range.png)
 
-1. 定义要添加到允许列表的 IP 范围（以 CIDR 格式），然后定义将在列表中显示的标签。
+1. 定义要添加到允许列表的IP范围。 此字段仅接受CIDR格式的IP范围，例如&#x200B;*192.150.5.0/24*。
 
-   >[!NOTE]
-   >
-   >标签字段中允许使用以下特殊字符：
-   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
-
-   ![](assets/control_panel_add_range2.png)
+   ![](assets/control_panel_add_range4.png)
 
    >[!IMPORTANT]
    >
    >IP 范围不能与允许列表上的现有范围重叠。在这种情况下，首先删除包含重叠 IP 的范围。
-   >
-   >可以在允许列表上为多个实例添加一个范围。为此，请按向下箭头键或键入所需实例的前几个字母，然后从建议列表中选择该实例。
+
+1. 可以向允许列表添加多个实例的范围。 为此，请按向下箭头键或键入所需实例的前几个字母，然后从建议列表中选择该实例。
 
    ![](assets/control_panel_add_range3.png)
 
-1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;按钮。在完全处理请求之前，允许列表的 IP 添加项将显示为“待处理”。此处理操作只需要几秒钟即可完成。
+1. 定义将在列表中为此IP范围显示的标签。
 
-要从允许列表中删除 IP 范围，请选中要删除的 IP 范围，然后单击 **[!UICONTROL Delete IP range]** 按钮。
+   ![](assets/control_panel_add_range2.png)
 
-![](assets/control_panel_delete_range2.png)
+   >[!NOTE]
+   >
+   >**[!UICONTROL Label]**字段中允许使用以下特殊字符：
+   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
+
+1. 为了更好地管理您的IP允许列表，您可以为每个IP范围的可用性设置持续时间。 为此，请在&#x200B;**[!UICONTROL Type]**&#x200B;下拉列表中选择一个设备，并在相应的字段中定义持续时间。 有关IP范围到期的更多信息，请参阅[此部分](#expiry)。
+
+   ![](assets/control_panel_add_range5.png)
+
+   >[!NOTE]
+   >
+   >默认情况下，**[!UICONTROL Type]**&#x200B;字段设置为&#x200B;**[!UICONTROL Unlimited]**，这表示IP范围永不过期。
+
+1. 在&#x200B;**[!UICONTROL Comment]**&#x200B;字段中，您可以指明允许此IP范围的原因（原因、对象等）。
+
+1. 单击 **[!UICONTROL Save]** 按钮。允许列表的IP范围附加项将显示为&#x200B;**[!UICONTROL Pending]**，直到请求得到完全处理，这只需几秒钟即可完成。
+
+   ![](assets/control_panel_add_range6.png)
+
+>[!IMPORTANT]
+>
+>如果您尝试将SFTP服务器连接到新系统，从而将新IP范围添加到允许列表，则可能需要输入新的公钥才能完成连接。 有关更多信息，请参阅[此章节](key-management.md)。
+
+## 管理IP范围 {#managing-ip-ranges}
+
+您创建的IP范围显示在&#x200B;**[!UICONTROL IP Allow Listing]**&#x200B;选项卡中。
+
+您可以根据创建日期或编辑日期、创建或编辑项目的用户以及IP范围到期情况对项目进行排序。
+
+您还可以通过开始键入标签、范围、名称或评论来搜索IP范围。
+
+![](assets/control_panel_allow_list_sort.png)
+
+要编辑一个或多个IP范围，请参阅[此部分](#editing-ip-ranges)。
+
+要从允许列表中删除一个或多个IP范围，请选择它们，然后单击&#x200B;**[!UICONTROL Delete IP range]**&#x200B;按钮。
+
+![](assets/control_panel_delete_range.png)
+
+### 到期 {#expiry}
+
+**[!UICONTROL Expires]**&#x200B;列显示在IP范围过期之前还剩多少天。
+
+如果您订阅了[电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则会在IP范围过期前10天和5天以及IP范围过期之日通过电子邮件收到通知。 收到警报后，您可以[编辑IP范围](#editing-ip-ranges)以根据需要延长其有效期。
+
+过期的IP范围将在7天后自动删除。 该列在&#x200B;**[!UICONTROL Expires]**&#x200B;列中显示为&#x200B;**[!UICONTROL Expired]**。 在此7天内：
+
+* 过期的IP范围不能再用于访问SFTP服务器。
+
+* 不能创建与过期范围重叠的其他IP范围。 您需要先删除过期的IP范围，然后再创建新范围。
+
+* 您可以[编辑](#editing-ip-ranges)过期的IP范围并更新其持续时间，使其再次可用。
+
+* 您可以从允许列表中删除它。
+
+## 编辑IP范围 {#editing-ip-ranges}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_iprange_update"
+>title="更新IP范围"
+>abstract="更新允许连接到SFTP服务器的选定IP范围。"
+
+要编辑IP范围，请执行以下步骤。
 
 >[!NOTE]
 >
->当前无法编辑允许列表上的范围。要修改 IP 范围，请将其删除，然后创建一个符合您的需求的 IP 范围。
+>您只能编辑自2021年10月版控制面板以来创建的IP范围。
+
+<!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
+
+1. 从&#x200B;**[!UICONTROL IP Allow Listing]**&#x200B;列表中选择一个或多个IP范围。
+
+1. 单击 **[!UICONTROL Update IP range]** 按钮。
+
+   ![](assets/control_panel_edit_range.png)
+
+1. 您只能编辑IP范围到期和/或添加新注释。
+
+   >[!NOTE]
+   >
+   >要修改CIDR格式、其标签或编辑相关实例，您必须先删除IP范围，并创建一个符合您需求的新实例。
+
+   ![](assets/control_panel_edit_range2.png)
+
+1. 保存更改。
 
 ## 监控更改 {#monitoring-changes}
 
-通过控制面板主页中的 **[!UICONTROL Job Logs]**，您可以监控对允许列表上的 IP 地址所做的所有更改。
+通过控制面板主页中的&#x200B;**[!UICONTROL Job Logs]** ，您可以跟踪和监视对允许列表上的IP地址所做的所有更改。
 
 有关控制面板界面的详细信息，请参阅[此部分](../../discover/using/discovering-the-interface.md)。
 
