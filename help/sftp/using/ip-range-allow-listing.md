@@ -30,7 +30,7 @@ SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或
 
 CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支持的格式。
 
-语法依次由 IP 地址、“/”字符和十进制数字组成。[本文](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}中详细介绍了格式及其语法。
+语法依次由 IP 地址、“/”字符和十进制数字组成。格式及其语法在 [本文](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}。
 
 您可以在Internet上搜索免费的在线工具，这些工具将帮助您将现有的IP范围转换为CIDR格式。
 
@@ -41,7 +41,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 * **将 IP 范围添加到允许列表**，而不是单个 IP 地址。要将单个 IP 地址添加到允许列表，请在其中附加“/32”，以标识该范围仅包含单个 IP 地址。
 * **请勿向允许列表添加非常宽的范围**，例如，包括 > 265 个 IP 地址。控制面板将拒绝任何介于 /0 和 /23 之间的 CIDR 格式范围。
 * 只能将&#x200B;**公共 IP 地址**&#x200B;添加到允许列表。
-* 确保从允许列表中定期删除不再需要的IP地址&#x200B;**。**
+* 确保 **定期删除IP地址** 不再需要允许列表。
 
 ## 向允许列表添加 IP 地址 {#adding-ip-addresses-allow-list}
 
@@ -57,7 +57,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
    ![](assets/control_panel_add_range.png)
 
-1. 定义要添加到允许列表的IP范围。 此字段仅接受CIDR格式的IP范围，例如&#x200B;*192.150.5.0/24*。
+1. 定义要添加到允许列表的IP范围。 此字段仅接受CIDR格式的IP范围，例如 *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -75,20 +75,20 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
    >[!NOTE]
    >
-   >**[!UICONTROL Label]**字段中允许使用以下特殊字符：
+   >在 **[!UICONTROL Label]** 字段：
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. 为了更好地管理您的IP允许列表，您可以为每个IP范围的可用性设置持续时间。 为此，请在&#x200B;**[!UICONTROL Type]**&#x200B;下拉列表中选择一个设备，并在相应的字段中定义持续时间。 有关IP范围到期的更多信息，请参阅[此部分](#expiry)。
+1. 为了更好地管理您的IP允许列表，您可以为每个IP范围的可用性设置持续时间。 为此，请在 **[!UICONTROL Type]** 下拉列表中，并在相应的字段中定义持续时间。 有关IP范围到期的更多信息，请参阅 [此部分](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >默认情况下，**[!UICONTROL Type]**&#x200B;字段设置为&#x200B;**[!UICONTROL Unlimited]**，这表示IP范围永不过期。
+   >默认情况下， **[!UICONTROL Type]** 字段设置为 **[!UICONTROL Unlimited]**，这表示IP范围永不过期。
 
-1. 在&#x200B;**[!UICONTROL Comment]**&#x200B;字段中，您可以指明允许此IP范围的原因（原因、对象等）。
+1. 在 **[!UICONTROL Comment]** 字段中，您可以指明允许此IP范围的原因（原因、对象等）。
 
-1. 单击 **[!UICONTROL Save]** 按钮。允许列表的IP范围附加项将显示为&#x200B;**[!UICONTROL Pending]**，直到请求得到完全处理，这只需几秒钟即可完成。
+1. 单击 **[!UICONTROL Save]** 按钮。允许列表的IP范围附加项将显示为 **[!UICONTROL Pending]** 在请求完全处理之前，此过程只需几秒钟即可完成。
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 ## 管理IP范围 {#managing-ip-ranges}
 
-您创建的IP范围显示在&#x200B;**[!UICONTROL IP Allow Listing]**&#x200B;选项卡中。
+您创建的IP范围将显示在 **[!UICONTROL IP Allow Listing]** 选项卡。
 
 您可以根据创建日期或编辑日期、创建或编辑项目的用户以及IP范围到期情况对项目进行排序。
 
@@ -106,25 +106,25 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 ![](assets/control_panel_allow_list_sort.png)
 
-要编辑一个或多个IP范围，请参阅[此部分](#editing-ip-ranges)。
+要编辑一个或多个IP范围，请参阅 [此部分](#editing-ip-ranges).
 
-要从允许列表中删除一个或多个IP范围，请选择它们，然后单击&#x200B;**[!UICONTROL Delete IP range]**&#x200B;按钮。
+要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
 
 ![](assets/control_panel_delete_range.png)
 
 ### 到期 {#expiry}
 
-**[!UICONTROL Expires]**&#x200B;列显示在IP范围过期之前还剩多少天。
+的 **[!UICONTROL Expires]** 列显示在IP范围过期之前还剩多少天。
 
-如果您订阅了[电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则会在IP范围过期前10天和5天以及IP范围过期之日通过电子邮件收到通知。 收到警报后，您可以[编辑IP范围](#editing-ip-ranges)以根据需要延长其有效期。
+如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则会在IP范围过期的前10天和5天以及过期的当天通过电子邮件收到通知。 收到警报后，您可以 [编辑IP范围](#editing-ip-ranges) 以延长有效期（如有需要）。
 
-过期的IP范围将在7天后自动删除。 该列在&#x200B;**[!UICONTROL Expires]**&#x200B;列中显示为&#x200B;**[!UICONTROL Expired]**。 在此7天内：
+过期的IP范围将在7天后自动删除。 显示为 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 列。 在此7天内：
 
 * 过期的IP范围不能再用于访问SFTP服务器。
 
 * 不能创建与过期范围重叠的其他IP范围。 您需要先删除过期的IP范围，然后再创建新范围。
 
-* 您可以[编辑](#editing-ip-ranges)过期的IP范围并更新其持续时间，使其再次可用。
+* 您可以 [编辑](#editing-ip-ranges) 过期的IP范围并更新其持续时间以使其再次可用。
 
 * 您可以从允许列表中删除它。
 
@@ -143,7 +143,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. 从&#x200B;**[!UICONTROL IP Allow Listing]**&#x200B;列表中选择一个或多个IP范围。
+1. 从 **[!UICONTROL IP Allow Listing]** 列表。
 
 1. 单击 **[!UICONTROL Update IP range]** 按钮。
 
@@ -161,7 +161,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 ## 监控更改 {#monitoring-changes}
 
-通过控制面板主页中的&#x200B;**[!UICONTROL Job Logs]** ，您可以跟踪和监视对允许列表上的IP地址所做的所有更改。
+的 **[!UICONTROL Job Logs]** 在“控制面板”主页中，您可以跟踪和监视对允许列表上的IP地址所做的所有更改。
 
 有关控制面板界面的详细信息，请参阅[此部分](../../discover/using/discovering-the-interface.md)。
 

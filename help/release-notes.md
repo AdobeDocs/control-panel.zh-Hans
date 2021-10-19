@@ -22,17 +22,17 @@ ht-degree: 71%
 >
 >所有管理员用户都可访问控制面板。[此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
 >
->对于Campaign Classicv7，请注意，您的实例必须托管在AWS上，并升级为最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hans)内部版本或[最新的GA内部版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans#release-notes)。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
+>对于Campaign Classicv7，请注意，您的实例必须托管在AWS上，并且必须升级为最新版本 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hans) 构建或 [最新GA内部版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans#release-notes). 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](faq.md)中详述的步骤操作。
 
 ## 2021 年 10 月 {#october-2021}
 
 **IP范围和公钥有效期**
 
-现在，可以设置IP范围和公共密钥可用性的持续时间。 在[IP范围允许列表](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list)和[密钥管理](sftp/using/key-management.md#installing-ssh-key)部分中阅读更多内容。
+现在，可以设置IP范围和公共密钥可用性的持续时间。 有关更多信息，请参阅 [IP范围允许列表](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) 和 [密钥管理](sftp/using/key-management.md#installing-ssh-key) 中。
 
 **IP范围和公钥版本**
 
-您现在可以编辑您创建的[IP范围](sftp/using/ip-range-allow-listing.md#editing-ip-ranges)和[公钥](sftp/using/key-management.md#editing-public-keys)。 请注意，此功能不适用于在当前控制面板版本之前创建的项目。
+您现在可以编辑 [IP范围](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) 和 [公共密钥](sftp/using/key-management.md#editing-public-keys) 创建的。 请注意，此功能不适用于在当前控制面板版本之前创建的项目。
 
 **SFTP IP范围和公钥到期警报**
 
@@ -40,13 +40,13 @@ ht-degree: 71%
 
 **Campaign v8完全支持**
 
-现在，Adobe Campaign v8上的控制面板支持&#x200B;**子域**&#x200B;和&#x200B;**证书**&#x200B;管理功能。
+的 **子域** 和 **证书** Adobe Campaign v8上的控制面板现在支持管理功能。
 
 ## 2021 年 8 月 {#august-2021}
 
 **支持Campaign v8**
 
-控制面板现在可用于Adobe Campaign v8，但&#x200B;**子域**&#x200B;和&#x200B;**证书**&#x200B;管理功能除外，这些功能尚不受支持。 在[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}中了解更多信息
+控制面板现在可用于Adobe Campaign v8，但 **子域** 和 **证书** 管理功能，但尚不受支持。 在 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
 ## 2020 年 10 月 {#october-2020}
 

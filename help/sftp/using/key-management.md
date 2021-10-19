@@ -69,17 +69,17 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
    >
    >可以为每个用户添加一个或多个公共 SSH 密钥。
 
-1. 为了更好地管理公钥，您可以设置每个密钥的可用持续时间。 为此，请在&#x200B;**[!UICONTROL Type]**&#x200B;下拉列表中选择一个设备，并在相应的字段中定义持续时间。 有关公钥到期的更多信息，请参阅[此部分](#expiry)。
+1. 为了更好地管理公钥，您可以设置每个密钥的可用持续时间。 为此，请在 **[!UICONTROL Type]** 下拉列表中，并在相应的字段中定义持续时间。 有关公钥到期的更多信息，请参阅 [此部分](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >默认情况下，**[!UICONTROL Type]**&#x200B;字段设置为&#x200B;**[!UICONTROL Unlimited]**，这表示公钥永不过期。
+   >默认情况下， **[!UICONTROL Type]** 字段设置为 **[!UICONTROL Unlimited]**，这表示公钥永不过期。
 
-1. 在&#x200B;**[!UICONTROL Comment]**&#x200B;字段中，您可以指明添加此公钥的原因（原因、对象等）。
+1. 在 **[!UICONTROL Comment]** 字段中，您可以指明添加此公共密钥的原因（原因、对象等）。
 
-1. 要能够填写&#x200B;**[!UICONTROL Public Key]**&#x200B;字段，您需要生成公共SSH密钥。 根据您的操作系统，执行以下步骤。
+1. 以便能够 **[!UICONTROL Public Key]** 字段中，您需要生成公共SSH密钥。 根据您的操作系统，执行以下步骤。
 
    **Linux 和 Mac：**
 
@@ -99,7 +99,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
    >[!NOTE]
    >
-   >**[!UICONTROL Public Key]**&#x200B;字段仅接受OpenSSH格式。 公共 SSH 密钥大小应为 **2048 位**。
+   >的 **[!UICONTROL Public Key]** 字段仅接受OpenSSH格式。 公共 SSH 密钥大小应为 **2048 位**。
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;按钮以创建密钥。控制面板会保存公钥及其关联的指纹，并使用SHA256格式进行加密。
 
@@ -117,7 +117,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 ## 管理公钥 {#managing-public-keys}
 
-您创建的公共密钥将显示在&#x200B;**[!UICONTROL Key Management]**&#x200B;选项卡中。
+您创建的公共密钥将显示在 **[!UICONTROL Key Management]** 选项卡。
 
 您可以根据创建日期或编辑日期、创建或编辑项目的用户以及IP范围到期情况对项目进行排序。
 
@@ -125,23 +125,23 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 ![](assets/control_panel_key_management_sort.png)
 
-要编辑一个或多个IP范围，请参阅[此部分](#editing-public-keys)。
+要编辑一个或多个IP范围，请参阅 [此部分](#editing-public-keys).
 
-要从列表中删除一个或多个公钥，请选择它们，然后单击&#x200B;**[!UICONTROL Delete public key]**&#x200B;按钮。
+要从列表中删除一个或多个公钥，请选择它们，然后单击 **[!UICONTROL Delete public key]** 按钮。
 
 ![](assets/control_panel_delete_key.png)
 
 ### 到期 {#expiry}
 
-**[!UICONTROL Expires]**&#x200B;列显示在公共密钥过期之前还剩多少天。
+的 **[!UICONTROL Expires]** 列会显示在公共密钥过期之前还剩多少天。
 
-如果您订阅了[电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则会在公钥过期的10天和5天前，以及它到期的当天，通过电子邮件收到通知。 收到警报后，您可以[编辑公钥](#editing-public-keys)以根据需要延长其有效期。
+如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则会在公钥过期的前10天和5天以及到期的当天通过电子邮件收到通知。 收到警报后，您可以 [编辑公钥](#editing-public-keys) 以延长有效期（如有需要）。
 
-过期的公钥将在7天后自动删除。 该列在&#x200B;**[!UICONTROL Expires]**&#x200B;列中显示为&#x200B;**[!UICONTROL Expired]**。 在此7天内：
+过期的公钥将在7天后自动删除。 显示为 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 列。 在此7天内：
 
 * 已过期的公共密钥不能再用于连接到SFTP服务器。
 
-* 您可以[编辑](#editing-public-keys)过期的公钥并更新其持续时间以使其再次可用。
+* 您可以 [编辑](#editing-public-keys) 过期的公钥，并更新其持续时间以使其再次可用。
 
 * 您可以从列表中删除它。
 
@@ -158,7 +158,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >您只能编辑自2021年10月版控制面板以来创建的公钥。
 
-1. 从&#x200B;**[!UICONTROL Key Management]**&#x200B;列表中选择一个或多个项目。
+1. 从 **[!UICONTROL Key Management]** 列表。
 1. 单击 **[!UICONTROL Update public key]** 按钮。
 
    ![](assets/control_panel_edit_key.png)
