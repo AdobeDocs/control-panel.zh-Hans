@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '745'
 ht-degree: 79%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
->
->此功能不适用于 Campaign v8。
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（交易消息、营销信息等）。
 
@@ -45,7 +43,7 @@ ht-degree: 79%
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
-* **使用CNAME**:创建子域，并使用CNAME指向特定于Adobe的记录。使用此设置，Adobe 和客户共同负责维护 DNS。
+* **使用CNAME**:创建子域，并使用CNAME指向特定于Adobe的记录。 使用此设置，Adobe 和客户共同负责维护 DNS。
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
@@ -54,7 +52,7 @@ ht-degree: 79%
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-有关域配置的其他信息，请参阅本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)。[
+有关域配置的其他信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
 
@@ -67,7 +65,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="子域品牌化"
 
-在为Campaign Classic实例设置子域时，需要选择将使用子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
+在为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参阅 [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
 可能的用例包括：
 

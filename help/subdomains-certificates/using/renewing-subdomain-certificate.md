@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '828'
 ht-degree: 88%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
->
->此功能不适用于 Campaign v8。
 
 SSL 证书续订过程包括以下 3 个步骤：
 
