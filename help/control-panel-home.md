@@ -55,7 +55,7 @@ ht-degree: 90%
         <td><b>Campaign Classic v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans">控制面板教程视频</a></li>
-            <li><a href="://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans">Campaign Classic v7 产品文档</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans">Campaign Classic v7 产品文档</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
