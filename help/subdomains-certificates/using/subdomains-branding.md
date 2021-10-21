@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '753'
 ht-degree: 79%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
+>
+>此功能不适用于 Campaign v8。
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（交易消息、营销信息等）。
 
