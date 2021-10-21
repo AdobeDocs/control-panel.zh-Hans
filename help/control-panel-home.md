@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 90%
+source-wordcount: '243'
+ht-degree: 58%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 90%
 
 ## 新增功能
 
-**使用 CNAME 的子域配置**
+**IP范围有效期和版本**
 
-控制面板现在可让您配置子域以直接从界面使用 CNAME 处理 Adobe。[阅读更多](subdomains-certificates/using/setting-up-new-subdomain.md)
+现在，可以设置IP范围可用性的持续时间，并编辑您创建的IP范围。 [阅读更多](sftp/using/ip-range-allow-listing.md)
 
-**数据库监视增强功能**
+**公钥有效期和版本**
 
-**[!UICONTROL Database monitoring]** 选项卡已增强额外的指标，让您能够获得有关占用数据库空间的资源的详细信息。[阅读更多](performance-monitoring/using/database-monitoring.md)
+同样，您现在可以设置可用公钥的持续时间，并编辑您创建的公钥。 [阅读更多](sftp/using/key-management.md)
+
+**支持Campaign v8**
+
+控制面板现在可用于Adobe Campaign v8，但 **子域** 和 **证书** 管理功能，但尚不受支持。
 
 >[!CAUTION]
 >
