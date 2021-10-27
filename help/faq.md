@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
+source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 97%
+source-wordcount: '771'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 97%
 
 有关详细信息，请参阅控制面板支持的操作文档。
 
-### 有哪些功能，Campaign v8 不支持，但在 Campaign Classic v7 上可用{#v8-restrictions}
+### Campaign v8上是否尚不支持某些功能，但在Campaign Classicv7上可用{#v8-restrictions}
 
- Campaign v8 尚不支持通过控制面板来实现子域和证书管理相关功能。请联系 Campaign 客户关怀团队，获取任何相关支持。
+不。 Campaign Classicv7上提供的所有功能现在也通过控制面板Campaign v8来支持，包括子域和证书管理相关功能。
 
 ### 控制面板是否仅用于 Adobe Campaign？
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '352'
 ht-degree: 95%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 95%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 
 ## 关于 TXT 记录 {#about-txt-records}
-
->[!AVAILABILITY]
->
->此功能不适用于 Campaign v8。
 
 TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。
 

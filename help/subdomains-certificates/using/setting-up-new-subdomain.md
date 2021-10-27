@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1334'
 ht-degree: 89%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 89%
 >[!IMPORTANT]
 >
 >测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
->
->此功能不适用于 Campaign v8。
 
 本页面提供有关如何使用完全子域委派或 CNAME 设置新子域的信息。[子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)一节介绍了有关这两种方法的全局概念。
 

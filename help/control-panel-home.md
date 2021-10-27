@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 75d369f52be140732525411239ae18b7269e761f
+source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 58%
+source-wordcount: '232'
+ht-degree: 57%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 58%
 
 ## 新增功能
 
+**Campaign v8完全支持**
+
+所有功能，包括 **子域** 和 **证书** 管理现在受Adobe Campaign v8上的控制面板支持。 [阅读更多](faq.md#v8-restrictions)
+
 **IP范围有效期和版本**
 
 现在，可以设置IP范围可用性的持续时间，并编辑您创建的IP范围。 [阅读更多](sftp/using/ip-range-allow-listing.md)
@@ -33,17 +37,11 @@ ht-degree: 58%
 
 同样，您现在可以设置可用公钥的持续时间，并编辑您创建的公钥。 [阅读更多](sftp/using/key-management.md)
 
-**支持Campaign v8**
-
-控制面板现在可用于Adobe Campaign v8，但 **子域** 和 **证书** 管理功能，但尚不受支持。
-
 >[!CAUTION]
 >
 >* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* 对于 Campaign Classic v7，应用部署限制。 [了解详情](faq.md#v7-restrictions)
->
->* 对于 Campaign v8，某些功能不可用。[了解详情](faq.md#v8-restrictions)
 
 
 ## 其他资源 {#additional-resources}
