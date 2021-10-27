@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
+source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 73%
 
 电子邮件警报功能现在包含有关SFTP IP允许列表过期和SFTP公钥过期的警报。 [阅读更多](performance-monitoring/using/email-alerting.md)
 
-<!--**Full support with Campaign v8**
+**Campaign v8完全支持**
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
+的 **子域** 和 **证书** Adobe Campaign v8上的控制面板现在支持管理功能。
 
 ## 2021 年 8 月 {#august-2021}
 
