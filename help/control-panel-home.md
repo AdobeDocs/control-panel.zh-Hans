@@ -27,15 +27,15 @@ ht-degree: 66%
 
 **Campaign v8完全支持**
 
-所有功能，包括 **子域** 和 **证书** 管理现在受Adobe Campaign v8上的控制面板支持。 [阅读更多](faq.md#v8-restrictions)
+所有功能，包括 **子域** 和 **证书** 管理现在受Adobe Campaign v8上的控制面板支持。 [了解更多信息](faq.md#v8-restrictions)
 
 **IP范围有效期和版本**
 
-现在，可以设置IP范围可用性的持续时间，并编辑您创建的IP范围。 [阅读更多](sftp/using/ip-range-allow-listing.md)
+现在，可以设置IP范围可用性的持续时间，并编辑您创建的IP范围。 [了解更多信息](sftp/using/ip-range-allow-listing.md)
 
 **公钥有效期和版本**
 
-同样，您现在可以设置可用公钥的持续时间，并编辑您创建的公钥。 [阅读更多](sftp/using/key-management.md)
+同样，您现在可以设置可用公钥的持续时间，并编辑您创建的公钥。 [了解更多信息](sftp/using/key-management.md)
 
 >[!CAUTION]
 >

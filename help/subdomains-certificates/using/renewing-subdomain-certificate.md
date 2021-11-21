@@ -51,7 +51,7 @@ Adobe 客户关怀团队会为您生成 CSR。您需要提供生成 CSR 所需�
 >id="cp_select_subdomains"
 >title="选择 CSR的子域"
 >abstract="您可以选择在证书签名请求中包含所有子域或仅包含特定子域。只有选定的子域将通过购买的 SSL 证书进行认证。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="关于子域品牌化"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="关于子域品牌化"
 
 要生成证书签名请求 (CSR)，请执行以下步骤：
 
