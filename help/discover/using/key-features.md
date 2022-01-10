@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 89%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->控制面板仅限管理员用户使用。[此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)将详细介绍授予用户管理员访问权限的步骤。
+>控制面板仅限管理员用户使用。[此部分](managing-permissions.md)将详细介绍授予用户管理员访问权限的步骤。
 >
->对于 Campaign Classic，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 内部版本。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md)中详述的步骤操作。
+>要Campaign Classic，请注意，您的实例必须托管在Amazon Web Services(AWS)上并升级到最新版本 [营销活动稳定内部版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 或建造9032或更高版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
 
 <table style="table-layout:fixed">
 <tr>
