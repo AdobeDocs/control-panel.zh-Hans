@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 77%
 
 ---
 
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## 新增功能
 
-**Campaign v8 提供全面支持**
+**活动查询监控**
 
-Adobe Campaign v8 上的控制面板现在支持所有功能，包括&#x200B;**子域**&#x200B;和&#x200B;**证书**&#x200B;管理。[了解更多信息](faq.md#v8-restrictions)
+控制面板现在允许您监视在实例上运行时间最长的查询。 [了解更多信息](performance-monitoring/using/database-active-queries.md)
 
-**IP 范围有效期和版本**
+**吞吐量和延迟监控**
 
-现在，可以为 IP 范围可用性设置期限，并编辑您创建的 IP 范围。[了解更多信息](sftp/using/ip-range-allow-listing.md)
+您现在可以监控在实例上一段时间内的投放吞吐量和延迟趋势。 [了解更多信息](performance-monitoring/using/thoughputs-latencies.md)
 
-**公钥有效期和版本**
-
-同样地，您现在可以为公钥可用性设置期限，并编辑您创建的公钥。[了解更多信息](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
