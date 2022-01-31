@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,7 @@ ht-degree: 100%
 
 子域配置仅可用于&#x200B;**生产**&#x200B;实例。
 
-如果您在向导中选择的实例之前没有设置子域，则第一个配置的子域将成为该实例的&#x200B;**主子域**，而且您以后将无法更改它。
-
-因此，将为使用此主子域的其他子域创建&#x200B;**反向 DNS 记录**。**其他子域的回复地址和退回地址将从主子域生成。**
+如果您在向导中选择的实例之前没有设置子域，则第一个配置的子域将成为该实例的&#x200B;**主子域**，而且您以后将无法更改它。因此，将为使用此主子域的其他子域创建&#x200B;**反向 DNS 记录**。**其他子域的回复地址和退回地址将从主子域生成。**
 
 ### 名称服务器配置
 
@@ -62,13 +60,13 @@ ht-degree: 100%
 >id="cp_add_subdomain_create_delegate"
 >title="创建和委派子域"
 >abstract="创建您希望在托管解决方案中与 Adobe Campaign 一起使用的子域，并将其委派给 Adobe。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="设置新子域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="提交子域"
 >abstract="确认并提交在上一步中配置的子域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="设置新子域"
 
 要将子域完全委派给 Adobe Campaign，请遵循以下步骤。
 
@@ -110,19 +108,19 @@ ht-degree: 100%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="配置子域"
 >abstract="在此屏幕中，指定要使用 CNAME 配置的子域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="设置新子域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="生成记录"
 >abstract="导航到您的托管解决方案，以生成此屏幕中显示的 DNS 记录列表。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="设置新子域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="提交子域"
 >abstract="确认并提交在上一步中配置的子域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="设置新子域"
 
 要使用 CNAME 配置子域，请遵循以下步骤。
 
@@ -168,7 +166,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >请注意，当子域配置运行时，经由控制面板的其他请求将进入队列并仅在子域配置完成后才会执行，以防止出现任何性能问题。
+   >请注意，当子域配置运行时，其他控制面板请求将输入队列并仅在子域配置完成后执行，以防止出现任何性能问题。
 
 1. 如果检查成功，控制面板将开始设置包含 DNS 记录、其他 URL、收件箱等的子域。
 
@@ -183,6 +181,8 @@ ht-degree: 100%
    >[!IMPORTANT]
    >
    >执行的可投放性检查包括反馈循环和垃圾邮件投诉循环测试。因此，我们不建议在审核完成之前使用子域，因为它可能导致子域声誉受损。
+   >
+   >但是，请注意，您可以在子域上执行与SSL证书相关的操作，即使可交付性审核仍在处理。
 
 1. 在流程结束时，子域将配置为与 Adobe Campaign 实例配合使用，并将创建以下元素：
 
