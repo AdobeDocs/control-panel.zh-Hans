@@ -2,19 +2,19 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Control Panel 指南
+user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Control Panel 指南 {#using}
+# 控制面板指南 {#using}
 
 + [产品文档](control-panel-home.md)
 + [发行说明](release-notes.md)
@@ -34,20 +34,20 @@ ht-degree: 94%
    + [子域品牌化](subdomains-certificates/using/subdomains-branding.md)
    + [监测子域](subdomains-certificates/using/monitoring-subdomains.md)
    + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [监控 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [续订 SSL 证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [管理 TXT 记录](subdomains-certificates/using/managing-txt-records.md)
-+ 性能监测{#performance-monitoring}
-   + [关于性能监控](performance-monitoring/using/about-performance-monitoring.md)
++ 性能监测 {#performance-monitoring}
+   + [关于性能监测](performance-monitoring/using/about-performance-monitoring.md)
    + 数据库监测 {#database-monitoring}
-      + [关于数据库监控](performance-monitoring/using/database-monitoring.md)
+      + [关于数据库监测](performance-monitoring/using/database-monitoring.md)
       + [数据库利用率](performance-monitoring/using/database-utilization.md)
       + [存储概述](performance-monitoring/using/database-storage-overview.md)
       + [十大临时资源](performance-monitoring/using/database-top-ten-resources.md)
-      + [监控活动查询](performance-monitoring/using/database-active-queries.md)
+      + [监测活动查询](performance-monitoring/using/database-active-queries.md)
       + [防止数据库过载](performance-monitoring/using/database-preventing-overload.md)
-   + [活动用户档案监控](performance-monitoring/using/active-profiles-monitoring.md)
-   + [吞吐量和延迟监控](performance-monitoring/using/thoughputs-latencies.md)
+   + [活动用户档案监测](performance-monitoring/using/active-profiles-monitoring.md)
+   + [吞吐量和延迟监测](performance-monitoring/using/thoughputs-latencies.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + 实例设置 {#instances-settings}
    + [将 IP 添加到允许列表以进行实例访问](instances-settings/using/ip-allow-listing-instance-access.md)
