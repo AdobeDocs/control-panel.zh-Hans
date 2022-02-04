@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 77%
 
 ## 新增功能
 
-**活动查询监控**
+**活动查询监测**
 
-控制面板现在允许您监视在实例上运行时间最长的查询。 [了解更多信息](performance-monitoring/using/database-active-queries.md)
+控制面板现在允许您监测在实例上运行时间最长的查询。[了解更多信息](performance-monitoring/using/database-active-queries.md)
 
-**吞吐量和延迟监控**
+**吞吐量和延迟监测**
 
-您现在可以监控在实例上一段时间内的投放吞吐量和延迟趋势。 [了解更多信息](performance-monitoring/using/thoughputs-latencies.md)
+您现在可以监测在实例上一段时间内的投放吞吐量和延迟趋势。[了解更多信息](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
