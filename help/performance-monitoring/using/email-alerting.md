@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ ht-degree: 1%
 * **SFTP IP允许列表过期**:您定义的其中一个IP范围已过期，或将在10天或更短时间内过期。 请参阅 [IP范围允许列表](../../sftp/using/ip-range-allow-listing.md).
 
 * **SFTP公钥过期**:您定义的其中一个公钥已过期，或将在10天或更短时间内过期。 请参阅 [密钥管理](../../sftp/using/key-management.md).
+
+* **长时间运行的查询**:某个实例上的查询已运行超过24小时。 请参阅 [监控活动查询](database-active-queries.md).

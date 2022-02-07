@@ -6,8 +6,7 @@ description: 从Campaign文档访问资源，以帮助防止实例上的数据�
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 92%
