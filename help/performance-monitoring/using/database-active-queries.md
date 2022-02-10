@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 50%
 
 >[!IMPORTANT]
 >
->如果其中一个查询处于活动状态超过24小时，则在您订阅 [电子邮件警报](email-alerting.md).
+>如果其中一个查询处于活动状态超过 24 小时，而且您订阅了[电子邮件警报](email-alerting.md)，那么您将收到电子邮件通知。
 >
->在这种情况下，请联系客户关怀团队，以便他们识别并解决问题。 您需要向他们提供 **[!UICONTROL PID]** 列值，查询的唯一标识符。
+>在这种情况下，请联系客户关怀团队，以便他们识别并解决问题。您需要向他们提供 **[!UICONTROL PID]** 列值，这是查询的唯一标识符。
