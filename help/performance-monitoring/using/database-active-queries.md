@@ -6,9 +6,10 @@ description: 了解如何在控制面板中监测 Campaign 实例上的活动查
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: ht
-source-wordcount: '118'
+exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+source-git-commit: efad3b82a498cfc88a06479e40c3e5c75d814740
+workflow-type: tm+mt
+source-wordcount: '103'
 ht-degree: 100%
 
 ---
@@ -23,6 +24,4 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->如果其中一个查询处于活动状态超过 24 小时，而且您订阅了[电子邮件警报](email-alerting.md)，那么您将收到电子邮件通知。
->
->在这种情况下，请联系客户关怀团队，以便他们识别并解决问题。您需要向他们提供 **[!UICONTROL PID]** 列值，这是查询的唯一标识符。
+>如果其中一个查询处于活动状态超过 24 小时，请联系客户关怀团队，以便他们识别并解决问题。您需要向他们提供 **[!UICONTROL PID]** 列值，这是查询的唯一标识符。
