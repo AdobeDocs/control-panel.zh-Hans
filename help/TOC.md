@@ -6,9 +6,9 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 98%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 98%
       + [存储概述](performance-monitoring/using/database-storage-overview.md)
       + [十大临时资源](performance-monitoring/using/database-top-ten-resources.md)
       + [活动查询](performance-monitoring/using/database-active-queries.md)
+      + [监测工作流](performance-monitoring/using/workflow-monitoring.md)
       + [防止数据库过载](performance-monitoring/using/database-preventing-overload.md)
    + [活动用户档案监测](performance-monitoring/using/active-profiles-monitoring.md)
    + [吞吐量和延迟监测](performance-monitoring/using/thoughputs-latencies.md)
