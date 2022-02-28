@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 90%
 
 ## 新增功能
 
-**工作流参数监控**
+**工作流参数监测**
 
-您现在可以监控可能需要特定注意的工作流参数，以避免实例上出现任何问题。 [了解更多信息](performance-monitoring/using/workflow-monitoring.md)
+您现在可以监测可能需要特别关注的工作流参数，以避免实例上出现任何问题。[了解更多信息](performance-monitoring/using/workflow-monitoring.md)
 
 
 **活动查询监测**
