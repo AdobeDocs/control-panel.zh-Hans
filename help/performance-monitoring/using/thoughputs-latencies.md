@@ -6,8 +6,9 @@ description: 了解如何在控制面板中监测 Campaign 实例的吞吐量和
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 9d3064515b8001207d1edd20c371facca01c7b5d
-workflow-type: tm+mt
+exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
+source-git-commit: 7f7623a747bbc9c3b0816f12195068e04eee9b2f
+workflow-type: ht
 source-wordcount: '231'
 ht-degree: 100%
 
