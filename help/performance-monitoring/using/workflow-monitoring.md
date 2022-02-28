@@ -1,13 +1,14 @@
 ---
 title: 监测工作流
-description: 了解如何监控特定的工作流参数，这些参数可能需要注意以避免实例上出现的任何问题。
+description: 了解如何监测可能需要关注的特定工作流参数，以避免实例上出现任何问题。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -43,36 +44,36 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-在Adobe Campaign中，某些工作流参数可能需要特别注意以避免实例上出现任何问题。 控制面板 **[!UICONTROL Storage overview]** 利用详细信息，可检查是否为工作流启用了这些选项。
+在 Adobe Campaign 中，某些工作流参数可能需要特别关注，以避免实例上出现任何问题。可查看控制面板 **[!UICONTROL Storage overview]** 详细信息以确认是否为您的工作流启用了这些选项。
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL Keep interim results]** {#keep-results}
 
-启用后（值“1”），此选项会保存工作流各种活动之间过渡的结果。 在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hans#logs) 文档。
+启用时（值为“1”），此选项会保存工作流各种活动之间的过渡结果。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hans#logs) 文档中了解详情。
 
 >[!IMPORTANT]
 >
->不得在生产工作流中勾选此选项。它用于分析和测试目的，因此必须仅用于开发或暂存环境。 我们强烈建议在Campaign中将其关闭。
+>不得在生产工作流中勾选此选项。它用于分析和测试目的，因此必须仅用于开发或暂存环境。我们强烈建议在 Campaign 中将其关闭。
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-启用此选项后，工作流执行期间发送到数据库的SQL查询将显示在Adobe Campaign中。 在 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) 文档。
+启用此选项后，工作流执行期间发送到数据库的 SQL 查询将显示在 Adobe Campaign 中。在 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#execution) 文档中了解详情。
 
-值“1”表示工作流具有 **严重性** 字段设置为“生产”，并且已启用SQL查询日志选项。
+值为“1”表示工作流的 **Severity** 字段设置为“Production”，并且已启用 SQL 查询日志选项。
 
 >[!IMPORTANT]
 >
->激活此选项可能会影响性能并填充服务器上的日志文件。 它只应用于分析和诊断目的。
+>激活此选项可能会影响性能，并在服务器上填充日志文件。它应仅用于分析和诊断目的。
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-利用此字段，可向工作流分配运算符。 如果工作流失败，关联的运算符将收到警报。 在 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) 文档。
+使用此字段，可向工作流分配运算符。如果工作流出现故障，关联的运算符将收到警报。在 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hans#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#error-management) 文档中了解详情。
 
-值“1”表示工作流具有 **严重性** 字段设置为“生产”，且尚未将主管组分配到工作流。
+值为“1”表示工作流的 **Severity** 字段设置为“Production”，且没有为工作流分配主管组。
 
 ![](assets/wkf-monitoring-supervisors.png)
