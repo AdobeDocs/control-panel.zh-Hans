@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 监控子域的 SSL 证书
-description: 了解如何监控子域的 SSL 证书
+title: 监测子域
+description: 监控子域，以确保所有子域均已正确配置以与Adobe Campaign配合使用。
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
