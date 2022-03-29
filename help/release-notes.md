@@ -4,10 +4,10 @@ solution: Campaign
 title: 控制面板版本
 description: 本页列出了所有新增功能和改进控制面板
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 63%
+source-wordcount: '1022'
+ht-degree: 62%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>现在，所有Campaign Standard和v8客户都可以使用吞吐量和延迟监控，其内部版本号为9032,9330、9346或9349，且它们具有独立部署（不含任何中间实例）。</p><p>有关更多信息，请参阅 <a href="performance-monitoring/using/thoughputs-latencies.md">详细文档。</a></p>
+<p>现在，所有Campaign Standard和v8客户以及内部版本号为9032、9330、9346或9349且具有独立部署（无任何中间实例）的Campaign V7客户都可以使用吞吐量和延迟监控。</p><p>有关更多信息，请参阅 <a href="performance-monitoring/using/thoughputs-latencies.md">详细文档。</a></p>
 </td>
 </tr>
 </tbody>
