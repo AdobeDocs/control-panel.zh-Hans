@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '530'
+ht-degree: 77%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 86%
 >id="cp_instancesettings_instancedetails"
 >title="关于实例详细信息"
 >abstract="查看Adobe Campaign实例的详细信息：类型、名称、内部版本信息以及可能的升级建议。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 发行说明"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 发行说明"
 
 ## 关于实例详细信息 {#about-instance-details}
 
 >[!IMPORTANT]
 >
->此功能仅适用于Campaign Classicv7和Campaign v8实例。
+>此功能仅适用于Campaign v7/v8实例。
 
 您的 Adobe Campaign 实例架构可以包含多个服务器，以实现营销活动的灵活性。例如，您可以拥有支持您的实例的营销、实时（或消息中心）和中间采购服务器。
 
@@ -35,7 +33,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->我们建议您的实例每年至少升级一次，以避免性能下降，并能够利用 Adobe Campaign Classic 提供的最新功能和修复。
+>我们建议您的实例每年至少升级一次，以避免性能下降，并能够利用Adobe Campaign v7/v8必须提供的最新功能和修复。
 
 **相关主题：**
 
@@ -50,13 +48,13 @@ ht-degree: 86%
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS组织ID未与任何Adobe Campaign Classic实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS组织ID未与任何Adobe Campaign v7/v8实例关联
 
 1. 在左窗格中选择所需的 Campaign 实例。
 
    >[!NOTE]
    >
-   >您的所有 Campaign 实例都将显示在左窗格列表中。由于“实例详细信息”功能仅专用于 Campaign Classic 实例，因此，如果您选择了 Campaign Standard 实例，则会显示“非适用的实例”消息。
+   >您的所有 Campaign 实例都将显示在左窗格列表中。由于“实例详细信息”功能仅专用于Campaign v7/v8实例，因此，如果您选择了Campaign Standard实例，则会显示“非适用实例”消息。
 
 1. 将显示连接到实例的服务器。
 

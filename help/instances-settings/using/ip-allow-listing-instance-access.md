@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 87%
+source-wordcount: '764'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->此功能仅适用于Campaign Classicv7和Campaign v8实例。
+>此功能仅适用于Campaign v7/v8实例。
 
 默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
@@ -55,7 +55,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 卡片未显示在控制面板的主页上，这表示您的IMS组织ID未与任何Adobe Campaign Classic v7或Campaign v8实例关联。
+>如果 **[!UICONTROL Instance Settings]** 卡片未显示在控制面板的主页上，这表示您的IMS组织ID未与任何Adobe Campaign v7/v8实例关联。
 
 要向允许列表添加 IP 地址，请执行以下步骤：
 

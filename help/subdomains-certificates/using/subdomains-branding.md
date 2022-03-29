@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '748'
+ht-degree: 75%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
 如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
 
-## 子域的用例(Campaign Classic){#subdomains-use-cases}
+## 子域的用例(Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="子域品牌化"
 
-在为Campaign Classic实例设置子域时，需要选择将使用子域的用例(请参阅 [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
+为Campaign v7/v8实例设置子域时，需要选择将使用子域的用例(请参阅 [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
 可能的用例包括：
 
@@ -82,7 +82,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->如果您使用 Campaign Classic，控制面板将允许您查看哪些 RT/MID 实例已连接到您正在使用的营销实例。有关此的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
+>如果您使用的是Campaign v7/v8，则控制面板允许您查看哪些RT/MID实例已连接到您正在使用的营销实例。 有关此的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
 
 **相关主题：**
 

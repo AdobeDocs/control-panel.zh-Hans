@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 93%
+source-wordcount: '346'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 您必须定期监控每个 SFTP 服务器的可用空间。否则，您可能无法再在服务器上保存任何其他文件，也无法成功执行依赖此服务器更新的工作流。
 
-![](assets/do-not-localize/how-to-video.png) 在使用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management)
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 
@@ -44,6 +44,6 @@ ht-degree: 93%
 ## 存储容量耗尽时的最佳做法 {#best-practices-when-capacity-runs-out}
 
 1. **清理 SFTP 服务器的旧文件或不必要的文件**。有关如何访问 SFTP 服务器文件夹的详细信息，请参阅[此部分](../../sftp/using/logging-into-sftp-server.md)。
-1. 确保清理 SFTP 服务器的&#x200B;**工作流**&#x200B;成功执行。有关 Adobe Campaign 技术工作流的详细信息，请参阅 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans) 专用文档。
+1. 确保清理 SFTP 服务器的&#x200B;**工作流**&#x200B;成功执行。有关Adobe Campaign中技术工作流的更多信息，请参阅 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans) 文档。
 1. 联系您的客户团队以&#x200B;**请求更多存储**（可能需要额外付费）。
 1. 如果您认为存在问题，请联系&#x200B;**客户关怀团队**。

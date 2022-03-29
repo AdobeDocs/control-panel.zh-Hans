@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -23,16 +23,13 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner.png)
 
+Campaign控制面板可让您管理每个Campaign实例的设置和跟踪使用情况，从而帮助您作为Campaign Standard和V7/v8的产品管理员，提高工作效率。
+
 ## 新增功能
 
 **工作流参数监测**
 
 您现在可以监测可能需要特别关注的工作流参数，以避免实例上出现任何问题。[了解更多信息](performance-monitoring/using/workflow-monitoring.md)
-
-
-**活动查询监测**
-
-控制面板现在允许您监测在实例上运行时间最长的查询。[了解更多信息](performance-monitoring/using/database-active-queries.md)
 
 **吞吐量和延迟监测**
 
@@ -43,7 +40,7 @@ ht-degree: 100%
 >
 >* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)
 >
->* 对于 Campaign Classic v7，应用部署限制。 [了解详情](faq.md#v7-restrictions)
+>* 对于 Campaign v7，应用部署限制。 [了解详情](faq.md#v7-restrictions)
 
 
 ## 其他资源 {#additional-resources}
@@ -56,10 +53,10 @@ ht-degree: 100%
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans">Campaign Standard 产品文档</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic v7</b><br/>
+        <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans">控制面板教程视频</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans">Campaign Classic v7 产品文档</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans">Campaign v7 产品文档</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>

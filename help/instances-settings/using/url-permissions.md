@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->此功能仅适用于版本8850中的Campaign v8和Campaign Classicv7实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
+>此功能仅适用于版本8850的Campaign v7/v8实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
 Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数量有限。 这些 URL 允许实例正常运行。
 
@@ -72,7 +72,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
    >
    >您的所有 Campaign 实例都将显示在左窗格列表中。
    >
-   >由于 URL 权限管理仅专用于 Campaign Classic 实例，因此，如果您选择了 Campaign Standard 实例，则会显示“非适用的实例”消息。
+   >由于URL权限管理仅专用于Campaign v7/v8实例，因此，如果您选择了Campaign Standard实例，则会显示“非适用实例”消息。
 
 1. 键入要授权的 URL 及其关联协议（http、https 或 sftp）。
 
