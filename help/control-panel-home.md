@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Campaign控制面板可让您管理每个Campaign实例的设置和跟踪使用情况，从而帮助您作为Campaign Standard和V7/v8的产品管理员，提高工作效率。
+Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使用情况，从而帮助 Campaign Standard 和 Campaign v7/v8 的产品管理员提高工作效率。
 
 ## 新增功能
 
@@ -40,7 +40,7 @@ Campaign控制面板可让您管理每个Campaign实例的设置和跟踪使用�
 >
 >* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)
 >
->* 对于 Campaign v7，应用部署限制。 [了解详情](faq.md#v7-restrictions)
+>* 对于 Campaign v7，部署限制适用。 [了解详情](faq.md#v7-restrictions)
 
 
 ## 其他资源 {#additional-resources}
