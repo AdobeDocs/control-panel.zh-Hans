@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 ## 新增功能
 
-**工作流参数监测**
+**监控实例上的关键联系人和事件**
 
-您现在可以监测可能需要特别关注的工作流参数，以避免实例上出现任何问题。[了解更多信息](performance-monitoring/using/workflow-monitoring.md)
-
-**吞吐量和延迟监测**
-
-您现在可以监测在实例上一段时间内的投放吞吐量和延迟趋势。[了解更多信息](performance-monitoring/using/thoughputs-latencies.md)
-
+您现在可以监控实例上发生的过去和即将发布的版本和服务审核，以及在Adobe访问任何请求或问题的关键联系人列表。 [了解更多信息](service-events/service-events.md)
 
 >[!CAUTION]
 >
