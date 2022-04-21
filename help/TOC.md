@@ -6,10 +6,10 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [访问控制面板](discover/using/accessing-control-panel.md)
    + [管理控制面板的权限](discover/using/managing-permissions.md)
    + [了解控制面板界面](discover/using/discovering-the-interface.md)
++ [监控关键联系人和事件](service-events/service-events.md)
 + SFTP 管理 {#sftp-management}
    + [关于 SFTP 管理](sftp/using/about-sftp-management.md)
    + [SFTP 存储管理](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [URL 权限](instances-settings/using/url-permissions.md)
    + [实例详细信息](instances-settings/using/instance-details.md)
    + [GPG 密钥管理](instances-settings/using/gpg-keys-management.md)
-+ [识别实例中的关键联系人和事件](service-events/service-events.md)
 + [常见问题解答](faq.md)
