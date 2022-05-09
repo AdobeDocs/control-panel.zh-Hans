@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 94%
 
 ---
 
@@ -56,33 +56,33 @@ ht-degree: 100%
 
 不需要，如果您当前是 Adobe Campaign 的客户，则不会产生额外费用。
 
-## IMS 组织 ID {#ims-org-id}
+## 组织ID {#ims-org-id}
 
-### 什么是 IMS 组织 ID？
+### 什么是 组织 ID？
 
 它是在您首次登录 Adobe Experience Cloud 时为您的实例提供的唯一 ID。其格式应为：xxx@AdobeOrg。
 
-有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。
+有关详细信息，请参阅 [Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){_blank}。
 
-### 在哪里可以找到我的 IMS 组织 ID？
+### 在哪里可以找到我的 组织 ID？
 
-一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 IMS 组织 ID。您可以在 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)中找到更多详细信息。
+一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的 组织 ID。您可以在 [Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}。
 
-另一种方法是启动 **Admin Console**。您的 IMS 组织 ID 将显示在您的 URL 中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
+另一种方法是启动 **Admin Console**。您的组织ID将显示在您的URL中，类似于： `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
 
-### 为什么需要知道我的 IMS 组织 ID？
+### 为什么需要知道我的 组织 ID？
 
 为了管理实例的设置，我们希望确保您获得正确实例的正确信息，这在您的公司使用多个实例的情况下非常适用。
 
-### 如果我有多个 IMS 组织 ID，该怎么办？
+### 如果我有多个 组织 ID，该怎么办？
 
-如果您有权访问多个 Adobe 解决方案，则您可拥有多个 IMS 组织 ID。在这种情况下，您应使用的正确 IMS 组织 ID 是您在 Adobe Campaign 实例下看到的 IMS 组织 ID。
+如果您有权访问多个 Adobe 解决方案，则您可拥有多个 组织 ID。在这种情况下，您应使用的正确 组织 ID 是您在 Adobe Campaign 实例下看到的 IMS 组织 ID。
 
 >[!NOTE]
 >
->如果您的 Adobe Campaign 和 Adobe Analytics 使用相同的 IMS 组织 ID，这是最好的。如果您计划集成解决方案以利用诸如放弃购物车（对于 AA + AC）等复杂的用例，则需要在 Analytics 和 Campaign 之间有一个 IMS 组织 ID。
+>如果您的 Adobe Campaign 和 Adobe Analytics 使用相同的 组织 ID，这是最好的。如果您计划集成解决方案以利用诸如放弃购物车（对于 AA + AC）等复杂的用例，则需要在 Analytics 和 Campaign 之间有一个 组织 ID。
 >
->如果您的 Adobe Campaign 和 Adobe Analytics 有着不同的 IMS 组织 ID，请联系客服团队，以调整一致。
+>如果您的 Adobe Campaign 和 Adobe Analytics 有着不同的 组织 ID，请联系客服团队，以调整一致。
 
 ### 如何确认我的 Adobe Campaign 实例是否托管在 AWS 上？{#hosted-aws}
 

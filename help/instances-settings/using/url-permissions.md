@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 85%
 
 ---
@@ -60,7 +60,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的IMS组织ID未与任何Adobe Campaign实例关联
+   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的组织ID未与任何Adobe Campaign实例关联
    >
    ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
