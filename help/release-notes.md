@@ -4,10 +4,10 @@ solution: Campaign
 title: 控制面板版本
 description: 本页列出了所有新增功能和改进控制面板
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 60%
+source-wordcount: '1174'
+ht-degree: 58%
 
 ---
 
@@ -21,18 +21,51 @@ ht-degree: 60%
 >
 >对于Campaign v7，您的实例必须托管在Amazon Web Services(AWS)上并升级到最新版本 [营销活动稳定内部版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) （或构建9032或更高版本）。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](faq.md#hosted-aws)中详述的步骤操作。
 
-## 2022 年 4 月 {#april-2022}
+## 2022 年 5 月 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>监控实例上的关键联系人和事件</strong><br/></th>
+<th><strong>控制面板混合托管模型的可用性</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以监控实例上发生的过去和即将发布的版本和服务审核，以及在Adobe访问任何请求或问题的关键联系人列表。</p><p>有关更多信息，请参阅 <a href="service-events/service-events.md">详细文档。</a></p>
+<p>控制面板现在可供具有混合托管模型的客户使用。 这些客户可以通过提供在其控制面板实例中配置的MID/RT实例URL(在控制面板中)来利用的功能。</p><p>有关更多信息，请参阅 <a href="instances-settings/using/external-accounts.md">详细文档。</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>吞吐量和延迟监控更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>吞吐量和延迟监控功能已得到增强：<ul><li>您现在可以识别对实例吞吐量有贡献的前5个投放的ID。</li><li>Campaign Classicv7/v8客户现在可以查看特定渠道的延迟。</p></li><p>有关更多信息，请参阅 <a href="performance-monitoring/using/thoughputs-latencies.md">详细文档。</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## 2022 年 4 月 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>监测关键联系人和实例中的事件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现可监控实例中发生的过去和即将推出的版本发布和服务评审，以及访问 Adobe 关键联系人列表，以便提出任何请求或问题。 </p><p>有关更多信息，请参阅 <a href="service-events/service-events.md">详细文档。</a></p>
 </td>
 </tr>
 </tbody>

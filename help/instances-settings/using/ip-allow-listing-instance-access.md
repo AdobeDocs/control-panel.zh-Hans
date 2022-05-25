@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 88%
+source-wordcount: '831'
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >此功能仅适用于Campaign v7/v8实例。
+>
+>如果您使用具有混合托管模型的实例，则将只能在RT实例的“外部API连接”中添加IP地址。
 
 默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
@@ -55,7 +57,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 卡片未显示在控制面板的主页上，这表示您的组织ID未与任何Adobe Campaign v7/v8实例关联。
+>如果 **[!UICONTROL Instance Settings]** 卡片未显示在控制面板的主页上，这表示您的IMS组织ID未与任何Adobe Campaign v7/v8实例关联。
 
 要向允许列表添加 IP 地址，请执行以下步骤：
 
@@ -88,11 +90,16 @@ ht-degree: 88%
    * **[!UICONTROL AEM connection]**：允许指定的 AEM IP 地址连接到营销实例。
    * **[!UICONTROL External API connection]**：允许具有指定 IP 地址的外部 API 连接到营销和/或消息中心 (RT) 实例。请注意，未启用与 RT 实例控制台的连接。
 
+      >[!NOTE]
+      >
+      >如果您使用具有混合托管模型的实例，则将只能在RT实例的“外部API连接”中添加IP地址。
    ![](assets/ip_whitelist_acesstype.png)
 
-1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;按钮。IP 范围将添加到允许列表。
+1. 单击 **[!UICONTROL Save]** 按钮。IP 范围将添加到允许列表。
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
 要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
 

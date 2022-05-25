@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 86%
+source-wordcount: '860'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->测试版中提供了控制面板的子域配置，如有频繁更新和修改，恕不另行通知。
+>测试版中提供控制面板的SSL证书续订，如有频繁更新和修改，恕不另行通知。
+>
+>如果您使用具有混合托管模型的实例，则只能查看与委派的子域关联的证书。 您将无法续订SSL证书。
 
 SSL 证书续订过程包括以下 3 个步骤：
 
