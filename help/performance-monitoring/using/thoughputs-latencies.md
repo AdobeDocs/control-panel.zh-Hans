@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 93%
 >title="关于吞吐量和延迟监测 "
 >abstract="在此选项卡中，您可以监测在实例上一段时间内的投放吞吐量和延迟趋势。要了解关于对吞吐量有贡献的投放的信息，请切换到表格视图。"
 
-您可通过控制面板监控每个实例的投放吞吐量和延迟。
+您可通过控制面板监测每个实例的投放吞吐量和延迟。
 
 >[!IMPORTANT]
 >
->此功能适用于所有Campaign Standard、v8客户以及版本号为9032及更高版本的Campaign v7客户，包括 [独立部署](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hans) （不含任何mid实例）。
+>此功能适用于所有 Campaign Standard、Campaign v8 客户，以及具有[独立部署](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hans)（不含任何中间实例）、内部版本号为 9032 及以上的 Campaign v7 客户。
 
 监测一段时间内投放吞吐量和延迟的趋势对于了解实例的使用情况并确保它们正常运行至关重要。
 
