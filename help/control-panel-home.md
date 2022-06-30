@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 **服务日历提醒**
 
-“服务日历”现在允许您设置提醒，以便在实例中发生事件之前通过电子邮件通知您。 [了解更多信息](instances-settings/using/external-accounts.md)
+“服务日历”现在允许您设置提醒，以便在实例中发生事件之前通过电子邮件通知您。 [了解更多信息](service-events/service-events.md)
 
 **子域的CSR生成增强功能**
 

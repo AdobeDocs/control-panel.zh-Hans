@@ -2,7 +2,7 @@
 title: 最新版本
 description: 本页列出了所有新增功能和改进控制面板
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 47%
@@ -42,7 +42,7 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
-<p>“服务日历”现在允许您设置提醒，以便在实例中发生事件之前通过电子邮件通知您。 <a href="../instances-settings/using/external-accounts.md">了解详情</a></p>
+<p>“服务日历”现在允许您设置提醒，以便在实例中发生事件之前通过电子邮件通知您。 <a href="../service-events/service-events.md">了解详情</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
