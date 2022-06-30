@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 9%
+source-wordcount: '1189'
+ht-degree: 8%
 
 ---
 
@@ -41,6 +41,10 @@ GPG加密允许您使用以下系统的公共 — 私钥对保护数据： [Open
 控制面板允许您加密从 Adobe Campaign 实例中传出的数据。
 
 要实现此目的，您需要从PGP加密工具生成GPG密钥对，然后将公共密钥安装到控制面板中。 然后，您将能够在从实例发送数据之前对其进行加密。 为此，请执行以下步骤：
+
+>[!NOTE]
+>
+>您最多可以在控制面板中安装60个GPG密钥。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
