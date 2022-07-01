@@ -6,9 +6,9 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 73%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 73%
 + 发行说明 {#release-notes}
    + [最新版本](rn/release-notes.md)
    + 之前版本 {#previous-releases}
+      + [发行说明 2022](rn/release-notes-2022.md)
       + [发行说明 2021](rn/release-notes-2021.md)
       + [发行说明 2020](rn/release-notes-2020.md)
-      + [发行说明 20219](rn/release-notes-2019.md)
+      + [发行说明 2019](rn/release-notes-2019.md)
 + 了解控制面板 {#discover-control-panel}
    + [主要功能](discover/using/key-features.md)
    + [访问控制面板](discover/using/accessing-control-panel.md)
