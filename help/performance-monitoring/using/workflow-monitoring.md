@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
-workflow-type: ht
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Monitor workflow parameters -->
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-启用此选项后，工作流执行期间发送到数据库的 SQL 查询将显示在 Adobe Campaign 中。在 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#execution) 文档中了解详情。
+启用此选项后，工作流执行期间发送到数据库的 SQL 查询将显示在 Adobe Campaign 中。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#execution) 文档中了解详情。
 
 值为“1”表示工作流的 **Severity** 字段设置为“Production”，并且已启用 SQL 查询日志选项。
 
@@ -72,7 +72,7 @@ Monitor workflow parameters -->
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-使用此字段，可向工作流分配运算符。如果工作流出现故障，关联的运算符将收到警报。在 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hans#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#error-management) 文档中了解详情。
+使用此字段，可向工作流分配运算符。如果工作流出现故障，关联的运算符将收到警报。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#error-management) 文档中了解详情。
 
 值为“1”表示工作流的 **Severity** 字段设置为“Production”，且没有为工作流分配主管组。
 
