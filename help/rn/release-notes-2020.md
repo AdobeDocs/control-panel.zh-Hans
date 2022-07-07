@@ -1,10 +1,10 @@
 ---
 title: 发行说明 2020
-description: 本页列出了所有2020版控制面板。
+description: 此页面列出了控制面板的所有 2020 年版本。
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>数据库监控已通过其他量度得到增强，这些量度允许您获取有关占用数据库空间的资源的详细信息。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/database-monitoring.md">详细文档</a>。</p>
+<p>增强了数据库监测的更多指标，让您能够获得有关占用数据库空间的资源的详细信息。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/database-monitoring.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -161,7 +161,7 @@ ht-degree: 92%
 
 我们为管理员用户添加了新功能，以便从控制面板配置子域和续订 SSL 证书。
 
-有关详细信息，请参阅以下页面：
+有关更多信息，请参阅以下页面：
 * [设置新子域](../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [续订子域的 SSL 证书](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
