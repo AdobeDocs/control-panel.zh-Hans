@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 ## 新增功能
 
-**SFTP服务器上占用空间的前10个文件**
+**SFTP 服务器上占用空间最多的前 10 个文件**
 
-您现在可以识别SFTP服务器上占用空间最多的前10个文件。 [了解更多信息](sftp/using/sftp-storage-management.md)
+您现在可以识别 SFTP 服务器上占用空间最多的前 10 个文件。[了解更多信息](sftp/using/sftp-storage-management.md)
 
 
 **服务日历提醒**
 
-“服务日历”现在允许您设置提醒，以便在实例中发生事件之前通过电子邮件通知您。 [了解更多信息](service-events/service-events.md)
+现在，可使用“服务日历”设置提醒，以便在实例中发生事件之前通过电子邮件接收通知。[了解更多信息](service-events/service-events.md)
 
-**子域的CSR生成增强功能**
+**子域的 CSR 生成增强**
 
-对CSR生成过程进行了一些增强。 [了解更多信息](subdomains-certificates/using/renewing-subdomain-certificate.md)
+对 CSR 生成过程进行了一些增强。[了解更多信息](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 
 >[!CAUTION]
