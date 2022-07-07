@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,33 +20,33 @@ ht-degree: 73%
 + 发行说明 {#release-notes}
    + [最新版本](rn/release-notes.md)
    + 之前版本 {#previous-releases}
-      + [发行说明 2022](rn/release-notes-2022.md)
+      + [2022 年版发行说明](rn/release-notes-2022.md)
       + [发行说明 2021](rn/release-notes-2021.md)
       + [发行说明 2020](rn/release-notes-2020.md)
       + [发行说明 2019](rn/release-notes-2019.md)
 + 了解控制面板 {#discover-control-panel}
    + [主要功能](discover/using/key-features.md)
    + [访问控制面板](discover/using/accessing-control-panel.md)
-   + [管理控制面板权限](discover/using/managing-permissions.md)
-   + [探索控制面板界面](discover/using/discovering-the-interface.md)
+   + [管理控制面板的权限](discover/using/managing-permissions.md)
+   + [了解控制面板界面](discover/using/discovering-the-interface.md)
 + [监测关键联系人和事件](service-events/service-events.md)
 + SFTP 管理 {#sftp-management}
    + [关于 SFTP 管理](sftp/using/about-sftp-management.md)
-   + [管理SFTP存储](sftp/using/sftp-storage-management.md)
+   + [管理 SFTP 存储](sftp/using/sftp-storage-management.md)
    + [将 IP 范围添加到允许列表](sftp/using/ip-range-allow-listing.md)
    + [密钥管理](sftp/using/key-management.md)
-   + [登录SFTP服务器](sftp/using/logging-into-sftp-server.md)
+   + [登录 SFTP 服务器](sftp/using/logging-into-sftp-server.md)
    + [常见问题](sftp/using/common-questions.md)
 + 子域和证书 {#subdomains-and-certificates}
    + [子域品牌化](subdomains-certificates/using/subdomains-branding.md)
    + [监控子域](subdomains-certificates/using/monitoring-subdomains.md)
    + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [管理TXT记录](subdomains-certificates/using/managing-txt-records.md)
+   + [管理 TXT 记录](subdomains-certificates/using/managing-txt-records.md)
    + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + 续订SSL证书 {#renew-ssl}
-      + [关于SSL证书续订](subdomains-certificates/using/renewing-subdomain-certificate.md)
-      + [生成CSR](subdomains-certificates/using/generate-csr.md)
-      + [安装SSL证书](subdomains-certificates/using/install-ssl-certificate.md)
+   + 续订 SSL 证书{#renew-ssl}
+      + [关于 SSL 证书续订](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [生成 CSR](subdomains-certificates/using/generate-csr.md)
+      + [安装 SSL 证书](subdomains-certificates/using/install-ssl-certificate.md)
 + 性能监测 {#performance-monitoring}
    + [关于性能监测](performance-monitoring/using/about-performance-monitoring.md)
    + 数据库监测 {#database-monitoring}
