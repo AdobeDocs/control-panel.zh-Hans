@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: d441c69879da6db963886402ce2d1b9e47b8e5bf
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 409a7b4e25186e0b0984f6c7b63ca72c02c92bb0
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 99%
 
 ---
 
@@ -94,4 +94,4 @@ ht-degree: 100%
 * [查看实例详细信息](../../instances-settings/using/instance-details.md)，
 * [向允许列表添加 IP 地址](../../instances-settings/using/ip-allow-listing-instance-access.md)（对于 RT 实例），
 * [查看有关委派的子域的信息](../../subdomains-certificates/using/monitoring-subdomains.md)，
-* [查看有关 SSL 证书的信息](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+* [续订子域的SSL证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
