@@ -2,10 +2,10 @@
 title: 最新版本
 description: 此页面列出了控制面板的所有新增功能和改进。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,61 +13,19 @@ ht-degree: 93%
 
 本页列出了控制面板的新增功能和改进。
 
-## 2022 年 6 月 {#june-2022}
-
-### 新增功能？
+## 2022 年 7 月 {#july-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>SFTP 服务器上占用空间最多的前 10 个文件</strong><br/></th>
+<th><strong>子域为混合托管模型安装的证书</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以识别 SFTP 服务器上占用空间最多的前 10 个文件。<a href="../sftp/using/sftp-storage-management.md">了解详情</a></p>
-<img src="../assets/do-not-localize/sftp.gif"/>
+<p><p>现在，具有混合托管模型的客户可以从控制面板续订其子域的SSL证书。</p><p>有关详细信息，请参阅<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>服务日历提醒</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，可使用“服务日历”设置提醒，以便在实例中发生事件之前通过电子邮件接收通知。<a href="../service-events/service-events.md">了解详情</a></p>
-<img src="../assets/do-not-localize/reminders.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>子域的 CSR 生成过程增强</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>对 CSR 生成过程进行了一些增强。<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">了解详情</a></p><ul><li>现在，在生成 CSR 时，您可以选择其中一个包含的子域作为通用名称。</li><li>现在，您可以在生成 CSR 之前复制 CSR 摘要。</li><li>生成 CSR 后，您可以从作业日志中再次下载它。此功能不适用于在此版本之前生成的证书。</li></ul><p>
-<img src="../assets/do-not-localize/CSR.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改进
-
-**实例设置**
-
-* 控制面板中 GPG 密钥的最大数量已增加到 60 个。[了解详情](../instances-settings/using/gpg-keys-management.md)
-

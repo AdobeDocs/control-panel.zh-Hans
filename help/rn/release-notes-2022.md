@@ -1,14 +1,71 @@
 ---
-title: 发行说明 2022
-description: 本页列出了所有2022版控制面板。
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+title: 2022 年版发行说明
+description: 此页面列出了控制面板的所有 2022 年版本。
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 发行说明 2021 {#rn-2022}
+# 2021 年版发行说明 {#rn-2022}
+
+## 2022 年 6 月 {#june-2022}
+
+### 新增功能？
+
+<table>
+<thead>
+<tr>
+<th><strong>SFTP 服务器上占用空间最多的前 10 个文件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以识别 SFTP 服务器上占用空间最多的前 10 个文件。<a href="../sftp/using/sftp-storage-management.md">了解详情</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>服务日历提醒</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，可使用“服务日历”设置提醒，以便在实例中发生事件之前通过电子邮件接收通知。<a href="../service-events/service-events.md">了解详情</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>子域的 CSR 生成过程增强</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>对 CSR 生成过程进行了一些增强。<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">了解详情</a></p><ul><li>现在，在生成 CSR 时，您可以选择其中一个包含的子域作为通用名称。</li><li>现在，您可以在生成 CSR 之前复制 CSR 摘要。</li><li>生成 CSR 后，您可以从作业日志中再次下载它。此功能不适用于在此版本之前生成的证书。</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进
+
+**实例设置**
+
+* 控制面板中 GPG 密钥的最大数量已增加到 60 个。[了解详情](../instances-settings/using/gpg-keys-management.md)
 
 ## 2022 年 5 月 {#may-2022}
 
@@ -21,7 +78,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>控制面板现在可供具有混合托管模型的客户使用。这些客户可以通过在控制面板中提供他们在营销实例中配置的 MID/RT 实例 URL 来利用控制面板的功能。</p><p>有关更多信息，请参阅 <a href="../instances-settings/using/external-accounts.md">详细文档。</a></p>
+<p>控制面板现在可供具有混合托管模型的客户使用。这些客户可以通过在控制面板中提供他们在营销实例中配置的 MID/RT 实例 URL 来利用控制面板的功能。</p><p>有关详细信息，请参阅<a href="../instances-settings/using/external-accounts.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -36,7 +93,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>吞吐量和延迟监控功能已得到增强：<ul><li>您现在可以识别对实例吞吐量贡献最大的前 5 个投放的 ID。</li><li>Campaign Classic v7/v8 客户现在可以查看特定渠道的延迟。</p></li><p>有关更多信息，请参阅 <a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档。</a></p>
+<p>增强了吞吐量和延迟监测功能：<ul><li>您现在可以识别对实例吞吐量贡献最大的前 5 个投放的 ID。</li><li>Campaign Classic v7/v8 客户现在可以查看特定渠道的延迟。</p></li><p>有关详细信息，请参阅<a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -54,7 +111,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>现可监控实例中发生的过去和即将推出的版本发布和服务评审，以及访问 Adobe 关键联系人列表，以便提出任何请求或问题。 </p><p>有关更多信息，请参阅 <a href="../service-events/service-events.md">详细文档。</a></p>
+<p>现可监控实例中发生的过去和即将推出的版本发布和服务评审，以及访问 Adobe 关键联系人列表，以便提出任何请求或问题。</p><p>有关详细信息，请参阅<a href="../service-events/service-events.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -65,13 +122,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>吞吐量和延迟监控可用性</strong><br/></th>
+<th><strong>吞吐量和延迟可用性监测</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，所有Campaign Standard和v8客户以及内部版本号为9032、9330、9346或9349且具有独立部署（无任何中间实例）的Campaign V7客户都可以使用吞吐量和延迟监控。</p><p>有关更多信息，请参阅 <a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档。</a></p>
+<p>吞吐量和延迟检测适用于所有 Campaign Standard 和 Campaign v8 客户，以及具有独立部署（不含任何中间实例）、内部版本号为 9032、9330、9346 或 9349 的 Campaign V7 客户。</p><p>有关详细信息，请参阅<a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -129,13 +186,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>对新子域执行SSL证书操作</strong><br/></th>
+<th><strong>针对新子域的 SSL 证书操作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，即使可交付性审核仍在进行中，也可以对新设置的子域执行SSL证书操作。</p><p>有关更多信息，请参阅<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">详细文档</a>。</p>
+<p>现在，即使可投放性审核仍在进行中，仍可对新设置的子域执行 SSL 证书操作。</p><p>有关更多信息，请参阅<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
