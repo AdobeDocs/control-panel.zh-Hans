@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 8%
@@ -61,7 +61,7 @@ GPG加密允许您使用以下系统的公共 — 私钥对保护数据： [Open
 1. 出现提示时，为您的键指定所需的参数。 必需的参数包括：
 
    * **键类型**:RSA
-   * **键长度**:1024 - 4096比特
+   * **键长度**:3072 - 4096比特
    * **实名** 和 **电子邮件地址**:用于跟踪创建密钥对的人。 输入链接到您的组织或部门的名称和电子邮件地址。
    * **评论**:向注释字段添加标签将帮助您轻松识别用于加密数据的密钥。
    * **过期**:日期或“0”表示没有过期日期。
