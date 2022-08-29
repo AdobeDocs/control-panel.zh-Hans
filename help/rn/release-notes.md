@@ -2,10 +2,10 @@
 title: 最新版本
 description: 此页面列出了控制面板的所有新增功能和改进。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '59'
-ht-degree: 100%
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 59%
 
 ---
 
@@ -13,19 +13,7 @@ ht-degree: 100%
 
 此页面列出了控制面板的所有新增功能和改进。
 
-## 2022 年 7 月 {#july-2022}
+## 2022 年 8 月 {#august-2022}
 
-<table>
-<thead>
-<tr>
-<th><strong>用于混合托管模型的子域证书安装</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>现在，具有混合托管模型的客户可以从控制面板续订其子域的 SSL 证书。</p><p>有关详细信息，请参阅<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+* 现在，具有混合托管模型的客户可以验证其子域。 [了解详情](../subdomains-certificates/using/monitoring-subdomains.md)
+* 组织单位(OU)字段现在在证书生成请求(CSR)中是可选的。 [了解详情](../subdomains-certificates/using/renewing-subdomain-certificate.md)
