@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 100%
 
 ### 我可以使用控制面板吗？
 
-控制面板仅对在 AWS 上托管 Adobe Campaign 的当前客户的产品管理员开放。请注意，尚不支持混合环境。
+控制面板仅对在 AWS 上托管 Adobe Campaign 的当前客户的产品管理员开放。
+
+使用混合托管模型的客户可在控制面板中利用特定的控制面板功能。为此，他们需要在控制面板中提供其在营销实例中配置的 MID/RT 实例 URL。[了解详情](instances-settings/using/external-accounts.md)
 
 如果您不是管理员，但想要访问，请联系您的产品管理员将您添加为管理员。
 

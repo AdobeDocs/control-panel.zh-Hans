@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收�
 
 ![](assets/no_certificate.png)
 
-## 监控 SSL 证书 {#monitoring-certificates}
+## 监测 SSL 证书 {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
@@ -54,10 +54,6 @@ Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收�
 ![](assets/subdomain_details.png)
 
 如果您的子域的某个 SSL 证书即将过期，您可以直接从控制面板续订该证书。有关更多信息，请参阅以下部分：[续订子域的 SSL 证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
-
->[!IMPORTANT]
->
->测试版中提供控制面板的证书续订，如有频繁更新和修改，恕不另行通知。
 
 **相关主题：**
 
