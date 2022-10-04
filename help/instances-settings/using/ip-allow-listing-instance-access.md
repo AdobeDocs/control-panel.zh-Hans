@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '837'
 ht-degree: 82%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 卡片未显示在控制面板的主页上，这表示您的IMS组织ID未与任何Adobe Campaign v7/v8实例关联。
+>如果 **[!UICONTROL Instance Settings]** 卡片在控制面板的主页上不可见，这表示您 [组织ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未与任何Adobe Campaign v7/v8实例关联。
 
 要向允许列表添加 IP 地址，请执行以下步骤：
 
