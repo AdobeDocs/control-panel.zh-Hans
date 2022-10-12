@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->如果您在访问控制面板时遇到任何问题，则很可能您的营销实例尚未映射到 [组织ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans). 请联系客户关怀团队以完成此设置，然后继续下一步操作。成功连接后，就会显示控制面板主页。
+>如果您在访问控制面板时遇到问题，很可能是因为您的营销实例尚未映射到您的[组织 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。请联系客户关怀团队以完成此设置，然后继续下一步操作。成功连接后，就会显示控制面板主页。
 
 要访问控制面板功能，您需要在 **[!UICONTROL Instances Settings]** 信息卡中提供您的 MID/RT 实例。为此，请执行以下步骤：
 
@@ -93,5 +93,5 @@ ht-degree: 93%
 * [监测关键联系人和事件](../../service-events/service-events.md)
 * [查看实例详细信息](../../instances-settings/using/instance-details.md)，
 * [向允许列表添加 IP 地址](../../instances-settings/using/ip-allow-listing-instance-access.md)（对于 RT 实例），
-* [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md),
+* [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)，
 * [续订子域的 SSL 证书](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
