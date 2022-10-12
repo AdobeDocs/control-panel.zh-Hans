@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 78%
 
 使用混合托管模型的客户可在控制面板中利用特定的控制面板功能。为此，他们需要在控制面板中提供其在营销实例中配置的 MID/RT 实例 URL。[了解详情](instances-settings/using/external-accounts.md)
 
-如果您不是管理员，但想要访问，请联系您的产品管理员将您添加为管理员。
+如果您不是管理员，但想要访问，请联系您的产品管理员，让他们帮助将您添加为管理员。
 
 ### 作为 Campaign Classic v7 用户，访问控制面板需要什么条件？ {#v7-restrictions}
 
@@ -58,33 +58,33 @@ ht-degree: 78%
 
 不需要，如果您当前是 Adobe Campaign 的客户，则不会产生额外费用。
 
-## 组织ID {#ims-org-id}
+## 组织 ID {#ims-org-id}
 
-### 什么是组织ID?
+### 什么是组织 ID？
 
 它是在您首次登录 Adobe Experience Cloud 时为您的实例提供的唯一 ID。其格式应为：xxx@AdobeOrg。
 
 有关详细信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。
 
-### 在哪里可以找到我的组织ID?
+### 在哪里可以找到我的组织 ID？
 
-一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**。您将在“管理”的底部找到您的组织ID **[!UICONTROL Quick Access]** 中。 您可以在 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)中找到更多详细信息。
+一种方法是导航到 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**。您可在“管理”**[!UICONTROL Quick Access]**&#x200B;部分的底部找到您的组织 ID。您可以在 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)中找到更多详细信息。
 
-另一种方法是启动 **Admin Console**。您的组织ID将显示在您的URL中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
+另一种方法是启动 **Admin Console**。您的组织 ID 将显示在您的 URL 中，类似于：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-### 为什么我需要知道我的组织ID?
+### 为什么我需要知道我的组织 ID？
 
 为了管理实例的设置，我们希望确保您获得正确实例的正确信息，这在您的公司使用多个实例的情况下非常适用。
 
-### 如果我有多个组织ID，该怎么办？
+### 如果我有多个组织 ID，该怎么办？
 
-如果您有权访问多个Adobe解决方案，则可能拥有多个组织ID。 在这种情况下，您应使用的正确组织ID是您在Adobe Campaign实例下看到的组织ID。
+如果您有权访问多个 Adobe 解决方案，则您可能会拥有多个组织 ID。在这种情况下，您应使用的正确组织 ID 是您在 Adobe Campaign 实例下看到的组织 ID。
 
 >[!NOTE]
 >
->如果您的Adobe Campaign和Adobe Analytics具有相同的组织ID，那么这非常好。 如果您计划集成解决方案以利用诸如放弃购物车（对于AA + AC）等复杂的用例，则需要在Analytics和Campaign之间有一个组织ID。
+>如果您的 Adobe Campaign 和 Adobe Analytics 的组织 ID 相同，这再好不过了。如果您计划集成解决方案以利用诸如放弃购物车（对于 AA + AC 而言）等复杂的用例，则必须拥有 Analytics 或 Campaign 的组织 ID。
 >
->如果您有不同的Adobe Campaign和Adobe Analytics组织ID，请联系客户关怀团队以使其保持一致。
+>如果您的 Adobe Campaign 和 Adobe Analytics 的组织 ID 不同，请联系客户关怀团队，以将之调整为同一个 ID。
 
 ### 如何确认我的 Adobe Campaign 实例是否托管在 AWS 上？{#hosted-aws}
 
