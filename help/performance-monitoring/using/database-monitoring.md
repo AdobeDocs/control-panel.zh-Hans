@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 81%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 81%
 
 ## 关于实例数据库 {#about-instances-databases}
 
-根据您的合同，您的每个 Campaign 实例都会配备特定大小的数据库空间。
-
-数据库包括存储在 Adobe Campaign 中的所有&#x200B;**资源**、**工作流**&#x200B;和&#x200B;**数据**。
+根据您的合同，您的每个 Campaign 实例都会配备特定大小的数据库空间。数据库包括存储在 Adobe Campaign 中的所有&#x200B;**资源**、**工作流**&#x200B;和&#x200B;**数据**。
 
 随着时间的推移，数据库会达到其最大容量，尤其是从不删除实例中存储的资源时，或者存在许多处于暂停状态的工作流时。
 
 实例数据库溢出可能导致若干问题（无法登录、无法发送电子邮件等）。因此，监测实例的数据库对于确保最佳性能至关重要。
+
+如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则当实例的某个数据库达到其容量的80%或更大时，您将通过电子邮件收到通知。
 
 ## 监测数据库使用{#monitoring-database-usage}
 
@@ -37,8 +37,6 @@ ht-degree: 81%
 控制面板允许您监测每个 Campaign 实例的数据库使用情况。为此，请打开 **[!UICONTROL Performance Monitoring]** 信息卡，然后选择 **[!UICONTROL Databases]** 选项卡。
 
 从 **[!UICONTROL Instance List]** 中选择所需的实例，以显示有关该实例的数据库容量和已用空间的信息。
-
-此外，当某个数据库达到其容量上限时，您还可以收到通知。为此，请订阅[电子邮件提醒](../../performance-monitoring/using/email-alerting.md)。
 
 >[!NOTE]
 >
@@ -55,4 +53,4 @@ ht-degree: 81%
 * [十大临时资源](../../performance-monitoring/using/database-top-ten-resources.md)
 * [活动查询](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hans#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hans#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png)在使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hans#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hans#performance-monitoring) 的视频中了解这一功能

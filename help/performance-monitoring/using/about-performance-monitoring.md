@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 33%
+source-wordcount: '79'
+ht-degree: 36%
 
 ---
 
@@ -26,4 +26,3 @@ ht-degree: 33%
 >
 >在即将发布的控制面板版本中，此卡中将提供其他监控功能。
 
-此外，控制面板允许您注册，以在每次在某个Campaign实例上检测到问题时接收电子邮件通知。 如需详细信息，请参阅[此部分](../../performance-monitoring/using/email-alerting.md)。

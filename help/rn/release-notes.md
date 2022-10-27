@@ -2,10 +2,10 @@
 title: 最新版本
 description: 此页面列出了控制面板的所有新增功能和改进。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 此页面列出了控制面板的所有新增功能和改进。
 
-## 2022 年 9 月 {#september-2022}
+## 2022 年 10 月 {#october-2022}
 
-现在，使用混合托管模型的客户可以设置新的子域。[了解详情](../subdomains-certificates/using/setting-up-new-subdomain.md)
+现在，电子邮件警报会在您的某个SSL证书将在30天或更短时间内过期时通知您。 [了解详情](../performance-monitoring/using/email-alerting.md)
