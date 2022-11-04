@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 您必须定期监控每个 SFTP 服务器的可用空间。否则，您可能无法再在服务器上保存任何其他文件，也无法成功执行依赖此服务器更新的工作流。
 
-如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则当您的某个SFTP服务器容量达到其80%或更大时，您将通过电子邮件收到通知。 请参阅 [SFTP存储管理](../../sftp/using/sftp-storage-management.md).
+如果您订阅了[电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则当您的某个 SFTP 服务器容量使用率达到 80% 或更多时，将收到电子邮件通知。请参阅 [SFTP 存储管理](../../sftp/using/sftp-storage-management.md)。
 
 ![](assets/do-not-localize/how-to-video.png)在使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=zh-Hans#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
 
