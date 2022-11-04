@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >如果您尚未订阅控制面板警报，将显示一条消息，允许您注册以接收电子邮件通知。
+   >如果您未订阅控制面板警报，则会显示一条消息，您可以进行注册以接收电子邮件通知。
 
 1. 现已为选定事件设置提醒。您可以随时将鼠标悬停在该事件上以显示其标题。
 
