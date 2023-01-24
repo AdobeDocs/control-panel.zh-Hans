@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 82%
+source-wordcount: '812'
+ht-degree: 85%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 82%
 >[!IMPORTANT]
 >
 >此功能仅适用于Campaign v7/v8实例。
->
->如果您使用具有混合托管模型的实例，则将只能在RT实例的“外部API连接”中添加IP地址。
 
 默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
@@ -90,9 +88,10 @@ ht-degree: 82%
    * **[!UICONTROL AEM connection]**：允许指定的 AEM IP 地址连接到营销实例。
    * **[!UICONTROL External API connection]**：允许具有指定 IP 地址的外部 API 连接到营销和/或消息中心 (RT) 实例。请注意，未启用与 RT 实例控制台的连接。
 
-      >[!NOTE]
-      >
-      >如果您使用具有混合托管模型的实例，则将只能在RT实例的“外部API连接”中添加IP地址。
+   >[!NOTE]
+   >
+   >如果您使用具有混合托管模型的实例，则将只能在“外部API连接”中为MID和RT实例添加IP地址。
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 单击 **[!UICONTROL Save]** 按钮。IP 范围将添加到允许列表。
