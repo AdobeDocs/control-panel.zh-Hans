@@ -2,14 +2,18 @@
 title: 2022 年版发行说明
 description: 此页面列出了控制面板的所有 2022 年版本。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # 2022 年版发行说明 {#rn-2022}
+
+## 2022 年 10 月 {#october-2022}
+
+现在，在您的某个 SSL 证书将在 30 天或更短时间内过期时，电子邮件警报会通知您。[了解详情](../performance-monitoring/using/email-alerting.md)
 
 ## 2022 年 9 月 {#september-2022}
 
