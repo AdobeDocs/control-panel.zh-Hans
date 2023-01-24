@@ -3,9 +3,9 @@ title: 2022 年版发行说明
 description: 此页面列出了控制面板的所有 2022 年版本。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
