@@ -2,8 +2,8 @@
 title: 2022 年版发行说明
 description: 此页面列出了控制面板的所有 2022 年版本。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>增强了吞吐量和延迟监测功能：<ul><li>您现在可以识别对实例吞吐量贡献最大的前 5 个投放的 ID。</li><li>Campaign Classic v7/v8 客户现在可以查看特定渠道的延迟。</p></li><p>有关详细信息，请参阅<a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档</a>。</p>
+<p>增强了吞吐量和延迟监测功能：<ul><li>您现在可以识别对实例吞吐量贡献最大的前 5 个投放的 ID。</li><li>Campaign Classic v7/v8 客户现在可以查看特定渠道的延迟。</p></li><p>有关详细信息，请参阅<a href="../performance-monitoring/using/throughputs-latencies.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>吞吐量和延迟检测适用于所有 Campaign Standard 和 Campaign v8 客户，以及具有独立部署（不含任何中间实例）、内部版本号为 9032、9330、9346 或 9349 的 Campaign V7 客户。</p><p>有关详细信息，请参阅<a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档</a>。</p>
+<p>吞吐量和延迟检测适用于所有 Campaign Standard 和 Campaign v8 客户，以及具有独立部署（不含任何中间实例）、内部版本号为 9032、9330、9346 或 9349 的 Campaign V7 客户。</p><p>有关详细信息，请参阅<a href="../performance-monitoring/using/throughputs-latencies.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您现在可以监测在实例上一段时间内的投放吞吐量和延迟趋势。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/thoughputs-latencies.md">详细文档</a>。</p>
+<p>您现在可以监测在实例上一段时间内的投放吞吐量和延迟趋势。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/throughputs-latencies.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
