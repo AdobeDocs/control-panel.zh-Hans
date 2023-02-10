@@ -7,14 +7,19 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+source-git-commit: 349f97423b9a4834ab17c50c1f9cde226b99e4cc
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 90%
 
 ---
 
 # 监控子域的 SSL 证书 {#monitoring-ssl-certificates}
+
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="取消委派子域 "
+>abstract="待定"
 
 ## 关于 SSL 证书 {#about-ssl-certificates}
 
