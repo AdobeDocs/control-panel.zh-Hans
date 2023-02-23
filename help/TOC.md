@@ -6,10 +6,10 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + 发行说明 {#release-notes}
    + [最新版本](rn/release-notes.md)
    + 之前版本 {#previous-releases}
+      + [2023 年版发行说明](rn/release-notes-2023.md)
       + [2022 年版发行说明](rn/release-notes-2022.md)
       + [发行说明 2021](rn/release-notes-2021.md)
       + [发行说明 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [子域品牌化](subdomains-certificates/using/subdomains-branding.md)
    + [监控子域](subdomains-certificates/using/monitoring-subdomains.md)
    + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [删除子域的委派以Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [管理 TXT 记录](subdomains-certificates/using/managing-txt-records.md)
-   + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + 续订 SSL 证书{#renew-ssl}
-      + [关于 SSL 证书续订](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + 管理SSL证书 {#manage-certificates}
+      + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [续订 SSL 证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [生成 CSR](subdomains-certificates/using/generate-csr.md)
       + [安装 SSL 证书](subdomains-certificates/using/install-ssl-certificate.md)
 + 性能监测 {#performance-monitoring}

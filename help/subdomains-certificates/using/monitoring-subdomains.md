@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
-# 监测子域 {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="删除子域委派"
->abstract="利用此屏幕，可移除子域的委派Adobe。 请记住，提交后，此过程将无法撤消或停止。<br><br>如果您尝试为所选实例删除主域的委派，将要求您选择将替换该实例的域。"
+# 监控子域 {#monitoring-subdomains}
 
 必须监控子域，以确保所有子域均已正确配置以与Adobe Campaign配合使用。
 
@@ -33,9 +29,7 @@ ht-degree: 7%
 >
 >Adobe不建议使用没有证书日期的子域，因为这可能意味着这些子域可能存在一些可交付性问题。
 
-启动验证时，会执行多项操作来检查子域是否正确配置（实例租户检查、电子邮件发送测试等）
-
-如果子域的验证失败，请联系Adobe客户关怀团队以进一步调查。
+启动验证时，会执行多项操作来检查子域是否正确配置（实例租户检查、电子邮件发送测试等） 如果子域的验证失败，请联系Adobe客户关怀团队以进一步调查。
 
 **相关主题：**
 
