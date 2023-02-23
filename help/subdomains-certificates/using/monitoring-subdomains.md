@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 7%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="删除委派的子域 "
->abstract="利用此屏幕，可删除已在控制面板中委派的任何子域。 请记住，子域删除无法撤消，提交后将不可撤消。<br><br>如果您尝试为所选实例删除主域，将要求您选择将替换该主域的域。"
+>title="删除子域委派"
+>abstract="利用此屏幕，可移除子域的委派Adobe。 请记住，提交后，此过程将无法撤消或停止。<br><br>如果您尝试为所选实例删除主域的委派，将要求您选择将替换该实例的域。"
 
 必须监控子域，以确保所有子域均已正确配置以与Adobe Campaign配合使用。
 
