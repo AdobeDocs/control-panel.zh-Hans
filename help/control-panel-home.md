@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 ## 新增功能
 
-**SFTP 服务器上占用空间最多的前 10 个文件**
+**委派给Adobe的子域的委派删除**
 
-您现在可以识别 SFTP 服务器上占用空间最多的前 10 个文件。[了解更多信息](sftp/using/sftp-storage-management.md)
+现在，您可以删除已委派给Adobe的子域的委派，包括CNAME设置。 [了解详情](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**服务日历**
 
-**服务日历提醒**
-
-现在，可使用“服务日历”设置提醒，以便在实例中发生事件之前通过电子邮件接收通知。[了解更多信息](service-events/service-events.md)
-
-**子域的 CSR 生成增强**
-
-对 CSR 生成过程进行了一些增强。[了解更多信息](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+服务日历现在提供日历视图，用于跟踪实例中发生的重要事件。 此外，还添加了关于发送给订阅了控制面板警报的用户的通知的信息。 [了解详情](../service-events/service-events.md)
 
 >[!CAUTION]
 >
