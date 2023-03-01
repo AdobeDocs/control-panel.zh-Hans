@@ -43,7 +43,7 @@ ht-degree: 94%
    + [子域品牌化](subdomains-certificates/using/subdomains-branding.md)
    + [监控子域](subdomains-certificates/using/monitoring-subdomains.md)
    + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [删除子域的委派以Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [删除向Adobe委派子域](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [管理 TXT 记录](subdomains-certificates/using/managing-txt-records.md)
    + 管理SSL证书 {#manage-certificates}
       + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
