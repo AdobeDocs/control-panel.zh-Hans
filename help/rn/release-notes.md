@@ -2,10 +2,10 @@
 title: 最新版本
 description: 此页面列出了控制面板的所有新增功能和改进。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ ht-degree: 34%
 
 **删除委派给Adobe的子域的委派**
 
-现在，您可以删除已委派给Adobe的子域的委派，包括CNAME设置。 [了解详情](../subdomains-certificates/using/remove-delegated-subdomains.md)
+您现在可以删除已完全委派给Adobe的子域的委派。 [了解详情](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>删除委派当前不适用于使用CNAME设置的子域。
 
 **服务日历**
 

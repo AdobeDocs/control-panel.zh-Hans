@@ -6,9 +6,9 @@ description: 了解如何移除将子域委派给Adobe的过程。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 12%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 12%
 >title="移除子域委派"
 >abstract="利用此屏幕，可删除要Adobe的子域委派。 请记住，此过程在执行完成之前无法撤消，并且不可逆。<br><br>如果您尝试删除所选实例的主域委派，将要求您选择替换它的域。"
 
-控制面板允许您删除已委派给Adobe的子域的委派，包括CNAME设置。
+控制面板允许您删除已委派给Adobe的子域的委派。
+
+>[!NOTE]
+>
+>删除委派当前不适用于使用CNAME设置的子域。
 
 ## 重要说明 {#important}
 
