@@ -6,14 +6,15 @@ description: 了解如何续订子域的 SSL 证书
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: b31853a861aad7beb5b639f0fa22e821e8e25e19
+exl-id: b6d017c2-f633-48f7-8180-1264c1087fa2
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 57%
+ht-degree: 59%
 
 ---
 
-# 生成CSR {#generating-csr}
+# 生成 CSR {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
@@ -26,7 +27,7 @@ ht-degree: 57%
 >abstract="您可以选择在证书签名请求中包含所有子域或仅包含特定子域。只有选定的子域将通过购买的 SSL 证书进行认证。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="关于子域品牌化"
 
-## 生成CSR {#generate}
+## 生成 CSR {#generate}
 
 要生成证书签名请求 (CSR)，请执行以下步骤：
 
