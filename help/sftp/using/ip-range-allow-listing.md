@@ -10,7 +10,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="IP范围配置"
+>title="IP 范围配置"
 >abstract="定义要添加到允许列表以连接到 SFTP 服务器的 IP 范围。"
 
 要向允许列表添加 IP 范围，请执行以下步骤：
@@ -132,8 +132,8 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"
->title="更新IP范围"
->abstract="更新允许连接到SFTP服务器的选定IP范围。"
+>title="更新 IP 范围"
+>abstract="更新允许连接到 SFTP 服务器的选定 IP 范围。"
 
 要编辑IP范围，请执行以下步骤。
 

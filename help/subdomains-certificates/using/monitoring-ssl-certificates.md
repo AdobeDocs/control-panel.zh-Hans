@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收�
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="子域详细信息"
->abstract="检索子域SSL证书的信息。"
+>abstract="检索有关子域的 SSL 证书的信息。"
 
 选择 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡时，子域的 SSL 证书状态可直接从子域的列表中获得。
 

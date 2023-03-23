@@ -10,7 +10,7 @@ exl-id: af440b5d-1d21-44fb-831f-f2bdd6011b82
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
->title="SSL证书安装"
+>title="SSL 证书安装"
 >abstract="安装从您的组织批准的认证中心购买的 SSL 证书。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="关于子域品牌化"
 

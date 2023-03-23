@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="关于公共密钥管理"
+>title="关于公钥管理"
 >abstract="在此选项卡中，创建、管理和编辑您的公钥。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="观看演示视频"
 
@@ -48,8 +48,8 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="公共密钥添加"
->abstract="为实例生成公共SSH密钥，并将其添加到控制面板以访问SFTP服务器。"
+>title="公钥添加"
+>abstract="为实例生成 SSH 公钥并将它添加到控制面板以访问 SFTP 服务器。"
 
 >[!IMPORTANT]
 >
@@ -150,7 +150,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_update"
 >title="编辑公钥"
->abstract="更新所选的公钥以访问SFTP服务器。"
+>abstract="更新选定的公钥以访问您的 SFTP 服务器。"
 
 要编辑公钥，请执行以下步骤。
 

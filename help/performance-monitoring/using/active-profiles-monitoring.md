@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
->title="关于活动用户档案监控"
->abstract="在此选项卡中，您可以获取有关每个Campaign实例最新和历史活动用户档案使用情况和演变的实时信息。"
+>title="关于活跃配置文件监控"
+>abstract="在此选项卡中，您可以获取有关每个 Campaign 实例的最新和历史活动配置文件使用情况及演变的实时信息。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans" text="关于性能监控"
 
 控制面板允许您监控每个 Campaign 实例的活动用户档案使用情况。

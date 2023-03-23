@@ -10,7 +10,7 @@ exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -51,7 +51,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="URL定义"
+>title="URL 定义"
 >abstract="添加 URL 以允许与 Campaign 实例建立连接。"
 
 要添加实例可以连接到的 URL，请执行以下步骤：

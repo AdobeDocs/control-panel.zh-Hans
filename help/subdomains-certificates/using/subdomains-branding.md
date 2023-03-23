@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
 >title="选择子域的用例"
->abstract="按用例划分子域是实现交付性的最佳实践。 这样，每个子域的信誉将被隔离和受保护。"
+>abstract="按用例划分子域是实现交付性的最佳实践。这样，每个子域的信誉将被隔离和受保护。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="子域品牌化"
 

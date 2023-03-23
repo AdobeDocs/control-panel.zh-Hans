@@ -50,7 +50,7 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="IP范围配置"
+>title="IP 范围配置"
 >abstract="定义要添加到允许列表以连接到实例的 IP 范围。"
 
 >[!NOTE]

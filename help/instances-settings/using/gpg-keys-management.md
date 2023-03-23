@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
->title="关于GPG密钥"
->abstract="在此选项卡中，您可以在营销实例上安装和/或生成GPG密钥，以加密从Campaign发送的数据并解密传入数据。"
+>title="关于 GPG 密钥"
+>abstract="在此选项卡中，您可以在营销实例上安装和/或生成 GPG 密钥，以便加密从 Campaign 发送的数据和解密传入数据。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans" text="关于性能监控"
 
 ## 关于GPG加密 {#about-gpg-encryption}

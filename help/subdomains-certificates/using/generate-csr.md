@@ -18,7 +18,7 @@ ht-degree: 59%
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="CSR生成"
+>title="CSR 生成"
 >abstract="在购买证书之前，必须为您计划保护的实例和子域生成证书签名请求。"
 
 >[!CONTEXTUALHELP]
