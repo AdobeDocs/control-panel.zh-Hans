@@ -1,20 +1,30 @@
 ---
 title: 2023 年版发行说明
 description: 此页面列出了控制面板的所有 2023 年版本。
-source-git-commit: cca897c84f5b4db9233931086c1befc5719666b9
+source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
 # 2023 年版发行说明 {#rn-2023}
 
-## 2023 年 3 月 {#march-2023}
+## 2023 年 2 月 {#february-2023}
 
-**删除CNAME的子域委派**
+**移除委派给 Adobe 的子域委派**
 
-现在，您可以删除已使用CNAME配置的子域的委派。 [了解详情](../subdomains-certificates/using/remove-delegated-subdomains.md)
+您现在可以移除已完全委派给 Adobe 的子域委派。[了解详情](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
+>[!NOTE]
+>
+>目前，委派移除不适用于使用 CNAME 设置的子域。
+
+**服务日历**
+
+现在，服务日历提供日历视图，用于跟踪实例上发生的重要事件。此外，在向订阅“控制面板”警报的用户发送通知时添加了信息。[了解详情](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
 
 ## 2023 年 1 月 {#january-2023}
 
