@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 8871a7bbd60ebebbca88ce274f3ec0a1d0bbd463
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '555'
 ht-degree: 79%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 79%
 
 ![](assets/external-account-logs.png)
 
-## 将MID/RT实例IP地址添加到允许列表 {#ip}
+## 将IP地址添加到允许列表 {#ip}
 
 添加MID/RT实例后，您需要将其IP地址添加到允许列表，以便营销实例可以连接到该实例。
 
