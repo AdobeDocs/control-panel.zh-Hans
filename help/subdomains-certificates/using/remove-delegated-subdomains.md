@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 97%
 
 {style="table-layout:auto"}
 
-如果需要执行其中一项操作来删除委派，则附加 **[!DNL Action]** 步骤。 此屏幕列出了要移除或添加的 DNS 记录，具体取决于上下文。
+如果需要执行其中一项操作来移除委派，则在确认移除委派前会显示一个额外的 **[!DNL Action]** 步骤。此屏幕列出了要移除或添加的 DNS 记录，具体取决于上下文。
 
 ![](assets/action-step.png)
 
