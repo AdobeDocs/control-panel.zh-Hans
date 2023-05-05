@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 79%
 
 使用混合托管模型的客户可在控制面板中利用特定的控制面板功能。为此，您需要：
 
-* [提供MID/RT实例URL](#add) 在营销实例中配置的控制面板,
-* [将MID/RT实例IP地址添加到允许列表](#ip) 以允许营销实例连接到该实例。
+* 在“控制面板”中[提供在营销实例中配置的 MID/RT 实例 URL](#add)，
+* [将 MID/RT 实例 IP 地址添加到允许列表](#ip)，以允许营销实例连接到该实例。
 
 有关托管模型的更多信息，请参阅 [Campaign Classic 文档](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=zh-Hans)。
 
@@ -89,13 +89,13 @@ ht-degree: 79%
 
 ![](assets/external-account-logs.png)
 
-## 将IP地址添加到允许列表 {#ip}
+## 将 IP 地址添加到允许列表 {#ip}
 
-添加MID/RT实例后，您需要将其IP地址添加到允许列表，以便营销实例可以连接到该实例。
+添加 MID/RT 实例后，您需要将其 IP 地址添加到允许列表，以便营销实例可以连接到该实例。
 
-此操作可从 **[!UICONTROL IP Allow Listing]** 选项卡 **[!UICONTROL Instances Settings]** 卡。 [了解如何向允许列表添加IP地址](ip-allow-listing-instance-access.md)
+可从 **[!UICONTROL IP Allow Listing]** 选项卡（在 **[!UICONTROL Instances Settings]** 信息卡中）完成此操作。[了解如何将 IP 地址添加到允许列表](ip-allow-listing-instance-access.md)
 
-完成后，您将能够将控制面板功能与MID/RT实例结合使用。
+完成后，您可以将控制面板功能与 MID/RT 实例结合使用。
 
 ## 适用于混合型客户的功能 {#capabilities}
 
