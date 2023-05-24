@@ -46,7 +46,7 @@ ht-degree: 59%
    * **[!UICONTROL Organization]**：官方组织名称。
    * **[!UICONTROL Organization Unit]**：链接到子域的单位（示例：营销、IT）。
    * **[!UICONTROL Instance]**（预填充）：与子域关联的 Campaign 实例的 URL。
-   * **[!UICONTROL Common name]**:默认情况下会选择通用名称，您可以根据需要选择一个子域。
+   * **[!UICONTROL Common name]**：一般名稱預設為選取，您可以視需要選取其中一個子網域。
 
    ![](assets/renewal3.png)
 
@@ -64,22 +64,22 @@ ht-degree: 59%
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Copy CSR content]** 按钮可复制与CSR相关的所有信息（组织ID、实例、组织名称、公用名称、包含的子域等）
+   >此 **[!UICONTROL Copy CSR content]** 按鈕可讓您複製與CSR相關的所有資訊（組織ID、執行個體、組織名稱、通用名稱、包含的子網域等）
 
-1. 将自动生成并下载与您的选择相对应的 .csr 文件。您现在可以使用它从公司批准的认证中心购买 SSL 证书。如果您需要再次下载CSR，请按照 [此部分](#download).
+1. 将自动生成并下载与您的选择相对应的 .csr 文件。您现在可以使用它从公司批准的认证中心购买 SSL 证书。如果您需要再次下載CSR，請按照中詳述的步驟操作 [本節](#download).
 
-生成并下载CSR后，您可以使用它从贵组织批准的证书颁发机构购买SSL证书。
+產生CSR並下載後，您就可以使用它從貴組織核准的憑證機構購買SSL憑證。
 
-购买SSL证书后，您将能够在实例上安装该证书以保护子域。 [了解详情](install-ssl-certificate.md)
+購買SSL憑證後，您就能在執行個體上安裝該憑證，以保護您的子網域。 [了解详情](install-ssl-certificate.md)
 
-## 下载CSR {#download}
+## 下載CSR {#download}
 
-要购买SSL证书，您首先需要下载证书签名请求。 CSR在生成后会自动下载。 您还可以随时从作业日志中再次下载它：
+若要購買SSL憑證，您必須先下載憑證申請檔。 CSR會在產生後自動下載。 您也可以隨時從工作記錄檔再次下載：
 
-1. 在 **[!UICONTROL Job Logs]**，选择 **[!UICONTROL Finished]** 选项卡，然后过滤列表以显示与子域管理相关的作业。
+1. 在 **[!UICONTROL Job Logs]**，選取 **[!UICONTROL Finished]** 標籤，然後篩選清單以顯示與子網域管理相關的作業。
 
    ![](assets/renewal-download.png)
 
-1. 打开与生成CSR相对应的作业，然后单击 **[!UICONTROL Downbload]** 链接以获取.csr文件。
+1. 開啟與CSR產生相對應的工作，然後按一下 **[!UICONTROL Downbload]** 連結以取得.csr檔案。
 
    ![](assets/renewal-download-button.png)

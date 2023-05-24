@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 十大临时资源
-description: 了解如何在控制面板中监控由Campaign数据库上的工作流和投放生成的10个最大的临时资源。
+description: 瞭解如何在「控制面板」中監視Campaign資料庫上工作流程與傳遞內容所產生的10大臨時資源。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -24,8 +24,8 @@ ht-degree: 69%
 >
 >一般建议是避免在非开箱即用资源中设置&#x200B;**超过 40 列**。如果发现某个工作流涉及大量图表或占用大量数据库空间，我们建议查看该工作流，以调查它生成如此多数据的原因。
 >
->Campaign Standard和经典指南还在 [本页](database-preventing-overload.md) 来防止数据库过载。
+>Campaign Standard和Classic指南也適用於 [此頁面](database-preventing-overload.md) 協助您防止資料庫超載。
 
 ![](assets/database-top10.png)
 
-的 **[!UICONTROL View all]** 按钮 **[!UICONTROL Storage overview]** 获取这些临时资源的详细信息的详细信息。 有关详细信息，请参见[此页面](database-storage-overview.md)。
+此 **[!UICONTROL View all]** 按鈕可讓您存取 **[!UICONTROL Storage overview]** 取得這些臨時資源詳細資訊的詳細資訊。 有关详细信息，请参见[此页面](database-storage-overview.md)。

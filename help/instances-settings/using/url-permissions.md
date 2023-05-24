@@ -26,9 +26,9 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->此功能仅适用于版本8850的Campaign v7/v8实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
+>此功能僅適用於8850組建的Campaign v7/v8執行個體。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数量有限。 这些 URL 允许实例正常运行。
+Campaign Classic 实例可以通过 JavaScript 代码（工作流等）有限。 这些 URL 允许实例正常运行。
 
 默认情况下，实例不允许连接到外部 URL。控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
@@ -60,7 +60,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
    >[!NOTE]
    >
-   >如果“实例设置”卡未显示在控制面板的主页上，则表示您的 [组织ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 与任何Adobe Campaign实例都不关联
+   >如果「控制面板」首頁上看不到「執行個體設定」卡片，這表示您的 [組織ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未關聯至任何Adobe Campaign執行個體
    >
    ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
@@ -72,7 +72,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
    >
    >您的所有 Campaign 实例都将显示在左窗格列表中。
    >
-   >由于URL权限管理仅专用于Campaign v7/v8实例，因此，如果您选择了Campaign Standard实例，则会显示“非适用实例”消息。
+   >由於URL許可權管理專屬於Campaign v7/v8執行個體，如果您選取Campaign Standard執行個體，則會顯示「不適用執行個體」訊息。
 
 1. 键入要授权的 URL 及其关联协议（http、https 或 sftp）。
 

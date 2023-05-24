@@ -1,8 +1,9 @@
 ---
 title: 2023 年版发行说明
 description: 此页面列出了控制面板的所有 2023 年版本。
-source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: ht
+exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
+source-git-commit: 11015d1a7c44abaeeb704138e2a3071d293715b7
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 

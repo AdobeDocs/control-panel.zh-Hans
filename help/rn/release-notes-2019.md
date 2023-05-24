@@ -1,8 +1,9 @@
 ---
 title: 2019 年版发行说明
 description: 此页面列出了控制面板的所有 2019 年版本。
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: ht
+exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 

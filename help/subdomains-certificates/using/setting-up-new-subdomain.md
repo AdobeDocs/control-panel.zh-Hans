@@ -86,7 +86,7 @@ ht-degree: 92%
 
 1. 在使用相应的 Adobe 名称服务器信息创建子域后，单击 **[!UICONTROL Next]**。
 
-1. 如果您选择了Campaign v7/v8实例，请为子域选择所需的用例： **营销通信** 或 **交易和运营通信**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
+1. 如果您選取Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與營運通訊**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
 
    ![](assets/subdomain5.png)
 
@@ -130,7 +130,7 @@ ht-degree: 92%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果您选择了Campaign v7/v8实例，请为子域选择所需的用例： **营销通信** 或 **交易和运营通信**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
+1. 如果您選取Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與營運通訊**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
 
    ![](assets/cname-use-case.png)
 
@@ -162,7 +162,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >请注意，当子域配置运行时，其他控制面板请求将输入队列并仅在子域配置完成后执行，以防止出现任何性能问题。
+   >請注意，子網域設定執行時，其他「控制面板」請求將會進入佇列，並只會在子網域設定完成後才執行，以免出現任何效能問題。
 
 1. 如果检查成功，控制面板将开始设置包含 DNS 记录、其他 URL、收件箱等的子域。
 
@@ -178,7 +178,7 @@ ht-degree: 92%
    >
    >执行的可投放性检查包括反馈循环和垃圾邮件投诉循环测试。因此，我们不建议在审核完成之前使用子域，因为它可能导致子域声誉受损。
    >
-   >但是，请注意，您可以在子域上执行与SSL证书相关的操作，即使可交付性审核仍在处理。
+   >不過，請注意，您可以在子網域上執行與SSL憑證相關的操作，即使傳遞能力稽核仍在處理中。
 
 1. 在流程结束时，子域将配置为与 Adobe Campaign 实例配合使用，并将创建以下元素：
 

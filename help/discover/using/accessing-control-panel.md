@@ -9,49 +9,49 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 12%
+source-wordcount: '174'
+ht-degree: 13%
 
 ---
 
 # 访问控制面板 {#accessing-control-panel}
 
-控制面板可直接从Experience Cloud或产品本身获取。
+您可以直接從Experience Cloud或產品本身使用「控制面板」。
 
-可供访问 **管理员用户** 仅。 有关如何将用户分配给管理员组的详细信息，请参阅 [此部分](../../discover/using/managing-permissions.md).
+它可存取 **管理員使用者** 僅限。 有關如何將使用者指派給管理員群組的詳細資訊，請參閱 [本節](../../discover/using/managing-permissions.md).
 
-## 从Experience Cloud平台访问 {#access-experience-cloud-platform}
+## 從Experience Cloud平台存取 {#access-experience-cloud-platform}
 
-要从Adobe Experience Cloud平台访问控制面板，请执行以下步骤。
+若要從Adobe Experience Cloud平台存取「控制面板」，請遵循下列步驟。
 
-1. 导航到 [Experience Cloud主页](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}。
+1. 導覽至 [Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}.
 
-1. 单击 **快速访问** 中。
+1. 按一下以下連結中的專用連結： **快速存取** 區段。
 
    ![](assets/do-not-localize/quickaccess.png)
 
-控制面板也可从Experience Cloud平台访问 **解决方案选取器**:
+您也可以從Experience Cloud平台存取「控制面板」 **解決方案選擇器**：
 
-1. 从 [Adobe Experience Cloud主页](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}，选择 **Campaign** 从 **快速访问** 或右侧的顶部菜单。
+1. 從 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}，選取 **Campaign** 從 **快速存取** 區段或右上方的功能表。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. 此时会显示Campaign实例列表。 单击 **控制面板** 卡以启动它。
+1. 您的Campaign執行個體清單隨即顯示。 按一下 **控制面板** 卡片以啟動它。
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
-## 从产品访问 {#access-product}
+## 從產品存取 {#access-product}
 
 >[!NOTE]
 >
->可以从产品内访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans)仅{target=&quot;_blank&quot;}。
+>可從產品內部存取，適用於 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans){target="_blank"} 僅限。
 
-1. 打开您的Campaign Standard产品。
+1. 開啟您的Campaign Standard產品。
 
-1. 选择 **[!UICONTROL Administration]** 菜单 **导航** 中。
+1. 選取 **[!UICONTROL Administration]** 功能表中的 **導覽** 窗格。
 
    ![](assets/control_panel_access3.png)
 
-1. 单击 **[!UICONTROL Control Panel]** 图标。
+1. 按一下 **[!UICONTROL Control Panel]** 圖示。
 
    ![](assets/control_panel_access4.png)

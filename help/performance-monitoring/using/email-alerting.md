@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 电子邮件警报
-description: 了解如何在Campaign实例出现问题时接收电子邮件通知
+description: 瞭解在您的Campaign執行個體發生問題時如何接收電子郵件通知
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -10,48 +10,48 @@ exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 电子邮件警报 {#email-alerting}
 
-为了为您的工作提供更大的灵活性，控制面板配备了实时电子邮件警报功能。
+為了給您的工作提供更大的彈性，「控制面板」配備了即時電子郵件警報功能。
 
-## 警报列表 {#list}
+## 警示清單 {#list}
 
-警报列表如下：
+警示清單如下：
 
-* **SFTP存储使用情况**:您的其中一台SFTP服务器已达到其容量的80%或更大。 请参阅 [SFTP存储管理](../../sftp/using/sftp-storage-management.md).
+* **SFTP儲存空間使用量**：您的其中一個SFTP伺服器已達到其容量的80%或更多。 请参阅 [SFTP 存储管理](../../sftp/using/sftp-storage-management.md)。
 
-* **数据库使用情况**:实例的一个数据库已达到其容量的80%或更大。 请参阅 [数据库监控](../../performance-monitoring/using/database-monitoring.md).
+* **資料庫使用狀況**：其中一個執行個體的資料庫已達到其容量的80%或更多。 另請參閱 [資料庫監視](../../performance-monitoring/using/database-monitoring.md).
 
-* **SFTP IP允许列表过期**:您定义的其中一个IP范围已过期，或将在10天或更短时间内过期。 请参阅 [IP范围允许列表](../../sftp/using/ip-range-allow-listing.md).
+* **SFTP IP允許清單到期**：您定義的其中一個IP範圍已過期，或將在10天或更短時間內過期。 另請參閱 [IP範圍允許清單](../../sftp/using/ip-range-allow-listing.md).
 
-* **SFTP公钥过期**:您定义的其中一个公钥已过期，或将在10天或更短时间内过期。 请参阅 [密钥管理](../../sftp/using/key-management.md).
+* **SFTP公開金鑰過期**：您定義的其中一個公開金鑰已過期，或即將在10天或更短時間內過期。 另請參閱 [金鑰管理](../../sftp/using/key-management.md).
 
-* **SSL证书过期**:您的子域的其中一个SSL证书已过期或将在30天或更短时间内过期。 请参阅 [监控子域的SSL证书](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **SSL憑證到期**：您的其中一個子網域的SSL憑證已過期或將在30天或更短時間內過期。 另請參閱 [監視子網域的SSL憑證](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 <!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
 
 >[!NOTE]
 >
->此外，控制面板允许您 **设置提醒** ，以便在实例中发生事件（版本和服务审查）之前，通过电子邮件接收通知。
+>此外，「控制面板」可讓您 **設定提醒** 以便在執行個體上發生事件（發行和服務審查）之前透過電子郵件通知。
 >
->为此，您需要订阅了电子邮件警报，并为所需的即将发生的事件设置提醒。 [了解如何为即将发生的事件设置提醒](../../service-events/service-events.md#reminders)
+>若要這麼做，您必須訂閱電子郵件警示，並為想要的近期事件設定提醒。 [瞭解如何為即將到來的活動設定提醒](../../service-events/service-events.md#reminders)
 
 ## 订阅警报 {#subscribe}
 
-要订阅这些警报，请执行以下步骤：
+若要訂閱這些警示，請遵循下列步驟：
 
-1. 单击 **[!UICONTROL Alerting notifications]** 按钮，然后单击 **[!UICONTROL Subscribe]**.
+1. 按一下 **[!UICONTROL Alerting notifications]** 按鈕可供使用，然後按一下 **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
-1. 系统会发送电子邮件以确认您的订阅。
+1. 系統會傳送電子郵件以確認您的訂閱。
 
    ![](assets/email_subscription.png)
 
-1. 订阅后，控制面板将通知系统问题并建议采取相应操作。 电子邮件警报会发送给已注册的每个人 **所有实例** 是的。
+1. 訂閱後，「控制面板」會通知系統問題並建議要採取的動作。 電子郵件警示會傳送給已註冊的人 **所有執行個體** 他們的管理員。
 
    ![](assets/alert_sample.png)

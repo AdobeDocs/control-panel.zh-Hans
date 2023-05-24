@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。它可从Campaign Standard10368内部版本中获取。
+>测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。它可從Campaign Standard10368建置中使用。
 
 根据您的合同，您的每个 Campaign 实例都会配置特定数量的活动用户档案，并对这些活动用户档案进行计数以计费。请参阅您的最新合同，了解已购买的活动用户档案数量。
 
@@ -32,7 +32,7 @@ ht-degree: 87%
 >
 >Facebook 和 Twitter 渠道不包含在內。
 
-有关活动用户档案的更多信息，请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 文档。
+如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 檔案。
 
 ## 监控活动用户档案 {#monitoring-active-profiles}
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 >活动用户档案基于每天在您的实例上运行的专用技术工作流进行计数：
 >
 >* Campaign Standard 的[“计费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans)”工作流，
->* 的 [“有效付费用户档案的数量”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans) Campaign v7/v8的工作流。
+>* 此 [「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans) Campaign v7/v8的工作流程。
 
 
 下面的区域以图形形式显示了过去 30 天内活动用户档案的使用情况。您可以使用右上角的可用过滤器将显示的时间段更改为 1 年。

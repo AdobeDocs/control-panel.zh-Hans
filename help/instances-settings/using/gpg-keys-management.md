@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: GPG 密钥管理
-description: 了解如何管理GPG密钥，以在Adobe Campaign中加密和解密数据。
+description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -22,174 +22,174 @@ ht-degree: 12%
 >abstract="在此选项卡中，您可以在营销实例上安装和/或生成 GPG 密钥，以便加密从 Campaign 发送的数据和解密传入数据。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans" text="关于性能监控"
 
-## 关于GPG加密 {#about-gpg-encryption}
+## 關於GPG加密 {#about-gpg-encryption}
 
-GPG加密允许您使用以下系统的公共 — 私钥对保护数据： [OpenPGP](https://www.openpgp.org/about/standard/) 规范。
+GPG加密可讓您使用公開 — 私密金鑰組系統，保護您的資料，此系統需遵循 [OpenPGP](https://www.openpgp.org/about/standard/) 規格。
 
-实施后，您可以在传输之前对传入数据进行解密和加密，以确保没有有效匹配密钥对的任何人都不会访问这些数据。
+實作後，您就可以在傳輸前解密傳入資料，並加密傳出資料，以確保沒有有效相符金鑰組的任何人都不會存取這些資料。
 
 要利用 Campaign 实现 GPG 加密，管理员用户必须直接从控制面板在营销实例上安装和/或生成 GPG 密钥。
 
 然后，您将能够：
 
-* **加密发送的数据**:Adobe Campaign在使用已安装的公钥对数据进行加密后，会发送数据。
+* **加密傳送的資料**：使用安裝的公開金鑰加密資料後，Adobe Campaign會將其傳送出去。
 
-* **解密传入数据**:Adobe Campaign接收从外部系统使用从控制面板下载的公共密钥加密的数据。 Adobe Campaign使用从控制面板生成的私钥解密数据。
+* **解密傳入的資料**：Adobe Campaign會使用從「控制面板」下載的公開金鑰，接收從外部系統加密的資料。 Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
 
-## 加密数据 {#encrypting-data}
+## 加密資料 {#encrypting-data}
 
 控制面板允许您加密从 Adobe Campaign 实例中传出的数据。
 
-要实现此目的，您需要从PGP加密工具生成GPG密钥对，然后将公共密钥安装到控制面板中。 然后，您将能够在从实例发送数据之前对其进行加密。 为此，请执行以下步骤：
+為此，您需要從PGP加密工具產生GPG金鑰組，然後將公開金鑰安裝到「控制面板」。 之後，您就可以在從執行個體傳送資料之前先加密資料。 为此，请执行以下步骤：
 
 >[!NOTE]
 >
->您最多可以在控制面板中安装60个GPG密钥。
+>您最多可以在「控制面板」中安裝60個GPG金鑰。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
-1. 使用PGP加密工具生成公钥/私钥对，该工具跟在 [OpenPGP规范](https://www.openpgp.org/about/standard/). 为此，请安装GPG实用程序或GNuGP软件。
+1. 按照下列步驟，使用PGP加密工具產生公開/私密金鑰組 [OpenPGP規格](https://www.openpgp.org/about/standard/). 要執行此操作，請安裝GPG公用程式或GNuGP軟體。
 
    >[!NOTE]
    >
-   >提供了用于生成密钥的开源免费软件。 但是，请确保遵循贵组织的准则，并使用IT/安全组织推荐的GPG实用程序。
+   >可使用開放原始碼自由軟體來產生金鑰。 不過，請務必遵循組織的方針，並使用您的IT/安全性組織建議的GPG公用程式。
 
-1. 安装该实用程序后，在Mac终端或Windows命令中运行以下命令。
+1. 安裝公用程式後，在Mac終端機或Windows命令中執行以下命令。
 
    `gpg --full-generate-key`
 
-1. 出现提示时，为您的键指定所需的参数。 必需的参数包括：
+1. 出現提示時，請為您的金鑰指定所需的引數。 必要的引數包括：
 
-   * **键类型**:RSA
-   * **键长度**:3072 - 4096比特
-   * **实名** 和 **电子邮件地址**:用于跟踪创建密钥对的人。 输入链接到您的组织或部门的名称和电子邮件地址。
-   * **评论**:向注释字段添加标签将帮助您轻松识别用于加密数据的密钥。
-   * **过期**:日期或“0”表示没有过期日期。
-   * **密码**
+   * **金鑰型別**： RSA
+   * **金鑰長度**：3072 - 4096位元
+   * **真實名稱** 和 **電子郵件地址**：允許追蹤金鑰組的建立者。 輸入連結至組織或部門的名稱和電子郵件地址。
+   * **評論**：在評論欄位中新增標籤，可協助您輕鬆識別用來加密資料的金鑰。
+   * **有效期**：日期或&quot;0&quot;，表示無到期日。
+   * **複雜密碼**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. 确认后，脚本将生成一个具有其关联指纹的密钥，您可以将其导出到文件中，或直接粘贴到控制面板中。 要导出文件，请运行此命令，然后运行生成的密钥的指纹。
+1. 確認後，指令碼將會產生一個金鑰及其相關聯的指紋，您可以將該金鑰匯出至檔案，或直接貼入「控制面板」。 若要匯出檔案，請執行此命令，後面接著您產生之金鑰的指紋。
 
    `gpg -a --export <fingerprint>`
 
-1. 要将公钥安装到控制面板中，请打开 **[!UICONTROL Instance settings]** 卡，然后选择 **[!UICONTROL GPG keys]** 选项卡和所需的实例。
+1. 若要將公開金鑰安裝至「控制面板」，請開啟 **[!UICONTROL Instance settings]** 卡片，然後選取 **[!UICONTROL GPG keys]** 標籤和所需的執行個體。
 
 1. 单击 **[!UICONTROL Install Key]** 按钮。
 
    ![](assets/gpg_install_button.png)
 
-1. 粘贴从PGP加密工具生成的公共密钥。 您还可以直接拖放导出的公共密钥文件。
+1. 貼上從PGP加密工具產生的公開金鑰。 您也可以直接拖放您匯出的公開金鑰檔案。
 
    >[!NOTE]
    >
-   >公钥应采用OpenPGP格式。
+   >公開金鑰應為OpenPGP格式。
 
    ![](assets/gpg_install_paste.png)
 
 1. 单击 **[!UICONTROL Install Key]** 按钮。
 
-安装公钥后，该公钥会显示在列表中。 您可以使用 **...** 按钮下载或复制其指纹。
+安裝公開金鑰後，它就會顯示在清單中。 您可以使用 **...** 按鈕來下載或複製其指紋。
 
 ![](assets/gpg_install_download.png)
 
-然后，可在Adobe Campaign工作流中使用键。 在使用数据提取活动时，您可以使用该数据来加密数据。
+然後，您就可以在Adobe Campaign工作流程中使用金鑰。 使用資料擷取活動時，您可以使用它來加密資料。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
-有关此主题的更多信息，请参阅Adobe Campaign文档：
+如需有關本主題的詳細資訊，請參閱Adobe Campaign檔案：
 
-**Campaign v7/v8:**
+**Campaign v7/v8：**
 
-* [压缩或加密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [用例：使用安装在控制面板上的密钥加密和导出数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [壓縮或加密檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
+* [使用案例：使用安裝於控制面板的金鑰加密及匯出資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [管理加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [用例：使用安装在控制面板上的密钥加密和导出数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
+* [使用案例：使用安裝於控制面板的金鑰加密及匯出資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## 解密数据 {#decrypting-data}
 
-控制面板允许您解密传入Adobe Campaign实例的外部数据。
+「控制面板」可讓您解密傳入Adobe Campaign執行個體的外部資料。
 
-为此，您需要直接从控制面板生成GPG密钥对。
+為此，您需要直接從「控制面板」產生GPG金鑰組。
 
-* 的 **公钥** 将与外部系统共享，外部系统将使用该系统加密要发送到Campaign的数据。
-* 的 **私钥** 将被Campaign用来解密传入的加密数据。
+* 此 **公開金鑰** 將與外部系統共用，外部系統將使用它來加密要傳送至Campaign的資料。
+* 此 **私密金鑰** 將由Campaign用來解密傳入的加密資料。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
-要在控制面板中生成键对，请执行以下步骤：
+若要在「控制面板」中產生金鑰組，請遵循下列步驟：
 
-1. 打开 **[!UICONTROL Instance settings]** 卡，然后选择 **[!UICONTROL GPG keys]** 选项卡和所需的Adobe Campaign实例。
+1. 開啟 **[!UICONTROL Instance settings]** 卡片，然後選取 **[!UICONTROL GPG keys]** 索引標籤和所需的Adobe Campaign執行個體。
 
 1. 单击 **[!UICONTROL Generate Key]** 按钮。
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **[!UICONTROL Generate Key]**. 此名称将帮助您确定在Campaign工作流中用于解密的密钥
+1. 指定金鑰的名稱，然後按一下 **[!UICONTROL Generate Key]**. 此名稱可協助您識別在Campaign工作流程中用於解密的金鑰
 
    ![](assets/gpg_generate_name.png)
 
-生成密钥对后，公共密钥将显示在列表中。 请注意，解密密钥对是在没有过期日期的情况下生成的。
+產生金鑰組後，公開金鑰就會顯示在清單中。 請注意，產生解密金鑰組時沒有到期日。
 
-您可以使用 **...** 按钮下载公钥或复制其指纹。
+您可以使用 **...** 按鈕以下載公開金鑰或複製其指紋。
 
 ![](assets/gpg_generate_list.png)
 
-然后，可以与任何外部系统共享公共密钥。 Adobe Campaign将能够在数据加载活动中使用私钥解密已使用公钥加密的数据。
+然後，公開金鑰便可與任何外部系統共用。 Adobe Campaign將能夠使用資料載入活動中的私密金鑰，將已使用公開金鑰加密的資料解密。
 
-有关更多信息，请参阅Adobe Campaign文档：
+如需詳細資訊，請參閱Adobe Campaign檔案：
 
-**Campaign v7和v8:**
+**Campaign v7和v8：**
 
 * [在处理之前解压缩或解密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
-* [用例：导入使用由控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
+* [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [管理加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [用例：导入使用由控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
-## 监控GPG密钥
+## 監控GPG金鑰
 
-要访问为实例安装和生成的GPG密钥，请打开 **[!UICONTROL Instance settings]** 卡，然后选择 **[!UICONTROL GPG keys]** 选项卡。
+若要存取針對您的執行個體安裝和產生的GPG金鑰，請開啟 **[!UICONTROL Instance settings]** 卡片，然後選取 **[!UICONTROL GPG keys]** 標籤。
 
 ![](assets/gpg_list.png)
 
-该列表显示已为实例安装和生成的所有加密和解密GPG密钥，其中包含每个密钥的详细信息：
+清單會顯示已安裝並為執行個體產生的所有加密和解密GPG金鑰，以及每個金鑰的詳細資訊：
 
-* **[!UICONTROL Name]**:安装或生成密钥时定义的名称。
-* **[!UICONTROL Use case]**:此列指定键的用例：
+* **[!UICONTROL Name]**：安裝或產生金鑰時定義的名稱。
+* **[!UICONTROL Use case]**：此欄指定索引鍵的使用案例：
 
-   ![](assets/gpg_icon_encrypt.png):已安装密钥以进行数据加密。
+   ![](assets/gpg_icon_encrypt.png)：已安裝用於資料加密的金鑰。
 
-   ![](assets/gpg_icon_decrypt.png):已生成密钥以允许数据解密。
+   ![](assets/gpg_icon_decrypt.png)：金鑰已產生，以允許資料解密。
 
-* **[!UICONTROL Fingerprint]**:钥匙的指纹。
-* **[!UICONTROL Expires]**:密钥的过期日期。 请注意，控制面板将在关键到期日临近时提供直观指示：
+* **[!UICONTROL Fingerprint]**：金鑰的指紋。
+* **[!UICONTROL Expires]**：金鑰的到期日。 請注意，「控制面板」會在主要專案接近到期日時提供視覺指示：
 
-   * 30天前显示紧急（红色）。
-   * 警告（黄色）在60天前显示。
-   * 密钥过期后，将显示“已过期”的红色横幅。
+   * 緊急（紅色）會在30天前顯示。
+   * 警告（黃色）會於60天前顯示。
+   * 一旦鍵過期，就會顯示「過期」紅色橫幅。
 
    >[!NOTE]
    >
-   >请注意，控制面板不会发送任何电子邮件通知。
+   >請注意，控制面板不會傳送任何電子郵件通知。
 
-作为最佳实践，我们建议您删除不再需要的任何键。 为此，请单击 **...** 按钮，然后选择 **[!UICONTROL Delete Key].**.
+根據最佳實務，建議您移除任何不再需要的金鑰。 若要這麼做，請按一下 **...** 按鈕，然後選取 **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
 >[!IMPORTANT]
 >
->在删除密钥之前，请确保未在任何Adobe Campaign工作流中使用该密钥，以防止其失败。
+>在移除金鑰之前，請確定它並未用於任何Adobe Campaign工作流程，以防止其失敗。
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-以下视频演示如何生成和安装用于数据加密的GPG密钥。
+以下影片說明如何產生和安裝資料加密所需的GPG金鑰。
 
-有关与GPG密钥管理相关的其他操作方法视频，请访问  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 教程页面。
+有關GPG金鑰管理的其他操作說明影片，請參閱  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 教學課程頁面。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 存储概述
-description: 了解如何在控制面板中监控占用实例数据库空间的不同Campaign资源。
+description: 瞭解如何在「控制面板」中監視在執行個體上佔用資料庫空間的不同Campaign資源。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -35,8 +35,8 @@ ht-degree: 59%
 
 单击 **[!UICONTROL View details]** 按钮可获取有关占用数据库空间的不同资源的更多详细信息。
 
-您可以使用下拉列表仅从特定资产类型（工作流、投放、收件人）优化搜索和显示表。
+您可以使用下拉式清單來縮小搜尋範圍，並僅顯示特定資產型別（工作流程、傳送、收件者）的表格。
 
 ![](assets/database-storage-details.png)
 
-请注意，此屏幕还允许您监视可能需要特定注意的工作流参数，以避免实例上出现任何问题。 请参阅[此页面](workflow-monitoring.md)以了解详情。
+請注意，此畫面也可讓您監視可能需要特別注意的工作流程引數，以避免執行個體上出現任何問題。 请参阅[此页面](workflow-monitoring.md)以了解详情。

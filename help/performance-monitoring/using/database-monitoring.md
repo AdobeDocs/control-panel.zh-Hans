@@ -24,7 +24,7 @@ ht-degree: 78%
 
 实例数据库溢出可能导致若干问题（无法登录、无法发送电子邮件等）。因此，监测实例的数据库对于确保最佳性能至关重要。
 
-如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，则当实例的某个数据库达到其容量的80%或更大时，您将通过电子邮件收到通知。
+如果您訂閱 [電子郵件警示](../../performance-monitoring/using/email-alerting.md)，當其中一個執行個體的資料庫達到其容量的80%或更多時，您會收到電子郵件通知。
 
 ## 监测数据库使用{#monitoring-database-usage}
 
@@ -44,9 +44,9 @@ ht-degree: 78%
 
 ![](assets/databases_dashboard.png)
 
-此功能板中的数据将根据 **[!UICONTROL Database cleanup technical workflow]** 在您的Campaign实例上运行的规则(请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans#list-of-technical-workflows) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hans) 文档)。 您可以检查工作流上次在 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 量度。 请注意，如果工作流已超过 3 天未运行，我们建议您联系 Adobe 客户关怀团队，以便让他们调查工作流未运行的原因。
+此控制面板的資料會根據 **[!UICONTROL Database cleanup technical workflow]** 在您的Campaign執行個體上執行的(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans#list-of-technical-workflows) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hans) 檔案)。 您可以檢查工作流程上次執行的時間 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 量度。 请注意，如果工作流已超过 3 天未运行，我们建议您联系 Adobe 客户关怀团队，以便让他们调查工作流未运行的原因。
 
-此功能板中提供了其他量度，可帮助您分析实例数据库的使用情况。 以下各节详细介绍了这些功能：
+此儀表板中有其他量度可協助您分析執行個體資料庫的使用情況。 這些區段會詳細說明這些內容：
 
 * [数据库利用率](../../performance-monitoring/using/database-utilization.md)
 * [存储概述](../../performance-monitoring/using/database-storage-overview.md)
