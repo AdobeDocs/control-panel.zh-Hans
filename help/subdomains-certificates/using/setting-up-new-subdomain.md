@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1502'
 ht-degree: 81%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 81%
 
    ![](assets/cname-confirmation.png)
 
-1. 如果您选择将子域的证书委派给Adobe，则会自动生成证书。 逐个复制这些记录，或通过下载CSV文件复制这些记录，然后导航到您的域托管解决方案以生成匹配的证书。
+1. 如果您选择将子域的证书委派给Adobe，则会自动生成证书记录。 逐个复制这些记录，或通过下载CSV文件复制这些记录，然后导航到您的域托管解决方案以生成匹配的证书。
 
    ![](assets/cname-csr-generation.png)
 
