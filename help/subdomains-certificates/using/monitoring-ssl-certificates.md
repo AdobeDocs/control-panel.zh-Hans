@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 92%
+source-wordcount: '478'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,25 @@ ht-degree: 92%
 
 Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收集客户敏感信息的子域。
 
-**SSL （安全通訊端層）加密** 可確保您設定為與Adobe搭配使用的子網域安全無虞。 当客户填写 Web 表单或访问由 Adobe Campaign 托管的登陆页面时，默认情况下，信息会通过非安全协议 (HTTP) 发送。为确保获得额外的安全性，请使用 HTTPS 协议保护已发送的信息。例如，您的“http://info.mywebsite.com/”子域地址现在将为“https://info.mywebsite.com/”。
+**SSL（安全套接字层）加密** 确保您配置为用于Adobe的子域是安全的。 当客户填写 Web 表单或访问由 Adobe Campaign 托管的登陆页面时，默认情况下，信息会通过非安全协议 (HTTP) 发送。为确保获得额外的安全性，请使用 HTTPS 协议保护已发送的信息。例如，您的“http://info.mywebsite.com/”子域地址现在将为“https://info.mywebsite.com/”。
 
-**設定的子網域本身並未安裝SSL憑證**. 它们安装在关联的子域上，主要是托管登陆页面、资源页面等页面的子域。
+**配置的子域本身不安装SSL证书**. 它们安装在关联的子域上，主要是托管登陆页面、资源页面等页面的子域。
 
 **SSL 证书在特定时间段内提供**（1 年、60 天等）。一旦证书过期，您在访问登陆页面或使用子域的资源时可能会遇到问题。为防止出现这种情况，控制面板允许您监视子域的 SSL 证书，并启动其续订过程。
 
 ![](assets/no_certificate.png)
+
+## 将子域的SSL证书委派给Adobe
+
+在设置新子域时，您可以让Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。
+
+如果您使用CNAME来设置子域委派，Adobe将提供证书记录以用于您的域托管解决方案来生成证书。
+
+>[!NOTE]
+>
+>只有在设置新子域时，SSL证书委派才可用。 它不适用于已委派的子域。
+
+设置新子域时会启用SSL证书委派。 了解如何在中继续 [本节](setting-up-new-subdomain.md).
 
 ## 监测 SSL 证书 {#monitoring-certificates}
 
