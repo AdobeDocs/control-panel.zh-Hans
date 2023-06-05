@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 92%
+source-wordcount: '1501'
+ht-degree: 81%
 
 ---
+
 
 # 设置新子域 {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 92%
 >title="设置新子域并管理证书"
 >abstract="您需要设置一个新子域并管理子域的 SSL 证书，以开始使用 Adobe Campaign 发送电子邮件或发布登陆页面。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hans" text="监控 SSL 证书"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="将子域的SSL证书委派给Adobe"
+>abstract="控制面板允许由Adobe管理子域的SSL证书。 如果您使用CNAME设置子域，则将自动生成并提供证书记录，以便在域托管解决方案中生成证书。"
 
 ## 必读 {#must-read}
 
@@ -86,13 +92,15 @@ ht-degree: 92%
 
 1. 在使用相应的 Adobe 名称服务器信息创建子域后，单击 **[!UICONTROL Next]**。
 
-1. 如果您選取Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與營運通訊**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
+1. 如果您选择了Campaign v7/v8实例，请为子域选择所需的用例： **营销通信** 或 **交易和运营通信**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
 
    ![](assets/subdomain5.png)
 
 1. 输入您在托管解决方案中创建的子域，然后单击 **[!UICONTROL Submit]**。
 
    确保填写要委派的子域的&#x200B;**全名**。例如，要委派“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
+
+1. 要将子域的SSL证书的生成委派给Adobe，请启用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 选项。
 
    ![](assets/subdomain6.png)
 
@@ -130,29 +138,40 @@ ht-degree: 92%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果您選取Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與營運通訊**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
+1. 如果您选择了Campaign v7/v8实例，请为子域选择所需的用例： **营销通信** 或 **交易和运营通信**. [本节](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介绍了有关子域用例的全局概念。
 
    ![](assets/cname-use-case.png)
 
-1. 输入您在托管解决方案中创建的子域，然后单击 **[!UICONTROL Next]**。
+1. 输入您在托管解决方案中创建的子域。 要将子域的SSL证书的生成委派给Adobe，请启用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 选项。
 
-   确保填写要设置的子域的&#x200B;**全名**。例如，要配置“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >确保填写要设置的子域的&#x200B;**全名**。例如，要配置“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
    ![](assets/cname-generate-record.png)
 
-1. 确保前面步骤中的所有 DNS 记录均已生成至您的域托管解决方案中。如果一切配置正确，请选择第一条语句，然后单击 **[!UICONTROL Submit]** 以确认。
+1. 确保前面步骤中的所有 DNS 记录均已生成至您的域托管解决方案中。如果一切配置正确，请选择第一条语句，然后单击 **[!UICONTROL Next]** 以确认。
 
-   ![](assets/cname-confirmation.png)
+   如果要创建记录并稍后提交子域配置，请选择第二条语句。 然后，您就可以直接从子域管理屏幕 **[!UICONTROL Processing]** 区域恢复子域配置。请注意，要放在您的服务器上的 DNS 记录将由控制面板保存 30 天。在这之后，您必须从头开始配置子域。
+
 
    >[!NOTE]
    >
-   >如果要创建记录并稍后提交子域配置，请选择第二条语句，然后单击 **[!UICONTROL Submit later]**。然后，您就可以直接从子域管理屏幕 **[!UICONTROL Processing]** 区域恢复子域配置。
-   >
-   >请注意，要放在您的服务器上的 DNS 记录将由控制面板保存 30 天。在这之后，您必须从头开始配置子域。
+   >如果您选择不将SSL证书委派给Adobe，则这是子域配置的最后一步。 单击 **[!UICONTROL Submit]** 按钮。
+
+   ![](assets/cname-confirmation.png)
+
+1. 如果您选择将子域的证书委派给Adobe，则会自动生成证书。 逐个复制这些记录，或通过下载CSV文件复制这些记录，然后导航到您的域托管解决方案以生成匹配的证书。
+
+   ![](assets/cname-csr-generation.png)
+
+1. 请确保所有证书记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选择第一条语句，然后单击 **[!UICONTROL Submit]** 以确认。
+
+   ![](assets/cnames-submit.png)
 
 提交子域后，控制面板将执行各种检查和配置步骤。有关详细信息，请参阅[子域检查和配置](#subdomain-checks-and-configuration)。
 
@@ -162,7 +181,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >請注意，子網域設定執行時，其他「控制面板」請求將會進入佇列，並只會在子網域設定完成後才執行，以免出現任何效能問題。
+   >请注意，当子域配置运行时，其他控制面板请求将输入队列并仅在子域配置完成后才执行，以防止出现任何性能问题。
 
 1. 如果检查成功，控制面板将开始设置包含 DNS 记录、其他 URL、收件箱等的子域。
 
@@ -178,7 +197,7 @@ ht-degree: 92%
    >
    >执行的可投放性检查包括反馈循环和垃圾邮件投诉循环测试。因此，我们不建议在审核完成之前使用子域，因为它可能导致子域声誉受损。
    >
-   >不過，請注意，您可以在子網域上執行與SSL憑證相關的操作，即使傳遞能力稽核仍在處理中。
+   >但是，请注意，您可以在子域上执行与SSL证书相关的操作，即使可投放性审核仍在处理中也是如此。
 
 1. 在流程结束时，子域将配置为与 Adobe Campaign 实例配合使用，并将创建以下元素：
 
