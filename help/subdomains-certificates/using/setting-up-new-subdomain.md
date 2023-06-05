@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 81%
+source-wordcount: '1523'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="将子域的SSL证书委派给Adobe"
->abstract="控制面板允许由Adobe管理子域的SSL证书。 如果您使用CNAME设置子域，则将自动生成并提供证书记录，以便在域托管解决方案中生成证书。"
+>abstract="控制面板允许由Adobe管理子域的SSL证书。 如果您使用CNAME设置子域，则将自动生成并提供证书记录，以便在域托管解决方案中生成证书。 请注意，此功能仅在设置新子域时可用。 无法为现有的已委派子域委派证书。"
 
 ## 必读 {#must-read}
 
