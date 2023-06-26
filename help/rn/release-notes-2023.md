@@ -2,14 +2,26 @@
 title: 2023 年版发行说明
 description: 此页面列出了控制面板的所有 2023 年版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # 2023 年版发行说明 {#rn-2023}
+
+## 2023年5月改进 {#june-2023}
+
+**对 Adobe 的子域 SSL 证书委派**
+
+您现在可以使用 Adobe 管理子域的 SSL 证书。如果您使用 CNAME 设置您的子域，则将自动生成并提供证书记录，以便在您的域托管解决方案中生成证书。
+
+请注意，仅在设置新子域时有此功能可用。无法为现有委派的子域委派证书。[了解详情](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Adobe 管理的 SSL 是一项免费功能，可供用户免费使用。
 
 ## 2023 年 3 月 {#march-2023}
 

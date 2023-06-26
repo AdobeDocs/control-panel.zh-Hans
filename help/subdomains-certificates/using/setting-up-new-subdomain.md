@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1549'
 ht-degree: 80%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 80%
 >title="设置新子域并管理证书"
 >abstract="您需要设置一个新子域并管理子域的 SSL 证书，以开始使用 Adobe Campaign 发送电子邮件或发布登陆页面。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hans" text="监控 SSL 证书"
-
->[!CONTEXTUALHELP]
->id="cp_managed_ssl"
->title="将子域的 SSL 证书委派给 Adobe"
->abstract="通过控制面板，可让 Adobe 管理您的子域的 SSL 证书。如果您使用 CNAME 设置您的子域，则将自动生成并提供证书记录，以便在您的域托管解决方案中生成证书。请注意，仅在设置新子域时有此功能可用。无法为现有委派的子域委派证书。"
 
 ## 必读 {#must-read}
 
@@ -44,13 +39,13 @@ ht-degree: 80%
 
 ### 将子域的 SSL 证书委派给 Adobe
 
-在设置新子域时，您可以让Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。 请注意，只有在设置新子域时，才能使用SSL证书委派。 它不适用于已委派的子域。
+在设置新子域时，您可以让Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。
 
 如果您使用CNAME来设置子域委派，Adobe将提供证书记录以用于您的域托管解决方案来生成证书。
 
 >[!NOTE]
 >
->Adobe托管SSL是一项免费功能，可供用户免费使用。
+>Adobe 管理的 SSL 是一项免费功能，可供用户免费使用。
 
 ### 名称服务器配置
 
@@ -66,7 +61,6 @@ ht-degree: 80%
 >abstract="Adobe 建议完全委派子域。 但是，您可以使用 CNAME 或自定义方法来设置子域。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="联系客户关怀团队"
-
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
@@ -110,7 +104,7 @@ ht-degree: 80%
 
    确保填写要委派的子域的&#x200B;**全名**。例如，要委派“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
 
-1. 要将子域的SSL证书的生成委派给Adobe，请启用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 选项。
+1. 要将子域的SSL证书的生成委派给Adobe，请启用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 选项。 [了解有关SSL证书委派的更多信息](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -152,7 +146,9 @@ ht-degree: 80%
 
    ![](assets/cname-use-case.png)
 
-1. 输入您在托管解决方案中创建的子域。 要将子域的SSL证书的生成委派给Adobe，请启用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 选项。
+1. 输入您在托管解决方案中创建的子域。
+
+   要将子域的SSL证书的生成委派给Adobe，请启用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 选项。 [了解有关SSL证书委派的更多信息](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -167,7 +163,6 @@ ht-degree: 80%
 1. 确保前面步骤中的所有 DNS 记录均已生成至您的域托管解决方案中。如果一切配置正确，请选择第一条语句，然后单击 **[!UICONTROL Next]** 以确认。
 
    如果要创建记录并稍后提交子域配置，请选择第二条语句。 然后，您就可以直接从子域管理屏幕 **[!UICONTROL Processing]** 区域恢复子域配置。请注意，要放在您的服务器上的 DNS 记录将由控制面板保存 30 天。在这之后，您必须从头开始配置子域。
-
 
    >[!NOTE]
    >

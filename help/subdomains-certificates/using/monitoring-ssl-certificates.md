@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 71%
+source-wordcount: '413'
+ht-degree: 84%
 
 ---
 
@@ -28,17 +28,9 @@ Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收�
 
 ![](assets/no_certificate.png)
 
-## 将子域的SSL证书委派给Adobe
+## 将子域的 SSL 证书委派给 Adobe
 
-在设置新子域时，您可以让Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。
-
-如果您使用CNAME来设置子域委派，Adobe将提供证书记录以用于您的域托管解决方案来生成证书。
-
->[!NOTE]
->
->只有在设置新子域时，SSL证书委派才可用。 它不适用于已委派的子域。
-
-设置新子域时会启用SSL证书委派。 了解如何在中继续 [本节](setting-up-new-subdomain.md).
+强烈建议将子域的SSL证书委派给Adobe，因为Adobe每年都会自动创建证书并在证书过期前续订证书。 [了解如何将子域的SSL证书委派给Adobe](delegate-ssl.md)
 
 ## 监测 SSL 证书 {#monitoring-certificates}
 

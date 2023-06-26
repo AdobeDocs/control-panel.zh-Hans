@@ -6,10 +6,10 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    + [管理 TXT 记录](subdomains-certificates/using/managing-txt-records.md)
    + 管理 SSL 证书{#manage-certificates}
       + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [将SSL证书委派给Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [续订 SSL 证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [生成 CSR](subdomains-certificates/using/generate-csr.md)
       + [安装 SSL 证书](subdomains-certificates/using/install-ssl-certificate.md)
