@@ -3,15 +3,15 @@ title: 2023 年版发行说明
 description: 此页面列出了控制面板的所有 2023 年版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2023 年版发行说明 {#rn-2023}
 
-## 2023年5月改进 {#june-2023}
+## 2023 年 5 月改进 {#june-2023}
 
 **对 Adobe 的子域 SSL 证书委派**
 
