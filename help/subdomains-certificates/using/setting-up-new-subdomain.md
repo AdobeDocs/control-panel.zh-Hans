@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 80%
 
 在设置新子域时，您可以让Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。
 
-如果您使用CNAME来设置子域委派，Adobe将提供证书记录以用于您的域托管解决方案来生成证书。
+如果使用 CNAME 来设置子域委派，Adobe 将提供证书记录以将其用于域托管解决方案，从而生成证书。
 
 >[!NOTE]
 >
->Adobe 管理的 SSL 是一项免费功能，可供用户免费使用。
+>Adobe 管理的 SSL 是一项免费功能，可供用户免费使用。[了解有关SSL证书管理的更多信息](monitoring-ssl-certificates.md#management)
 
 ### 名称服务器配置
 
@@ -170,11 +170,11 @@ ht-degree: 80%
 
    ![](assets/cname-confirmation.png)
 
-1. 如果您选择将子域的证书委派给Adobe，则会自动生成证书记录。 逐个复制这些记录，或通过下载CSV文件复制这些记录，然后导航到您的域托管解决方案以生成匹配的证书。
+1. 如果您选择将子域的证书委派给Adobe，则会自动生成证书记录。 逐个复制这些记录，或者下载 CSV 文件，然后导航到域托管解决方案以生成匹配的证书。
 
    ![](assets/cname-csr-generation.png)
 
-1. 请确保所有证书记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选择第一条语句，然后单击 **[!UICONTROL Submit]** 以确认。
+1. 请确保所有证书记录均已生成至您的域托管解决方案中。如果一切配置正确，请选择第一条语句，然后单击 **[!UICONTROL Submit]** 以确认。
 
    ![](assets/cnames-submit.png)
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 84%
+source-wordcount: '567'
+ht-degree: 61%
 
 ---
 
@@ -28,9 +28,21 @@ Adobe Campaign 建议您保护托管登陆页面的子域，特别是那些收�
 
 ![](assets/no_certificate.png)
 
-## 将子域的 SSL 证书委派给 Adobe
+## SSL证书管理 {#management}
 
-强烈建议将子域的SSL证书委派给Adobe，因为Adobe每年都会自动创建证书并在证书过期前续订证书。 [了解如何将子域的SSL证书委派给Adobe](delegate-ssl.md)
+SSL证书监控是确保子域安全的关键。 借助控制面板，您可以自行直接安装和续订子域的SSL证书，或将其委派给Adobe，以便自动执行此过程，而无需您执行任何操作。
+
+强烈建议将子域的SSL证书的管理委派给Adobe，因为Adobe将每年自动创建证书并在证书过期前续订证书。 这降低了手动管理证书时可能发生的错误风险。 [了解如何将子域的SSL证书委派给Adobe](delegate-ssl.md)
+
+在下面，您将找到与手动证书管理而不是将此操作委派给Adobe相关的影响的完整列表：
+
+|       | 客户管理的证书 | Adobe托管的证书 |
+|  ---  |  ---  |  ---  |
+| 证书提供程序 | 第三方证书颁发机构 | 通过AWS Certificate ManagerAdobe |
+| 手动步骤 | CSR生成、证书购买和安装 | 无 |
+| 续订流程 | 客户责任 | 由Adobe自动管理 |
+| 子域安全性 | 除非安装/续订证书，否则域可能具有不安全的子域（跟踪、镜像和资源）。 | 默认情况下，每个新域(如果选择托管Adobe)都将对所有子域进行保护。 |
+| 证书成本 | 客户承担证书费用 | 自由 |
 
 ## 监测 SSL 证书 {#monitoring-certificates}
 
