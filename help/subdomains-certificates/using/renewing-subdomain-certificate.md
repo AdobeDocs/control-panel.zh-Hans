@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->仅当选择自己管理证书而不是将此过程委派给Adobe时，才需要续订子域的SSL证书。 强烈建议将子域的SSL证书的管理委派给Adobe，因为Adobe每年都会自动创建证书并在证书过期前续订证书。 [了解有关SSL证书管理的更多信息](monitoring-ssl-certificates.md#management)
+>仅当选择自己管理证书而不是将此流程委派给 Adobe 时，才需要续订子域的 SSL 证书。强烈建议将子域 SSL 证书管理委派给 Adobe，因为 Adobe 每年都会自动创建证书并在证书过期前续订证书。[了解有关 SSL 证书管理的更多信息](monitoring-ssl-certificates.md#management)
 
 SSL 证书续订过程包括以下 3 个步骤：
 
@@ -76,7 +76,7 @@ SSL 证书续订过程包括以下 3 个步骤：
    * **[!UICONTROL Organization]**：官方组织名称。
    * **[!UICONTROL Organization Unit]**：链接到子域的单位（示例：营销、IT）。
    * **[!UICONTROL Instance]**（预填充）：与子域关联的 Campaign 实例的 URL。
-   * **[!UICONTROL Common name]**：默认情况下会选择公用名称，您可以根据需要选择子域之一。
+   * **[!UICONTROL Common name]**：默认情况下会选择通用名称，您可以根据需要选择子域之一。
 
    ![](assets/renewal3.png)
 
@@ -94,23 +94,23 @@ SSL 证书续订过程包括以下 3 个步骤：
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Copy CSR content]** 按钮可让您复制与CSR相关的所有信息（组织ID、实例、组织名称、公用名、包含的子域等）
+   >此 **[!UICONTROL Copy CSR content]** 按钮可让您复制与 CSR 相关的所有信息（组织 ID、实例、组织名称、公用名称、包含的子域等）
 
-1. 将自动生成并下载与您的选择相对应的 .csr 文件。您现在可以使用它从公司批准的认证中心购买 SSL 证书。如果您需要再次下载CSR，请按照中详述的步骤操作 [本节](#download).
+1. 将自动生成并下载与您的选择相对应的 .csr 文件。您现在可以使用它从公司批准的认证中心购买 SSL 证书。如果您需要再次下载 CSR，请按照[此部分](#download)中详述的步骤操作。
 
-生成并下载您的CSR后，您可以使用它从组织批准的认证中心购买SSL证书。
+生成并下载 CSR 后，您可以使用您的组织批准的证书颁发机构购买 SSL 证书。
 
-购买SSL证书后，您可以在实例上安装该证书以保护子域。 [了解详情](#install)
+购买 SSL 证书后，您可以在实例上安装该证书以保护子域。[了解详情](#install)
 
-## 下载CSR {#download}
+## 下载 CSR {#download}
 
-要购买SSL证书，您首先需要下载证书签名请求。 CSR在生成后会自动下载。 您还可以随时从作业日志中再次下载它：
+要购买 SSL 证书，您首先需要下载证书签名请求。生成 CSR 后会自动下载。您还可以从作业日志中随时再次下载该文件：
 
-1. 在 **[!UICONTROL Job Logs]**，选择 **[!UICONTROL Finished]** 选项卡，然后筛选列表以显示与子域管理相关的作业。
+1. 在 **[!UICONTROL Job Logs]** 中，选择 **[!UICONTROL Finished]** 选项卡，然后筛选列表以显示与子域管理相关的作业。
 
    ![](assets/renewal-download.png)
 
-1. 打开与CSR的生成对应的作业，然后单击 **[!UICONTROL Downbload]** 用于获取.csr文件的链接。
+1. 打开与 CSR 生成对应的作业，然后单击用于获取 .csr 文件的 **[!UICONTROL Downbload]** 链接。
 
    ![](assets/renewal-download-button.png)
 
@@ -124,7 +124,7 @@ SSL 证书续订过程包括以下 3 个步骤：
 购买 SSL 证书后，您可以在实例上安装该证书。继续之前，请确保您了解以下先决条件：
 
 * 证书签名请求 (CSR) 必须是从控制面板中生成的。否则，您将无法从控制面板安装证书。
-* 证书签名请求(CSR)应与配置为用于Adobe的子域匹配。 例如，它包含的子域不能多于已配置的子域。
+* 证书签名请求 (CSR) 应与已配置到 Adobe 使用的子域相匹配。例如，不能已配置的子域之外的更多子域。
 * 证书应具有当前日期。无法安装将来日期的证书，也不能是过期日期（即必须是有效的开始和结束日期）。
 * 证书应由受信任的认证中心 (CA) 颁发，如 Comodo、DigiCert、GoDaddy 等。
 * 证书的大小应为 2048 位，算法应为 RSA。
