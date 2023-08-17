@@ -26,7 +26,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign v7/v8執行個體。
+>此功能仅适用于Campaign v7/v8实例。
 
 默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
@@ -46,7 +46,7 @@ ht-degree: 84%
 * **如果您临时启用了对 IP 地址实例的访问**，请确保在不再需要连接到实例时从允许列表中删除 IP 地址。
 * **我们不建议将公共场所的 IP 地址添加到允许列表**（机场、酒店等）。请始终使用公司 VPN 地址来保护实例的安全。
 
-## 將IP位址新增至允許執行個體存取的清單 {#adding-ip-addresses-allow-list}
+## 将IP地址添加到允许列表以进行实例访问 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
@@ -55,7 +55,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 卡片未顯示在「控制面板」首頁上，這表示 [組織ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未與任何Adobe Campaign v7/v8執行個體建立關聯。
+>如果 **[!UICONTROL Instance Settings]** 卡在控制面板的主页上不可见，这意味着您的 [organization ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未与任何Adobe Campaign v7/v8实例关联。
 
 要向允许列表添加 IP 地址，请执行以下步骤：
 
@@ -81,16 +81,15 @@ ht-degree: 84%
    * **[!UICONTROL Label]**：将在允许列表中显示的标签。
    * **[!UICONTROL Name]**：针对访问类型、实例（如果是外部 API 连接）和 IP 地址的名称必须是唯一的。
 
-
 1. 指定要授予 IP 地址的访问类型：
 
-   * **[!UICONTROL Campaign Console Access]**：IP位址可連線至Campaign使用者端主控台。 请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
+   * **[!UICONTROL Campaign Console Access]**：允许IP地址连接到Campaign客户端控制台。 请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
    * **[!UICONTROL AEM connection]**：允许指定的 AEM IP 地址连接到营销实例。
    * **[!UICONTROL External API connection]**：允许具有指定 IP 地址的外部 API 连接到营销和/或消息中心 (RT) 实例。请注意，未启用与 RT 实例控制台的连接。
 
    >[!NOTE]
    >
-   >如果您使用具有混合託管模型的執行個體，您只能在「外部API連線」中為MID和RT執行個體新增IP位址。
+   >如果您使用具有混合托管模型的实例，则只能在“外部API连接”中为MID和RT实例添加IP地址。
 
    ![](assets/ip_whitelist_acesstype.png)
 
@@ -100,7 +99,7 @@ ht-degree: 84%
 
 默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
-若要從允許清單中刪除一個或多個IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
+要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
 
 ![](assets/ip_whitelist_delete.png)
 

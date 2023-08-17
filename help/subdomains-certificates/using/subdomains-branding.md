@@ -35,24 +35,24 @@ ht-degree: 78%
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 
-子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的设置方法包括：
+子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。 可用的设置方法包括：
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
-* **使用CNAME**：建立子網域並使用CNAME指向Adobe特定記錄。 使用此设置，Adobe 和客户共同负责维护 DNS。
+* **CNAME的使用**：创建子域并使用CNAME指向Adobe特定的记录。 使用此设置，Adobe 和客户共同负责维护 DNS。
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
-| 設定方法 | 工作原理 | 工作量 |
+| 配置方法 | 工作原理 | 工作量 |
 |---|---|---|
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-有關網域設定的其他資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+有关域配置的其他信息，请参见 [本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
-如果您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以請求傳遞能力諮詢。
+如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
 
-## 子網域的使用案例(Campaign v7/v8){#subdomains-use-cases}
+## 子域用例(Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -61,9 +61,9 @@ ht-degree: 78%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="子域品牌化"
 
-為Campaign v7/v8執行個體設定子網域時，您必須選取將使用子網域的使用案例(請參閱 [設定新的子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
+为Campaign v7/v8实例设置子域时，需要选择将使用该子域的用例(请参阅 [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
-可能的使用案例包括：
+可能的用例包括：
 
 * **营销通信**：表示用于商业目的的通信。示例：销售电子邮件营销活动。
 
@@ -71,14 +71,14 @@ ht-degree: 78%
 
 **根据用例划分子域是实现交付性的最佳实践**。这样，每个子域的信誉将被隔离和受保护。例如，如果营销通信的子域最终被互联网服务提供商添加到阻止列表，您的交易通信子域将不受影响，并且将能够继续发送通信。
 
-**您可以為行銷和交易使用案例設定子網域**：
+**您可以为营销和事务性用例配置子域**：
 
 * 对于营销用例，子域将配置在 **MID**（中间采购）实例上。
 * 对于交易用例，子域将配置在所有 **RT**（消息中心/实时消息递送）实例上，以确保连接性。因此，子域将与您的所有 RT 实例一起运行。
 
 >[!NOTE]
 >
->如果您使用Campaign v7/v8，「控制面板」可讓您檢視哪些RT/MID執行個體已連線至您正在使用的行銷執行個體。 有关此的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
+>如果您使用的是Campaign v7/v8，则控制面板允许您查看哪些RT/MID实例已连接到您正在使用的营销实例。 有关此的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
 
 **相关主题：**
 

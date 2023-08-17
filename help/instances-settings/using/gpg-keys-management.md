@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: GPG 密钥管理
-description: 了解如何管理GPG密钥，以在Adobe Campaign中加密和解密数据。
+description: 了解如何管理GPG密钥以在Adobe Campaign中加密和解密数据。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -26,15 +26,15 @@ ht-degree: 11%
 
 GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵循 [OpenPGP](https://www.openpgp.org/about/standard/) 规范。
 
-实施后，您可以在传输前解密传入数据和加密传出数据，以确保没有有效匹配密钥对的任何人都不会访问这些数据。
+实施后，您可以在传输前解密传入数据并加密传出数据，以确保任何没有有效匹配密钥对的人都不会访问这些数据。
 
 要利用 Campaign 实现 GPG 加密，管理员用户必须直接从控制面板在营销实例上安装和/或生成 GPG 密钥。
 
 然后，您将能够：
 
-* **加密发送的数据**：使用安装的公钥加密数据后，Adobe Campaign会发送该数据。
+* **加密发送的数据**：Adobe Campaign会在使用安装的公钥加密数据之后发送该数据。
 
-* **解密传入数据**：Adobe Campaign接收使用从控制面板下载的公钥从外部系统加密的数据。 Adobe Campaign使用从控制面板生成的私钥解密数据。
+* **解密传入数据**：Adobe Campaign接收使用从控制面板下载的公共密钥从外部系统加密的数据。 Adobe Campaign使用从控制面板生成的私钥解密数据。
 
 ## 加密数据 {#encrypting-data}
 
@@ -48,13 +48,13 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
-1. 按照以下步骤使用PGP加密工具生成公钥/私钥对 [OpenPGP规范](https://www.openpgp.org/about/standard/). 为此，请安装GPG实用程序或GNuGP软件。
+1. 按照以下步骤，使用PGP加密工具生成公钥/私钥对 [OpenPGP规范](https://www.openpgp.org/about/standard/). 为此，请安装GPG实用程序或GNuGP软件。
 
    >[!NOTE]
    >
-   >可以使用无源代码开放软件生成密钥。 但是，请确保遵循贵组织的准则并使用IT/安全组织推荐的GPG实用程序。
+   >可以使用开源免费软件来生成密钥。 但是，请确保遵循贵组织的准则并使用IT/安全组织推荐的GPG实用程序。
 
-1. 安装该实用程序后，在Mac终端或Windows命令中运行以下命令。
+1. 安装该实用程序后，在Mac“终端”或Windows命令中运行以下命令。
 
    `gpg --full-generate-key`
 
@@ -62,19 +62,18 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
    * **键类型**： RSA
    * **密钥长度**：3072 - 4096位
-   * **实名** 和 **电子邮件地址**：用于跟踪密钥对的创建者。 输入链接到您的组织或部门的名称和电子邮件地址。
+   * **实名** 和 **电子邮件地址**：用于跟踪密钥对创建者。 输入链接到您的组织或部门的名称和电子邮件地址。
    * **注释**：向评论字段添加标签将帮助您轻松识别用于加密数据的密钥。
-
-      >[!IMPORTANT]
-      >
-      >确保此字段不留空并且已填充评论。
+     >[!IMPORTANT]
+     >
+     >确保此字段不留空并且已填充评论。
 
    * **过期**：日期或“0”，表示无到期日期。
    * **密码短语**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. 确认后，脚本将生成一个密钥及其关联的指纹，您可以将该密钥导出到文件中，也可以直接粘贴到控制面板中。 要导出文件，请运行此命令，后跟所生成密钥的指纹。
+1. 确认后，脚本将生成一个密钥及其关联的指纹，您可以将该密钥导出到文件中，或直接粘贴到控制面板中。 要导出文件，请运行此命令，后跟您生成的密钥的指纹。
 
    `gpg -a --export <fingerprint>`
 
@@ -94,7 +93,7 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 1. 单击 **[!UICONTROL Install Key]** 按钮。
 
-安装公钥后，它将显示在列表中。 您可以使用 **...** 按钮来下载或复制其指纹。
+安装公钥后，它将显示在列表中。 您可以使用 **...** 按钮进行下载或复制其指纹。
 
 ![](assets/gpg_install_download.png)
 
@@ -118,10 +117,10 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 控制面板允许您解密传入Adobe Campaign实例的外部数据。
 
-为此，您需要直接从控制面板生成GPG密钥对。
+要实现此目的，您需要直接从控制面板生成GPG密钥对。
 
-* 此 **公钥** 将与外部系统共享，外部系统将使用它来加密要发送到Campaign的数据。
-* 此 **私钥** 将由Campaign用于解密传入的加密数据。
+* 此 **公钥** 外部系统将使用它来加密要发送到Campaign的数据。
+* 此 **私钥** Campaign将用于对传入的加密数据进行解密。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](#video)
 
@@ -143,7 +142,7 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 ![](assets/gpg_generate_list.png)
 
-然后，公共密钥就可以与任何外部系统共享。 Adobe Campaign将能够在数据加载活动中使用私钥来解密已使用公钥加密的数据。
+然后，公共密钥便可与任何外部系统共享。 Adobe Campaign将能够在数据加载活动中使用私钥来解密已使用公钥加密的数据。
 
 有关更多信息，请参阅Adobe Campaign文档：
 
@@ -168,20 +167,20 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 * **[!UICONTROL Name]**：安装或生成密钥时定义的名称。
 * **[!UICONTROL Use case]**：此列指定键的用例：
 
-   ![](assets/gpg_icon_encrypt.png)：已安装用于数据加密的密钥。
+  ![](assets/gpg_icon_encrypt.png)：已安装用于数据加密的密钥。
 
-   ![](assets/gpg_icon_decrypt.png)：密钥已生成以允许数据解密。
+  ![](assets/gpg_icon_decrypt.png)：密钥已生成以允许数据解密。
 
-* **[!UICONTROL Fingerprint]**：密钥的指纹。
-* **[!UICONTROL Expires]**：密钥的到期日期。 请注意，控制面板将在关键日期临近时提供视觉指示：
+* **[!UICONTROL Fingerprint]**：键的指纹。
+* **[!UICONTROL Expires]**：密钥的过期日期。 请注意，控制面板将在关键日期临近时提供视觉指示：
 
-   * “紧急（红色）”显示于30天前。
-   * 警告（黄色）显示于60天前。
+   * 紧急（红色）在30天前显示。
+   * 警告（黄色）在60天前显示。
    * 一旦键过期，将显示“已过期”红色横幅。
 
-   >[!NOTE]
-   >
-   >请注意，控制面板不会发送任何电子邮件通知。
+  >[!NOTE]
+  >
+  >请注意，控制面板不会发送电子邮件通知。
 
 作为最佳实践，我们建议您删除不再需要的任何密钥。 要执行此操作，请单击 **...** 按钮，然后选择 **[!UICONTROL Delete Key].**.
 
@@ -195,6 +194,6 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 以下视频介绍如何生成和安装用于数据加密的GPG密钥。
 
-其他与GPG密钥管理相关的操作方法视频可在以下位置获取：  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 教程页面。
+中提供了与GPG密钥管理相关的其他操作方法视频  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 教程页面。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

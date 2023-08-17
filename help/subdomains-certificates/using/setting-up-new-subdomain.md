@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 84%
 
 ### 将子域的 SSL 证书委派给 Adobe
 
-在设置新子域时，您可以让Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。
+设置新子域时，您可以由Adobe管理SSL证书。 强烈建议这样做，因为Adobe每年都会自动创建证书并在证书过期前续订证书。
 
 如果使用 CNAME 来设置子域委派，Adobe 将提供证书记录以将其用于域托管解决方案，从而生成证书。
 
 >[!NOTE]
 >
->Adobe 管理的 SSL 是一项免费功能，可供用户免费使用。[了解有关SSL证书管理的更多信息](monitoring-ssl-certificates.md#management)
+>Adobe 管理的 SSL 是一项免费功能，可供用户免费使用。[了解有关 SSL 证书管理的更多信息](monitoring-ssl-certificates.md#management)
 
 ### 名称服务器配置
 

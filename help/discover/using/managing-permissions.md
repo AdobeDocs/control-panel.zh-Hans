@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 管理权限（控制面板）
-description: 瞭解如何管理控制面板的許可權
+description: 了解如何管理控制面板的权限
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -16,52 +16,52 @@ ht-degree: 6%
 
 # 管理控制面板的权限 {#managing-permissions-control-panel}
 
-Campaign執行個體的所有管理員使用者都可使用「控制面板」。 請依照下列步驟將使用者指派給管理員群組，並授予他們控制面板的存取權。
+该控制面板适用于Campaign实例的所有管理员用户。 执行以下步骤以将用户分配给Administrators组，并授予他们访问控制面板的权限。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](../../discover/using/managing-permissions.md#video)
 
-1. 導覽至 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}.
+1. 导航至 [Adobe Experience Cloud主页](https://experiencecloud.adobe.com/){target="_blank"}.
 
-1. 啟動 **Admin Console** 按一下以下連結中的可用連結： **快速存取** 區段或右上角功能表。
+1. 启动 **Admin Console** ，方法是单击 **快速访问** 部分或右上角的菜单。
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >如果 **Admin Console** 連結不可見，這表示您沒有組織的管理員許可權。 請聯絡您的組織管理員，與他們一起執行步驟。
+   >如果 **Admin Console** 链接不可见，这意味着您没有组织的管理员权限。 请联系您的组织管理员以对他们执行步骤。
 
-1. 從 **Admin Console**，從中選擇所需的Campaign產品 **[!UICONTROL Products and services]** 清單。
+1. 从 **Admin Console**，从中选择所需的Campaign产品 **[!UICONTROL Products and services]** 列表。
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
    >[!NOTE]
    >
-   >如果您沒有看見產品，請聯絡您的組織管理員，讓他們授予您存取產品的許可權。
+   >如果您看不到产品，请联系您的组织管理员，以便他们授予您产品访问权限。
 
-1. 隨即顯示Campaign產品的執行個體清單。 選取您要新增管理員使用者的執行個體。
+1. 此时将显示您的Campaign产品的实例列表。 选择要向其添加管理员用户的实例。
 
    ![](assets/do-not-localize/control_panel_add_user_4.png)
 
    >[!NOTE]
    >
-   >您可以為每個Campaign執行個體新增不同的管理員使用者。 管理員使用者僅可存取其所屬執行個體的「控制面板」。
+   >您可以为每个Campaign实例添加不同的管理员用户。 管理员用户将仅访问他们所属的实例的控制面板。
 
-1. 以下專案的清單： **[!UICONTROL Product Profiles]** 則會顯示所選執行個體的。 按一下 **[!UICONTROL Administrators]** 存取管理員使用者清單的產品設定檔。
+1. 列表 **[!UICONTROL Product Profiles]** 此时将显示选定实例的。 单击 **[!UICONTROL Administrators]** 用于访问管理员用户列表的产品配置文件。
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
-   >依預設，管理員使用者屬於「管理員」產品設定檔。 根據您的組織設定，產品設定檔的名稱可以不同（「管理員」、「管理員」等）。
+   >默认情况下，管理员用户属于“管理员”产品配置文件。 根据您的组织配置，产品配置文件的命名可以有所不同（“管理员”、“管理员”等）。
 
-1. 此時會顯示管理員使用者清單。 按一下 **[!UICONTROL Add User]** 按鈕以新增所需的使用者。
+1. 此时将显示管理员用户列表。 单击 **[!UICONTROL Add User]** 按钮以添加所需的用户。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
 >[!NOTE]
 >
->設定存取許可權後，使用者必須登出Adobe Experience Cloud並重新登入，才能存取「控制面板」。
+>配置访问后，用户必须注销Adobe Experience Cloud并重新登录才能访问控制面板。
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

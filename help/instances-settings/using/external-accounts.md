@@ -67,13 +67,13 @@ ht-degree: 100%
 
    * **[!UICONTROL URL]**：可在 Campaign 客户端控制台（位于 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 菜单）中找到实例的 URL。
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**：会在 Adobe 管理员完成初始配置后提供操作员的凭据。
 
-      >[!NOTE]
-      >
-      >如果无法获取这些详细信息，请联系客户关怀团队。
+     >[!NOTE]
+     >
+     >如果无法获取这些详细信息，请联系客户关怀团队。
 
 1. 单击 **[!UICONTROL Save]** 确认。
 

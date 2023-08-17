@@ -16,42 +16,42 @@ ht-degree: 13%
 
 # 访问控制面板 {#accessing-control-panel}
 
-您可以直接從Experience Cloud或產品本身使用「控制面板」。
+可直接从Experience Cloud或产品本身访问控制面板。
 
-它可存取 **管理員使用者** 僅限。 有關如何將使用者指派給管理員群組的詳細資訊，請參閱 [本節](../../discover/using/managing-permissions.md).
+它可访问到 **管理员用户** 仅限。 有关如何将用户分配给Administrators组的详细信息，请参阅 [本节](../../discover/using/managing-permissions.md).
 
-## 從Experience Cloud平台存取 {#access-experience-cloud-platform}
+## 从Experience Cloud平台访问 {#access-experience-cloud-platform}
 
-若要從Adobe Experience Cloud平台存取「控制面板」，請遵循下列步驟。
+要从Adobe Experience Cloud平台访问控制面板，请执行以下步骤。
 
-1. 導覽至 [Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}.
+1. 导航至 [Experience Cloud主页](https://experiencecloud.adobe.com/){target="_blank"}.
 
-1. 按一下以下連結中的專用連結： **快速存取** 區段。
+1. 单击中的专用链接 **快速访问** 部分。
 
    ![](assets/do-not-localize/quickaccess.png)
 
-您也可以從Experience Cloud平台存取「控制面板」 **解決方案選擇器**：
+还可从Experience Cloud平台访问该控制面板 **解决方案选取器**：
 
-1. 從 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}，選取 **Campaign** 從 **快速存取** 區段或右上方的功能表。
+1. 从 [Adobe Experience Cloud主页](https://experiencecloud.adobe.com/){target="_blank"}，选择 **营销活动** 从 **快速访问** 部分或顶部菜单。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. 您的Campaign執行個體清單隨即顯示。 按一下 **控制面板** 卡片以啟動它。
+1. 此时将显示您的Campaign实例列表。 单击 **控制面板** 卡片以启动它。
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
-## 從產品存取 {#access-product}
+## 从产品访问 {#access-product}
 
 >[!NOTE]
 >
->可從產品內部存取，適用於 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans){target="_blank"} 僅限。
+>可以从产品中访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans){target="_blank"} 仅限。
 
-1. 開啟您的Campaign Standard產品。
+1. 打开您的Campaign Standard产品。
 
-1. 選取 **[!UICONTROL Administration]** 功能表中的 **導覽** 窗格。
+1. 选择 **[!UICONTROL Administration]** 菜单 **导航** 窗格。
 
    ![](assets/control_panel_access3.png)
 
-1. 按一下 **[!UICONTROL Control Panel]** 圖示。
+1. 单击 **[!UICONTROL Control Panel]** 图标。
 
    ![](assets/control_panel_access4.png)

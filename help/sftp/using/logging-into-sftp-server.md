@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 登录 SFTP 服务器
-description: 瞭解如何登入您的SFTP伺服器
+description: 了解如何登录SFTP服务器
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -16,46 +16,46 @@ ht-degree: 6%
 
 # 登录 SFTP 服务器 {#logging-into-sft-server}
 
-以下步驟詳細說明如何透過SFTP使用者端應用程式連線您的SFTP伺服器。
+以下步骤详细介绍了如何通过SFTP客户端应用程序连接SFTP服务器。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在视频中发现此功能](https://video.tv.adobe.com/v/27263?quality=12)
 
-登入伺服器之前，請確定：
+在登录到服务器之前，请确保：
 
-* 您的SFTP伺服器是 **由Adobe託管**.
-* 您的&#x200B;**用户名**&#x200B;已为服务器设置。您可以直接在「控制面板」的 **金鑰管理** SFTP卡片中的Tab鍵。
-* 您有 **私密金鑰和公開金鑰組** 以登入SFTP伺服器。 請參閱 [本節](../../sftp/using/key-management.md) 瞭解更多如何新增SSH金鑰。
-* 您的 **公用IP位址已新增至允許清單** SFTP伺服器上執行。 如果沒有，請參閱 [本節](../../sftp/using/ip-range-allow-listing.md) 瞭解更多有關如何將IP範圍新增至允許清單的資訊。
-* 您有權存取 **sftp使用者端軟體**. 您可以向您的IT部門洽詢他們建議使用的SFTP使用者端應用程式，或搜尋網際網路上的應用程式（如果您的公司原則允許的話）。
+* 您的SFTP服务器是 **由Adobe托管**.
+* 您的&#x200B;**用户名**&#x200B;已为服务器设置。您可以直接在控制面板中的以下位置检查此信息： **密钥管理** 选项卡。
+* 您有一个 **私钥对和公共密钥对** 以登录SFTP服务器。 请参阅 [本节](../../sftp/using/key-management.md) 了解有关如何添加SSH密钥的更多信息。
+* 您的 **公共IP地址已添加到允许列表** 在SFTP服务器上。 如果不能，请参见 [本节](../../sftp/using/ip-range-allow-listing.md) 有关如何将IP范围添加到允许列表的更多信息。
+* 您有权访问 **SFTP客户端软件**. 您可以向您的IT部门咨询他们建议使用的SFTP客户端应用程序，或者在Internet上搜索一个应用程序（如果您的公司策略允许这样做）。
 
-若要連線至您的SFTP伺服器，請遵循下列步驟：
+要连接到SFTP服务器，请执行以下步骤：
 
-1. 啟動「控制面板」，然後選取 **[!UICONTROL Key Management]** 標籤從 **[!UICONTROL SFTP]** 卡片。
+1. 启动控制面板，然后选择 **[!UICONTROL Key Management]** 选项卡 **[!UICONTROL SFTP]** 卡片。
 
    ![](assets/sftp_card.png)
 
-1. 啟動SFTP使用者端應用程式，然後從「控制面板」複製並貼上伺服器位址，接著按一下「campaign.adobe.com」，然後填寫您的使用者名稱。
+1. 启动SFTP客户端应用程序，从控制面板中复制粘贴服务器地址，接着复制“campaign.adobe.com”，然后填写您的用户名。
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 在 **[!UICONTROL SSH Private Key]** 欄位中，選取儲存在電腦中的私密金鑰檔案。 它對應於與您的公開金鑰同名的文字檔案，沒有「.pub」副檔名（例如「enable」）。
+1. 在 **[!UICONTROL SSH Private Key]** 字段中，选择存储在计算机上的私钥文件。 它对应于与您的公钥同名的文本文件，不带“.pub”扩展名（例如“enable”）。
 
    ![](assets/do-not-localize/connect2.png)
 
-   此 **[!UICONTROL Password]** 欄位會自動填入來自檔案的私密金鑰。
+   此 **[!UICONTROL Password]** 字段会自动填充为文件中的私钥。
 
    ![](assets/do-not-localize/connect3.png)
 
-   您可以檢查您嘗試使用的金鑰是否已儲存在「控制面板」中，方法是比較私密金鑰或公開金鑰的指紋與SFTP卡的「金鑰管理」標籤中顯示的金鑰指紋。
+   您可以通过比较私钥或公钥的指纹与SFTP卡的“密钥管理”选项卡中显示的密钥的指纹来检查您尝试使用的密钥是否已保存在控制面板中。
 
    ![](assets/fingerprint_compare.png)
 
    >[!NOTE]
    >
-   >如果您使用Mac電腦，可以執行此命令來檢視儲存在電腦中的私密金鑰指紋：
+   >如果您使用的是Mac计算机，则可以通过运行此命令查看存储在您计算机上的私钥的指纹：
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 填入所有資訊後，按一下 **[!UICONTROL Connect]** 以登入您的SFTP伺服器。
+1. 填写完所有信息后，单击 **[!UICONTROL Connect]** 以登录到SFTP服务器。
 
    ![](assets/do-not-localize/sftpconnected.png)

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 数据库利用率
-description: 瞭解如何在控制面板中監視Campaign資料庫使用率。
+description: 了解如何在控制面板中监测Campaign数据库利用率。
 feature: Control Panel
 role: Architect
 level: Experienced

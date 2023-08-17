@@ -40,7 +40,6 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 >
 >* 对于 Campaign v7，部署限制适用。 [了解详情](faq.md#v7-restrictions)
 
-
 ## 其他资源 {#additional-resources}
 
 <table>

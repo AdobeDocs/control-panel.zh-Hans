@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: 「控制面板」可協助您以Adobe Campaign Standard和/或Classic產品管理員的身分，提高工作效率。
+title: 该控制面板可帮助您作为Adobe Campaign Standard和/或Classic的产品管理员提高工作效率。
 description: 了解如何访问控制面板
 feature: Control Panel
 role: Architect
@@ -28,7 +28,7 @@ ht-degree: 79%
 >
 >控制面板仅限管理员用户使用。[此部分](managing-permissions.md)将详细介绍授予用户管理员访问权限的步骤。
 >
->請注意，就Campaign v7/v8而言，您的執行個體必須託管至Amazon Web Services (AWS)，並升級至最新版本 [Campaign穩定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 或版本編號9032或更新版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
+>请注意，对于Campaign v7/v8，务必将您的实例托管在Amazon Web Services (AWS)上，并升级到最新版本 [Campaign稳定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 或者构建9032或更高版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ ht-degree: 79%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理实例设置</strong></a></div>
-        <br/><em>瞭解如何管理您的執行個體設定（僅限Campaign v7/v8）。</em>
+        <br/><em>了解如何管理实例设置（仅限Campaign v7/v8）。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>

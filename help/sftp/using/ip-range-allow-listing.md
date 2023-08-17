@@ -22,7 +22,7 @@ ht-degree: 39%
 >abstract="在此选项卡中，您可以向允许列表添加 IP 范围，以建立与 SFTP 服务器的连接。此处仅显示您有权访问的 SFTP 服务器。请联系您的管理员以请求访问其他 SFTP 服务器。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="观看演示视频"
 
-SFTP 服务器受到保护。為了能夠存取它們以檢視檔案或撰寫新檔案，您需要將存取伺服器的系統或使用者端的公用IP位址新增至允許清單。
+SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或编写新文件，您需要将访问服务器的系统或客户端的公共IP地址添加到允许列表中。
 
 ![](assets/do-not-localize/how-to-video.png)在使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 的视频中了解这一功能
 
@@ -30,9 +30,9 @@ SFTP 服务器受到保护。為了能夠存取它們以檢視檔案或撰寫新
 
 CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支持的格式。
 
-语法依次由 IP 地址、“/”字符和十进制数字组成。中會詳細說明格式及其語法 [本文](https://whatismyipaddress.com/cidr){target="_blank"}.
+语法依次由 IP 地址、“/”字符和十进制数字组成。有关格式及其语法的详情，请参阅 [本文](https://whatismyipaddress.com/cidr){target="_blank"}.
 
-您可以在網際網路上搜尋免費的線上工具，協助您將現有的IP範圍轉換為CIDR格式。
+您可以在Internet上搜索免费的在线工具，这些工具将帮助您将现有的IP范围转换为CIDR格式。
 
 ## 最佳实践 {#best-practices}
 
@@ -41,7 +41,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 * **将 IP 范围添加到允许列表**，而不是单个 IP 地址。要将单个 IP 地址添加到允许列表，请在其中附加“/32”，以标识该范围仅包含单个 IP 地址。
 * **请勿向允许列表添加非常宽的范围**，例如，包括 > 265 个 IP 地址。控制面板将拒绝任何介于 /0 和 /23 之间的 CIDR 格式范围。
 * 只能将&#x200B;**公共 IP 地址**&#x200B;添加到允许列表。
-* 請確定 **定期刪除IP位址** 您不再需要的資訊。
+* 确保 **定期删除IP地址** 你不再需要从允许列表中获取这些信息。
 
 ## 向允许列表添加 IP 地址 {#adding-ip-addresses-allow-list}
 
@@ -57,7 +57,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
    ![](assets/control_panel_add_range.png)
 
-1. 定義您要新增至允許清單的IP範圍。 此欄位僅接受CIDR格式的IP範圍，例如 *192.150.5.0/24*.
+1. 定义要添加到允许列表的IP范围。 此字段仅接受CIDR格式的IP范围，例如 *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -65,95 +65,95 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
    >
    >IP 范围不能与允许列表上的现有范围重叠。在这种情况下，首先删除包含重叠 IP 的范围。
 
-1. 您可以將範圍新增至多個執行個體的允許清單。 为此，请按向下箭头键或键入所需实例的前几个字母，然后从建议列表中选择该实例。
+1. 可以为多个实例向允许列表添加一个范围。 为此，请按向下箭头键或键入所需实例的前几个字母，然后从建议列表中选择该实例。
 
    ![](assets/control_panel_add_range3.png)
 
-1. 定義清單中為此IP範圍顯示的標籤。
+1. 定义将在列表中为此IP范围显示的标签。
 
    ![](assets/control_panel_add_range2.png)
 
    >[!NOTE]
    >
-   >中允許使用下列特殊字元 **[!UICONTROL Label]** 欄位：
+   >中允许使用以下特殊字符 **[!UICONTROL Label]** 字段：
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. 為了更好地管理您的IP允許清單，您可以設定每個IP範圍可用性的持續時間。 若要這麼做，請選取 **[!UICONTROL Type]** 下拉式清單，並在對應欄位中定義持續時間。 如需IP範圍到期的詳細資訊，請參閱 [本節](#expiry).
+1. 为了更好地管理IP允许列表，您可以设置每个IP范围可用性的持续时间。 要执行此操作，请在 **[!UICONTROL Type]** 下拉列表，并在相应的字段中定义持续时间。 有关IP范围到期的详细信息，请参阅 [本节](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >根據預設， **[!UICONTROL Type]** 欄位已設為 **[!UICONTROL Unlimited]**，表示IP範圍永不過期。
+   >默认情况下， **[!UICONTROL Type]** 字段设置为 **[!UICONTROL Unlimited]**，这意味着IP范围永不过期。
 
-1. 在 **[!UICONTROL Comment]** 欄位中，您可以指出允許此IP範圍的原因（原因、對象等）。
+1. 在 **[!UICONTROL Comment]** 字段中，您可以指示允许此IP范围的原因（原因、对象等）。
 
-1. 单击 **[!UICONTROL Save]** 按钮。允許清單的IP範圍新增專案會顯示為 **[!UICONTROL Pending]** 直到完全處理要求為止，這應該只需要幾秒鐘的時間。
+1. 单击 **[!UICONTROL Save]** 按钮。允许列表的IP范围添加项将显示为 **[!UICONTROL Pending]** 直到完全处理请求，这应该只需要几秒钟。
 
    ![](assets/control_panel_add_range6.png)
 
 >[!IMPORTANT]
 >
->如果您嘗試將SFTP伺服器連線至新系統，並因此將新IP範圍新增至允許清單，則可能需要輸入新的公開金鑰才能完成連線。 有关更多信息，请参阅[此章节](key-management.md)。
+>如果您尝试将SFTP服务器连接到新系统，从而向允许列表添加新的IP范围，则可能需要输入新的公钥以完成连接。 有关更多信息，请参阅[此章节](key-management.md)。
 
-## 管理IP範圍 {#managing-ip-ranges}
+## 管理IP范围 {#managing-ip-ranges}
 
-您建立的IP範圍會顯示在 **[!UICONTROL IP Allow Listing]** 標籤。
+您创建的IP范围将显示在 **[!UICONTROL IP Allow Listing]** 选项卡。
 
-您可以根據建立日期或編輯日期、建立或編輯該日期的使用者以及IP範圍到期日來排序專案。
+您可以根据创建日期或编辑日期、创建或编辑项目的用户以及IP范围到期对项目进行排序。
 
-您也可以透過開始輸入標籤、範圍、名稱或註解來搜尋IP範圍。
+您还可以通过开始键入标签、范围、名称或注释来搜索IP范围。
 
 ![](assets/control_panel_allow_list_sort.png)
 
-若要編輯一或多個IP範圍，請參閱 [本節](#editing-ip-ranges).
+要编辑一个或多个IP范围，请参阅 [本节](#editing-ip-ranges).
 
-若要從允許清單中刪除一個或多個IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
+要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
 
 ![](assets/control_panel_delete_range.png)
 
-### 到期日 {#expiry}
+### 到期 {#expiry}
 
-此 **[!UICONTROL Expires]** 欄顯示IP範圍到期前的剩餘天數。
+此 **[!UICONTROL Expires]** 列显示了IP范围过期前的剩余天数。
 
-如果您訂閱 [電子郵件警示](../../performance-monitoring/using/email-alerting.md)，您會在IP範圍到期的10天及5天前，以及在到期當天，收到電子郵件通知。 收到警報後，您可以 [編輯IP範圍](#editing-ip-ranges) 以視需要延長有效期。
+如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，您将在IP范围过期的10天和5天前以及过期日期当天通过电子邮件收到通知。 收到警报后，您可以 [编辑IP范围](#editing-ip-ranges) 以根据需要延长有效期。
 
-過期的IP範圍將在7天後自動刪除。 它顯示為 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 欄。 在此7天期間內：
+过期的IP范围将在7天后自动删除。 它显示为 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 列。 在这7天内：
 
-* 過期的IP範圍無法再用來存取SFTP伺服器。
+* 已过期的IP范围无法再用于访问SFTP服务器。
 
-* 您無法建立與過期範圍重疊的另一個IP範圍。 您必須先刪除過期的IP範圍，才能建立新IP範圍。
+* 无法创建与过期范围重叠的另一个IP范围。 您需要先删除过期的IP范围，然后再创建新范围。
 
-* 您可以 [編輯](#editing-ip-ranges) 過期的IP範圍並更新其持續時間，以使其再次可用。
+* 您可以 [编辑](#editing-ip-ranges) 过期的IP范围并更新其持续时间，以使其再次可用。
 
-* 您可以從允許清單中刪除它。
+* 您可以将其从允许列表中删除。
 
-## 編輯IP範圍 {#editing-ip-ranges}
+## 编辑IP范围 {#editing-ip-ranges}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"
 >title="更新 IP 范围"
 >abstract="更新允许连接到 SFTP 服务器的选定 IP 范围。"
 
-若要編輯IP範圍，請遵循下列步驟。
+要编辑IP范围，请执行以下步骤。
 
 >[!NOTE]
 >
->您只能編輯自「控制面板」2021年10月發行版本以來建立的IP範圍。
+>您只能编辑自2021年10月发布控制面板以来创建的IP范围。
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. 從中選擇一個或多個IP範圍 **[!UICONTROL IP Allow Listing]** 清單。
+1. 从中选择一个或多个IP范围 **[!UICONTROL IP Allow Listing]** 列表。
 
 1. 单击 **[!UICONTROL Update IP range]** 按钮。
 
    ![](assets/control_panel_edit_range.png)
 
-1. 您只能編輯IP範圍到期日和/或新增註釋。
+1. 您只能编辑IP范围到期和/或添加新注释。
 
    >[!NOTE]
    >
-   >若要修改CIDR格式、其標籤或編輯相關執行個體，您必須先刪除IP範圍，然後建立符合您需求的新範圍。
+   >要修改CIDR格式、其标签或编辑相关实例，必须先删除IP范围，并根据需要创建新范围。
 
    ![](assets/control_panel_edit_range2.png)
 
@@ -161,7 +161,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 ## 监控更改 {#monitoring-changes}
 
-此 **[!UICONTROL Job Logs]** 「控制面板」首頁可讓您追蹤及監控對允許清單上IP位址所做的所有變更。
+此 **[!UICONTROL Job Logs]** 通过控制面板主页中的，您可以跟踪和监控对允许列表上的IP地址所做的所有更改。
 
 有关控制面板界面的详细信息，请参阅[此部分](../../discover/using/discovering-the-interface.md)。
 
