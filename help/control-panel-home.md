@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 ## 新增功能
 
-**移除委派给 Adobe 的子域委派**
+**DMARC和BIMI记录管理**
 
-现在，您可以移除已委派给 Adobe 的子域委派，包括 CNAME 设置。[了解详情](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+您现在可以直接从控制面板添加DMARC和BIMI记录：
 
-**服务日历**
+* **DMARC记录** 提供一种验证发件人域并防止将域用于恶意目的的方法。 [了解如何添加DMARC记录](subdomains-certificates/using/dmarc.md)
 
-现在，服务日历提供日历视图，用于跟踪实例上发生的重要事件。此外，在向订阅“控制面板”警报的用户发送通知时添加了信息。[了解详情](../help/service-events/service-events.md)
+
+* **BIMI记录** 允许您在邮箱提供商的收件箱中，在电子邮件旁边显示批准的徽标，以增强品牌认知度和信任度。 [了解如何添加BIMI记录](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

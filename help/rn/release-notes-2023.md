@@ -2,16 +2,22 @@
 title: 2023 年版发行说明
 description: 此页面列出了控制面板的所有 2023 年版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # 2023 年版发行说明 {#rn-2023}
 
-## 2023 年 5 月改进 {#june-2023}
+## 2023 年 6 月 {#june-2023}
+
+* 现在，您可以直接从子域列表将已委派子域的 SSL 证书委派给 Adobe。[了解详情](../subdomains-certificates/using/delegate-ssl.md)
+
+* 警报电子邮件发件人已更改为 `"alert@notifications.campaign.adobe.com"`。
+
+## 2023 年 5 月改进 {#may-2023}
 
 **对 Adobe 的子域 SSL 证书委派**
 
