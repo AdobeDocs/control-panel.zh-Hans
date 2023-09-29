@@ -6,9 +6,9 @@ description: 了解如何为子域添加DMARC记录。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## 关于DMARC记录 {#about}
 
 基于域的邮件身份验证、报告和符合性(DMARC)是一种电子邮件身份验证协议标准，可帮助组织保护其电子邮件域免受网络钓鱼和欺骗攻击。 它允许您决定邮箱提供商应如何处理未通过SPF和DKIM检查的电子邮件，从而提供一种验证发件人域并防止未经授权而恶意使用域的方法。
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## 限制和先决条件 {#limitations}
 
@@ -37,11 +39,17 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL Policy Type]** 当您的电子邮件之一失败时，收件人服务器应遵循的规则。 可用的策略类型包括：
 
-   * 无,
-   * 隔离（垃圾邮件文件夹放置），
-   * 拒绝（阻止电子邮件）。
+   * **[!UICONTROL None]**，
+   * **[!UICONTROL Quarantine]** （垃圾邮件文件夹放置），
+   * **[!UICONTROL Reject]** （阻止电子邮件）。
 
-   如果子域刚刚配置，我们建议将此值设置为“无”，直到子域完全设置并正确发送电子邮件为止。 正确配置所有策略后，您可以将策略类型更改为“隔离”或“拒绝”。
+   作为最佳实践，建议您逐步推出DMARC实施，方法是将DMARC策略从p=none提升到p=quarantine，再提升到p=reject，以便让DMARC了解DMARC的潜在影响。
+
+   * **第1步：** 分析您收到并使用的反馈(p=none)，这告知接收者不对身份验证失败的邮件执行任何操作，但仍会向发件人发送电子邮件报告。 此外，如果合法消息未通过身份验证，请查看和修复SPF/DKIM的问题。
+
+   * **第2步：** 确定SPF和DKIM是否一致并通过所有合法电子邮件的身份验证，然后将策略移至(p=quarantine)，这会告知接收电子邮件服务器隔离身份验证失败的电子邮件（这通常意味着将这些邮件放入垃圾邮件文件夹）。 如果策略设置为隔离，则建议您从一小部分电子邮件开始。
+
+   * **步骤3：** 将策略调整为（p=拒绝）。 注意：请谨慎使用此策略，并确定它是否适合您的组织。 p=拒绝策略告知接收者完全拒绝（退回）验证失败的域的任何电子邮件。 启用此策略后，只有经域验证为100%经过身份验证的电子邮件才有机会放置收件箱。
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ ht-degree: 0%
    * 汇总DMARC报表可提供高级信息，例如给定时间段内失败的电子邮件数量。
    * 取证DMARC故障报告提供了详细信息，例如故障电子邮件来自哪个IP地址。
 
-1. 默认情况下，选定的DMARC策略将应用于所有电子邮件。 您可以将此参数更改为仅适用于特定百分比的电子邮件。
+1. 如果DMARC策略设置为“无”，请输入适用于100%电子邮件的百分比。
 
-   逐步部署DMARC时，您一开始可能会收到一小部分邮件。 由于来自您的域的更多消息通过接收服务器的身份验证，请使用更高的百分比更新您的记录，直到达到100%。
+   如果策略设置为“拒绝”或“隔离”，建议您从一小部分电子邮件开始。 当来自您的域的更多电子邮件通过接收服务器的身份验证时，请使用较高的百分比缓慢更新您的记录。
 
    >[!NOTE]
    >
