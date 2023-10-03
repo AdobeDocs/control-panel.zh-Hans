@@ -6,19 +6,21 @@ description: 了解如何为子域添加BIMI记录。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-
 # 添加BIMI记录 {#dmarc}
 
 ## 关于BIMI记录 {#about}
 
-邮件识别品牌指示器(BIMI)是一种行业标准，允许在邮箱提供商收件箱中的发件人电子邮件旁边显示批准的徽标，以增强品牌认知和信任。 它通过DMARC身份验证来验证发件人的身份，从而帮助防止电子邮件欺诈和网络钓鱼，使恶意行为者更难在电子邮件中假冒合法品牌。 有关BIMI实施的详细信息，请参见 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+邮件识别品牌指示器(BIMI)是一种行业标准，允许在邮箱提供商收件箱中的发件人电子邮件旁边显示批准的徽标，以增强品牌认知和信任。 它通过DMARC身份验证来验证发件人的身份，从而帮助防止电子邮件欺诈和网络钓鱼，使恶意行为者更难在电子邮件中假冒合法品牌。
+
+有关BIMI实施的详细信息，请参见 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 

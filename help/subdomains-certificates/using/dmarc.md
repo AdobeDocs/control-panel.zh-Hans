@@ -6,13 +6,13 @@ description: 了解如何为子域添加DMARC记录。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # 添加DMARC记录 {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 基于域的邮件身份验证、报告和符合性(DMARC)是一种电子邮件身份验证协议标准，可帮助组织保护其电子邮件域免受网络钓鱼和欺骗攻击。 它允许您决定邮箱提供商应如何处理未通过SPF和DKIM检查的电子邮件，从而提供一种验证发件人域并防止未经授权而恶意使用域的方法。
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+有关DMARC实施的详细信息，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## 限制和先决条件 {#limitations}
 
