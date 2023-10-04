@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 84%
 * **如果您临时启用了对 IP 地址实例的访问**，请确保在不再需要连接到实例时从允许列表中删除 IP 地址。
 * **我们不建议将公共场所的 IP 地址添加到允许列表**（机场、酒店等）。请始终使用公司 VPN 地址来保护实例的安全。
 
-## 将IP地址添加到允许列表以进行实例访问 {#adding-ip-addresses-allow-list}
+## 将 IP 地址添加到允许列表以进行实例访问 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
