@@ -6,20 +6,20 @@ description: 了解如何管理 TXT 记录以进行域所有权验证。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 118fa4d722980e507d15647453e96a8b6189f837
+exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
+source-git-commit: 9548bef1500498c1778ce5854017388490320595
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
-
 
 # TXT记录入门 {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="管理 TXT 记录"
->abstract="TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。控制面板允许您向子域添加三种类型的记录：Google网站验证、DMARC和BIMI记录。"
+>abstract="TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。通过控制面板，可将三种类型的记录添加到子域：Google Site Verification、DMARC 和 BIMI 记录。"
 
 ## 关于 TXT 记录 {#about}
 
