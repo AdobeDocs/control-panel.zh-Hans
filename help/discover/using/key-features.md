@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%
@@ -50,12 +50,12 @@ ht-degree: 79%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理实例设置</strong></a></div>
-        <br/><em>了解如何管理实例设置（仅限Campaign v7/v8）。</em>
+        <em>了解如何管理实例设置（仅限Campaign v7/v8）。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>监控性能</strong></a></div>
-        <br/><em>了解如何监控实例中关键资源的使用情况。</em>
+        <em>了解如何监控实例中关键资源的使用情况。</em>
     </td>
 </tr>
 </table>
