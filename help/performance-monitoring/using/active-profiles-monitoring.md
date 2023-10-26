@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 41%
 
 ---
 
-# 活动用户档案监测 {#active-profiles-monitoring}
+# 监测活动用户档案 {#active-profiles-monitoring}
 
 ## 关于活动用户档案 {#about-active-profiles}
 
@@ -34,33 +34,30 @@ ht-degree: 87%
 
 有关活动用户档案的详细信息，请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 文档。
 
-## 监控活动用户档案 {#monitoring-active-profiles}
+## 监测活动用户档案使用情况 {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="关于活跃配置文件监控"
->abstract="在此选项卡中，您可以获取有关每个 Campaign 实例的最新和历史活动配置文件使用情况及演变的实时信息。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans" text="关于性能监控"
+>abstract="在此选项卡中，您可以获取有关您的Campaign实例和组织中每个用户档案的最新和历史活动用户档案使用和演变的实时信息。"
 
-控制面板允许您监控每个 Campaign 实例的活动用户档案使用情况。
+与活动用户档案使用相关的信息基于专用的控制面板更新 [!DNL Campaign] 每天在实例上运行的技术工作流：
+* Campaign Standard 的[“计费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans)”工作流，
+* 此 [&quot;有效计费用户档案数&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans) Campaign v7/v8的工作流。
 
-为此，请执行以下步骤：
 
-1. 打开 **[!UICONTROL Performance Monitoring]** 卡，然后选择 **[!UICONTROL Active Profiles]** 选项卡。
+要监控控制面板中活动用户档案的使用情况，请导航至 **[!UICONTROL Performance Monitoring]** 信息卡> **[!UICONTROL Active Profiles]** 选项卡，然后从中选择所需的实例 **[!UICONTROL Instance List]**.
 
-1. 从&#x200B;**[!UICONTROL Instance List]**&#x200B;中选择所需的实例。
-
-1. 系统将显示实例使用的活动用户档案数以及实例上次运行计费工作流的时间。
+此时将显示有关使用活动用户档案的信息。
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->活动用户档案基于每天在您的实例上运行的专用技术工作流进行计数：
->
->* Campaign Standard 的[“计费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans)”工作流，
->* 此 [&quot;有效计费用户档案数&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans) Campaign v7/v8的工作流。
+上半部分显示以下信息：
 
-下面的区域以图形形式显示了过去 30 天内活动用户档案的使用情况。您可以使用右上角的可用过滤器将显示的时间段更改为 1 年。
+* 选定实例中当前使用的活动用户档案计数，以及实例最近计费工作流执行的时间戳。
 
-将鼠标悬停在图中的竖条上可获得选定时段使用的活动用户档案的确切数量。
+* 您的组织在所有实例中使用的活动配置文件总数。 仅当您有多个与组织关联的实例时，此部分才可见。
+
+* 分配给贵组织的活动用户档案总数。
+
+下部分直观地呈现过去30天内活动用户档案的使用情况。 您可以使用右上角的过滤器将此时间范围更改为1年。 将鼠标悬停在图形上可获得选定时段使用的活动用户档案的确切数量。

@@ -2,14 +2,34 @@
 title: 2023 年版发行说明
 description: 此页面列出了控制面板的所有 2023 年版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '270'
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # 2023 年版发行说明 {#rn-2023}
+
+## 2023 年 9 月 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>DMARC 和 BIMI 记录管理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>您现在可以直接从控制面板添加 DMARC 和 BIMI 记录：
+
+<ul><li><strong>DMARC 记录</strong>可以验证发件人的域并防止在未经授权的情况下将域用于恶意目的。<a href="../subdomains-certificates/using/dmarc.md">了解如何添加 DMARC 记录</a></li>
+<li><strong>BIMI 记录</strong>允许您在邮箱提供商收件箱中的电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。<a href="../subdomains-certificates/using/bimi.md">了解如何添加 BIMI 记录</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023 年 6 月 {#june-2023}
 
