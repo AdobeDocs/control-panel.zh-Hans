@@ -6,7 +6,7 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 您现在可以直接从控制面板添加 DMARC 和 BIMI 记录：
 
-* **DMARC 记录**&#x200B;可用于验证发件人的域并防止在未经授权的情况下将域用于恶意目的。[了解如何添加 DMARC 记录](subdomains-certificates/using/dmarc.md)
+* **DMARC 记录**&#x200B;可以验证发件人的域并防止在未经授权的情况下将域用于恶意目的。[了解如何添加 DMARC 记录](subdomains-certificates/using/dmarc.md)
 
 
 * **BIMI 记录**&#x200B;允许您在邮箱提供商收件箱中的电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。[了解如何添加 BIMI 记录](subdomains-certificates/using/bimi.md)
