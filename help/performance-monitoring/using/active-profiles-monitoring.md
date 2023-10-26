@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
@@ -56,7 +56,11 @@ ht-degree: 41%
 
 * 选定实例中当前使用的活动用户档案计数，以及实例最近计费工作流执行的时间戳。
 
-* 您的组织在所有实例中使用的活动配置文件总数。 仅当您有多个与组织关联的实例时，此部分才可见。
+* 您的组织在所有实例中使用的活动配置文件总数。
+
+  >[!NOTE]
+  >
+  >仅当您有多个与组织关联的实例时，此部分才可见。
 
 * 分配给贵组织的活动用户档案总数。
 
