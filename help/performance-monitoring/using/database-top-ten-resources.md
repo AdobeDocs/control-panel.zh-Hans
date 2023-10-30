@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 十大临时资源
 description: 了解如何在控制面板中监测Campaign数据库上工作流和投放生成的十大临时资源。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

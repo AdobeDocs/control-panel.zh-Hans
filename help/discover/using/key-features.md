@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 该控制面板可帮助您作为Adobe Campaign Standard和/或Classic的产品管理员提高工作效率。
 description: 了解如何访问控制面板
-feature: Control Panel
-role: Architect
-level: Beginner
+feature: Control Panel, Overview
+role: Admin
+level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%

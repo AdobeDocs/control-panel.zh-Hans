@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 关于数据库监控
 description: 了解如何在控制面板中监测 Campaign 数据库
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 78%

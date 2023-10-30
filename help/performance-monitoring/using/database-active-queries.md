@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 监测活动查询
 description: 了解如何在控制面板中监测 Campaign 实例上的活动查询。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: a1ea14f9-ec1d-4e10-89ef-846065512e8c
-source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%

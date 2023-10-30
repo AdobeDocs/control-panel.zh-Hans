@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 管理 TXT 记录
 description: 了解如何管理 TXT 记录以进行域所有权验证。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
-source-git-commit: 9548bef1500498c1778ce5854017388490320595
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 97%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 识别关键联系人和事件
 description: 了解如何识别实例上发生的事件和在 Adobe 的关键联系人。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%

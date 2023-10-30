@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 存储概述
 description: 了解如何在控制面板中监测实例上占用数据库空间的各种Campaign资源。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 59%

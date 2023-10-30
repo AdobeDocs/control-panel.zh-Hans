@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: URL 权限
 description: 了解如何在控制面板中管理 URL 权限
-feature: Control Panel
-role: Architect
+feature: Control Panel, Access Management
+role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 84%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 防止数据库过载
 description: 从Campaign文档访问资源，以帮助您防止实例上的数据库过载。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 69%

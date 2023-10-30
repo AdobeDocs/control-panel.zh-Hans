@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 密钥管理
 description: 了解如何管理密钥以连接到 SFTP 服务器
-feature: Control Panel
-role: Architect
+feature: Control Panel, SFTP Management
+role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 41%

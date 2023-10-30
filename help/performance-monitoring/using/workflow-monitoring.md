@@ -1,11 +1,11 @@
 ---
 title: 监测工作流
 description: 了解如何监测可能需要关注的特定工作流参数，以避免实例上出现任何问题。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring, Workflows
+role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%

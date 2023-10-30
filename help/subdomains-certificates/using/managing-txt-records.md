@@ -3,18 +3,18 @@ product: campaign
 solution: Campaign
 title: 为子域添加Google站点验证记录
 description: 了解如何为子域添加Google网站验证记录以进行域所有权验证。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
-# 添加Google站点验证记录 {#adding-a-google-txt-record}
+# 添加 Google 站点验证记录 {#adding-a-google-txt-record}
 
 为了确保高收件箱率和低垃圾邮件率，一些诸如 Google 之类的服务要求您将 TXT 记录添加到域设置，以验证您是否拥有该域。
 
@@ -22,9 +22,9 @@ ht-degree: 73%
 
 要将 Google TXT 记录添加到用于通过电子邮件发送 Gmail 地址的子域，请执行以下步骤：
 
-1. 从子域列表中，单击所需子域旁边的省略号按钮，然后选择 **[!UICONTROL Subdomain details]**.
+1. 从子域列表中，单击所需子域旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL Subdomain details]**。
 
-1. 单击 **[!UICONTROL Add TXT record]** 按钮，然后选择 **[!UICONTROL Google Site Verification]** 从 **[!UICONTROL Record Type]** 下拉列表。
+1. 单击&#x200B;**[!UICONTROL Add TXT record]**&#x200B;按钮，然后从&#x200B;**[!UICONTROL Record Type]**&#x200B;下拉列表中选择 **[!UICONTROL Google Site Verification]**。
 
 1. 输入在G Suite管理工具中生成的值。 有关详细信息，请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)。
 
