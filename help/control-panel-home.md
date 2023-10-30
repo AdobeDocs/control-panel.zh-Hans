@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
@@ -19,8 +19,6 @@ ht-degree: 62%
 >title="关于控制面板"
 >abstract="通过控制面板主页，您可以访问可在 Campaign 实例上执行的所有操作。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hans" text="访问控制面板"
-
-![](assets/do-not-localize/banner.png)
 
 Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使用情况，从而帮助 Campaign Standard 和 Campaign v7/v8 的产品管理员提高工作效率。
 
