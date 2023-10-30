@@ -4,9 +4,9 @@ sub-product: control panel
 audience: end-user
 user-guide-title: 控制面板指南
 feature: Control Panel
-role: Architect
-level: Beginner
-source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+role: Admin
+level: Experienced
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [访问控制面板](discover/using/accessing-control-panel.md)
    + [管理控制面板的权限](discover/using/managing-permissions.md)
    + [了解控制面板界面](discover/using/discovering-the-interface.md)
+   + [常见问题解答](faq.md)
 + 事件和电子邮件警报 {#alerts-events}
    + [监测关键联系人和事件](service-events/service-events.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [实例详细信息](instances-settings/using/instance-details.md)
    + [GPG 密钥管理](instances-settings/using/gpg-keys-management.md)
    + [添加 MID/RT 实例（混合模型）](instances-settings/using/external-accounts.md)
-+ [常见问题解答](faq.md)
