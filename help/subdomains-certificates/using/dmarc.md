@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 * SPF 和 DKIM 记录是创建 DMARC 记录的先决条件。
 * 只能使用完全子域委派为子域添加 DMARC 记录。 [了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
-* 如果子域同时存在DMARC和BIMI记录：
-   * 无法删除DMARC记录。 如果要删除DMARC记录，请先删除BIMI记录。
-   * 可以编辑DMARC记录，但不允许将DMARC策略降级为“无”，并且百分比值必须设置为“100”。
+* 如果某个子域同时有 DMARC 和 BIMI 记录：
+   * 无法删除 DMARC 记录。如果要删除 DMARC 记录，请先删除 BIMI 记录。
+   * 可以编辑 DMARC 记录，但不允许将 DMARC 策略降级为“无”，并且百分比值必须设置为“100”。
 
 ## 为子域添加 DMARC 记录 {#add}
 
@@ -58,7 +58,7 @@ ht-degree: 92%
    >
    > DMARC 记录策略类型设置为“无”时，无法创建 BIMI 记录。
 
-1. 填写应接收 DMARC 报告的电子邮件地址。 您可以添加多个电子邮件地址，用逗号分隔。 当您的其中一封电子邮件失败时，系统会自动将 DMARC 报告发送到您选择的电子邮件地址：
+1. 填写应接收 DMARC 报告的电子邮件地址。 您可以添加多个电子邮件地址，使用逗号分隔。当您的其中一封电子邮件失败时，系统会自动将 DMARC 报告发送到您选择的电子邮件地址：
 
    * 汇总 DMARC 报告可提供高级信息，例如给定时间段内失败的电子邮件数量。
    * 取证 DMARC 故障报告提供了详细信息，例如故障电子邮件来自哪个 IP 地址。
