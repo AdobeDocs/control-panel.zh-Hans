@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 6%
    >
    >如果 **Admin Console** 链接不可见，这意味着您没有组织的管理员权限。 请联系您的组织管理员以对他们执行步骤。
 
-1. 从 **Admin Console**，从中选择所需的Campaign产品 **[!UICONTROL Products and services]** 列表。
+1. 从 **Admin Console**，从中选择所需的Campaign产品 **[!UICONTROL 产品和服务]** 列表。
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ ht-degree: 6%
    >
    >您可以为每个Campaign实例添加不同的管理员用户。 管理员用户将仅访问他们所属的实例的控制面板。
 
-1. 列表 **[!UICONTROL Product Profiles]** 此时将显示选定实例的。 单击 **[!UICONTROL Administrators]** 用于访问管理员用户列表的产品配置文件。
+1. 列表 **[!UICONTROL 产品配置文件]** 此时将显示选定实例的。 单击 **[!UICONTROL 管理员]** 用于访问管理员用户列表的产品配置文件。
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ ht-degree: 6%
    >
    >默认情况下，管理员用户属于“管理员”产品配置文件。 根据您的组织配置，产品配置文件的命名可以有所不同（“管理员”、“管理员”等）。
 
-1. 此时将显示管理员用户列表。 单击 **[!UICONTROL Add User]** 按钮以添加所需的用户。
+1. 此时将显示管理员用户列表。 单击 **[!UICONTROL 添加用户]** 按钮以添加所需的用户。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

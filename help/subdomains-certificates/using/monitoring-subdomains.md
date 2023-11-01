@@ -9,8 +9,8 @@ level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '154'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 必须监控子域，以确保所有子域均已正确配置以便与Adobe Campaign配合使用。
 
-选择 **[!UICONTROL Subdomains & Certificates]** 卡片。
+选择 **[!UICONTROL 子域和证书]** 卡片。
 
-此 **[!UICONTROL Last verification]** 列指示上次验证子域的时间。 您可以随时通过单击 **...** / **[!UICONTROL Verify subdomain]** 按钮。
+此 **[!UICONTROL 上次验证]** 列指示上次验证子域的时间。 您可以随时通过单击 **...** / **[!UICONTROL 验证子域]** 按钮。
 
 ![](assets/subdomain_verification.png)
 

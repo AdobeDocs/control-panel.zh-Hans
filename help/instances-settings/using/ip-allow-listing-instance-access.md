@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 85%
+source-wordcount: '830'
+ht-degree: 69%
 
 ---
 
@@ -55,11 +55,11 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 卡在控制面板的主页上不可见，这意味着您的 [organization ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未与任何Adobe Campaign v7/v8实例关联。
+>如果 **[!UICONTROL 实例设置]** 卡在控制面板的主页上不可见，这意味着您的 [organization ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未与任何Adobe Campaign v7/v8实例关联。
 
 要向允许列表添加 IP 地址，请执行以下步骤：
 
-1. 打开 **[!UICONTROL Instances Settings card]**&#x200B;以访问 IP 允许列表选项卡，然后单击 **[!UICONTROL Add new IP Range]**。
+1. 打开 **[!UICONTROL “实例设置”信息卡]** 要访问IP允许列表选项卡，请单击 **[!UICONTROL 添加新IP范围]**.
 
 
 
@@ -69,8 +69,8 @@ ht-degree: 85%
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**：IP 地址能够连接的实例。可以同时处理多个实例。例如，可以通过同一步骤对生产实例和阶段实例将 IP 添加到允许列表。
-   * **[!UICONTROL IP Range]**：要添加到允许列表的 IP 范围（CIDR 格式）。请注意，IP 范围不能与允许列表上的现有范围重叠。在这种情况下，首先删除包含重叠 IP 的范围。
+   * **[!UICONTROL 实例]**：IP地址能够连接的实例。 可以同时处理多个实例。例如，可以通过同一步骤对生产实例和阶段实例将 IP 添加到允许列表。
+   * **[!UICONTROL IP范围]**：要添加到允许列表的IP范围（CIDR格式）。 请注意，IP 范围不能与允许列表上的现有范围重叠。在这种情况下，首先删除包含重叠 IP 的范围。
 
    >[!NOTE]
    >
@@ -78,14 +78,14 @@ ht-degree: 85%
    >
    >您可以在互联网上搜索免费的在线工具，这些工具将帮助您将现有的 IP 范围转换为 CIDR 格式。
 
-   * **[!UICONTROL Label]**：将在允许列表中显示的标签。
-   * **[!UICONTROL Name]**：针对访问类型、实例（如果是外部 API 连接）和 IP 地址的名称必须是唯一的。
+   * **[!UICONTROL 标签]**：将在允许列表中显示的标签。
+   * **[!UICONTROL 名称]**：此名称必须是访问类型、实例（如果是外部API连接）和IP地址的唯一名称。
 
 1. 指定要授予 IP 地址的访问类型：
 
-   * **[!UICONTROL Campaign Console Access]**：允许IP地址连接到Campaign客户端控制台。 请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
-   * **[!UICONTROL AEM connection]**：允许指定的 AEM IP 地址连接到营销实例。
-   * **[!UICONTROL External API connection]**：允许具有指定 IP 地址的外部 API 连接到营销和/或消息中心 (RT) 实例。请注意，未启用与 RT 实例控制台的连接。
+   * **[!UICONTROL Campaign控制台访问]**：允许IP地址连接到Campaign客户端控制台。 请注意，仅对营销实例启用控制台访问。不允许访问 MID 和 RT 实例，因此不启用。
+   * **[!UICONTROL AEM连接]**：允许指定的AEM IP地址连接到营销实例。
+   * **[!UICONTROL 外部API连接]**：允许具有指定IP地址的外部API连接到营销和/或消息中心(RT)实例。 请注意，未启用与 RT 实例控制台的连接。
 
    >[!NOTE]
    >
@@ -93,13 +93,13 @@ ht-degree: 85%
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. 单击 **[!UICONTROL Save]** 按钮。IP 范围将添加到允许列表。
+1. 单击 **[!UICONTROL 保存]** 按钮。 IP 范围将添加到允许列表。
 
    <!--![](assets/ip_whitelist_added.png)-->
 
 默认情况下，您的 Adobe Campaign 实例无法从各种 IP 地址访问。
 
-要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
+要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL 删除IP范围]** 按钮。
 
 ![](assets/ip_whitelist_delete.png)
 

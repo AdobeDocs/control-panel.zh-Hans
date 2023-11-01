@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 39%
+source-wordcount: '1080'
+ht-degree: 35%
 
 ---
 
@@ -52,8 +52,8 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 要向允许列表添加 IP 范围，请执行以下步骤：
 
-1. 打开 **[!UICONTROL SFTP]** 卡，然后选择 **[!UICONTROL IP Allow Listing]** 选项卡。
-1. 将为每个实例显示允许列表上的 IP 地址列表。从左侧列表中选择所需的实例，然后单击 **[!UICONTROL Add new IP range]**&#x200B;按钮。
+1. 打开 **[!UICONTROL SFTP]** 信息卡，然后选择 **[!UICONTROL IP允许列表]** 选项卡。
+1. 将为每个实例显示允许列表上的 IP 地址列表。从左侧列表中选择所需的实例，然后单击 **[!UICONTROL 添加新IP范围]** 按钮。
 
    ![](assets/control_panel_add_range.png)
 
@@ -75,20 +75,20 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
    >[!NOTE]
    >
-   >中允许使用以下特殊字符 **[!UICONTROL Label]** 字段：
+   >中允许使用以下特殊字符 **[!UICONTROL 标签]** 字段：
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. 为了更好地管理IP允许列表，您可以设置每个IP范围可用性的持续时间。 要执行此操作，请在 **[!UICONTROL Type]** 下拉列表，并在相应的字段中定义持续时间。 有关IP范围到期的详细信息，请参阅 [本节](#expiry).
+1. 为了更好地管理IP允许列表，您可以设置每个IP范围可用性的持续时间。 要执行此操作，请在 **[!UICONTROL 类型]** 下拉列表，并在相应的字段中定义持续时间。 有关IP范围到期的详细信息，请参阅 [本节](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >默认情况下， **[!UICONTROL Type]** 字段设置为 **[!UICONTROL Unlimited]**，这意味着IP范围永不过期。
+   >默认情况下， **[!UICONTROL 类型]** 字段设置为 **[!UICONTROL 无限制]**，这意味着IP范围永不过期。
 
-1. 在 **[!UICONTROL Comment]** 字段中，您可以指示允许此IP范围的原因（原因、对象等）。
+1. 在 **[!UICONTROL 注释]** 字段中，您可以指示允许此IP范围的原因（原因、对象等）。
 
-1. 单击 **[!UICONTROL Save]** 按钮。允许列表的IP范围添加项将显示为 **[!UICONTROL Pending]** 直到完全处理请求，这应该只需要几秒钟。
+1. 单击 **[!UICONTROL 保存]** 按钮。 允许列表的IP范围添加项将显示为 **[!UICONTROL 待处理]** 直到完全处理请求，这应该只需要几秒钟。
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 ## 管理IP范围 {#managing-ip-ranges}
 
-您创建的IP范围将显示在 **[!UICONTROL IP Allow Listing]** 选项卡。
+您创建的IP范围将显示在 **[!UICONTROL IP允许列表]** 选项卡。
 
 您可以根据创建日期或编辑日期、创建或编辑项目的用户以及IP范围到期对项目进行排序。
 
@@ -108,17 +108,17 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 要编辑一个或多个IP范围，请参阅 [本节](#editing-ip-ranges).
 
-要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL Delete IP range]** 按钮。
+要从允许列表中删除一个或多个IP范围，请选择它们，然后单击 **[!UICONTROL 删除IP范围]** 按钮。
 
 ![](assets/control_panel_delete_range.png)
 
 ### 到期 {#expiry}
 
-此 **[!UICONTROL Expires]** 列显示了IP范围过期前的剩余天数。
+此 **[!UICONTROL 过期]** 列显示了IP范围过期前的剩余天数。
 
 如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，您将在IP范围过期的10天和5天前以及过期日期当天通过电子邮件收到通知。 收到警报后，您可以 [编辑IP范围](#editing-ip-ranges) 以根据需要延长有效期。
 
-过期的IP范围将在7天后自动删除。 它显示为 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 列。 在这7天内：
+过期的IP范围将在7天后自动删除。 它显示为 **[!UICONTROL 已过期]** 在 **[!UICONTROL 过期]** 列。 在这7天内：
 
 * 已过期的IP范围无法再用于访问SFTP服务器。
 
@@ -143,9 +143,9 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. 从中选择一个或多个IP范围 **[!UICONTROL IP Allow Listing]** 列表。
+1. 从中选择一个或多个IP范围 **[!UICONTROL IP允许列表]** 列表。
 
-1. 单击 **[!UICONTROL Update IP range]** 按钮。
+1. 单击 **[!UICONTROL 更新IP范围]** 按钮。
 
    ![](assets/control_panel_edit_range.png)
 
@@ -161,7 +161,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 ## 监控更改 {#monitoring-changes}
 
-此 **[!UICONTROL Job Logs]** 通过控制面板主页中的，您可以跟踪和监控对允许列表上的IP地址所做的所有更改。
+此 **[!UICONTROL 作业日志]** 通过控制面板主页中的，您可以跟踪和监控对允许列表上的IP地址所做的所有更改。
 
 有关控制面板界面的详细信息，请参阅[此部分](../../discover/using/discovering-the-interface.md)。
 

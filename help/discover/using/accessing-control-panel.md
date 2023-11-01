@@ -9,8 +9,8 @@ level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 13%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
@@ -48,10 +48,10 @@ ht-degree: 13%
 
 1. 打开您的Campaign Standard产品。
 
-1. 选择 **[!UICONTROL Administration]** 菜单 **导航** 窗格。
+1. 选择 **[!UICONTROL 管理]** 菜单 **导航** 窗格。
 
    ![](assets/control_panel_access3.png)
 
-1. 单击 **[!UICONTROL Control Panel]** 图标。
+1. 单击 **[!UICONTROL 控制面板]** 图标。
 
    ![](assets/control_panel_access4.png)

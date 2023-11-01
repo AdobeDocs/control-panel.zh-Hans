@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 41%
+source-wordcount: '1082'
+ht-degree: 38%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >对于SSH密钥，您必须始终遵循组织指南。 以下步骤只是如何创建SSH密钥的一个示例，它们可以用作向团队或内部网络组传达要求的有用参考点。
 
-1. 导览至 **[!UICONTROL Key Management]**&#x200B;选项卡，然后单击 **[!UICONTROL Add new public key]** 按钮。
+1. 导航至 **[!UICONTROL 密钥管理]** 选项卡，然后单击 **[!UICONTROL 添加新公钥]** 按钮。
 
    ![](assets/key0.png)
 
@@ -69,17 +69,17 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
    >
    >可以为每个用户添加一个或多个公共 SSH 密钥。
 
-1. 为了更好地管理公钥，您可以设置每个密钥的可用期限。 要执行此操作，请在 **[!UICONTROL Type]** 下拉列表，并在相应的字段中定义持续时间。 有关公钥过期的更多信息，请参阅 [本节](#expiry).
+1. 为了更好地管理公钥，您可以设置每个密钥的可用期限。 要执行此操作，请在 **[!UICONTROL 类型]** 下拉列表，并在相应的字段中定义持续时间。 有关公钥过期的更多信息，请参阅 [本节](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >默认情况下， **[!UICONTROL Type]** 字段设置为 **[!UICONTROL Unlimited]**，这意味着公钥永不过期。
+   >默认情况下， **[!UICONTROL 类型]** 字段设置为 **[!UICONTROL 无限制]**，这意味着公钥永不过期。
 
-1. 在 **[!UICONTROL Comment]** 字段中，您可以指示添加此公钥的原因（原因、对象等）。
+1. 在 **[!UICONTROL 注释]** 字段中，您可以指示添加此公钥的原因（原因、对象等）。
 
-1. 为了能够填写 **[!UICONTROL Public Key]** 字段，则需要生成公共SSH密钥。 根据您的操作系统执行以下步骤。
+1. 为了能够填写 **[!UICONTROL 公共密钥]** 字段，则需要生成公共SSH密钥。 根据您的操作系统执行以下步骤。
 
    **Linux 和 Mac：**
 
@@ -99,9 +99,9 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Public Key]** 字段仅接受OpenSSH格式。 公共 SSH 密钥大小应为 **2048 位**。
+   >此 **[!UICONTROL 公共密钥]** 字段仅接受OpenSSH格式。 公共 SSH 密钥大小应为 **2048 位**。
 
-1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;按钮以创建密钥。控制面板保存公钥及其关联的指纹，并使用SHA256格式进行加密。
+1. 单击 **[!UICONTROL 保存]** 按钮以创建键。 控制面板保存公钥及其关联的指纹，并使用SHA256格式进行加密。
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 ## 管理公钥 {#managing-public-keys}
 
-您创建的公钥将显示在 **[!UICONTROL Key Management]** 选项卡。
+您创建的公钥将显示在 **[!UICONTROL 密钥管理]** 选项卡。
 
 您可以根据创建日期或编辑日期、创建或编辑项目的用户以及IP范围到期对项目进行排序。
 
@@ -127,17 +127,17 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 要编辑一个或多个IP范围，请参阅 [本节](#editing-public-keys).
 
-要从列表中删除一个或多个公钥，请选择它们，然后单击 **[!UICONTROL Delete public key]** 按钮。
+要从列表中删除一个或多个公钥，请选择它们，然后单击 **[!UICONTROL 删除公钥]** 按钮。
 
 ![](assets/control_panel_delete_key.png)
 
 ### 到期 {#expiry}
 
-此 **[!UICONTROL Expires]** 列会显示公钥过期前的剩余天数。
+此 **[!UICONTROL 过期]** 列会显示公钥过期前的剩余天数。
 
 如果您订阅了 [电子邮件警报](../../performance-monitoring/using/email-alerting.md)，您将在公钥过期的10天和5天前以及过期日期当天通过电子邮件接收通知。 收到警报后，您可以 [编辑公钥](#editing-public-keys) 以根据需要延长有效期。
 
-过期公钥将在7天后自动删除。 它显示为 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 列。 在这7天内：
+过期公钥将在7天后自动删除。 它显示为 **[!UICONTROL 已过期]** 在 **[!UICONTROL 过期]** 列。 在这7天内：
 
 * 已过期的公钥无法再用于连接到SFTP服务器。
 
@@ -158,8 +158,8 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 >
 >您只能编辑自2021年10月发布控制面板以来创建的公钥。
 
-1. 从中选择一个或多个项目 **[!UICONTROL Key Management]** 列表。
-1. 单击 **[!UICONTROL Update public key]** 按钮。
+1. 从中选择一个或多个项目 **[!UICONTROL 密钥管理]** 列表。
+1. 单击 **[!UICONTROL 更新公钥]** 按钮。
 
    ![](assets/control_panel_edit_key.png)
 

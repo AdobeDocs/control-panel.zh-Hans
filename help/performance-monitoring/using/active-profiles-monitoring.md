@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '439'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 * Campaign v7/v8 的[“活动计费用户档案数量”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans)工作流。
 
 
-要在控制面板中监测活动用户档案的使用情况，请导航至“**[!UICONTROL Performance Monitoring]**”信息卡 >“**[!UICONTROL Active Profiles]**”选项卡，然后从&#x200B;**[!UICONTROL Instance List]**&#x200B;中选择所需的实例。
+要监控控制面板中活动用户档案的使用情况，请导航至 **[!UICONTROL 性能监控]** 信息卡> **[!UICONTROL 活动用户档案]** 选项卡，然后从中选择所需的实例 **[!UICONTROL 实例列表]**.
 
 此时将显示有关活动用户档案使用情况的信息。
 

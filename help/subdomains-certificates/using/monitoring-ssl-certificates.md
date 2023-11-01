@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 65%
+source-wordcount: '573'
+ht-degree: 57%
 
 ---
 
@@ -51,7 +51,7 @@ SSL证书监控是确保子域安全的关键。 借助控制面板，您可以�
 >title="子域详细信息"
 >abstract="检索有关子域的 SSL 证书的信息。"
 
-选择 **[!UICONTROL Subdomains & Certificates]**&#x200B;卡时，子域的 SSL 证书状态可直接从子域的列表中获得。
+选择时，子域的SSL证书状态可直接从子域的列表中获得 **[!UICONTROL 子域和证书]** 卡片。
 
 子域按 SSL 证书最接近过期日期的顺序进行排列，其中包含过期的可视信息（以天为单位）:
 
@@ -62,10 +62,10 @@ SSL证书监控是确保子域安全的关键。 借助控制面板，您可以�
 
 ![](assets/subdomains_list.png)
 
-要获取有关子域的详细信息，请单击&#x200B;**[!UICONTROL Subdomain Details]**按钮。
+要获取有关子域的更多详细信息，请单击 **[!UICONTROL 子域详细信息]** 按钮。
 此时将显示所有相关子域的列表。其中通常包括登陆页面、资源页面等的子域。
 
-该 **[!UICONTROL Sender info]**&#x200B;选项卡提供有关已配置收件箱的信息（发件人、回复、错误电子邮件）。
+此 **[!UICONTROL 发件人信息]** 选项卡提供有关已配置收件箱的信息（发件人、回复、错误电子邮件）。
 
 ![](assets/subdomain_details.png)
 

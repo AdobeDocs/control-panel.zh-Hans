@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 75%
+source-wordcount: '536'
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 75%
 
 要获取有关连接到实例的服务器信息，请执行以下步骤：
 
-1. 打开卡 **[!UICONTROL Instances Settings]**&#x200B;以访问 **[!UICONTROL Instance Details]** 选项卡。
+1. 打开&#x200B;**[!UICONTROL 实例设置]**&#x200B;信息卡以访问&#x200B;**[!UICONTROL 实例详细信息]**&#x200B;选项卡。
 
    >[!NOTE]
    >
@@ -62,10 +62,10 @@ ht-degree: 75%
 
 可用信息包括：
 
-* **[!UICONTROL Type]**：服务器的类型。可能的值包括 MKT（营销）、MID（中间采购）和 RT（消息中心/实时消息）。
-* **[!UICONTROL Name]**：服务器的名称。
-* **[!UICONTROL Build:]**：服务器上安装的内部版本。
-* **[!UICONTROL Upgrade info]**：此列将通知您服务器是否需要任何更新。
+* **[!UICONTROL 类型]**：服务器的类型。 可能的值包括 MKT（营销）、MID（中间采购）和 RT（消息中心/实时消息）。
+* **[!UICONTROL 名称]**：服务器的名称。
+* **[!UICONTROL 内部版本：]**&#x200B;服务器上安装的内部版本。
+* **[!UICONTROL 升级信息]**：此列将通知您服务器是否需要任何更新。
    * 绿色：表示您的服务器为最新版本，无需升级。
    * 黄色：表示您应考虑升级。您缺少最新功能和修复。
    * 红色：表示应尽快升级。您缺少新功能，服务器性能可能不佳。

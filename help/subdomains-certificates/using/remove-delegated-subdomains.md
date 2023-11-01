@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '818'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 要移除对 Adobe 的子域委派，请执行以下步骤：
 
-1. 单击要移除的域委派旁边的省略号按钮，然后选择 **[!UICONTROL Remove delegation]**。
+1. 单击要删除的域委派旁边的省略号按钮，然后选择 **[!UICONTROL 删除委派]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -43,15 +43,15 @@ ht-degree: 100%
 
 1. 查看有关与子域关联的实例的信息，包括相关的 IP 亲和度和品牌配置。
 
-   如果您正在移除所选实例的主域委派，则需要使用 **[!UICONTROL Replacement Domain]** 列表选择替换它的域。
+   如果您要删除所选实例的主域的委派，则需要使用选择将替换它的域 **[!UICONTROL 替换域]** 列表。
 
-   单击 **[!UICONTROL Next]** 以继续移除。
+   单击 **[!UICONTROL 下一个]** 以继续删除。
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. 如果移除 CNAME 类型委派，或者将主域替换为使用 CNAME 委派的域，则会显示一个额外的 **[!UICONTROL Action]** 步骤，用于管理 DNS 记录。[在本节中了解详情](#dns)
+1. 如果删除CNAME类型的委派，或者将主域替换为使用CNAME委派的域，则附加 **[!UICONTROL 操作]** 显示的步骤可管理DNS记录。 [在本节中了解详情](#dns)
 
-1. 查看显示的摘要。要确认删除，请键入要移除委派的域 URL，然后单击 **[!UICONTROL Submit]**。
+1. 查看显示的摘要。要确认删除，请键入要删除其委派的域的URL，然后单击 **[!UICONTROL 提交]**.
 
    ![](assets/undelegate-submit.png)
 
@@ -85,14 +85,14 @@ ht-degree: 100%
 ### 删除 DNS 记录
 
 1. 导航到 DNS 服务器，并在“控制面板”中移除列出的记录。
-1. 返回“控制面板”并单击 **[!UICONTROL Next]** 以继续移除委派。
+1. 返回控制面板并单击 **[!UICONTROL 下一个]** 以继续删除委托。
 
 ### 添加 DNS 记录
 
 1. 导航到 DNS 服务器，并在“控制面板”中添加列出的记录。
 1. 等待添加的 DNS 生效。
-1. 返回“控制面板”并单击 **[!UICONTROL Verify]**。
-1. 添加的记录成功验证后，单击 **[!UICONTROL Next]** 以继续移除委派。
+1. 返回控制面板并单击 **[!UICONTROL 验证]**.
+1. 成功验证记录添加后，单击 **[!UICONTROL 下一个]** 以继续删除委托。
 
 ## 错误代码 {#FAQ}
 

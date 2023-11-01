@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 91%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 100%
 
 ## 作业日志 {#job-logs}
 
-通过右上角的“**[!UICONTROL Job Logs]**”按钮，您可以审核组织用户做出的所有更改。
+通过右上角的&#x200B;**[!UICONTROL 作业日志]**&#x200B;按钮，您可以审核组织用户做出的所有更改。
 
 ![](assets/control_panel_interface2.png)
 
 单击列表的某个元素可获取更多详细信息。
 
-使用“**[!UICONTROL Open]**”按钮可以直接访问已更改的“控制面板”选项卡。
+使用&#x200B;**[!UICONTROL 打开]**&#x200B;按钮可以直接访问已更改的“控制面板”选项卡。
 
 ![](assets/control_panel_logdetails.png)
 
 ## 帮助资源 {#help-resources}
 
-**[!UICONTROL Help Resources]**&#x200B;部分提供了有用的文档，以帮助您使用控制面板和 Campaign 产品。您可以随时浏览这些文档。
+此 **[!UICONTROL 帮助资源]** 部分提供了有用的文档，以帮助您使用控制面板和Campaign产品。 您可以随时浏览这些文档。
 
 ![](assets/helpresources.png)
 

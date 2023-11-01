@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 84%
+source-wordcount: '612'
+ht-degree: 79%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
 要添加实例可以连接到的 URL，请执行以下步骤：
 
-1. 打开卡 **[!UICONTROL Instances Settings]**&#x200B;以访问 **[!UICONTROL URL Permissions]** 选项卡。
+1. 打开&#x200B;**[!UICONTROL 实例设置]**&#x200B;信息卡以访问 **[!UICONTROL URL 权限息]**&#x200B;选项卡。
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
    >
    ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
-1. 从左窗格中选择所需的实例，然后单击 **[!UICONTROL Add new URL]**&#x200B;按钮。
+1. 在左窗格中选择所需的实例，然后单击 **[!UICONTROL 添加新URL]** 按钮。
 
    ![](assets/add_url1.png)
 
@@ -90,7 +90,7 @@ Campaign Classic 实例可以通过 JavaScript 代码（工作流等）的URL数
 
    ![](assets/add_url_listnew.png)
 
-您可以随时删除 URL，方法是选择该 URL 并单击 **[!UICONTROL Delete URL]**&#x200B;按钮。
+您可以随时删除URL，方法是选择该URL并单击 **[!UICONTROL 删除URL]** 按钮。
 
 请记住，如果删除 URL，您的实例将无法再次调用它。
 

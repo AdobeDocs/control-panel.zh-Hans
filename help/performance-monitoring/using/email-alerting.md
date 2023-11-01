@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 要订阅这些警报，请执行以下步骤：
 
-1. 单击 **[!UICONTROL Alerting notifications]** 按钮在控制面板中的任意位置可用，然后单击 **[!UICONTROL Subscribe]**.
+1. 单击 **[!UICONTROL 警报通知]** 按钮在控制面板中的任意位置可用，然后单击 **[!UICONTROL 订阅]**.
 
    ![](assets/subscribing.png)
 

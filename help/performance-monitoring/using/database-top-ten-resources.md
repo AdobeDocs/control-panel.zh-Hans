@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 69%
+source-wordcount: '182'
+ht-degree: 59%
 
 ---
 
 # 十大临时资源 {#top-10}
 
-**[!UICONTROL Top 10 temporary resources]** 区域列出了工作流和投放生成的十大临时资源。
+此 **[!UICONTROL 十大临时资源]** 区域列出了工作流和投放生成的十大临时资源。
 
 监测正在创建大型临时资源的工作流和投放是监测数据库的关键步骤。如果任何临时资源占用的数据库空间过多，请确保此工作流或投放是必要的，并最终导航到您的实例以停止它。
 
@@ -28,4 +28,4 @@ ht-degree: 69%
 
 ![](assets/database-top10.png)
 
-此 **[!UICONTROL View all]** 按钮允许您访问 **[!UICONTROL Storage overview]** 获取有关这些临时资源的详细信息的详细信息。 有关详细信息，请参见[此页面](database-storage-overview.md)。
+此 **[!UICONTROL 查看全部]** 按钮允许您访问 **[!UICONTROL 存储概述]** 获取有关这些临时资源的详细信息的详细信息。 有关详细信息，请参见[此页面](database-storage-overview.md)。

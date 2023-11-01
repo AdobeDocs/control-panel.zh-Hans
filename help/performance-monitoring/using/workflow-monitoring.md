@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 92%
 
 ---
 
@@ -44,11 +44,11 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-在 Adobe Campaign 中，某些工作流参数可能需要特别关注，以避免实例上出现任何问题。可查看控制面板 **[!UICONTROL Storage overview]** 详细信息以确认是否为您的工作流启用了这些选项。
+在 Adobe Campaign 中，某些工作流参数可能需要特别关注，以避免实例上出现任何问题。控制面板 **[!UICONTROL 存储概述]** 详细信息允许您检查是否为工作流启用了这些选项。
 
 ![](assets/wkf-monitoring-parameters.png)
 
-## **[!UICONTROL Keep interim results]** {#keep-results}
+## **[!UICONTROL 保留中期结果]** {#keep-results}
 
 启用时（值为“1”），此选项会保存工作流各种活动之间的过渡结果。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hans#logs) 文档中了解详情。
 
@@ -58,7 +58,7 @@ Monitor workflow parameters -->
 
 ![](assets/wkf-monitoring-keep.png)
 
-## **[!UICONTROL Show SQL log]** {#sql}
+## **[!UICONTROL 显示SQL日志]** {#sql}
 
 启用此选项后，工作流执行期间发送到数据库的 SQL 查询将显示在 Adobe Campaign 中。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#execution) 文档中了解详情。
 
@@ -70,7 +70,7 @@ Monitor workflow parameters -->
 
 ![](assets/wkf-monitoring-sql.png)
 
-## **[!UICONTROL Supervisors]** {#supervisors}
+## **[!UICONTROL 主管]** {#supervisors}
 
 使用此字段，可向工作流分配运算符。如果工作流出现故障，关联的运算符将收到警报。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hans#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#error-management) 文档中了解详情。
 

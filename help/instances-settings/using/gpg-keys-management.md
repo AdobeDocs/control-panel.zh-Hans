@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 11%
+source-wordcount: '1232'
+ht-degree: 10%
 
 ---
 
@@ -77,9 +77,9 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
    `gpg -a --export <fingerprint>`
 
-1. 要将公钥安装到控制面板中，请打开 **[!UICONTROL Instance settings]** 信息卡，然后选择 **[!UICONTROL GPG keys]** 选项卡和所需的实例。
+1. 要将公钥安装到控制面板中，请打开 **[!UICONTROL 实例设置]** 信息卡，然后选择 **[!UICONTROL GPG密钥]** 选项卡和所需的实例。
 
-1. 单击 **[!UICONTROL Install Key]** 按钮。
+1. 单击 **[!UICONTROL 安装密钥]** 按钮。
 
    ![](assets/gpg_install_button.png)
 
@@ -91,7 +91,7 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
    ![](assets/gpg_install_paste.png)
 
-1. 单击 **[!UICONTROL Install Key]** 按钮。
+1. 单击 **[!UICONTROL 安装密钥]** 按钮。
 
 安装公钥后，它将显示在列表中。 您可以使用 **...** 按钮进行下载或复制其指纹。
 
@@ -126,13 +126,13 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 要在控制面板中生成密钥对，请执行以下步骤：
 
-1. 打开 **[!UICONTROL Instance settings]** 信息卡，然后选择 **[!UICONTROL GPG keys]** 选项卡和所需的Adobe Campaign实例。
+1. 打开 **[!UICONTROL 实例设置]** 信息卡，然后选择 **[!UICONTROL GPG密钥]** 选项卡和所需的Adobe Campaign实例。
 
-1. 单击 **[!UICONTROL Generate Key]** 按钮。
+1. 单击 **[!UICONTROL 生成密钥]** 按钮。
 
    ![](assets/gpg_generate.png)
 
-1. 指定键的名称，然后单击 **[!UICONTROL Generate Key]**. 此名称将帮助您识别在Campaign工作流中用于解密的密钥
+1. 指定键的名称，然后单击 **[!UICONTROL 生成密钥]**. 此名称将帮助您识别在Campaign工作流中用于解密的密钥
 
    ![](assets/gpg_generate_name.png)
 
@@ -158,21 +158,21 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
 
 ## 监控GPG密钥
 
-要访问为实例安装和生成的GPG密钥，请打开 **[!UICONTROL Instance settings]** 信息卡，然后选择 **[!UICONTROL GPG keys]** 选项卡。
+要访问为实例安装和生成的GPG密钥，请打开 **[!UICONTROL 实例设置]** 信息卡，然后选择 **[!UICONTROL GPG密钥]** 选项卡。
 
 ![](assets/gpg_list.png)
 
 该列表显示已为实例安装并生成的所有加解密GPG密钥，以及每个密钥的详细信息：
 
-* **[!UICONTROL Name]**：安装或生成密钥时定义的名称。
-* **[!UICONTROL Use case]**：此列指定键的用例：
+* **[!UICONTROL 名称]**：安装或生成密钥时定义的名称。
+* **[!UICONTROL 用例]**：此列指定键的用例：
 
   ![](assets/gpg_icon_encrypt.png)：已安装用于数据加密的密钥。
 
   ![](assets/gpg_icon_decrypt.png)：密钥已生成以允许数据解密。
 
-* **[!UICONTROL Fingerprint]**：键的指纹。
-* **[!UICONTROL Expires]**：密钥的过期日期。 请注意，控制面板将在关键日期临近时提供视觉指示：
+* **[!UICONTROL 指纹]**：键的指纹。
+* **[!UICONTROL 过期]**：密钥的过期日期。 请注意，控制面板将在关键日期临近时提供视觉指示：
 
    * 紧急（红色）在30天前显示。
    * 警告（黄色）在60天前显示。
@@ -182,7 +182,7 @@ GPG加密允许您使用公钥和私钥对的系统保护数据，此系统遵�
   >
   >请注意，控制面板不会发送电子邮件通知。
 
-作为最佳实践，我们建议您删除不再需要的任何密钥。 要执行此操作，请单击 **...** 按钮，然后选择 **[!UICONTROL Delete Key].**.
+作为最佳实践，我们建议您删除不再需要的任何密钥。 要执行此操作，请单击 **...** 按钮，然后选择 **[!UICONTROL Delete键].**.
 
 ![](assets/gpg_delete.png)
 
