@@ -128,7 +128,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
 * 您可以将其从允许列表中删除。
 
-## 编辑IP范围 {#editing-ip-ranges}
+## 编辑 IP 范围 {#editing-ip-ranges}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"

@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 78%
 
 如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
 
-## 子域用例(Campaign v7/v8){#subdomains-use-cases}
+## 子域的用例 (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
