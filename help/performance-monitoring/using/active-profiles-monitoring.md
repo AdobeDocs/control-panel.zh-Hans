@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 93%
+source-wordcount: '438'
+ht-degree: 85%
 
 ---
 
@@ -41,11 +41,6 @@ ht-degree: 93%
 >title="关于活动用户档案监测"
 >abstract="在此选项卡中，您可以获取有关每个 Campaign 实例和贵组织的最新和历史活动用户档案使用情况及变化的实时信息。"
 
-与活动用户档案使用情况相关的信息会根据每天在您的实例上运行的专用 [!DNL Campaign] 技术工作流程在控制面板中更新：
-* Campaign Standard 的[“计费”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans)工作流，
-* Campaign v7/v8 的[“活动计费用户档案数量”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans)工作流。
-
-
 要监控控制面板中活动用户档案的使用情况，请导航至 **[!UICONTROL 性能监控]** 信息卡> **[!UICONTROL 活动用户档案]** 选项卡，然后从中选择所需的实例 **[!UICONTROL 实例列表]**.
 
 此时将显示有关活动用户档案使用情况的信息。
@@ -65,3 +60,10 @@ ht-degree: 93%
 * 分配给贵组织的活动用户档案总数。
 
 下半部分直观地呈现了过去 30 天内活动用户档案的使用情况。您可以使用右上角的筛选条件将此时间范围更改为 1 年。将鼠标悬停在图形上，可获得选定时段使用的活动用户档案的确切数量。
+
+与活动用户档案使用相关的信息基于专用的控制面板更新 [!DNL Campaign] 定期在实例上运行的“计费”技术工作流。
+
+| Campaign 版本 | 技术工作流 | 运行 |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [付费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans) | 每日 |
+| Campaign v7/v8 | [付费](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | 每月 |
