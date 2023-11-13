@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 ## 作业日志 {#job-logs}
 
-通过右上角的&#x200B;**[!UICONTROL 作业日志]**&#x200B;按钮，您可以审核组织用户做出的所有更改。
+通过右上角的&#x200B;**[!UICONTROL 作业日志]**&#x200B;按钮，可以审核您所属组织的用户做出的所有更改。
 
 ![](assets/control_panel_interface2.png)
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 ## 帮助资源 {#help-resources}
 
-此 **[!UICONTROL 帮助资源]** 部分提供了有用的文档，以帮助您使用控制面板和Campaign产品。 您可以随时浏览这些文档。
+**[!UICONTROL 帮助资源]**&#x200B;部分提供了有用的文档，以帮助您使用控制面板和 Campaign 产品。您可以随时浏览这些文档。
 
 ![](assets/helpresources.png)
 
