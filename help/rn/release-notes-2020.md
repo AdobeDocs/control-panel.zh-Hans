@@ -1,5 +1,5 @@
 ---
-title: 发行说明 2020
+title: 2020 年版发行说明
 description: 此页面列出了控制面板的所有 2020 年版本。
 feature: Control Panel, Release Notes
 role: Admin
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# 发行说明 2020 {#rn-2020}
+# 2020 年版发行说明 {#rn-2020}
 
 ## 2020 年 10 月 {#october-2020}
 
