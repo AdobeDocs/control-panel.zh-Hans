@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 98%
    + 之前版本 {#previous-releases}
       + [2023 年版发行说明](rn/release-notes-2023.md)
       + [2022 年版发行说明](rn/release-notes-2022.md)
-      + [发行说明 2021](rn/release-notes-2021.md)
-      + [发行说明 2020](rn/release-notes-2020.md)
-      + [发行说明 2019](rn/release-notes-2019.md)
+      + [2021 年版发行说明](rn/release-notes-2021.md)
+      + [2020 年版发行说明](rn/release-notes-2020.md)
+      + [2019 年版发行说明](rn/release-notes-2019.md)
 + 了解控制面板 {#discover-control-panel}
    + [主要功能](discover/using/key-features.md)
    + [访问控制面板](discover/using/accessing-control-panel.md)
    + [管理控制面板的权限](discover/using/managing-permissions.md)
    + [了解控制面板界面](discover/using/discovering-the-interface.md)
    + [常见问题解答](faq.md)
-+ 事件和电子邮件警报 {#alerts-events}
++ 事件和电子邮件警报{#alerts-events}
    + [监测关键联系人和事件](service-events/service-events.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + SFTP 管理 {#sftp-management}
    + [关于 SFTP 管理](sftp/using/about-sftp-management.md)
    + [管理 SFTP 存储](sftp/using/sftp-storage-management.md)
-   + [将 IP 范围添加到允许列表](sftp/using/ip-range-allow-listing.md)
+   + [IP 范围允许列表](sftp/using/ip-range-allow-listing.md)
    + [密钥管理](sftp/using/key-management.md)
    + [登录 SFTP 服务器](sftp/using/logging-into-sftp-server.md)
    + [常见问题](sftp/using/common-questions.md)
