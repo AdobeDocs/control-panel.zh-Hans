@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 该控制面板可帮助您作为Adobe Campaign Standard和/或Classic的产品管理员提高工作效率。
+title: 控制面板可帮助您作为 Adobe Campaign Standard 和/或 Classic 的产品管理员提高工作效率。
 description: 了解如何访问控制面板
 feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->控制面板仅限管理员用户使用。[此部分](managing-permissions.md)将详细介绍授予用户管理员访问权限的步骤。
+>控制面板仅限管理员用户使用。[此小节](managing-permissions.md)中详细介绍了授予用户管理员访问权限的步骤。
 >
->请注意，对于Campaign v7/v8，务必将您的实例托管在Amazon Web Services (AWS)上，并升级到最新版本 [Campaign稳定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses) 或者构建9032或更高版本。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
+>对于 Campaign v7/v8，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign 稳定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)或 9032 版本及以上。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ ht-degree: 79%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理实例设置</strong></a></div>
-        <em>了解如何管理实例设置（仅限Campaign v7/v8）。</em>
+        <em>了解如何管理实例设置（仅限 Campaign v7/v8）。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
