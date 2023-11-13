@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="管理 TXT 记录"
->abstract="TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。控制面板允许您向子域添加三种类型的记录： Google Site Verification、DMARC和BIMI记录。"
+>abstract="TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，外部源可以读取该信息。控制面板允许您向子域添加三种类型的记录：Google Site Verification、DMARC 和 BIMI 记录。"
 
 ## 关于 TXT 记录 {#about}
 
