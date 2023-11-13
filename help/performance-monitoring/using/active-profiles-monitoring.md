@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: 活动用户档案监控
+title: 活动用户档案监测
 description: 了解如何获得有关每个 Campaign 实例最新和历史活动用户档案使用情况和演变的实时信息。
 feature: Control Panel, Monitoring
 role: Admin
@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 85%
 >title="关于活动用户档案监测"
 >abstract="在此选项卡中，您可以获取有关每个 Campaign 实例和贵组织的最新和历史活动用户档案使用情况及变化的实时信息。"
 
-要监控控制面板中活动用户档案的使用情况，请导航至 **[!UICONTROL 性能监控]** 信息卡> **[!UICONTROL 活动用户档案]** 选项卡，然后从中选择所需的实例 **[!UICONTROL 实例列表]**.
+要在控制面板中监控活动用户档案的使用情况，请导航至&#x200B;**[!UICONTROL 性能监控]**&#x200B;信息卡 > **[!UICONTROL 活动用户档案]**&#x200B;选项卡，然后从&#x200B;**[!UICONTROL 实例列表]**&#x200B;中选择所需的实例。
 
 此时将显示有关活动用户档案使用情况的信息。
 
