@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 79%
 >
 >如果您在访问控制面板时遇到问题，很可能是因为您的营销实例尚未映射到您的[组织 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。请联系客户关怀团队以完成此设置，然后继续下一步操作。成功连接后，就会显示控制面板主页。
 
-要访问控制面板功能，您需要在以下位置提供MID/RT实例信息： **[!UICONTROL 实例设置]** 卡片。 为此，请执行以下步骤：
+要访问控制面板功能，您需要在&#x200B;**[!UICONTROL 实例设置]**&#x200B;信息卡中提供您的 MID/RT 实例信息。为此，请执行以下步骤。
 
-1. 在 **[!UICONTROL 实例设置]** 卡，选择 **[!UICONTROL 外部帐户]** 选项卡。
+1. 在&#x200B;**[!UICONTROL 实例设置]**&#x200B;信息卡，选择&#x200B;**[!UICONTROL 外部帐户]**&#x200B;选项卡。
 
-1. 从下拉列表中选择所需的营销实例，然后单击 **[!UICONTROL 添加新URL]**.
+1. 从下拉列表中选择所需的营销实例，然后单击&#x200B;**[!UICONTROL 添加新 URL]**。
 
    ![](assets/external-account-addbutton.png)
 
@@ -65,17 +65,17 @@ ht-degree: 79%
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**：可在的Campaign客户端控制台中找到实例的URL **[!UICONTROL 管理]** > **[!UICONTROL 平台]** > **[!UICONTROL 外部帐户]** 菜单。
+   * **[!UICONTROL URL]**：可在 Campaign 客户端控制台中的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 平台]** > **[!UICONTROL 外部帐户]**&#x200B;菜单中找到实例的 URL。
 
      ![](assets/external-account-url.png)
 
-   * **[!UICONTROL 运算符]** / **[!UICONTROL 密码]**：Adobe管理员在初始配置后提供的操作员的凭据。
+   * **[!UICONTROL 操作员]**/**[!UICONTROL 密码]**：会在 Adobe 管理员完成初始配置后提供操作员的凭据。
 
      >[!NOTE]
      >
      >如果无法获取这些详细信息，请联系客户关怀团队。
 
-1. 单击 **[!UICONTROL 保存]** 以确认。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
 添加 MID/RT URL 时，会触发异步进程以验证 URL 的正确性。此过程可能需要几分钟。在完成对 MID/RT 实例 URL 的验证之前，作业将处于待处理状态。仅在完成验证后，您才能访问控制面板的主要功能。
 
@@ -85,7 +85,7 @@ ht-degree: 79%
 
 ![](assets/external-account-edit.png)
 
-请注意，您可以监控在中执行的任何操作， **[!UICONTROL 外部帐户]** 选项卡，该URL位于 **[!UICONTROL 作业日志]**：
+请注意，您可以通过&#x200B;**[!UICONTROL 作业日志]**&#x200B;监控 MID/RT 实例 URL 上&#x200B;**[!UICONTROL 外部帐户]**&#x200B;选项卡中执行的任何操作：
 
 ![](assets/external-account-logs.png)
 
@@ -93,7 +93,7 @@ ht-degree: 79%
 
 添加 MID/RT 实例后，您需要将其 IP 地址添加到允许列表，以便营销实例可以连接到该实例。
 
-这可以从以下位置执行： **[!UICONTROL IP允许列表]** 选项卡 **[!UICONTROL 实例设置]** 卡片。 [了解如何将 IP 地址添加到允许列表](ip-allow-listing-instance-access.md)
+这可以通过&#x200B;**[!UICONTROL 实例设置]**&#x200B;信息卡中的 **[!UICONTROL IP 允许列表]**&#x200B;选项卡执行。[了解如何将 IP 地址添加到允许列表](ip-allow-listing-instance-access.md)
 
 完成后，您可以将控制面板功能与 MID/RT 实例结合使用。
 
