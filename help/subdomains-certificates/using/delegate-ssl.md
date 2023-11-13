@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -34,18 +34,18 @@ ht-degree: 81%
 
 ## 委派新子域的 SSL 证书 {#new}
 
-要在设置新子域时委派SSL证书，请启用 **[!UICONTROL 子域选择使用Adobe托管SSL]** 子域配置向导选项。 稍后将在配置向导中提供要复制到托管解决方案中的证书记录。有关详细步骤，请参见[本部分](setting-up-new-subdomain.md)。
+要在设置新子域时委派 SSL 证书，请启用子域配置向导的&#x200B;**[!UICONTROL 为子域选择使用 Adobe 托管 SSL]** 选项。稍后将在配置向导中提供要复制到托管解决方案中的证书记录。有关详细步骤，请参见[本部分](setting-up-new-subdomain.md)。
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
 ## 为已委派的子域委派 SSL 证书 {#delegated}
 
-要为已委派的子域委派SSL证书，请单击所需子域旁边的省略号按钮，然后单击 **[!UICONTROL 切换到托管SSL]**.
+要为已委派的子域委派 SSL 证书，请单击所需子域旁边的省略号按钮，然后单击&#x200B;**[!UICONTROL 切换到托管 SSL]**。
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
 此时将显示一个对话框，其中包含 Adobe 自动生成的证书记录。逐个复制这些记录，或者下载 CSV 文件，然后导航到域托管解决方案以生成匹配的证书。
 
-请确保所有证书记录均已生成至您的域托管解决方案中。如果一切配置正确，请确认记录创建，然后单击 **[!UICONTROL 提交]**.
+请确保所有证书记录均已生成至您的域托管解决方案中。如果一切配置正确，请确认创建记录，然后单击&#x200B;**[!UICONTROL 提交]**。
 
 ![](assets/delegate-ssl.png){width="70%" align="left"}
