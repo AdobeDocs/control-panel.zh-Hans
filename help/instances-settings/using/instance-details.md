@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->此功能仅适用于Campaign v7/v8实例。
+>此功能仅适用于 Campaign v7/v8 实例。
 
-您的 Adobe Campaign 实例架构可以包含多个服务器，以实现营销活动的灵活性。例如，您可以拥有支持您的实例的营销、实时（或消息中心）和中间采购服务器。
+您的 Adobe Campaign 实例架构可以包含多个服务器，从而使营销活动具有灵活性。例如，您可以拥有支持您的实例的营销、实时（或消息中心）和中间采购服务器。
 
 “实例详细信息”功能允许您查看实例的平面架构。除了服务器信息外，您还可以获悉实例是否为最新的内部版本，并获得建议以在需要时进行升级。
 
 >[!NOTE]
 >
->我们建议您的实例每年至少升级一次，以避免性能下降，并能够利用Adobe Campaign v7/v8提供的最新功能和修复。
+>我们建议每年至少升级您的实例一次，这样可以避免性能下降，还能够利用 Adobe Campaign v7/v8 提供的最新功能和修复。
 
 **相关主题：**
 
-* [执行内部版本升级](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [更新 Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [执行内部版本升级](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hans)
+* [更新 Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=zh-Hans)
 
 ## 检索实例相关信息 {#retrieving-information-about-instances}
 
@@ -48,13 +48,13 @@ ht-degree: 71%
 
    >[!NOTE]
    >
-   >如果“实例设置”信息卡未显示在控制面板的主页上，则表示您的组织ID未与任何Adobe Campaign v7/v8实例关联
+   >如果“实例设置”信息卡未显示在控制面板的主页上，则表示您的组织 ID 未与任何 Adobe Campaign v7/v8 实例关联
 
 1. 在左窗格中选择所需的 Campaign 实例。
 
    >[!NOTE]
    >
-   >您的所有 Campaign 实例都将显示在左窗格列表中。由于“实例详细信息”功能仅专用于Campaign v7/v8实例，因此，如果您选择了Campaign Standard实例，则会显示“不适用的实例”消息。
+   >您的所有 Campaign 实例都将显示在左窗格列表中。由于“实例详细信息”功能仅专用于 Campaign v7/v8 实例，因此，如果您选择了 Campaign Standard 实例，则会显示“非适用的实例”消息。
 
 1. 将显示连接到实例的服务器。
 
@@ -62,15 +62,15 @@ ht-degree: 71%
 
 可用信息包括：
 
-* **[!UICONTROL 类型]**：服务器的类型。 可能的值包括 MKT（营销）、MID（中间采购）和 RT（消息中心/实时消息）。
+* **[!UICONTROL 类型]**：服务器的类型。可能的值包括 MKT（营销）、MID（中间采购）和 RT（消息中心/实时消息）。
 * **[!UICONTROL 名称]**：服务器的名称。
-* **[!UICONTROL 内部版本：]**&#x200B;服务器上安装的内部版本。
-* **[!UICONTROL 升级信息]**：此列将通知您服务器是否需要任何更新。
+* **[!UICONTROL 版本：]**&#x200B;服务器上安装的版本。
+* **[!UICONTROL 升级信息]**：此列将告知您服务器是否需要安装任何更新。
    * 绿色：表示您的服务器为最新版本，无需升级。
    * 黄色：表示您应考虑升级。您缺少最新功能和修复。
    * 红色：表示应尽快升级。您缺少新功能，服务器性能可能不佳。
 
-如果您的其中一个服务器需要升级，请参阅[本文档](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)，了解有关操作方法的详细信息。
+如果您的其中一个服务器需要升级，请参阅[本文档](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hans)，了解有关操作方法的详细信息。
 
 ## 常见问题 {#common-questions}
 
