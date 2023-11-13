@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 ## 访问存储容量信息 {#accessing-storage-capacity-information}
 
-有关您有权访问的所有实例所使用的空间的信息，请参见 **[!UICONTROL 存储]** 选项卡。 每次刷新页面时都会更新。
+有关您有权访问的所有实例所使用空间的信息，请参阅 SFTP 信息卡的&#x200B;**[!UICONTROL 存储]**&#x200B;选项卡。每次刷新页面时都会更新。
 
 ![](assets/control_panel_space.png)
 
