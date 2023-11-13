@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 83%
 
 要为子域添加 DMARC 记录，请执行以下步骤：
 
-1. 从子域列表中，单击所需子域旁边的省略号按钮，然后选择 **[!UICONTROL 子域详细信息]**.
+1. 从子域列表中，单击所需子域旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 子域详细信息]**。
 
-1. 单击 **[!UICONTROL 添加TXT记录]** 按钮，然后选择 **[!UICONTROL DMARC]** 从 **[!UICONTROL 记录类型]** 下拉列表。
+1. 单击&#x200B;**[!UICONTROL 添加 TXT 记录]**&#x200B;按钮，然后从&#x200B;**[!UICONTROL 记录类型]**&#x200B;下拉列表中选择 **[!UICONTROL DMARC]**。
 
    ![](assets/dmarc-add.png)
 
-1. 选择 **[!UICONTROL 策略类型]** 当您的电子邮件之一失败时，收件人服务器应遵循的规则。 可用的策略类型包括：
+1. 当您的一封电子邮件收发失败时，选择收件人服务器应遵循的&#x200B;**[!UICONTROL 策略类型]**。可用的策略类型包括：
 
-   * **[!UICONTROL 无]**,
-   * **[!UICONTROL 隔离]** （垃圾邮件文件夹放置），
-   * **[!UICONTROL 拒绝]** （阻止电子邮件）。
+   * **[!UICONTROL 无]**；
+   * **[!UICONTROL 隔离]**（放入垃圾邮件文件夹）；
+   * **[!UICONTROL 拒绝]**（阻止电子邮件）。
 
    作为最佳实践，建议您逐步推出 DMARC 实施，方法是将 DMARC 策略从 p=none 提升到 p=quarantine，再提升到 p=reject，以便让您了解 DMARC 的潜在影响。
 
@@ -73,15 +73,15 @@ ht-degree: 83%
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC 报告每 24 小时发送一次。 您可以在中更改报表发送频率 **[!UICONTROL 报告间隔]** 字段。 最小授权间隔时间为 1 小时，最大授权值为 2190 小时（即 3 个月）。
+1. DMARC 报告每 24 小时发送一次。 您可以在&#x200B;**[!UICONTROL 报告间隔]**&#x200B;字段中更改报告发送频率。最小授权间隔时间为 1 小时，最大授权值为 2190 小时（即 3 个月）。
 
-1. 在 **SPF** 和 **[!UICONTROL DKIM标识符对齐]** 字段，指定检查电子邮件的SPF和DKIM身份验证时收件人服务器的严格程度。
+1. 在 **SPF** 和 **[!UICONTROL DKIM 标识符对齐方式]**&#x200B;字段中，指定检查电子邮件 SPF 和 DKIM 身份验证时收件人服务器的严格程度。
 
-   * **[!UICONTROL 宽松]** 模式：即使电子邮件是从子域发送的，服务器也接受身份验证，
-   * **[!UICONTROL 严格]** 仅当发送方域与SPF和DKIM域完全匹配时，模式才接受身份验证。
+   * **[!UICONTROL 宽松]**&#x200B;模式：即使电子邮件是从子域发送的，服务器也接受身份验证；
+   * 仅当发件人域与 SPF 和 DKIM 域完全匹配时，**[!UICONTROL 严格]**&#x200B;模式才接受身份验证。
 
    假设我们正在处理 `http://www.luma.com` 域。 在“宽松”模式下，来自 `marketing.luma.com` 子域的电子邮件将由服务器进行授权，但在“严格”模式下它们会被拒绝。
 
-1. 单击 **[!UICONTROL 添加]** 以确认创建DMARC记录。
+1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以确认创建 DMARC 记录。
 
 创建 DMARC 记录后（大约 5 分钟），该记录会显示在子域的详细信息屏幕中。 [了解如何监测子域的 TXT记 录](gs-txt-records.md#monitor)
