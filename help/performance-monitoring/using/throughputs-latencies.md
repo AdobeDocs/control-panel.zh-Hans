@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 75%
 >
 >此功能适用于所有 Campaign Standard、Campaign v8 客户，以及具有[独立部署](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hans)（不含任何中间实例）、内部版本号为 9032 及以上的 Campaign v7 客户。
 
-监测一段时间内投放吞吐量和延迟的趋势对于了解实例的使用情况并确保它们正常运行至关重要。
+监控一段时间内投放吞吐量和延迟的趋势对于了解实例的使用情况并确保它们正常运行至关重要。
 
-可在中的每个Campaign实例控制面板提供此信息 **[!UICONTROL 性能监控]** 卡片， **[!UICONTROL 吞吐量和延迟]** 选项卡(请注意，控制面板可能需要1小时才能显示相关数字)。
+可在控制面板的&#x200B;**[!UICONTROL 性能监控]**&#x200B;信息卡、**[!UICONTROL 吞吐量和延迟]**&#x200B;选项卡中获得每个 Campaign 实例的此类信息（请注意，控制面板可能需要长达 1 小时才能显示相关数字）。
 
 >[!NOTE]
 >
@@ -37,18 +37,18 @@ ht-degree: 75%
 
 ![](assets/throughput-latencies-overview.png)
 
-默认情况下，将显示当天的数据。您可以使用更改显示的时间段 **[!UICONTROL 6个月]**， **[!UICONTROL 30天]** 和 **[!UICONTROL 7天]** 按钮。 数据将以下列频率显示：
+默认情况下，将显示当天的数据。您可以使用 **[!UICONTROL 6 个月]**、**[!UICONTROL 30 天]**&#x200B;和 **[!UICONTROL 7 天]**&#x200B;按钮更改显示的时间段。数据将以下列频率显示：
 * 1 天和 7 天视图的间隔为 1 小时，
 * 30 天视图的间隔为 6 小时，
 * 6 个月视图的间隔为 1 天。
 
-您还可以使用可排序的列而非图形，以表格格式显示信息。要执行此操作，请单击 **[!UICONTROL “可视化”设置]** 按钮，然后选择 **[!UICONTROL 表]**.
+您还可以使用可排序的列而非图形，以表格格式显示信息。要执行此操作，请单击&#x200B;**[!UICONTROL 可视化设置]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 表格]**。
 
 ![](assets/throughput-latencies-table.png)
 
-## 监视吞吐量 {#throughput}
+## 监控吞吐量 {#throughput}
 
-此 **[!UICONTROL 吞吐量]** 区域提供您有权访问的所有通信渠道的、从选定的Campaign实例每小时发送的消息数的相关信息。
+**[!UICONTROL 吞吐量]**&#x200B;区域提供您有权访问的所有通信渠道的、从选定的 Campaign 实例每小时发送的消息数的相关信息。
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 75%
 
 ## 监测延迟 {#latency}
 
-此 **[!UICONTROL 延迟]** 区域提供发送实时事务型通信时在选定实例上遇到的延迟的相关信息。
+**[!UICONTROL 延迟]**&#x200B;区域提供发送实时事务型通信时在选定实例上遇到的延迟的相关信息。
 
 >[!NOTE]
 >
