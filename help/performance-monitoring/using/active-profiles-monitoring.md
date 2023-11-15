@@ -38,7 +38,7 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
->title="关于活动用户档案监测"
+>title="关于活动配置文件监控"
 >abstract="在此选项卡中，您可以获取有关每个 Campaign 实例和贵组织的最新和历史活动用户档案使用情况及变化的实时信息。"
 
 要在控制面板中监控活动用户档案的使用情况，请导航至&#x200B;**[!UICONTROL 性能监控]**&#x200B;信息卡 > **[!UICONTROL 活动用户档案]**&#x200B;选项卡，然后从&#x200B;**[!UICONTROL 实例列表]**&#x200B;中选择所需的实例。
