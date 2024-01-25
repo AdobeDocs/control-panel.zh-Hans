@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 * SPF 和 DKIM 记录是创建 DMARC 记录的先决条件。
 * 只能使用完全子域委派为子域添加 DMARC 记录。 [了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
 
-  要在基于CNAME的子域上建立DMARC记录，您可以在其父域上配置DMARC记录。 这可确保所有关联的子域继承DMARC记录参数，即使通过CNAME进行委派也是如此。
+  要在基于 CNAME 的子域上建立 DMARC 记录，您可以在其父域上配置 DMARC 记录。这可确保所有关联的子域继承 DMARC 记录参数，即使通过 CNAME 进行委派也是如此。
 
 * 如果某个子域同时有 DMARC 和 BIMI 记录：
    * 无法删除 DMARC 记录。如果要删除 DMARC 记录，请先删除 BIMI 记录。
