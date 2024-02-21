@@ -7,9 +7,9 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
+source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '418'
 ht-degree: 88%
 
 ---
@@ -65,5 +65,6 @@ ht-degree: 88%
 
 | Campaign 版本 | 技术工作流 | 运行 |
 |  ---  |  ---  |  ---  |
-| Campaign Standard | [付费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans) | 每日 |
-| Campaign v7/v8 | [付费](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | 每月 |
+| Campaign Standard | [计费](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans) | 每日 |
+| Campaign v7/v8 | [计费](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hans) | 每月 |
+
