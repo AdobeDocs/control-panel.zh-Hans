@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 100%
 
    * 汇总 DMARC 报告可提供高级信息，例如给定时间段内失败的电子邮件数量。
    * 取证 DMARC 故障报告提供了详细信息，例如故障电子邮件来自哪个 IP 地址。
+
+   >[!CAUTION]
+   >
+   >如果要添加用于接收报告的电子邮件地址位于为其创建DMARC记录的域之外，则需要授权其外部域将指定给您拥有此域的DNS。 为此，请按照 [dmarc.org文档](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. 如果 DMARC 策略设置为“无”，请输入适用于 100% 电子邮件的百分比。
 
