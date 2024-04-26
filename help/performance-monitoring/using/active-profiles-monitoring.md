@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->facebook和X(以前称为Twitter)渠道不包含在内。
+>不会考虑 Facebook 和 X（以前称为 Twitter）渠道。
 
 有关活动用户档案的详细信息，请参阅 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=zh-Hans) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=zh-Hans#active-profiles) 文档。
 
@@ -61,7 +61,7 @@ ht-degree: 88%
 
 下半部分直观地呈现了过去 30 天内活动用户档案的使用情况。您可以使用右上角的筛选条件将此时间范围更改为 1 年。将鼠标悬停在图形上，可获得选定时段使用的活动用户档案的确切数量。
 
-与活动用户档案使用相关的信息基于专用的控制面板更新 [!DNL Campaign] 定期在实例上运行的“计费”技术工作流。
+与活动用户档案使用情况相关的信息会根据定期在您的实例上运行的专用 [!DNL Campaign]“计费”技术工作流在控制面板中更新。
 
 | Campaign 版本 | 技术工作流 | 运行 |
 |  ---  |  ---  |  ---  |

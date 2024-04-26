@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 94%
 
    >[!CAUTION]
    >
-   >如果要添加用于接收报告的电子邮件地址位于为其创建DMARC记录的域之外，则需要授权其外部域将指定给您拥有此域的DNS。 为此，请按照 [dmarc.org文档](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+   >如果要添加用于接收报告的电子邮件地址位于为其创建 DMARC 记录的域之外，则需要授权其外部域以指定到您拥有此域的 DNS。为此，请执行 [dmarc.org 文档](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)中详述的步骤
 
 1. 如果 DMARC 策略设置为“无”，请输入适用于 100% 电子邮件的百分比。
 
