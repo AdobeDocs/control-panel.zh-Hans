@@ -4,11 +4,13 @@ description: 此页面列出了控制面板的所有 2020 年版本。
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -163,7 +165,7 @@ ht-degree: 100%
 
 ## 2020 年 1 月 {#january-2020}
 
-我们为管理员用户添加了新功能，以便从控制面板配置子域和续订 SSL 证书。
+我们为管理员用户添加了新功能，以便从控制面板配置子域和续订SSL证书。
 
 有关更多信息，请参阅以下页面：
 * [设置新子域](../subdomains-certificates/using/setting-up-new-subdomain.md)
