@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,13 @@ ht-degree: 73%
 
 ## 2019 年 9 月 {#september-2019}
 
-我们为管理员用户添加了新功能，用于向允许列表添加IP地址，以便连接到Campaign v7/v8实例。
-此外，管理员用户现在可以查看 Campaign v7/v8 实例的列表和版本升级资格。
+我们为管理员用户添加了新功能，用于向允许列表添加 IP 地址，以便连接到 Campaign v7/v8 实例。此外，管理员用户现在可以查看 Campaign v7/v8 实例的列表和版本升级资格。
 
 有关详细信息，请参阅[专门的文档](../instances-settings/using/ip-allow-listing-instance-access.md)。
 
 ## 2019 年 8 月 {#august-2019}
 
-我们为管理员用户添加了新功能，以便在其域的SSL证书过期之前接收通知。 有关详细信息，请参阅[详细文档](../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+我们添加了新功能，使管理员用户能够在域的 SSL 证书过期前接收通知。有关详细信息，请参阅[详细文档](../subdomains-certificates/using/monitoring-ssl-certificates.md)。
 
 此外，管理员用户现在可以删除为访问 SFTP 服务器而添加的 SSH 密钥。
 
