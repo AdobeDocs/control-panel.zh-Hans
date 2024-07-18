@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 79%
+source-wordcount: '703'
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 79%
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 
-子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。 可用的设置方法包括：
+子域委派允许您委派域的子部分（技术上称为“DNS 区域”）以与 Adobe Campaign 配合使用。可用的设置方法包括：
 
 * **将子域完全委派给 Adobe Campaign**（推荐）：将子域完全委派给 Adobe。Adobe 能够控制和维护发送、渲染和跟踪电子邮件活动所需的 DNS 的所有方面，从而将 Campaign 作为托管服务提供。
 
-* **CNAME的使用**：创建子域并使用CNAME指向Adobe特定的记录。 使用此设置，Adobe 和客户共同负责维护 DNS。
+* **CNAME 的使用**：创建子域并使用 CNAME 指向 Adobe 特定的记录。使用此设置，Adobe 和客户共同负责维护 DNS。
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
@@ -48,9 +48,9 @@ ht-degree: 79%
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
-有关域配置的其他信息，请参见 [本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+有关域委派的其他信息，请参阅[本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans)。
 
-如果您对子域配置方法有任何疑问，请联系Adobe可交付性团队，或最终联系客户关怀团队以请求可交付性咨询。
+如果您对子域委派方法有任何疑问，请联系 Adobe 交付团队，或最终联系客户关怀团队以请求提供可投放性方面的建议。
 
 ## 子域的用例 (Campaign v7/v8){#subdomains-use-cases}
 
@@ -61,7 +61,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans" text="设置新子域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans" text="子域品牌化"
 
-为Campaign v7/v8实例设置子域时，需要选择将使用该子域的用例(请参阅 [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
+为 Campaign v7/v8 实例设置子域时，需要选择使用该子域的用例（请参阅[设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 
 可能的用例包括：
 
@@ -78,9 +78,9 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->如果您使用的是Campaign v7/v8，则控制面板允许您查看哪些RT/MID实例已连接到您正在使用的营销实例。 有关此的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
+>如果您使用 Campaign v7/v8，控制面板将允许您查看哪些 RT/MID 实例已连接到您正在使用的营销实例。有关这方面的详细信息，请参阅[实例详细信息](../../instances-settings/using/instance-details.md)部分。
 
 **相关主题：**
 
 * [设置新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [监测子域](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [监控子域](../../subdomains-certificates/using/monitoring-subdomains.md)

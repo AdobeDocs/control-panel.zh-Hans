@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或
 
 CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支持的格式。
 
-语法依次由 IP 地址、“/”字符和十进制数字组成。[本文](https://whatismyipaddress.com/cidr)详细介绍了格式及其语法。{target="_blank"}
+语法依次由 IP 地址、“/”字符和十进制数字组成。[本文](https://whatismyipaddress.com/cidr){target="_blank"}详细介绍了格式及其语法。
 
 您可以在互联网上搜索免费的在线工具，这些工具将帮助您将现有的 IP 范围转换为 CIDR 格式。
 
