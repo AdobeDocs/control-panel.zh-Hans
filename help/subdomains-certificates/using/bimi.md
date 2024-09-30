@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
+source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '523'
+ht-degree: 80%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 0%
 
 ## 关于 BIMI 记录 {#about}
 
-消息识别品牌指示器 (BIMI) 是一种行业标准，用于在邮箱提供商收件箱中的发件人电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。该功能通过 DMARC 身份验证来验证发件人的身份，有助于防止电子邮件欺诈和网络钓鱼，使恶意行为者更难在电子邮件中冒充合法品牌。
-
-您可以为给定子域使用多个徽标。为此，您需要为每个徽标设置一个 BIMI 记录，并为每个记录分配一个 BIMI 选择器。[了解如何添加 BIMI 记录](#add)
+邮件识别品牌指示器(BIMI)是一种行业标准，允许在邮箱提供商收件箱中的发件人电子邮件旁边显示批准的徽标，以增强品牌认知和信任。
 
 有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hans)
 
@@ -29,10 +27,12 @@ ht-degree: 0%
 ## 限制和先决条件 {#limitations}
 
 * SPF、DKIM 和 DMARC 记录是创建 BIMI 记录的先决条件。
-* 只能使用完全子域委派为子域添加 BIMI 记录。[了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
+
+* BIMI记录需要在DNS中发布，对于完全委派域，可以通过控制面板进行发布。 [了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
+
 * DMARC 记录先决条件：
 
-   * 子域的记录策略类型必须设置为“隔离”或“拒绝”。DMARC 策略类型设置为“无”时，无法创建 BIMI 记录。
+   * 组织域的记录策略类型必须设置为“隔离”或“拒绝”。 DMARC 策略类型设置为“无”时，无法创建 BIMI 记录。
    * 应用 DMARC 策略的电子邮件百分比必须为 100%。BIMI 不支持将 DMARC 策略百分比设置为小于 100%。
 
 [了解如何配置 DMARC 记录](dmarc.md)
@@ -47,11 +47,11 @@ ht-degree: 0%
 
    ![](assets/bimi-add.png)
 
-1. 此&#x200B;**[!UICONTROL 选择器]**&#x200B;字段允许您为记录指定 BIMI 选择器。BIMI 选择器是可以分配给 BIMI 记录的唯一标识符。这允许您为给定子域定义多个徽标。
+1. 此&#x200B;**[!UICONTROL 选择器]**&#x200B;字段允许您为记录指定 BIMI 选择器。BIMI 选择器是可以分配给 BIMI 记录的唯一标识符。这允许您为给定子域定义多个徽标。 邮箱提供程序目前不支持此功能。
 
 1. 在&#x200B;**[!UICONTROL 公司徽标 URL]** 中，指定包含徽标的 SVG 文件的 URL。
 
-1. 尽管&#x200B;**[!UICONTROL 证书 URL]** 是选填项，但对于 Gmail 和 Apple 等占据邮箱市场 80% 的邮箱提供商而言，这是必需项。因此，我们建议您获取认证标志证书 (VMC)，以真正利用 BIMI。
+1. 虽然&#x200B;**[!UICONTROL 证书URL]**&#x200B;是可选的，但某些邮箱提供商(如Gmail和Apple)需要它。 因此，我们建议您获取认证标志证书 (VMC)，以真正利用 BIMI。
 
    +++如何获取 VMC？
 
