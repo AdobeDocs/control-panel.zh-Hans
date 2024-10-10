@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## 关于 BIMI 记录 {#about}
 
-邮件识别品牌指示器(BIMI)是一种行业标准，允许在邮箱提供商收件箱中的发件人电子邮件旁边显示批准的徽标，以增强品牌认知和信任。
+消息识别品牌指示器 (BIMI) 是一种行业标准，用于在邮箱提供商收件箱中的发件人电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。
 
 有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hans)
 
@@ -28,11 +28,11 @@ ht-degree: 80%
 
 * SPF、DKIM 和 DMARC 记录是创建 BIMI 记录的先决条件。
 
-* BIMI记录需要在DNS中发布，对于完全委派域，可以通过控制面板进行发布。 [了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
+* BIMI 记录需要在 DNS 中发布，对于完全委派域，可以通过控制面板进行发布。[了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
 
 * DMARC 记录先决条件：
 
-   * 组织域的记录策略类型必须设置为“隔离”或“拒绝”。 DMARC 策略类型设置为“无”时，无法创建 BIMI 记录。
+   * 组织域的记录策略类型必须设置为“隔离”或“拒绝”。DMARC 策略类型设置为“无”时，无法创建 BIMI 记录。
    * 应用 DMARC 策略的电子邮件百分比必须为 100%。BIMI 不支持将 DMARC 策略百分比设置为小于 100%。
 
 [了解如何配置 DMARC 记录](dmarc.md)
@@ -47,11 +47,11 @@ ht-degree: 80%
 
    ![](assets/bimi-add.png)
 
-1. 此&#x200B;**[!UICONTROL 选择器]**&#x200B;字段允许您为记录指定 BIMI 选择器。BIMI 选择器是可以分配给 BIMI 记录的唯一标识符。这允许您为给定子域定义多个徽标。 邮箱提供程序目前不支持此功能。
+1. 此&#x200B;**[!UICONTROL 选择器]**&#x200B;字段允许您为记录指定 BIMI 选择器。BIMI 选择器是可以分配给 BIMI 记录的唯一标识符。这样，您就可以为给定子域定义多个徽标。邮箱提供商目前不支持此功能。
 
 1. 在&#x200B;**[!UICONTROL 公司徽标 URL]** 中，指定包含徽标的 SVG 文件的 URL。
 
-1. 虽然&#x200B;**[!UICONTROL 证书URL]**&#x200B;是可选的，但某些邮箱提供商(如Gmail和Apple)需要它。 因此，我们建议您获取认证标志证书 (VMC)，以真正利用 BIMI。
+1. 尽管&#x200B;**[!UICONTROL 证书 URL]** 是可选项，但对于 Gmail 和 Apple 等邮箱提供商而言，这是必需项。因此，我们建议您获取认证标志证书 (VMC)，以真正利用 BIMI。
 
    +++如何获取 VMC？
 

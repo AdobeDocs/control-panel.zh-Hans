@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 92%
 
 ### 如果我有多个组织 ID，该怎么办？
 
-如果您计划集成解决方案以利用诸如放弃购物车(对于Adobe Analytics + Adobe Campaign)等复杂的用例，则需要在Analytics和Campaign之间有一个组织ID。 如果您有权访问多个 Adobe 解决方案，则您可能会拥有多个组织 ID。在这种情况下，您应使用的正确组织 ID 是您在 Adobe Campaign 实例下看到的组织 ID。
+如果您计划集成解决方案以利用复杂的用例，例如放弃购物车（适用于 Adobe Analytics + Adobe Campaign），则必须在 Analytics 和 Campaign 之间拥有组织 ID。如果您有权访问多个 Adobe 解决方案，则您可能会拥有多个组织 ID。在这种情况下，您应使用的正确组织 ID 是您在 Adobe Campaign 实例下看到的组织 ID。
 
 <!--
 >[!NOTE]
@@ -90,7 +90,7 @@ ht-degree: 92%
 
 要检查您的实例是否托管在 AWS 上，请执行以下步骤：
 
-1. 检索您的登录 URL。它是您用于登录Campaign实例的URL，通常以“.campaign.adobe.com”或“.neolane.net”结尾。
+1. 检索您的登录 URL。它是用于登录 Campaign 实例的 URL，通常以“.campaign.adobe.com”或“.neolane.net”结尾。
 1. 打开终端，然后对您的登录 URL 执行 **[!DNL nslookup]**&#x200B;操作。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
