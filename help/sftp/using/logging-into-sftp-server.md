@@ -18,7 +18,7 @@ ht-degree: 100%
 
 以下步骤详细介绍了如何通过 SFTP 客户端应用程序连接 SFTP 服务器。
 
-![](assets/do-not-localize/how-to-video.png)通过观看[视频](https://video.tv.adobe.com/v/27263?quality=12)了解此功能
+![](assets/do-not-localize/how-to-video.png)通过观看[视频](https://video.tv.adobe.com/v/34759?quality=12&captions=chi_hans)了解此功能
 
 在登录到服务器之前，请确保：
 
