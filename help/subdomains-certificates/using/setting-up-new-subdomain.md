@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1526'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    ![](assets/subdomain3.png)
 
-1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/32692?captions=chi_hans)。
+1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/30175)。
 
    >[!NOTE]
    >
@@ -102,7 +102,8 @@ ht-degree: 0%
 
 1. 输入您在托管解决方案中创建的子域，然后单击&#x200B;**[!UICONTROL 提交]**。
 
-   确保填写要委派的子域的&#x200B;**全名**。例如，要委派“usoffers.email.weretail.com”子域，请键入“usoffers.email.weretail.com”。
+   确保填写要委派的子域的&#x200B;**全名**。例如，要委派“email.weretail.com”子域，请键入“email.weretail.com”。
+
 
 1. 要将子域 SSL 证书的生成委派给 Adobe，请启用&#x200B;**[!UICONTROL 为子域选择 Adobe 管理的 SSL]** 选项。[了解有关 SSL 证书委派的更多信息](delegate-ssl.md)
 
@@ -223,5 +224,5 @@ ht-degree: 0%
 ## 故障排除 {#troubleshooting}
 
 * 在某些情况下，子域配置会完成，但子域可能无法成功验证。子域将保留在&#x200B;**[!UICONTROL 已配置]**&#x200B;列表中，作业日志中包括有关该错误的信息。如果您在解决此问题时遇到麻烦，请联系客户关怀团队。
-* 如果子域在配置后显示为“未验证”，请启动新的子域验证（**...**/**[!UICONTROL 验证子域]**）。如果它仍显示相同的状态，原因可能是对收件人模式进行了一些自定义操作，无法使用标准流程进行验证。请尝试使用该子域发送活动。
+* 如果子域在配置后显示为“未验证”，请启动新的子域验证（**...**/**[!UICONTROL 验证子域]**）。如果它仍显示相同的状态，原因可能是对收件人架构进行了一些自定义操作，无法使用标准流程进行验证。请尝试使用该子域发送活动。
 * 如果子域配置在可交付性审核步骤中耗时过长（超过 10 个工作日），请联系客户关怀。
