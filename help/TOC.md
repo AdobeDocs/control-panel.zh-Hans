@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '180'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 0%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ 了解控制面板 {#discover-control-panel}
++ 发现控制面板 {#discover-control-panel}
    + [主要功能](discover/using/key-features.md)
    + [访问控制面板](discover/using/accessing-control-panel.md)
    + [管理控制面板的权限](discover/using/managing-permissions.md)
    + [了解控制面板界面](discover/using/discovering-the-interface.md)
    + [常见问题解答](faq.md)
-+ 事件和电子邮件警报{#alerts-events}
++ 事件和电子邮件警报 {#alerts-events}
    + [监测关键联系人和事件](service-events/service-events.md)
    + [电子邮件警报](performance-monitoring/using/email-alerting.md)
 + SFTP 管理 {#sftp-management}
@@ -44,19 +44,19 @@ ht-degree: 0%
 + 子域和证书 {#subdomains-and-certificates}
    + [子域品牌化](subdomains-certificates/using/subdomains-branding.md)
    + [监控子域](subdomains-certificates/using/monitoring-subdomains.md)
-   + 委派子域{#delegate-subdomains}
+   + 委派子域 {#delegate-subdomains}
       + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [移除对 Adobe 的子域委派](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + 使用 TXT 记录（Google、BIMI、DMARC）{#txt-records}
+   + 使用TXT记录(Google、BIMI、DMARC) {#txt-records}
       + [开始使用 TXT 记录](subdomains-certificates/using/gs-txt-records.md)
       + [添加 Google 站点验证记录](subdomains-certificates/using/managing-txt-records.md)
       + [添加 DMARC 记录](subdomains-certificates/using/dmarc.md)
       + [添加 BIMI 记录](subdomains-certificates/using/bimi.md)
-   + 监控子域的 SSL 证书{#manage-certificates}
+   + 管理子域的SSL证书 {#manage-certificates}
       + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [将 SSL 证书委派给 Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [续订 SSL 证书](subdomains-certificates/using/renewing-subdomain-certificate.md)
-+ 性能监测 {#performance-monitoring}
++ 性能监控 {#performance-monitoring}
    + [关于性能监测](performance-monitoring/using/about-performance-monitoring.md)
    + 数据库监测 {#database-monitoring}
       + [关于数据库监测](performance-monitoring/using/database-monitoring.md)
@@ -66,7 +66,7 @@ ht-degree: 0%
       + [活动查询](performance-monitoring/using/database-active-queries.md)
       + [监测工作流](performance-monitoring/using/workflow-monitoring.md)
       + [防止数据库过载](performance-monitoring/using/database-preventing-overload.md)
-   + [活动用户档案监测](performance-monitoring/using/active-profiles-monitoring.md)
+   + [活跃轮廓监测](performance-monitoring/using/active-profiles-monitoring.md)
    + [吞吐量和延迟监测](performance-monitoring/using/throughputs-latencies.md)
 + 实例设置 {#instances-settings}
    + [将 IP 添加到允许列表以进行实例访问](instances-settings/using/ip-allow-listing-instance-access.md)
