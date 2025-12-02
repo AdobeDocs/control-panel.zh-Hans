@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 61%
 
 ---
 
@@ -34,7 +34,11 @@ ht-degree: 100%
 
 ## 委派新子域的 SSL 证书 {#new}
 
-要在设置新子域时委派 SSL 证书，请启用子域配置向导的&#x200B;**[!UICONTROL 为子域选择使用 Adobe 托管 SSL]** 选项。稍后将在配置向导中提供要复制到托管解决方案中的证书记录。有关详细步骤，请参见[本部分](setting-up-new-subdomain.md)。
+要在设置新子域时委派 SSL 证书，请启用子域配置向导的&#x200B;**[!UICONTROL 为子域选择使用 Adobe 托管 SSL]** 选项。证书生成过程因子域委派方法而异：
+
+* **完全子域委派**： SSL证书由Adobe自动请求和安装，无需您执行任何操作。 提交子域配置后，将立即在子域设置工作流中处理证书安装请求。 [了解有关完全子域委派的更多信息](setting-up-new-subdomain.md#full-subdomain-delegation)
+
+* **CNAME委派**：稍后将在配置向导中提供要复制到托管解决方案的证书记录。 在提交子域配置之前，您需要在域托管解决方案中生成这些证书记录。 [了解有关CNAME委派的更多信息](setting-up-new-subdomain.md#use-cnames)
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
@@ -44,7 +48,15 @@ ht-degree: 100%
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
-此时将显示一个对话框，其中包含 Adobe 自动生成的证书记录。逐个复制这些记录，或者下载 CSV 文件，然后导航到域托管解决方案以生成匹配的证书。
+证书生成过程取决于子域的原始配置方式：
+
+### 完全委派的子域
+
+对于使用完全子域委派(使用Adobe名称服务器)设置的子域，Adobe会自动请求并安装SSL证书。 单击&#x200B;**[!UICONTROL 切换到托管SSL]**&#x200B;并进行确认后，将立即提交证书安装请求，无需您执行任何其他操作。
+
+### CNAME委派的子域
+
+对于使用CNAME委派设置的子域，会显示一个对话框，其中包含Adobe自动生成的证书记录。 逐个复制这些记录，或者下载 CSV 文件，然后导航到域托管解决方案以生成匹配的证书。
 
 请确保所有证书记录均已生成至您的域托管解决方案中。如果一切配置正确，请确认创建记录，然后单击&#x200B;**[!UICONTROL 提交]**。
 
