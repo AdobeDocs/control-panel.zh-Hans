@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/how-to-video.png)通过观看[视频](../../discover/using/managing-permissions.md#video)了解此功能
 
-1. 导航至 [Adobe Experience Cloud 主页](https://experiencecloud.adobe.com/){target="_blank"}。
+1. 导航到[Adobe Experience Cloud主页](https://experiencecloud.adobe.com/){target="_blank"}。
 
 1. 单击&#x200B;**快速访问**&#x200B;部分中的链接或右上角的菜单，启动 **Admin Console**。
 
@@ -50,9 +50,11 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >默认情况下，管理员用户属于“管理员”产品配置文件。根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”等）。
+   >默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您的组织配置，产品配置文件的命名可以有所不同（“管理员”、“管理员”、“审批管理员”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对控制面板的访问权限。**
+   >
+   >请仔细查看Admin Console中的产品配置文件命名约定，确保仅授权用户具有控制面板访问权限，因为它允许对Campaign实例进行重大更改。
 
 1. 此时将显示管理员用户列表。单击&#x200B;**[!UICONTROL 添加用户]**&#x200B;按钮，添加所需的用户。
 
@@ -64,4 +66,4 @@ ht-degree: 0%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34761?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
