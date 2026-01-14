@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>现在，电子邮件警报功能包含有关 SFTP IP 允许列表到期和 SFTP 公钥到期的警报。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/email-alerting.md">详细文档</a>。</p>
+<p>现在，电子邮件警报功能包含有关 SFTP IP 允许列表过期和 SFTP 公钥过期的警报。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/email-alerting.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

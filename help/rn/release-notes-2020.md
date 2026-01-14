@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '437'
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>活动用户档案监测</strong><br/></th>
+<th><strong>活跃轮廓监测</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>控制面板现在允许您监控实例使用的活动用户档案数，并计数用于计费目的。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/active-profiles-monitoring.md">详细文档</a>。</p>
+<p>控制面板现在允许您监控实例使用的活跃轮廓数，并计数用于计费目的。</p><p>有关更多信息，请参阅<a href="../performance-monitoring/using/active-profiles-monitoring.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的活动用户档案监控，如有频繁更新和修改，恕不另行通知。
+>测试版中提供控制面板的活跃轮廓监控，如有频繁更新和修改，恕不另行通知。
 
 ## 2020 年 5 月 {#may-2020}
 

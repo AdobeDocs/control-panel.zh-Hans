@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 * 控制面板现在具有更多语言版本。[了解详情](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-**活动用户档案监测**
+**活动轮廓监测**
 
-* 现在可以监测您有权访问的贵组织的活动用户档案数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的用户档案总数。[了解详情](performance-monitoring/using/active-profiles-monitoring.md)
+* 现在可以监测您有权访问的贵组织的活动轮廓数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的轮廓总数。[了解详情](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 记录**
 

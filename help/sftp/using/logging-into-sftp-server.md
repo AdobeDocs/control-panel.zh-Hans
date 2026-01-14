@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 以下步骤详细介绍了如何通过 SFTP 客户端应用程序连接 SFTP 服务器。
 
-![](assets/do-not-localize/how-to-video.png)通过观看[视频](https://video.tv.adobe.com/v/34759?quality=12&captions=chi_hans)了解此功能
+![](assets/do-not-localize/how-to-video.png)通过观看[视频](https://video.tv.adobe.com/v/27263?quality=12)了解此功能
 
 在登录到服务器之前，请确保：
 

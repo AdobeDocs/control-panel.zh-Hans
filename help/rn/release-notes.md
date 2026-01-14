@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 * 控制面板现在具有更多语言版本。[了解详情](../discover/using/discovering-the-interface.md#supported-languages-languages)
 
-**活动用户档案监测**
+**活动轮廓监测**
 
-* 现在可以监测您有权访问的贵组织的活动用户档案数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的用户档案总数。[了解详情](../performance-monitoring/using/active-profiles-monitoring.md)
+* 现在可以监测您有权访问的贵组织的活动轮廓数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的轮廓总数。[了解详情](../performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 记录**
 

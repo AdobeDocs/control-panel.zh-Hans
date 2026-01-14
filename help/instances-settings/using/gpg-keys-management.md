@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -196,4 +196,4 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 教程页面中提供了与 GPG 密钥管理相关的其他操作方法视频。
 
->[!VIDEO](https://video.tv.adobe.com/v/327881?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

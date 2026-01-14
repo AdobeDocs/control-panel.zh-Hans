@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '781'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 正式发布版]**：最新发布的稳定版本。
    * **[!UICONTROL 有限发布版]**：仅限按需部署。
-   * **[!UICONTROL 候选版本]**：已通过工程验证。等待生产验证。
+   * **[!UICONTROL 候选版本]**：已通过工程验证。正在等待生产校对。
    * **[!UICONTROL 预发行版]**：提前提供以满足特定客户需求。
    * **[!UICONTROL 不再可用]**：该版本不存在重大问题，但有修复了更多错误的新版本可供使用。需要进行升级。
    * **[!UICONTROL 已弃用]**：版本嵌入已知回退。不再支持该版本。 必须进行升级。

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->请注意，与&#x200B;**用户档案延迟**&#x200B;有关的信息也仅适用于 [!DNL Campaign Standard] 实例。
+>请注意，与&#x200B;**轮廓延迟**&#x200B;有关的信息也仅适用于 [!DNL Campaign Standard] 实例。
 
 延迟的捕获和显现位置为第 95 和第 99 个百分位数，这意味着 95% 和 99% 的请求应比给定的延迟更快。
 
