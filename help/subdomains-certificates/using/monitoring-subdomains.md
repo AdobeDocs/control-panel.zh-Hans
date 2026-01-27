@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 监控子域
+title: 监测子域
 description: 重要的是，要监控子域以确保所有子域均已正确配置，以便与 Adobe Campaign 配合使用。
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >Adobe 不建议使用没有证书日期的子域，因为这可能意味着此类子域可能存在某些可投放性问题。
 
-启动验证时，会执行若干操作来检查子域是否正确配置（实例租户检查、电子邮件发送测试等）如果子域验证失败，请联系 Adobe 客户关怀部门以进一步调查。
+启动验证时，会执行多个操作以检查子域是否配置正确（实例租户检查、电子邮件发送测试等）。如果子域验证失败，请联系 Adobe 客户关怀部门以进行进一步调查。
 
 **相关主题：**
 

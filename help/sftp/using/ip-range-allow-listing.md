@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '1059'
+workflow-type: ht
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 SFTP 服务器受到保护。为了能够访问这些服务器以查看文件或编写新文件，您需要将访问服务器的系统或客户端的公共 IP 地址添加到允许列表。
 
-![](assets/do-not-localize/how-to-video.png)在介绍如何使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png)在介绍如何使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
 
 ## 关于 CIDR 格式 {#about-cidr-format}
 
@@ -78,7 +78,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
    >**[!UICONTROL 标签]**字段中允许使用以下特殊字符：
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. 为了更好地管理您的 IP 允许列表，您可以设置每个 IP 范围的有效期。为此，请在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中选择一个单位，并在相应字段中定义有效期。有关 IP 范围过期的详细信息，请参阅[此小节](#expiry)。
+1. 为了更好地管理您的 IP 允许列表，您可以设置每个 IP 范围的有效期。为此，请在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中选择一个单位，并在相应的字段中定义有效期。有关 IP 范围过期的详细信息，请参阅[此小节](#expiry)。
 
    ![](assets/control_panel_add_range5.png)
 

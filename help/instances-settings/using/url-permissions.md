@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -28,13 +28,13 @@ ht-degree: 100%
 >
 >此功能仅适用于 8850 版本的 Campaign v7/v8 实例。如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-Campaign Classic 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默认列表是有限的。这些 URL 允许实例正常运行。
+Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默认列表是有限的。这些 URL 允许实例正常运行。
 
 默认情况下，实例不允许连接到外部 URL。控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
 添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
-![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=zh-Hans#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
 
 **相关主题：**
 

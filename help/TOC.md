@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -47,12 +47,12 @@ ht-degree: 88%
    + 委派子域 {#delegate-subdomains}
       + [设置新子域](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [移除对 Adobe 的子域委派](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + 使用TXT记录(Google、BIMI、DMARC) {#txt-records}
+   + 处理 TXT 记录（Google、BIMI、DMARC） {#txt-records}
       + [开始使用 TXT 记录](subdomains-certificates/using/gs-txt-records.md)
       + [添加 Google 站点验证记录](subdomains-certificates/using/managing-txt-records.md)
       + [添加 DMARC 记录](subdomains-certificates/using/dmarc.md)
       + [添加 BIMI 记录](subdomains-certificates/using/bimi.md)
-   + 管理子域的SSL证书 {#manage-certificates}
+   + 管理子域的 SSL 证书 {#manage-certificates}
       + [监测 SSL 证书](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [将 SSL 证书委派给 Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [续订 SSL 证书](subdomains-certificates/using/renewing-subdomain-certificate.md)

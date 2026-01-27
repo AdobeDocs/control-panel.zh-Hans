@@ -20,7 +20,7 @@ ht-degree: 100%
 
 消息识别品牌指示器 (BIMI) 是一种行业标准，用于在邮箱提供商收件箱中的发件人电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。
 
-有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hans)
+有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
@@ -66,8 +66,8 @@ ht-degree: 100%
    1. 特定子域的子域详细信息页面中显示 BIMI 记录后，您就可以通过[此处](https://bimigroup.org/bimi-generator/)的 BIMI 检查器检查 BIMI 记录是否可以正常运行。
 
    有关 BIMI 实施的详细信息，请参阅 [BIMI 标准文档](https://bimigroup.org/implementation-guide/)
-+++
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 添加]**，确认创建 BIMI 记录。
 
-BIMI 记录创建过程大约需要 5 分钟，之后会显示在子域的详细信息屏幕中。[了解如何监测子域的 TXT 记录](gs-txt-records.md#monitor)
+BIMI 记录创建过程大约需要 5 分钟，之后会显示在子域的详细信息屏幕中。[了解如何监测子域的 TXT记 录](gs-txt-records.md#monitor)
