@@ -20,7 +20,7 @@ ht-degree: 100%
 
 消息识别品牌指示器 (BIMI) 是一种行业标准，用于在邮箱提供商收件箱中的发件人电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。
 
-有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hans)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 

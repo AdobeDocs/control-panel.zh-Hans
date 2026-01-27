@@ -34,7 +34,7 @@ Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默
 
 添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
-![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=zh-Hans#instance-settings)
 
 **相关主题：**
 
