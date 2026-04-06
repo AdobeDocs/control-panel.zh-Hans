@@ -5,16 +5,17 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+source-git-commit: bf1bbf0d85cf4f8e33232e4e19d08a6f31d4a35a
 workflow-type: ht
-source-wordcount: '269'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
 # 监测工作流 {#monitor-workflows}
 
-<!-- Clean paused and completed workflows
+<!-- 
+Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -22,7 +23,7 @@ Control Panel allows you to identify those workflows and clean the temporary res
 
 >[!NOTE]
 >
->Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hans#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hans) documentation). 
+>Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation). 
 
 To clean paused and completed workflows, follow these steps:
 
@@ -42,37 +43,38 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-Monitor workflow parameters -->
+Monitor workflow parameters 
+-->
 
-在 Adobe Campaign 中，某些工作流参数可能需要特别关注，以避免实例上出现任何问题。可查看控制面板&#x200B;**[!UICONTROL 存储概述]**&#x200B;详细信息以确认是否为您的工作流启用了这些选项。
+在 Adobe Campaign 中，某些工作流参数可能需要特别关注，以避免实例上出现任何问题。 可查看控制面板&#x200B;**[!UICONTROL 存储概述]**&#x200B;详细信息以确认是否为您的工作流启用了这些选项。
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL 保留临时结果]** {#keep-results}
 
-启用时（值为“1”），此选项会保存工作流各种活动之间的过渡结果。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hans#logs) 文档中了解详情。
+启用时（值为“1”），此选项会保存工作流各种活动之间的过渡结果。 在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hans#logs) 文档中了解详情。
 
 >[!IMPORTANT]
 >
->不得在生产工作流中勾选此选项。它用于分析和测试目的，因此必须仅用于开发或暂存环境。我们强烈建议在 Campaign 中将其关闭。
+>不得在生产工作流中勾选此选项。 它用于分析和测试目的，因此必须仅用于开发或暂存环境。 我们强烈建议在 Campaign 中将其关闭。
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL 显示 SQL 日志]** {#sql}
 
-启用此选项后，工作流执行期间发送到数据库的 SQL 查询将显示在 Adobe Campaign 中。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#execution) 文档中了解详情。
+启用此选项后，工作流执行期间发送到数据库的 SQL 查询将显示在 Adobe Campaign 中。 在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hans) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#execution) 文档中了解详情。
 
 值为“1”表示工作流的 **Severity** 字段设置为“Production”，并且已启用 SQL 查询日志选项。
 
 >[!IMPORTANT]
 >
->激活此选项可能会影响性能，并在服务器上填充日志文件。它应仅用于分析和诊断目的。
+>激活此选项可能会影响性能，并在服务器上填充日志文件。 它应仅用于分析和诊断目的。
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL 主管]** {#supervisors}
 
-使用此字段，可向工作流分配运算符。如果工作流出现故障，关联的运算符将收到警报。在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hans#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#error-management) 文档中了解详情。
+使用此字段，可向工作流分配运算符。 如果工作流出现故障，关联的运算符将收到警报。 在 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hans#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hans#error-management) 文档中了解详情。
 
 值为“1”表示工作流的 **Severity** 字段设置为“Production”，且没有为工作流分配主管组。
 

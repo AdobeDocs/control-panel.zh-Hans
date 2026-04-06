@@ -10,7 +10,7 @@ index: true
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: 6819890ad59c3c3bfff1ce556e2ae853b48dcb00
+source-git-commit: bf1bbf0d85cf4f8e33232e4e19d08a6f31d4a35a
 workflow-type: ht
 source-wordcount: '9'
 ht-degree: 100%
