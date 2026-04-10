@@ -5,11 +5,10 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
-source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+source-git-commit: 9f8b99be31e35da477bdd7e4a39e5634dbb4d3a0
 workflow-type: ht
-source-wordcount: '184'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
@@ -42,7 +41,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以编辑所创建的 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 范围</a>和<a href="../sftp/using/key-management.md#editing-public-keys">公钥</a>。请注意，此功能不适用于在当前版本的控制面板发布之前创建的项目。
+<p>现在，您可以编辑所创建的 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 范围</a>和<a href="../sftp/using/key-management.md#editing-public-keys">公钥</a>。 请注意，此功能不适用于在当前版本的控制面板发布之前创建的项目。
 </td>
 </tr>
 </tbody>
