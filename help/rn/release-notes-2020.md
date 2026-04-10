@@ -5,11 +5,10 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+source-git-commit: 9f8b99be31e35da477bdd7e4a39e5634dbb4d3a0
 workflow-type: ht
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -74,7 +73,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，控制面板允许您生成一对 GPG 密钥，以便您可以从外部轻松解密进入 Campaign 的数据。此外，我们还添加了一项功能，以便您可以安装公共 GPG 密钥来加密离开 Campaign 的数据。</p><p>有关更多信息，请参阅<a href="../instances-settings/using/gpg-keys-management.md">详细文档</a>。</p>
+<p>现在，控制面板允许您生成一对 GPG 密钥，以便您可以从外部轻松解密进入 Campaign 的数据。 此外，我们还添加了一项功能，以便您可以安装公共 GPG 密钥来加密离开 Campaign 的数据。</p><p>有关更多信息，请参阅<a href="../instances-settings/using/gpg-keys-management.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
