@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: ht
-source-wordcount: '248'
+workflow-type: tm+mt
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
@@ -26,23 +26,23 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 
 **用户界面**
 
-* 控制面板现在具有更多语言版本。[了解详情](discover/using/discovering-the-interface.md#supported-languages-languages)
+* 控制面板现在具有更多语言版本。 [了解详情](discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **活动轮廓监测**
 
-* 现在可以监测您有权访问的贵组织的活动轮廓数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的轮廓总数。[了解详情](performance-monitoring/using/active-profiles-monitoring.md)
+* 现在可以监测您有权访问的贵组织的活动轮廓数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的轮廓总数。 [了解详情](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 记录**
 
-* 多个电子邮件地址现在可以接收汇总报告和故障报告电子邮件。[了解详情](subdomains-certificates/using/dmarc.md)
+* 多个电子邮件地址现在可以接收汇总报告和故障报告电子邮件。 [了解详情](subdomains-certificates/using/dmarc.md)
 * 对于某个子域同时有 DMARC 和 BIMI 记录的情况，做出了如下变更：
 
-   * 无法删除 DMARC 记录。如果要删除一个此类记录，则需要先删除 BIMI 记录。
+   * 无法删除 DMARC 记录。 如果要删除一个此类记录，则需要先删除 BIMI 记录。
    * DMARC 记录可以编辑，但不允许将策略降级为“无”，其百分比值必须为 100。
 
 >[!CAUTION]
 >
->* 控制面板仅限管理员用户使用。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)
+>* 控制面板仅限管理员用户使用。 [了解详情](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)
 >
 >* 对于 Campaign v7，部署限制适用。 [了解详情](faq.md#v7-restrictions)
 

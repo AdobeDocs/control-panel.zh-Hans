@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->此功能仅适用于 8850 版本的 Campaign v7/v8 实例。如果您使用的是以前的版本，则需要升级才能使用此功能。
+>此功能仅适用于 8850 版本的 Campaign v7/v8 实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默认列表是有限的。这些 URL 允许实例正常运行。
+可由JavaScript代码（工作流等）调用的默认URL列表 的URL数是有限的。 这些 URL 允许实例正常运行。
 
-默认情况下，实例不允许连接到外部 URL。控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
+默认情况下，实例不允许连接到外部 URL。 控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。 这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
 添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
@@ -38,14 +38,14 @@ Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默
 
 **相关主题：**
 
-* [配置 Campaign 服务器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=zh-Hans)
+* [配置Campaign服务器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=zh-Hans)
 * [外连接保护](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=zh-Hans#outgoing-connection-protection)
 
 ## 最佳实践 {#best-practices}
 
 * 请勿将您的 Campaign 实例连接到您不打算连接的网站/服务器。
-* 删除您不再使用的 URL。但是，请注意，如果您公司的其他部分仍连接到您删除的 URL，则任何人都无法再次使用该 URL。
-* 控制面板支持 **http**、**https** 和 **sftp** 协议。输入无效的 URL 或协议将导致错误。
+* 删除您不再使用的 URL。 但是，请注意，如果您公司的其他部分仍连接到您删除的 URL，则任何人都无法再次使用该 URL。
+* 控制面板支持 **http**、**https** 和 **sftp** 协议。 输入无效的 URL 或协议将导致错误。
 
 ## 管理 URL 权限 {#managing-url-permissions}
 
@@ -62,7 +62,7 @@ Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默
    >
    >如果“实例设置”信息卡未显示在控制面板的主页上，则表示您的[组织 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 未与任何 Adobe Campaign 实例关联
    >
-   ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
+   ><b><span class="uicontrol">URL 权限</span></b>选项卡列出了实例可以连接到的所有外部 URL。 此列表不包括 Campaign 运行所需的 URL（例如基础结构件之间的连接）。
 
 1. 从左窗格中选择所需的实例，然后单击&#x200B;**[!UICONTROL 添加新 URL]** 按钮。
 
@@ -78,7 +78,7 @@ Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默
 
    >[!NOTE]
    >
-   >可以授权多个实例以连接到 URL。要执行此操作，请直接在实例字段中键入实例的首字母以添加。
+   >可以授权多个实例以连接到 URL。 要执行此操作，请直接在实例字段中键入实例的首字母以添加。
 
    ![](assets/add_url2.png)
 
@@ -86,7 +86,7 @@ Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默
 
    >[!NOTE]
    >
-   >“/”。验证后，您输入的 URL 的末尾会自动添加“*”字符，以涵盖输入页面的所有子页面。
+   >在您输入的URL经过验证后，会自动将“/.*”字符添加到该URL的末尾，以覆盖输入页面的所有子页面。
 
    ![](assets/add_url_listnew.png)
 
@@ -96,6 +96,6 @@ Campaign 实例可以通过 JavaScript 代码（工作流等）调用的 URL 默
 
 ## 常见问题 {#common-questions}
 
-**我添加了一个新 URL，但我的实例仍无法连接到该 URL。这是为什么？**
+**我添加了一个新 URL，但我的实例仍无法连接到该 URL。 这是为什么？**
 
-在某些情况下，您尝试连接的 URL 需要添加到允许列表、输入密码或其他身份验证形式。控制面板不管理其他身份验证。
+在某些情况下，您尝试连接的 URL 需要添加到允许列表、输入密码或其他身份验证形式。 控制面板不管理其他身份验证。

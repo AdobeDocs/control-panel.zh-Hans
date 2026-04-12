@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 90%
+source-wordcount: '833'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="移除子域委派"
->abstract="借助此屏幕，您可以移除对 Adobe 的子域委派。 请注意，此过程无法撤销，在执行完成之前不可逆。<br><br>如果您尝试为所选实例取消主域的委托，系统将要求您选择用于替换的域名。"
+>abstract="借助此屏幕，您可以移除对 Adobe 的子域委派。 请记住，此过程在执行完成之前无法撤消，并且不可逆。<br><br>如果您尝试移除所选实例的主域委派，将会提示您选择替换它的域。"
 
 通过“控制面板”，您可以移除已完全委派给 Adobe 的子域委派或使用 CNAME 委派的子域委派。
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. 如果删除CNAME类型的委派，或者将主域替换为使用CNAME委派的域，则会显示额外的&#x200B;**[!UICONTROL 操作]**&#x200B;步骤来管理DNS记录。[在本节](#dns)中了解详情
+1. 如果要移除 CNAME 类型委派，或者将主域替换为使用 CNAME 委派的域，则会显示一个额外的&#x200B;**[!UICONTROL 操作]**&#x200B;步骤，用于管理 DNS 记录。 [在本节中了解详情](#dns)
 
 1. 查看显示的摘要。 要确认移除，请键入要移除委派的域 URL，然后单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -61,7 +61,7 @@ ht-degree: 90%
 
 ## DNS 记录管理 {#dns}
 
-要使用CNAME配置域委派，控制面板要求您在DNS服务器上添加特定记录。[了解如何使用CNAME](setting-up-new-subdomain.md#use-cnames)设置子域
+要使用 CNAME 配置域委派，“控制面板”会要求您在 DNS 服务器上添加特定记录。 [了解如何使用 CNAME 设置子域](setting-up-new-subdomain.md#use-cnames)
 
 删除 CNAME 类型委派时，您需要从服务器中&#x200B;**移除这些 DNS 记录**&#x200B;以免出现任何问题。 此外，如果您要移除主子域的委派，并将其替换为已使用 CNAME 委派的域，则可能需要在服务器中&#x200B;**添加 DNS 记录**，具体取决于为子域设置的 IP 亲和度。
 

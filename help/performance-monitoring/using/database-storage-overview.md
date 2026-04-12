@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '175'
+workflow-type: tm+mt
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 100%
 
 ![](assets/database-storage-details.png)
 
-请注意，您可以通过此屏幕监控可能需要特别关注的工作流参数，以避免实例上出现任何问题。请参阅[此页面](workflow-monitoring.md)以了解详情。
+请注意，您可以通过此屏幕监控可能需要特别关注的工作流参数，以避免实例上出现任何问题。 请参阅[此页面](workflow-monitoring.md)以了解详情。
