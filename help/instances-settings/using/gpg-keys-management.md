@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1348'
+ht-degree: 95%
 
 ---
 
@@ -34,13 +34,13 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 * **加密发送的数据**：在使用安装的公钥加密数据后，Adobe Campaign 会发送该数据。
 
-* **解密传入数据**：Adobe Campaign 使用从控制面板下载的公钥接收从外部系统加密的数据。Adobe Campaign 使用从控制面板生成的私钥解密数据。
+* **解密传入数据**：Adobe Campaign 使用从控制面板下载的公钥接收从外部系统加密的数据。 Adobe Campaign 使用从控制面板生成的私钥解密数据。
 
 ## 加密数据 {#encrypting-data}
 
 控制面板允许您加密从 Adobe Campaign 实例中传出的数据。
 
-为此，您需要从 PGP 加密工具生成 GPG 密钥对，然后将公钥安装到控制面板中。然后，您就可以在从实例发送数据之前对其进行加密。为此，请执行以下步骤。
+为此，您需要从 PGP 加密工具生成 GPG 密钥对，然后将公钥安装到控制面板中。 然后，您就可以在从实例发送数据之前对其进行加密。 为此，请执行以下步骤。
 
 >[!NOTE]
 >
@@ -48,21 +48,21 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 ![](assets/do-not-localize/how-to-video.png)通过观看[视频了解此功能](#video)
 
-1. 按照 [OpenPGP 规范](https://www.openpgp.org/about/standard/)，使用 PGP 加密工具生成公钥/私钥对。为此，请安装 GPG 实用程序或 GNuGP 软件。
+1. 按照 [OpenPGP 规范](https://www.openpgp.org/about/standard/)，使用 PGP 加密工具生成公钥/私钥对。 为此，请安装 GPG 实用程序或 GNuGP 软件。
 
    >[!NOTE]
    >
-   >可以使用开源免费软件来生成密钥。但是，请确保遵循您所属组织的指导原则并使用 IT/安全组织推荐的 GPG 实用程序。
+   >可以使用开源免费软件来生成密钥。 但是，请确保遵循您所属组织的指导原则并使用 IT/安全组织推荐的 GPG 实用程序。
 
 1. 安装该实用程序后，在 Mac 终端或 Windows 命令中运行以下命令。
 
    `gpg --full-generate-key`
 
-1. 出现提示时，为密钥指定所需的参数。必需的参数包括：
+1. 出现提示时，为密钥指定所需的参数。 必需的参数包括：
 
    * **密钥类型**：RSA
    * **密钥长度**：3072 - 4096 位
-   * **实名**&#x200B;和&#x200B;**电子邮件地址**：用于跟踪密钥对创建者。输入链接到您所属组织或部门的名称和电子邮件地址。
+   * **实名**&#x200B;和&#x200B;**电子邮件地址**：用于跟踪密钥对创建者。 输入链接到您所属组织或部门的名称和电子邮件地址。
    * **注释**：向注释字段添加标签，有助于您轻松识别用于加密数据的密钥。
      >[!IMPORTANT]
      >
@@ -73,7 +73,7 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. 确认后，脚本将生成一个密钥及其关联的指纹，您可以将其导出到文件中，或直接粘贴到控制面板中。要导出文件，请运行此命令（后跟所生成密钥的指纹）。
+1. 确认后，脚本将生成一个密钥及其关联的指纹，您可以将其导出到文件中，或直接粘贴到控制面板中。 要导出文件，请运行此命令（后跟所生成密钥的指纹）。
 
    `gpg -a --export <fingerprint>`
 
@@ -83,7 +83,7 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
    ![](assets/gpg_install_button.png)
 
-1. 粘贴从 PGP 加密工具生成的公钥。您还可以直接拖放导出的公钥文件。
+1. 粘贴从 PGP 加密工具生成的公钥。 您还可以直接拖放导出的公钥文件。
 
    >[!NOTE]
    >
@@ -93,11 +93,11 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 1. 单击&#x200B;**[!UICONTROL 安装密钥]**&#x200B;按钮。
 
-安装公钥后，它将显示在列表中。您可以使用 **...** 按钮进行下载或复制其指纹。
+安装公钥后，它将显示在列表中。 您可以使用 **...** 按钮进行下载或复制其指纹。
 
 ![](assets/gpg_install_download.png)
 
-然后，即可在 Adobe Campaign 工作流中使用密钥。在使用数据提取活动时，您可以将其用于加密数据。
+然后，即可在 Adobe Campaign 工作流中使用密钥。 在使用数据提取活动时，您可以将其用于加密数据。
 
 ![](assets/do-not-localize/how-to-video.png)通过观看[视频](#video)了解此功能
 
@@ -132,29 +132,29 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
    ![](assets/gpg_generate.png)
 
-1. 指定密钥的名称，然后单击&#x200B;**[!UICONTROL 生成密钥]**。此名称有助于您识别在 Campaign 工作流中用于解密的密钥
+1. 指定密钥的名称，然后单击&#x200B;**[!UICONTROL 生成密钥]**。 此名称有助于您识别在 Campaign 工作流中用于解密的密钥
 
    ![](assets/gpg_generate_name.png)
 
-生成密钥对后，公钥将显示在列表中。请注意，解密密钥对在生成时没有过期日期。
+生成密钥对后，公钥将显示在列表中。 请注意，解密密钥对在生成时没有过期日期。
 
 您可以使用 **...** 按钮下载公钥或复制其指纹。
 
 ![](assets/gpg_generate_list.png)
 
-然后，便可将公钥共享给任何外部系统。Adobe Campaign 将能够在数据加载活动中使用私钥来解密已使用公钥加密的数据。
+然后，便可将公钥共享给任何外部系统。 Adobe Campaign 将能够在数据加载活动中使用私钥来解密已使用公钥加密的数据。
 
 有关更多信息，请参阅 Adobe Campaign 文档：
 
 **Campaign v7 和 v8：**
 
 * [在处理之前解压缩或解密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hans)
-* [用例：使用控制面板生成的密钥导入加密数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hans#use-case-gpg-decrypt)
+* [用例：导入使用控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hans#use-case-gpg-decrypt)
 
 **Campaign Standard：**
 
 * [管理加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hans)
-* [用例：使用控制面板生成的密钥导入加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hans#use-case-gpg-decrypt)
+* [用例：导入使用控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hans#use-case-gpg-decrypt)
 
 ## 监控 GPG 密钥
 
@@ -172,7 +172,7 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
   ![](assets/gpg_icon_decrypt.png)：已生成用于数据解密的密钥。
 
 * **[!UICONTROL 指纹]**：密钥的指纹。
-* **[!UICONTROL 过期]**：密钥的过期日期。请注意，控制面板将在密钥过期日期临近时提供可视化提醒：
+* **[!UICONTROL 过期]**：密钥的过期日期。 请注意，控制面板将在密钥过期日期临近时提供可视化提醒：
 
    * 在过期前 30 天显示为紧急状态（红色）。
    * 在过期前 60 天显示为警告状态（黄色）。
@@ -182,7 +182,7 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
   >
   >请注意，控制面板不会发送电子邮件通知。
 
-作为最佳实践，我们建议您移除不再需要的任何密钥。为此，请单击 **...** 按钮，然后选择&#x200B;**[!UICONTROL 删除密钥]**。
+作为最佳实践，我们建议您移除不再需要的任何密钥。 为此，请单击 **...** 按钮，然后选择&#x200B;**[!UICONTROL 删除密钥]**。
 
 ![](assets/gpg_delete.png)
 
@@ -196,4 +196,4 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 教程页面中提供了与 GPG 密钥管理相关的其他操作方法视频。
 
->[!VIDEO](https://video.tv.adobe.com/v/327881?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

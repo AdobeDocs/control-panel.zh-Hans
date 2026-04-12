@@ -10,7 +10,7 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->仅当选择自己管理证书而不是将此流程委派给 Adobe 时，才需要续订子域的 SSL 证书。 强烈建议将子域的SSL证书的管理委托给Adobe，因为Adobe将每年自动创建证书并在证书到期之前续订。[了解有关SSL证书管理的详细信息](monitoring-ssl-certificates.md#management)
+>仅当选择自己管理证书而不是将此流程委派给 Adobe 时，才需要续订子域的 SSL 证书。 强烈建议将子域 SSL 证书管理委派给 Adobe，因为 Adobe 每年都会自动创建证书并在证书过期前续订证书。 [了解有关 SSL 证书管理的更多信息](monitoring-ssl-certificates.md#management)
 
 SSL 证书续订过程包括以下 3 个步骤：
 
 1. **生成证书签名请求 (CSR)**
 
-   在购买证书之前，必须为您计划保护的实例和子域生成证书签名请求。  您需要提供一些生成CSR所需的信息（如通用名称、组织名称和地址等）。[了解详情](#generate)
+   在购买证书之前，必须为您计划保护的实例和子域生成证书签名请求。  您需要提供生成 CSR 所需的一些信息（如通用名称、组织名称和地址等）。 [了解详情](#generate)
 
 1. **购买 SSL 证书**
 
@@ -37,13 +37,13 @@ SSL 证书续订过程包括以下 3 个步骤：
 
 1. **安装 SSL 证书**
 
-   在所需的子域上安装购买的SSL证书以保护它们。[了解详情](#install)
+   在所需子域上安装购买的 SSL 证书以确保安全。 [了解详情](#install)
 
 ![](assets/do-not-localize/how-to-video.png)在介绍 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hans#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hans#adding-ssl-certificates) 使用方法的视频中了解这一功能
 
 **相关主题：**
 
-* [可交付性最佳实践指南 — 适用于Adobe Campaign的SSL证书申请流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hans)
+* [可投放性最佳实践指南 — 适用于Adobe Campaign的SSL证书请求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hans)
 * [子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
 * [监测子域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
@@ -100,7 +100,7 @@ SSL 证书续订过程包括以下 3 个步骤：
 
 生成并下载 CSR 后，您可以使用您的组织批准的证书颁发机构购买 SSL 证书。
 
-购买SSL证书后，您就可以在实例上安装该证书以保护子域。[了解详情](#install)
+购买 SSL 证书后，您可以在实例上安装该证书以保护子域。 [了解详情](#install)
 
 ## 下载 CSR {#download}
 

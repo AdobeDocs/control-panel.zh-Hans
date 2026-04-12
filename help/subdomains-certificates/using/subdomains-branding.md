@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 91%
+source-wordcount: '756'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 | 配置方法 | 工作原理 | 工作量 |
 |---|---|---|
 | **完全委派** | 创建子域和命名空间记录。 然后，Adobe将配置Adobe Campaign所需的所有DNS记录。<br/><br/>在此设置中，Adobe完全负责管理子域和所有DNS记录。 | 低 |
-| **CNAME，自定义方法** | 创建子域和命名空间记录。 然后，Adobe将提供要放置在DNS服务器上的记录，并将在Adobe Campaign DNS服务器中配置相应的值。<br/><br/>在此设置中，您和Adobe共同负责维护DNS。 | 高 |
+| **CNAME，自定义方法** | 创建子域和命名空间记录。 然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 
 有关域委派的其他信息，请参阅[本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans)。
 
