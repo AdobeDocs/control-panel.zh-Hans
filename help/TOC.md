@@ -6,7 +6,7 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: d9bbc77dbb4593eee42f87570ecefcd6465a5fe2
+source-git-commit: 17583a8f809394adc0eb53180308d6daf464e746
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 98%
