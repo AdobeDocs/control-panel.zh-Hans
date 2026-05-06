@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >仅当选择自己管理证书而不是将此流程委派给 Adobe 时，才需要续订子域的 SSL 证书。 强烈建议将子域 SSL 证书管理委派给 Adobe，因为 Adobe 每年都会自动创建证书并在证书过期前续订证书。 [了解有关 SSL 证书管理的更多信息](monitoring-ssl-certificates.md#management)
+>
+>客户管理的SSL证书管理适用于托管在AWS上的Campaign v7/v8实例和托管在Microsoft Azure上的Campaign v8实例。
 
 SSL 证书续订过程包括以下 3 个步骤：
 

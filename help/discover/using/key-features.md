@@ -7,16 +7,16 @@ feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
 # 主要功能 {#key-features}
 
-控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Adobe Campaign Standard 和/或 Adobe Campaign Classic 的产品管理员提高工作效率。其直观的界面可让您轻松监控关键资产的使用情况，并执行管理任务，如将 IP 地址添加到允许列表、SFTP 存储监控、密钥管理等。
+控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Adobe Campaign Standard 和/或 Adobe Campaign Classic 的产品管理员提高工作效率。 其直观的界面可让您轻松监控关键资产的使用情况，并执行管理任务，如将 IP 地址添加到允许列表、SFTP 存储监控、密钥管理等。
 
 主要优点：
 
@@ -26,9 +26,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->控制面板仅限管理员用户使用。[此小节](managing-permissions.md)中详细介绍了授予用户管理员访问权限的步骤。
->
->对于 Campaign v7/v8，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign 稳定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)或 9032 版本及以上。在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
+>控制面板仅限管理员用户使用。 [此小节](managing-permissions.md)中详细介绍了授予用户管理员访问权限的步骤。 有关实例托管要求的先决条件，请参阅[此页面](accessing-control-panel.md)。
 
 <table style="table-layout:fixed">
 <tr>
