@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 100%
 
 可直接从 Experience Cloud 或产品本身访问控制面板。
 
-仅&#x200B;**管理员用户**&#x200B;可以访问。有关如何将用户分配到“管理员”组的更多信息，请参阅[此小节](../../discover/using/managing-permissions.md)。
+## 先决条件 {#prerequisites}
+
+对于 Campaign v7/v8，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign 稳定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)或 9032 版本及以上。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。 要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
+
+在Microsoft Azure上托管的Campaign v8实例还可以访问控制面板功能的子集：[实例访问的IP允许列表](../../instances-settings/using/ip-allow-listing-instance-access.md)、[SFTP服务器的IP允许列表](../../sftp/using/ip-range-allow-listing.md)和[客户管理的SSL证书管理](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
 
 >[!IMPORTANT]
 >
->默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。**任何名称中包含“admin”一词的产品配置文件都将自动授予对“控制面板”的访问权限。**
->
->请仔细审查您的产品配置文件命名，确保只有授权用户才有控制面板访问权限。
+>默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对控制面板**&#x200B;的访问权限。 请仔细审查您的产品配置文件命名，确保只有授权用户才有控制面板访问权限。 [了解如何管理控制面板](../../discover/using/managing-permissions.md)的权限。
 
 ## 从 Experience Cloud Platform 访问 {#access-experience-cloud-platform}
 
@@ -42,7 +44,7 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. 此时将显示您的 Campaign 实例列表。单击&#x200B;**控制面板**&#x200B;信息卡进行启动。
+1. 此时将显示您的 Campaign 实例列表。 单击&#x200B;**控制面板**&#x200B;信息卡进行启动。
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
