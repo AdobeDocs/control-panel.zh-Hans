@@ -1,7 +1,8 @@
 ---
 cloud: Experience Cloud
 product: adobe campaign
-solution: Campaign
+solution: Campaign 
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature-set: Campaign
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
@@ -10,9 +11,9 @@ index: true
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: bf1bbf0d85cf4f8e33232e4e19d08a6f31d4a35a
+source-git-commit: 3a5bfe058ed7b025140a3ab53553c895b3f3571d
 workflow-type: tm+mt
-source-wordcount: '9'
+source-wordcount: 9
 ht-degree: 100%
 
 ---
