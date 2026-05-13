@@ -8,8 +8,10 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 TQID: https://experienceleague.adobe.com/-btCtV-NLeiTpcF8uKDApY6ar-xAukAz05QmRbKM9oQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
 workflow-type: tm+mt
 source-wordcount: 1136
@@ -82,7 +84,7 @@ CIDR（无类域间路由）是在控制面板界面中添加 IP 范围时受支
 
    >[!NOTE]
    >
-   >**[!UICONTROL 标签]**字段中允许使用以下特殊字符：
+   >**[!UICONTROL 标签]**&#x200B;字段中允许使用以下特殊字符：
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
 1. 为了更好地管理您的 IP 允许列表，您可以设置每个 IP 范围的有效期。 为此，请在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中选择一个单位，并在相应的字段中定义有效期。 有关 IP 范围过期的详细信息，请参阅[此小节](#expiry)。
