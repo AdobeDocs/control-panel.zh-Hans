@@ -33,7 +33,7 @@ SFTP 服务器受到保护。 为了能够访问这些服务器以查看文件�
 >
 >SFTP服务器的IP允许列表适用于托管在AWS上的Campaign v7/v8实例、托管在Microsoft Azure上的Campaign Standard实例和Campaign v8实例。
 
-![](assets/do-not-localize/how-to-video.png)在介绍如何使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png)在介绍如何使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
 
 ## 关于 CIDR 格式 {#about-cidr-format}
 
