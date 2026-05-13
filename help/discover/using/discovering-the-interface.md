@@ -7,9 +7,16 @@ feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '226'
+TQID: https://experienceleague.adobe.com/NqU3T433k-fxW4ZpkbH-ux11sB9pDViLxuA-A-bunis
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 227
 ht-degree: 100%
 
 ---
@@ -38,7 +45,7 @@ ht-degree: 100%
 
 ## 帮助资源 {#help-resources}
 
-**[!UICONTROL 帮助资源]**&#x200B;部分提供了有用的文档，以帮助您使用控制面板和 Campaign 产品。您可以随时浏览这些文档。
+**[!UICONTROL 帮助资源]**&#x200B;部分提供了有用的文档，以帮助您使用控制面板和 Campaign 产品。 您可以随时浏览这些文档。
 
 ![](assets/helpresources.png)
 
@@ -46,7 +53,7 @@ ht-degree: 100%
 
 “控制面板”用户界面在显示时会使用与您的浏览器配置相匹配的语言。
 
-如果浏览器被设置为不支持的语言，控制面板会检查浏览器语言列表中的前三种语言，直至找到支持的语言为止。如果控制面板不支持前三种语言中的任何一种，则默认使用英语（美国）。
+如果浏览器被设置为不支持的语言，控制面板会检查浏览器语言列表中的前三种语言，直至找到支持的语言为止。 如果控制面板不支持前三种语言中的任何一种，则默认使用英语（美国）。
 
 以下是控制面板当前支持的语言列表：
 

@@ -7,9 +7,14 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '280'
+TQID: https://experienceleague.adobe.com/TtF1W0tOklUuEpihvsYlxdszEujRrDXv-Ar0y3c7QX8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 323
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 
 为了确保高收件箱率和低垃圾邮件率，一些诸如 Google 之类的服务要求您将 TXT 记录添加到域设置，以验证您是否拥有该域。
 
-目前，Gmail 是最受欢迎的电子邮件地址提供商之一。为了确保电子邮件的良好传递性并成功投放到 Gmail 地址，Adobe Campaign 允许您向子域添加特殊的 Google 网站验证 TXT 记录，以确保对其进行验证。
+目前，Gmail 是最受欢迎的电子邮件地址提供商之一。 为了确保电子邮件的良好传递性并成功投放到 Gmail 地址，Adobe Campaign 允许您向子域添加特殊的 Google 网站验证 TXT 记录，以确保对其进行验证。
 
 要将 Google TXT 记录添加到用于通过电子邮件发送 Gmail 地址的子域，请执行以下步骤：
 
@@ -26,7 +31,7 @@ ht-degree: 100%
 
 1. 单击&#x200B;**[!UICONTROL 添加 TXT 记录]**&#x200B;按钮，然后从&#x200B;**[!UICONTROL 记录类型]**&#x200B;下拉列表中选择 **[!UICONTROL Google 站点验证]**。
 
-1. 输入在 G Suite 管理工具中生成的值。有关详细信息，请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)。
+1. 输入在 G Suite 管理工具中生成的值。 有关详细信息，请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)。
 
    ![](assets/txt_addtxt.png)
 
@@ -34,7 +39,7 @@ ht-degree: 100%
 
    ![](assets/txt_txtadded.png)
 
-添加 TXT 记录后，需要通过 Google 验证该记录。为此，请导航到 G Suite 管理员工具，然后启动验证步骤（请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)）。
+添加 TXT 记录后，需要通过 Google 验证该记录。 为此，请导航到 G Suite 管理员工具，然后启动验证步骤（请参阅 [G Suite 管理员帮助](https://support.google.com/a/answer/183895)）。
 
 要删除记录，请从记录列表中选中该记录，然后单击删除按钮。
 

@@ -5,9 +5,14 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '601'
+TQID: https://experienceleague.adobe.com/Dpa90tq2F5m7mfxeGGDjLg6Aw7bjh0Obx9qt-aUTvVA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 601
 ht-degree: 100%
 
 ---
@@ -16,16 +21,16 @@ ht-degree: 100%
 
 ## 2022 年 10 月 {#october-2022}
 
-现在，在您的某个 SSL 证书将在 30 天或更短时间内过期时，电子邮件警报会通知您。[了解详情](../performance-monitoring/using/email-alerting.md)
+现在，在您的某个 SSL 证书将在 30 天或更短时间内过期时，电子邮件警报会通知您。 [了解详情](../performance-monitoring/using/email-alerting.md)
 
 ## 2022 年 9 月 {#september-2022}
 
-现在，使用混合托管模型的客户可以设置新的子域。[了解详情](../subdomains-certificates/using/setting-up-new-subdomain.md)
+现在，使用混合托管模型的客户可以设置新的子域。 [了解详情](../subdomains-certificates/using/setting-up-new-subdomain.md)
 
 ## 2022 年 8 月 {#august-2022}
 
-* 现在，使用混合托管模型的客户可以验证其子域。[了解详情](../subdomains-certificates/using/monitoring-subdomains.md)
-* “Organization Unit (OU)”字段现在在证书生成请求 (CSR) 中为可选项。[了解详情](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* 现在，使用混合托管模型的客户可以验证其子域。 [了解详情](../subdomains-certificates/using/monitoring-subdomains.md)
+* “Organization Unit (OU)”字段现在在证书生成请求 (CSR) 中为可选项。 [了解详情](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -57,7 +62,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您现在可以识别 SFTP 服务器上占用空间最多的前 10 个文件。<a href="../sftp/using/sftp-storage-management.md">了解详情</a></p>
+<p>您现在可以识别 SFTP 服务器上占用空间最多的前 10 个文件。 <a href="../sftp/using/sftp-storage-management.md">了解详情</a></p>
 </td>
 </tr>
 </tbody>
@@ -72,7 +77,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，可使用“服务日历”设置提醒，以便在实例中发生事件之前通过电子邮件接收通知。<a href="../service-events/service-events.md">了解详情</a></p>
+<p>现在，可使用“服务日历”设置提醒，以便在实例中发生事件之前通过电子邮件接收通知。 <a href="../service-events/service-events.md">了解详情</a></p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +92,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>对 CSR 生成过程进行了一些增强。<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">了解详情</a></p><ul><li>现在，在生成 CSR 时，您可以选择其中一个包含的子域作为通用名称。</li><li>现在，您可以在生成 CSR 之前复制 CSR 摘要。</li><li>生成 CSR 后，您可以从作业日志中再次下载它。此功能不适用于在此版本之前生成的证书。</li></ul><p>
+<p>对 CSR 生成过程进行了一些增强。 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">了解详情</a></p><ul><li>现在，在生成 CSR 时，您可以选择其中一个包含的子域作为通用名称。</li><li>现在，您可以在生成 CSR 之前复制 CSR 摘要。</li><li>生成 CSR 后，您可以从作业日志中再次下载它。 此功能不适用于在此版本之前生成的证书。</li></ul><p>
 
 </td>
 </tr>
@@ -98,7 +103,7 @@ ht-degree: 100%
 
 **实例设置**
 
-* 控制面板中 GPG 密钥的最大数量已增加到 60 个。[了解详情](../instances-settings/using/gpg-keys-management.md)
+* 控制面板中 GPG 密钥的最大数量已增加到 60 个。 [了解详情](../instances-settings/using/gpg-keys-management.md)
 
 ## 2022 年 5 月 {#may-2022}
 
@@ -111,7 +116,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>控制面板现在可供具有混合托管模型的客户使用。这些客户可以通过在控制面板中提供他们在营销实例中配置的 MID/RT 实例 URL 来利用控制面板的功能。</p><p>有关详细信息，请参阅<a href="../instances-settings/using/external-accounts.md">详细文档</a>。</p>
+<p>控制面板现在可供具有混合托管模型的客户使用。 这些客户可以通过在控制面板中提供他们在营销实例中配置的 MID/RT 实例 URL 来利用控制面板的功能。</p><p>有关详细信息，请参阅<a href="../instances-settings/using/external-accounts.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +230,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，即使可投放性审核仍在进行中，仍可对新设置的子域执行 SSL 证书操作。</p><p>有关更多信息，请参阅<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">详细文档</a>。</p>
+<p>现在，即使可投放性审核仍在进行中，仍可对新设置的子域执行 SSL 证书操作。</p><p>有关详细信息，请参阅<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

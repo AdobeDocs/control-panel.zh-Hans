@@ -7,9 +7,14 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+TQID: https://experienceleague.adobe.com/3zcScy61C5LHsWM86WWWuy0uic-pdNQGKc0qY7ewwOQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 180
 ht-degree: 100%
 
 ---

@@ -5,9 +5,14 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '150'
+TQID: https://experienceleague.adobe.com/Q1kU0q1e-a-H0LvAyK-5yYhfrUpGco1hVHWUsz-syhY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 150
 ht-degree: 100%
 
 ---
@@ -20,17 +25,17 @@ ht-degree: 100%
 
 **用户界面**
 
-* 控制面板现在具有更多语言版本。[了解详情](../discover/using/discovering-the-interface.md#supported-languages-languages)
+* 控制面板现在具有更多语言版本。 [了解详情](../discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **活动轮廓监测**
 
-* 现在可以监测您有权访问的贵组织的活动轮廓数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的轮廓总数。[了解详情](../performance-monitoring/using/active-profiles-monitoring.md)
+* 现在可以监测您有权访问的贵组织的活动轮廓数量，而且如果您正在使用多个实例，还可以监测所有实例中在贵组织内使用的轮廓总数。 [了解详情](../performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 记录**
 
-* 多个电子邮件地址现在可以接收汇总报告和故障报告电子邮件。[了解详情](../subdomains-certificates/using/dmarc.md)
+* 多个电子邮件地址现在可以接收汇总报告和故障报告电子邮件。 [了解详情](../subdomains-certificates/using/dmarc.md)
 * 对于某个子域同时有 DMARC 和 BIMI 记录的情况，做出了如下变更：
 
-   * 无法删除 DMARC 记录。如果要删除一个此类记录，则需要先删除 BIMI 记录。
+   * 无法删除 DMARC 记录。 如果要删除一个此类记录，则需要先删除 BIMI 记录。
    * DMARC 记录可以编辑，但不允许将策略降级为“无”，其百分比值必须为 100。
 

@@ -7,9 +7,16 @@ feature: Control Panel, Encryption
 role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
+TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: 1348
 ht-degree: 95%
 
 ---
