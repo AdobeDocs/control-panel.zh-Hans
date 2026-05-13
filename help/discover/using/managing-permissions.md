@@ -7,16 +7,20 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '341'
+TQID: https://experienceleague.adobe.com/RXVkX8Iu0brbRaFNzg3jK-PBGclyTMiGiAFptpajAo8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 342
 ht-degree: 100%
 
 ---
 
 # 管理控制面板的使用权限 {#managing-permissions-control-panel}
 
-控制面板可供 Campaign 实例的所有管理员用户使用。执行以下步骤以将用户分配到“管理员”组，并授予其访问控制面板的权限。
+控制面板可供 Campaign 实例的所有管理员用户使用。 执行以下步骤以将用户分配到“管理员”组，并授予其访问控制面板的权限。
 
 ![](assets/do-not-localize/how-to-video.png)通过观看[视频](../../discover/using/managing-permissions.md#video)了解此功能
 
@@ -28,7 +32,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果 **Admin Console** 链接不可见，这意味着您没有所属组织的管理员权限。请联系您所属组织的管理员，与他们一起执行操作。
+   >如果 **Admin Console** 链接不可见，这意味着您没有所属组织的管理员权限。 请联系您所属组织的管理员，与他们一起执行操作。
 
 1. 在 **Admin Console** 中，从&#x200B;**[!UICONTROL 产品和服务]**&#x200B;列表中选择所需的 Campaign 产品。
 
@@ -38,25 +42,25 @@ ht-degree: 100%
    >
    >如果您看不到产品，请联系所属组织的管理员，让他们授予您产品访问权限。
 
-1. 此时将显示您的 Campaign 产品实例列表。选择要向其添加管理员用户的实例。
+1. 此时将显示您的 Campaign 产品实例列表。 选择要向其添加管理员用户的实例。
 
    ![](assets/do-not-localize/control_panel_add_user_4.png)
 
    >[!NOTE]
    >
-   >您可以为每个 Campaign 实例添加不同的管理员用户。管理员用户仅可访问其所属实例的控制面板。
+   >您可以为每个 Campaign 实例添加不同的管理员用户。 管理员用户仅可访问其所属实例的控制面板。
 
-1. 将会显示选定实例的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;列表。单击&#x200B;**[!UICONTROL 管理员]**&#x200B;产品配置文件，访问管理员用户列表。
+1. 将会显示选定实例的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;列表。 单击&#x200B;**[!UICONTROL 管理员]**&#x200B;产品配置文件，访问管理员用户列表。
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!IMPORTANT]
    >
-   >默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。**任何名称中包含“admin”一词的产品配置文件都将自动授予对“控制面板”的访问权限。**
+   >默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对“控制面板”的访问权限。**
    >
    >请仔细查看 Admin Console 中的产品配置文件命名惯例，确保仅授权用户具有控制面板访问权限，因为它允许对 Campaign 实例进行重大更改。
 
-1. 此时将显示管理员用户列表。单击&#x200B;**[!UICONTROL 添加用户]**&#x200B;按钮，添加所需的用户。
+1. 此时将显示管理员用户列表。 单击&#x200B;**[!UICONTROL 添加用户]**&#x200B;按钮，添加所需的用户。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
@@ -66,4 +70,4 @@ ht-degree: 100%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34761?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

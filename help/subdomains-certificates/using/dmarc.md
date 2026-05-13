@@ -7,9 +7,13 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: ht
-source-wordcount: '885'
+TQID: https://experienceleague.adobe.com/UQ6VccQByzkAi0wVcfHOhvmcl1DdhumLZ1lFW-OyTuw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 911
 ht-degree: 100%
 
 ---
@@ -27,10 +31,10 @@ ht-degree: 100%
 * SPF 和 DKIM 记录是创建 DMARC 记录的先决条件。
 * 只能使用完全子域委派为子域添加 DMARC 记录。 [了解有关子域配置方法的更多信息](subdomains-branding.md#subdomain-delegation-methods)
 
-  要在基于 CNAME 的子域上建立 DMARC 记录，您可以在其父域上配置 DMARC 记录。这可确保所有关联的子域继承 DMARC 记录参数，即使通过 CNAME 进行委派也是如此。
+  要在基于 CNAME 的子域上建立 DMARC 记录，您可以在其父域上配置 DMARC 记录。 这可确保所有关联的子域继承 DMARC 记录参数，即使通过 CNAME 进行委派也是如此。
 
 * 如果某个子域同时有 DMARC 和 BIMI 记录：
-   * 无法删除 DMARC 记录。如果要删除 DMARC 记录，请先删除 BIMI 记录。
+   * 无法删除 DMARC 记录。 如果要删除 DMARC 记录，请先删除 BIMI 记录。
    * 可以编辑 DMARC 记录，但不允许将 DMARC 策略降级为“无”，并且百分比值必须设置为“100”。
 
 ## 为子域添加 DMARC 记录 {#add}
@@ -43,7 +47,7 @@ ht-degree: 100%
 
    ![](assets/dmarc-add.png)
 
-1. 当您的一封电子邮件收发失败时，选择收件人服务器应遵循的&#x200B;**[!UICONTROL 策略类型]**。可用的策略类型包括：
+1. 当您的一封电子邮件收发失败时，选择收件人服务器应遵循的&#x200B;**[!UICONTROL 策略类型]**。 可用的策略类型包括：
 
    * **[!UICONTROL 无]**；
    * **[!UICONTROL 隔离]**（放入垃圾邮件文件夹）；
@@ -61,14 +65,14 @@ ht-degree: 100%
    >
    > DMARC 记录策略类型设置为“无”时，无法创建 BIMI 记录。
 
-1. 填写应接收 DMARC 报告的电子邮件地址。 您可以添加多个电子邮件地址，使用逗号分隔。当您的其中一封电子邮件失败时，系统会自动将 DMARC 报告发送到您选择的电子邮件地址：
+1. 填写应接收 DMARC 报告的电子邮件地址。 您可以添加多个电子邮件地址，使用逗号分隔。 当您的其中一封电子邮件失败时，系统会自动将 DMARC 报告发送到您选择的电子邮件地址：
 
    * 汇总 DMARC 报告可提供高级信息，例如给定时间段内失败的电子邮件数量。
    * 取证 DMARC 故障报告提供了详细信息，例如故障电子邮件来自哪个 IP 地址。
 
    >[!CAUTION]
    >
-   >如果要添加用于接收报告的电子邮件地址位于为其创建 DMARC 记录的域之外，则需要授权其外部域以指定到您拥有此域的 DNS。为此，请执行 [dmarc.org 文档](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)中详述的步骤
+   >如果要添加用于接收报告的电子邮件地址位于为其创建 DMARC 记录的域之外，则需要授权其外部域以指定到您拥有此域的 DNS。 为此，请执行 [dmarc.org 文档](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)中详述的步骤
 
 1. 如果 DMARC 策略设置为“无”，请输入适用于 100% 电子邮件的百分比。
 
@@ -80,7 +84,7 @@ ht-degree: 100%
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC 报告每 24 小时发送一次。 您可以在&#x200B;**[!UICONTROL 报告间隔]**&#x200B;字段中更改报告发送频率。最小授权间隔时间为 1 小时，最大授权值为 2190 小时（即 3 个月）。
+1. DMARC 报告每 24 小时发送一次。 您可以在&#x200B;**[!UICONTROL 报告间隔]**&#x200B;字段中更改报告发送频率。 最小授权间隔时间为 1 小时，最大授权值为 2190 小时（即 3 个月）。
 
 1. 在 **SPF** 和 **[!UICONTROL DKIM 标识符对齐方式]**&#x200B;字段中，指定检查电子邮件 SPF 和 DKIM 身份验证时收件人服务器的严格程度。
 

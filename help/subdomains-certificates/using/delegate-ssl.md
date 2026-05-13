@@ -7,9 +7,13 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
-source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
+TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 100%
 
 ---

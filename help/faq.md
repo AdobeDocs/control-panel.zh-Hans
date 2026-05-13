@@ -7,9 +7,16 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+TQID: https://experienceleague.adobe.com/QzCaKeB3zqjFQTyDXRI5JQ2YoM98F5pZxOoMK1J9bjE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: 801
 ht-degree: 93%
 
 ---

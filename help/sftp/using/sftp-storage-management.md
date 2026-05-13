@@ -7,9 +7,12 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+TQID: https://experienceleague.adobe.com/srgn4RwWp9qTaozpNpZGTKLe0ntMM51KKMmcFS8wiB8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 440
 ht-degree: 100%
 
 ---
