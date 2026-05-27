@@ -2,7 +2,8 @@
 cloud: Experience Cloud
 product: adobe campaign
 solution: Campaign 
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 usetq: true
 feature-set: Campaign
 landing-page-name: campaign
