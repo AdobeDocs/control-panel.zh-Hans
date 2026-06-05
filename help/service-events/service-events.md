@@ -8,18 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +30,7 @@ ht-degree: 96%
 >
 >服务日历将在 Beta 版中提供，如有频繁更新和修改，恕不另行通知。
 
-要有效监控 Campaign 实例，请务必跟踪可能会影响实例的重要事件。 该控制面板允许您识别新版本、升级、修补程序、修补程序等事件，并为任何请求或问题提供关键的Adobe联系人列表。
+要有效监控 Campaign 实例，请务必跟踪可能会影响实例的重要事件。 控制面板使您能够了解新版本、升级、补丁、热修复等事件信息，并提供关键 Adobe 联系人列表，以便处理任何请求或问题。
 
 可在“控制面板”主页的&#x200B;**[!UICONTROL 服务日程表]**&#x200B;信息卡中获得此信息。
 

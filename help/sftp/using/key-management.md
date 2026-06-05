@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 TQID: https://experienceleague.adobe.com/fCmnWIo7FfgfreWs9oFucCL1PNgSN7-1sWXbagwvn6I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +96,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
    您可能需要安装第三方工具，该工具将帮助您以相同格式“name.pub”生成私钥/公钥对。
 
-1. 打开.pub文件，然后复制粘贴以“ssh...”开头的整个字符串 控制面板。
+1. 打开 .pub 文件，然后将以“ssh...”开头的整个字符串复制并粘贴到控制面板。
 
    ![](assets/publickey.png)
 
@@ -116,7 +114,7 @@ Adobe 建议所有客户使用&#x200B;**公钥和私钥对**&#x200B;建立其与
 
 ![](assets/fingerprint_compare.png)
 
-“**...**” 按钮允许您删除现有密钥，或将其关联的指纹复制到剪贴板。
+通过“**...**”按钮，您可以删除现有密钥，或将其关联的指纹复制到剪贴板。
 
 ![](assets/key_options.png)
 

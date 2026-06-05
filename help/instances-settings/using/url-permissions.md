@@ -8,20 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 TQID: https://experienceleague.adobe.com/YpWJsO1HDrqQ3FIV8zruodDfBwSxYa7nWoKLOnhdhBw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 632
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,18 +33,18 @@ ht-degree: 91%
 >
 >此功能仅适用于 8850 版本的 Campaign v7/v8 实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-可由JavaScript代码（工作流等）调用的默认URL列表 的URL数是有限的。 这些 URL 允许实例正常运行。
+Campaign 实例可以通过 JavaScript 代码（工作流等）调用的默认 URL 列表是有限的。这些 URL 允许实例正常运行。
 
 默认情况下，实例不允许连接到外部 URL。 控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。 这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
 添加 URL 后，该 URL 将在实例的配置文件 (serverConf.xml) 中引用。
 
-![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=zh-Hans#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
 
 **相关主题：**
 
-* [配置Campaign服务器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=zh-Hans)
-* [外连接保护](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=zh-Hans#outgoing-connection-protection)
+* [配置 Campaign 服务器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=zh-Hans)
+* [出站连接保护](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=zh-Hans#outgoing-connection-protection)
 
 ## 最佳实践 {#best-practices}
 
@@ -97,7 +91,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >在您输入的URL经过验证后，会自动将“/.*”字符添加到该URL的末尾，以覆盖输入页面的所有子页面。
+   >验证后，您输入的 URL 的末尾会自动添加“/.*”字符，以涵盖输入页面的所有子页面。
 
    ![](assets/add_url_listnew.png)
 

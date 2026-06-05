@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 TQID: https://experienceleague.adobe.com/Ug0vHjgyTK-BRO4IMdCwSQuiwO--XagzjW-MFTPcZrY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 353
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +26,11 @@ ht-degree: 83%
 
 对于 Campaign v7/v8，请注意，务必将您的实例托管在 Amazon Web Services (AWS) 上，并升级到最新的 [Campaign 稳定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hans#rn-statuses)或 9032 版本及以上。 在[本节](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hans#getting-your-campaign-version)中了解如何确认您的版本。 要检查您的实例是否托管在 AWS 上，请按照[此页面](../../faq.md#hosted-aws)中详述的步骤操作。
 
-在Microsoft Azure上托管的Campaign v8实例还可以访问控制面板功能的子集：[实例访问的IP允许列表](../../instances-settings/using/ip-allow-listing-instance-access.md)、[SFTP服务器的IP允许列表](../../sftp/using/ip-range-allow-listing.md)和[客户管理的SSL证书管理](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
+在 Microsoft Azure 上托管的 Campaign v8 实例还可以访问部分控制面板功能：[用于实例访问的 IP 允许列表](../../instances-settings/using/ip-allow-listing-instance-access.md)、[用于 SFTP 服务器的 IP 允许列表](../../sftp/using/ip-range-allow-listing.md)以及[客户管理的 SSL 证书管理](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
 
 >[!IMPORTANT]
 >
->默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对控制面板**&#x200B;的访问权限。 请仔细审查您的产品配置文件命名，确保只有授权用户才有控制面板访问权限。 [了解如何管理控制面板](../../discover/using/managing-permissions.md)的权限。
+>默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对“控制面板”的访问权限**。请仔细审查您的产品配置文件命名，确保只有授权用户才有控制面板访问权限。 [了解如何管理对控制面板的访问权限](../../discover/using/managing-permissions.md)。
 
 ## 从 Experience Cloud Platform 访问 {#access-experience-cloud-platform}
 
