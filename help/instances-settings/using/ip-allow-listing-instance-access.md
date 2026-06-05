@@ -20,9 +20,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 857
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->此功能适用于在AWS上托管的Campaign v7/v8实例，以及在Microsoft Azure上托管的Campaign v8实例。
+>此功能适用于在 AWS 上托管的 Campaign v7/v8 实例，以及在 Microsoft Azure 上托管的 Campaign v8 实例。
 
 默认情况下，无法从各种 IP 地址访问您的 Adobe Campaign 实例。
 
@@ -117,4 +117,4 @@ ht-degree: 96%
 
 **相关主题：**
 
-* [将安全区域链接到运算符](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=zh-Hans#linking-a-security-zone-to-an-operator)
+* [将安全区域关联到操作员](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=zh-Hans#linking-a-security-zone-to-an-operator)

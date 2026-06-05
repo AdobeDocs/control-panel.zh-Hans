@@ -24,9 +24,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 93%
 
 ### 我可以使用控制面板吗？
 
-该控制面板对在AWS上托管Adobe Campaign的客户的产品管理员开放。 在Microsoft Azure上托管的Campaign v8实例还可以访问部分控制面板功能：将IP添加到允许列表以进行实例访问，将IP添加到允许列表以进行SFTP服务器，以及客户管理的SSL证书管理。
+控制面板对在 AWS 上托管 Adobe Campaign 的客户的产品管理员开放。在 Microsoft Azure 上托管的 Campaign v8 实例还可以访问部分控制面板功能：用于实例访问的 IP 允许列表、用于 SFTP 服务器的 IP 允许列表以及客户管理的 SSL 证书管理。
 
 使用混合托管模型的客户可在控制面板中利用特定的控制面板功能。 为此，他们需要在控制面板中提供其在营销实例中配置的 MID/RT 实例 URL。 [了解详情](instances-settings/using/external-accounts.md)
 

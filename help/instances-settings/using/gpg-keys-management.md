@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1348
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -156,12 +156,12 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 **Campaign v7 和 v8：**
 
 * [在处理之前解压缩或解密文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hans)
-* [用例：导入使用控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hans#use-case-gpg-decrypt)
+* [用例：使用控制面板生成的密钥导入加密数据](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hans#use-case-gpg-decrypt)
 
 **Campaign Standard：**
 
 * [管理加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hans)
-* [用例：导入使用控制面板生成的密钥加密的数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hans#use-case-gpg-decrypt)
+* [用例：使用控制面板生成的密钥导入加密数据](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hans#use-case-gpg-decrypt)
 
 ## 监控 GPG 密钥
 

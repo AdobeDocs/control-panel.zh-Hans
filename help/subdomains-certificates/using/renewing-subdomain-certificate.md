@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 >
 >仅当选择自己管理证书而不是将此流程委派给 Adobe 时，才需要续订子域的 SSL 证书。 强烈建议将子域 SSL 证书管理委派给 Adobe，因为 Adobe 每年都会自动创建证书并在证书过期前续订证书。 [了解有关 SSL 证书管理的更多信息](monitoring-ssl-certificates.md#management)
 >
->客户管理的SSL证书管理适用于托管在AWS上的Campaign v7/v8实例和托管在Microsoft Azure上的Campaign v8实例。
+>客户管理的 SSL 证书管理适用于在 AWS 上托管的 Campaign v7/v8 实例，以及在 Microsoft Azure 上托管的 Campaign v8 实例。
 
 SSL 证书续订过程包括以下 3 个步骤：
 
@@ -52,7 +52,7 @@ SSL 证书续订过程包括以下 3 个步骤：
 
 **相关主题：**
 
-* [可投放性最佳实践指南 — 适用于Adobe Campaign的SSL证书请求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hans)
+* [可投放性最佳实践指南 - 适用于 Adobe Campaign 的 SSL 证书请求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hans)
 * [子域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
 * [监测子域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
