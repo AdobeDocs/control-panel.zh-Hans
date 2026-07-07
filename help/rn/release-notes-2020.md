@@ -7,11 +7,9 @@ level: Experienced
 hide: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 TQID: https://experienceleague.adobe.com/TJ8YbfPBjikxWuVrOVe2v61NIbPpMW4SOXndk3DEibg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 439
 ht-degree: 100%
@@ -172,6 +170,7 @@ ht-degree: 100%
 我们为管理员用户添加了新功能，以便从控制面板配置子域和续订 SSL 证书。
 
 有关更多信息，请参阅以下页面：
+
 * [设置新子域](../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [续订子域的 SSL 证书](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
