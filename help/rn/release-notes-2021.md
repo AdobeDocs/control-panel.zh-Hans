@@ -13,7 +13,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: 175
 ht-degree: 100%
 
 ---
@@ -46,7 +46,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以编辑所创建的 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 范围</a>和<a href="../sftp/using/key-management.md#editing-public-keys">公钥</a>。 请注意，此功能不适用于在当前版本的控制面板发布之前创建的项目。</td>
+<p>现在，您可以编辑所创建的 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 范围</a>和<a href="../sftp/using/key-management.md#editing-public-keys">公钥</a>。请注意，此功能不适用于在当前版本的控制面板发布之前创建的项目。
+</td>
 </tr>
 </tbody>
 </table>

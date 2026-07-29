@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 >
 >此功能仅适用于 8850 版本的 Campaign v7/v8 实例。 如果您使用的是以前的版本，则需要升级才能使用此功能。
 
-Campaign 实例可以通过 JavaScript 代码（工作流等）调用的默认 URL 列表是有限的。这些 URL 允许实例正常运行。
+Campaign 实例可以通过 JavaScript 代码（工作流等） 调用的默认 URL 列表是有限的。 这些 URL 允许实例正常运行。
 
 默认情况下，实例不允许连接到外部 URL。 控制面板允许您向经授权的 URL 列表添加一些外部 URL，以便您的实例可以连接到这些 URL。 这允许您将 Campaign 实例连接到外部系统，例如 SFTP 服务器或网站，以启用文件和/或数据传输。
 
