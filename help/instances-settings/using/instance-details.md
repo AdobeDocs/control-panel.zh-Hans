@@ -8,12 +8,10 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 TQID: https://experienceleague.adobe.com/kKfXYnZLuU5W0GX4KwGDjFsmL5pxkhBunBYrDVUUUsM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 556
 ht-degree: 100%
 
@@ -71,9 +69,9 @@ ht-degree: 100%
 * **[!UICONTROL 名称]**：服务器的名称。
 * **[!UICONTROL 版本：]**&#x200B;服务器上安装的版本。
 * **[!UICONTROL 升级信息]**：此列将告知您服务器是否需要安装任何更新。
-   * 绿色：表示您的服务器为最新版本，无需升级。
-   * 黄色：表示您应考虑升级。 您缺少最新功能和修复。
-   * 红色：表示应尽快升级。 您缺少新功能，服务器性能可能不佳。
+  * 绿色：表示您的服务器为最新版本，无需升级。
+  * 黄色：表示您应考虑升级。 您缺少最新功能和修复。
+  * 红色：表示应尽快升级。 您缺少新功能，服务器性能可能不佳。
 
 如果您的其中一个服务器需要升级，请参阅[本文档](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hans)，了解有关操作方法的详细信息。
 

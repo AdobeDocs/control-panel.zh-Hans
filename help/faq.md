@@ -8,23 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 TQID: https://experienceleague.adobe.com/QzCaKeB3zqjFQTyDXRI5JQ2YoM98F5pZxOoMK1J9bjE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 100%
 
@@ -54,7 +45,7 @@ ht-degree: 100%
 
 ### 我可以使用控制面板吗？
 
-控制面板对在 AWS 上托管 Adobe Campaign 的客户的产品管理员开放。在 Microsoft Azure 上托管的 Campaign v8 实例还可以访问部分控制面板功能：用于实例访问的 IP 允许列表、用于 SFTP 服务器的 IP 允许列表以及客户管理的 SSL 证书管理。
+控制面板对在 AWS 上托管 Adobe Campaign 的客户的产品管理员开放。 在 Microsoft Azure 上托管的 Campaign v8 实例还可以访问部分控制面板功能：用于实例访问的 IP 允许列表、用于 SFTP 服务器的 IP 允许列表以及客户管理的 SSL 证书管理。
 
 使用混合托管模型的客户可在控制面板中利用特定的控制面板功能。 为此，他们需要在控制面板中提供其在营销实例中配置的 MID/RT 实例 URL。 [了解详情](instances-settings/using/external-accounts.md)
 

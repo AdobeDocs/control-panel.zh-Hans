@@ -8,14 +8,11 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1348
 ht-degree: 100%
 
@@ -181,9 +178,9 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 * **[!UICONTROL 指纹]**：密钥的指纹。
 * **[!UICONTROL 过期]**：密钥的过期日期。 请注意，控制面板将在密钥过期日期临近时提供可视化提醒：
 
-   * 在过期前 30 天显示为紧急状态（红色）。
-   * 在过期前 60 天显示为警告状态（黄色）。
-   * 密钥过期后，将显示“已过期”红色横幅。
+  * 在过期前 30 天显示为紧急状态（红色）。
+  * 在过期前 60 天显示为警告状态（黄色）。
+  * 密钥过期后，将显示“已过期”红色横幅。
 
   >[!NOTE]
   >
@@ -203,4 +200,4 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 教程页面中提供了与 GPG 密钥管理相关的其他操作方法视频。
 
->[!VIDEO](https://video.tv.adobe.com/v/327881?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

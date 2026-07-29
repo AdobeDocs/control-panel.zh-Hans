@@ -8,13 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 TQID: https://experienceleague.adobe.com/gdmtHgMWI-8y3w6uzXdNxOatrjJMDdp6EWLuXz1mhhg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 543
@@ -28,7 +24,7 @@ ht-degree: 100%
 
 消息识别品牌指示器 (BIMI) 是一种行业标准，用于在邮箱提供商收件箱中的发件人电子邮件旁边显示认证徽标，以增强品牌辨识度和信任度。
 
-有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hans)
+有关 BIMI 实施的详细信息，请参阅 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
@@ -40,10 +36,10 @@ ht-degree: 100%
 
 * DMARC 记录先决条件：
 
-   * 组织域的记录策略类型必须设置为“隔离”或“拒绝”。 DMARC 策略类型设置为“无”时，无法创建 BIMI 记录。
-   * 应用 DMARC 策略的电子邮件百分比必须为 100%。 BIMI 不支持将 DMARC 策略百分比设置为小于 100%。
+  * 组织域的记录策略类型必须设置为“隔离”或“拒绝”。 DMARC 策略类型设置为“无”时，无法创建 BIMI 记录。
+  * 应用 DMARC 策略的电子邮件百分比必须为 100%。 BIMI 不支持将 DMARC 策略百分比设置为小于 100%。
 
-     [了解如何配置 DMARC 记录](dmarc.md)
+    [了解如何配置 DMARC 记录](dmarc.md)
 
 ## 为子域添加 BIMI 记录 {#add}
 

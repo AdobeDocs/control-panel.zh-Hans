@@ -8,10 +8,8 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 TQID: https://experienceleague.adobe.com/ttbPCa3fcEvCrEkf1hMVx0YQxc4F8hVID8yGLirp1uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 470
@@ -25,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->测试版中提供控制面板的活跃轮廓监控，如有频繁更新和修改，恕不另行通知。 Campaign Standard 10368 版本提供该功能。
+>Beta 版中提供可通过控制面板使用的活动轮廓监测功能，如有频繁更新和修改，恕不另行通知。 Campaign Standard 10368 版本提供该功能。
 
 根据您的合同，您的每个 Campaign 实例都会配置特定数量的活动轮廓，并对这些活动轮廓进行计数以计费。 请参阅您的最新合同，了解已购买的活动轮廓数量。
 

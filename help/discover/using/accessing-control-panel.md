@@ -8,14 +8,11 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 TQID: https://experienceleague.adobe.com/Ug0vHjgyTK-BRO4IMdCwSQuiwO--XagzjW-MFTPcZrY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 353
 ht-degree: 100%
 
@@ -33,7 +30,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对“控制面板”的访问权限**。请仔细审查您的产品配置文件命名，确保只有授权用户才有控制面板访问权限。 [了解如何管理对控制面板的访问权限](../../discover/using/managing-permissions.md)。
+>默认情况下，属于“管理员”产品配置文件的管理员用户可以访问控制面板。 根据您所属组织的配置，产品配置文件的命名会有所不同（“admin”、“admins”、“approval admin”等）。 **任何名称中包含“admin”一词的产品配置文件都将自动授予对“控制面板”的访问权限**。 请仔细审查您的产品配置文件命名，确保只有授权用户才有控制面板访问权限。 [了解如何管理对控制面板的访问权限](../../discover/using/managing-permissions.md)。
 
 ## 从 Experience Cloud Platform 访问 {#access-experience-cloud-platform}
 

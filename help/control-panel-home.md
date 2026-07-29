@@ -6,10 +6,8 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 TQID: https://experienceleague.adobe.com/f7M-mQ-WV3CSyDqwopeNfMPSlxdKAXnWOj42ar9c8rA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 324
@@ -42,8 +40,8 @@ Campaign 控制面板可用于管理每个 Campaign 实例的设置并跟踪使�
 * 多个电子邮件地址现在可以接收汇总报告和故障报告电子邮件。 [了解详情](subdomains-certificates/using/dmarc.md)
 * 对于某个子域同时有 DMARC 和 BIMI 记录的情况，做出了如下变更：
 
-   * 无法删除 DMARC 记录。 如果要删除一个此类记录，则需要先删除 BIMI 记录。
-   * DMARC 记录可以编辑，但不允许将策略降级为“无”，其百分比值必须为 100。
+  * 无法删除 DMARC 记录。 如果要删除一个此类记录，则需要先删除 BIMI 记录。
+  * DMARC 记录可以编辑，但不允许将策略降级为“无”，其百分比值必须为 100。
 
 >[!CAUTION]
 >

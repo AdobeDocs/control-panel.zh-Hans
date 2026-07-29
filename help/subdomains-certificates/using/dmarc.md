@@ -8,13 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 TQID: https://experienceleague.adobe.com/UQ6VccQByzkAi0wVcfHOhvmcl1DdhumLZ1lFW-OyTuw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 911
@@ -38,8 +34,8 @@ ht-degree: 100%
   要在基于 CNAME 的子域上建立 DMARC 记录，您可以在其父域上配置 DMARC 记录。 这可确保所有关联的子域继承 DMARC 记录参数，即使通过 CNAME 进行委派也是如此。
 
 * 如果某个子域同时有 DMARC 和 BIMI 记录：
-   * 无法删除 DMARC 记录。 如果要删除 DMARC 记录，请先删除 BIMI 记录。
-   * 可以编辑 DMARC 记录，但不允许将 DMARC 策略降级为“无”，并且百分比值必须设置为“100”。
+  * 无法删除 DMARC 记录。 如果要删除 DMARC 记录，请先删除 BIMI 记录。
+  * 可以编辑 DMARC 记录，但不允许将 DMARC 策略降级为“无”，并且百分比值必须设置为“100”。
 
 ## 为子域添加 DMARC 记录 {#add}
 

@@ -8,14 +8,11 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1084
 ht-degree: 100%
 
@@ -142,9 +139,9 @@ SSL 证书续订过程包括以下 3 个步骤：
 * 不支持通配符证书。
 * ZIP 文件或证书不应受密码保护。
 * ZIP 文件应仅包含以下内容（最好是单个文件）：
-   * 最终实体证书。
-   * 中间证书链（按适当顺序排列）。
-   * 根证书（可选）。
+  * 最终实体证书。
+  * 中间证书链（按适当顺序排列）。
+  * 根证书（可选）。
 
 要安装证书，请执行以下步骤：
 
