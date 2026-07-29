@@ -8,9 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
 TQID: https://experienceleague.adobe.com/5TSp1C4h3gyE5Pc9wE9Gz77WnrNLn9PmBNZztq-RcfY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 228
