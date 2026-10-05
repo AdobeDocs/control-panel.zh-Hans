@@ -7,18 +7,29 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-TQID: https://experienceleague.adobe.com/-btCtV-NLeiTpcF8uKDApY6ar-xAukAz05QmRbKM9oQ
+TQID: 'https://experienceleague.adobe.com/-btCtV-NLeiTpcF8uKDApY6ar-xAukAz05QmRbKM9oQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8445399-14db-4931-a0bb-477780230387
+    internal-label: SFTP Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 1136
+source-wordcount: '1136'
 ht-degree: 100%
-
 ---
-
 # IP 范围允许列表 {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]
@@ -33,7 +44,7 @@ SFTP 服务器受到保护。 为了能够访问这些服务器以查看文件�
 >
 >SFTP 服务器的 IP 允许列表适用于托管在 AWS 上的 Campaign v7/v8 实例、托管在 Microsoft Azure 上的 Campaign Standard 实例和 Campaign v8 实例。
 
-![](assets/do-not-localize/how-to-video.png)在介绍如何使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
+![](assets/do-not-localize/how-to-video.png)在介绍如何使用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hans#sftp-management) 的视频中了解这一功能
 
 ## 关于 CIDR 格式 {#about-cidr-format}
 

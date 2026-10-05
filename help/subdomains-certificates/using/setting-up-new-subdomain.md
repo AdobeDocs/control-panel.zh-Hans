@@ -7,22 +7,34 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-TQID: https://experienceleague.adobe.com/ghS8Qn4Zj8ST2IitfS79-oALE60jyzlxHqawExlBDAY
+TQID: 'https://experienceleague.adobe.com/ghS8Qn4Zj8ST2IitfS79-oALE60jyzlxHqawExlBDAY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: f807e46f-d823-43a9-98be-82e0b2f3a05c
+    internal-label: Subdomains and certificates
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Troubleshooting
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 1686
+source-wordcount: '1686'
 ht-degree: 100%
-
 ---
-
 # 设置新子域 {#setting-up-subdomain}
 
 >[!CONTEXTUALHELP]
@@ -94,7 +106,7 @@ ht-degree: 100%
 
    ![](assets/subdomain3.png)
 
-1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。 为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。 有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/32692?captions=chi_hans)。
+1. 在您的组织使用的托管解决方案中创建所需的子域和名称服务器。 为此，请复制并粘贴向导中显示的 Adobe 名称服务器信息。 有关如何在托管解决方案中创建子域的详细信息，请参阅[教程视频](https://video.tv.adobe.com/v/30175)。
 
    >[!NOTE]
    >

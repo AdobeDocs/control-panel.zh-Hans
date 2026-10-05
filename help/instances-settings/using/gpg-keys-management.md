@@ -7,20 +7,32 @@ feature: Control Panel, Encryption
 role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
+TQID: 'https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Security
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 1348
+source-wordcount: '1348'
 ht-degree: 100%
-
 ---
-
 # GPG 密钥管理 {#gpg-keys-management}
 
 >[!CONTEXTUALHELP]
@@ -203,4 +215,4 @@ GPG 加密允许您使用公钥和私钥对系统保护数据，此系统遵循 
 
 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=zh-Hans#instance-settings) 教程页面中提供了与 GPG 密钥管理相关的其他操作方法视频。
 
->[!VIDEO](https://video.tv.adobe.com/v/327881?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

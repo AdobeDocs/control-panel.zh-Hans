@@ -7,20 +7,31 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-TQID: https://experienceleague.adobe.com/tIBV-VEno7yPNe3Y-HdWU80W-xyGUfjE3tYxRFe16uE
+TQID: 'https://experienceleague.adobe.com/tIBV-VEno7yPNe3Y-HdWU80W-xyGUfjE3tYxRFe16uE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '458'
 ht-degree: 100%
-
 ---
-
 # 吞吐量和延迟监测 {#throughputs-latency-monitoring}
 
 >[!CONTEXTUALHELP]

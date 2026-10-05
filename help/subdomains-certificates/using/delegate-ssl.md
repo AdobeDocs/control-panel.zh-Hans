@@ -7,20 +7,31 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
-TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
+TQID: 'https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: f807e46f-d823-43a9-98be-82e0b2f3a05c
+    internal-label: Subdomains and certificates
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: '485'
 ht-degree: 100%
-
 ---
-
 # 将子域的 SSL 证书委派给 Adobe {#delegate-ssl-certificates}
 
 >[!CONTEXTUALHELP]
