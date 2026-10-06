@@ -7,20 +7,29 @@ feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-TQID: https://experienceleague.adobe.com/NqU3T433k-fxW4ZpkbH-ux11sB9pDViLxuA-A-bunis
+TQID: 'https://experienceleague.adobe.com/NqU3T433k-fxW4ZpkbH-ux11sB9pDViLxuA-A-bunis'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Intermediate
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '227'
 ht-degree: 100%
-
 ---
-
 # 了解控制面板界面 {#discovering-interface}
 
 通过控制面板主页，您可以访问可在 Campaign 实例上执行的所有操作。

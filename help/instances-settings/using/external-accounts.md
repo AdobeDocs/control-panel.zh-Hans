@@ -7,22 +7,32 @@ feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-TQID: https://experienceleague.adobe.com/0iHuydWi-nYENzE0XOPco33mCw7EW-V9TXWeNffOMiQ
+TQID: 'https://experienceleague.adobe.com/0iHuydWi-nYENzE0XOPco33mCw7EW-V9TXWeNffOMiQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Administration
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 100%
-
 ---
-
 # 添加 MID/RT 实例（混合模型）{#add-mid-rt-instances-hybrid-model}
 
 >[!CONTEXTUALHELP]
