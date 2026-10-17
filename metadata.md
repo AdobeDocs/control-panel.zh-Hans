@@ -9,7 +9,7 @@ usetq: true
 feature-set: Campaign
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
-git-repo: https://github.com/AdobeDocs/control-panel.en
+git-repo: https://github.com/AdobeDocs/control-panel.zh-Hans
 index: true
 feature: Control Panel
 role: Admin
